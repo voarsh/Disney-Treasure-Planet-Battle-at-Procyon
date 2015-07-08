@@ -1,0 +1,240 @@
+Type String 'Base_Dolinor'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String 'Base_Dolinor'
+	HasRender String 'Base_Dolinor'
+	HasAI String 'Base_Dolinor'
+	HasCustomInfo String 'Base_Dolinor'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Base_Dolinor'
+FactoryType String 'IslandAI'
+00000001 ConstData
+{
+	Default SightRange Float 3000.000000
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Base_Dolinor'
+FactoryType String 'RenderEntityFactory'
+00000185 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'BaseDolinor'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000177 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 16
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'DockPoint2'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DockPoint'
+				DescriptorName String 'Dockpoint2'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'DockPoint'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DockPoint'
+				DescriptorName String 'dockpoint1'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'CraterSmoke'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'PlayEffect'
+				DescriptorName String 'default'
+				AssociationName String 'Crater_Smoke'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Smoke2'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'PlayEffect'
+				DescriptorName String 'default'
+				AssociationName String 'Island_Smoke'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Smoke1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'PlayEffect'
+				DescriptorName String 'default'
+				AssociationName String 'Island_Smoke'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Top_Flag'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'FlagAttachmentPoint'
+				DescriptorName String 'Top_FlagPoint'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Bottom_Flag'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'FlagAttachmentPoint'
+				DescriptorName String 'Bottom_FlagPoint'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Fire1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'PlayEffect'
+				DescriptorName String 'default'
+				AssociationName String 'FireOnShip'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Fire2'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'PlayEffect'
+				DescriptorName String 'default'
+				AssociationName String 'FireOnShip'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Fire3'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'PlayEffect'
+				DescriptorName String 'default'
+				AssociationName String 'FireOnShip'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'BaseDolinor_Layer3'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'houses_2_wood'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=0,swappable=1,material=Hull Wood,hitpoints=50'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'BaseDolinor_Layer4'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'houses_3_wood'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=0,swappable=1,material=Hull Wood,hitpoints=75'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'BaseDolinor_Layer5'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'houses_4_wood'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=0,swappable=1,material=Hull Wood,hitpoints=20'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'BaseDolinor_Layer6'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'houses_5_wood'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=0,swappable=1,material=Hull Wood,hitpoints=20'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'BaseDolinor_Layer7'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'default'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=0,swappable=1,material=Hull Wood,hitpoints=500'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'BaseDolinor_Layer8'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'default'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=0,swappable=1,material=Hull Wood,hitpoints=500'
+			}
+		}
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String 'Base_Dolinor'
+FactoryType String 'BoundingRenderEntity'
+00000004 ConstData
+{
+	DetectionType String 'OBBTree'
+	ResponseType String 'Static Object'
+	User defined sphere size Bool False 
+	UserDefinedBoundingBoxExtents Bool False 
+}
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Base_Dolinor'
+FactoryType String 'IslandCustomInfoFactory'
+00000015 ConstData
+{
+	Occlusion Polygon Point # 00 Vector3( 85.000000, -63.000000, 0.000000 )
+	Occlusion Polygon Point # 01 Vector3( -75.000000, -104.000000, 0.000000 )
+	Occlusion Polygon Point # 02 Vector3( -296.000000, 137.000000, 0.000000 )
+	Occlusion Polygon Point # 03 Vector3( -56.000000, 135.000000, 0.000000 )
+	Occlusion Polygon Point # 04 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 05 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 06 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 07 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 08 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 09 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point Count Int 0
+	Race String 'Civilian'
+	HasAmbientSound Bool False 
+	Core Damage Section Max HitPoints Int -842150451
+	AnnounceSighting Bool False 
+}

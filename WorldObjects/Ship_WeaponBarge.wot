@@ -1,0 +1,510 @@
+Type String 'Ship_WeaponBarge'
+00000005 ConstData
+{
+	HasPhysics String 'Ship_WeaponBarge'
+	HasCollision String 'Ship_WeaponBarge'
+	HasRender String 'Ship_WeaponBarge'
+	HasAI String 'Ship_WeaponBarge'
+	HasCustomInfo String 'Ship_WeaponBarge'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Ship_WeaponBarge'
+FactoryType String 'ShipAI'
+00000001 ConstData
+{
+	Default SightRange Float 2000.000000
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Ship_WeaponBarge'
+FactoryType String 'RenderEntityFactory'
+00000416 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'WeaponBargeShip'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000408 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 37
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_ActFire'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Arcturian_Fire_Launcher'
+				AssociationName String 'Gun_ArcturianFire_Heavy,180,Bank01'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_CannonHvy'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'CannonHeavy'
+				AssociationName String 'Gun_CannonBall_Heavy,180,Bank03'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_CannonMed'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Cannon_Medium'
+				AssociationName String 'Gun_CannonBall_Med,180,Bank04'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_CannonLt'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Cannon_Light'
+				AssociationName String 'Gun_CannonBall_Light,180,Bank05'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_CannonMedBuiltin'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Cannon_Med_Builtin'
+				AssociationName String 'Gun_CannonBall_Med_2Deck,180,Bank14'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_Enet'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'EnergyNet_Med'
+				AssociationName String 'Gun_EnergyNet_Med,180,Bank17'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_Gattling'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Gattling_Light'
+				AssociationName String 'Gun_Gattling_Light,180,Bank27'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_GravCharge'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'GravCharge_Med'
+				AssociationName String 'Gun_GravCharge_Med,180,Bank33'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_Harpoon'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Harpoon_Light'
+				AssociationName String 'Gun_Harpoon_Light,180,Bank74'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_LancerHvy'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Heavy_Lancer'
+				AssociationName String 'Gun_Lancer_Heavy,180,Bank41'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_LancerMed'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Med_lancer'
+				AssociationName String 'Gun_Lancer_Med,180,Bank42'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_LancerLt'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Light_lancer'
+				AssociationName String 'Gun_Lancer_Light,180,Bank43'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_Torpedo'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Torpedo_Gun'
+				AssociationName String 'Gun_Torpedo,180,Bank45'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_IC_LancerDualHvy'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Dual_Lancer_IC_Heavy'
+				AssociationName String 'Gun_IC_LancerDualHeavy_DreadnoughtFront,180,Bank55'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_IC_LancerDualMed'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Dual_Lancer_IC_Medium'
+				AssociationName String 'Gun_IC_LancerDualMed_DestroyerFront,180,Bank56'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_IC_LancerDualLt'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Dual_Lancer_IC_Light'
+				AssociationName String 'Gun_IC_LancerDualLight_DestroyerRearSides,180,Bank57'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_PlasmaHvy'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Plasma_Heavy'
+				AssociationName String 'Gun_Plasma_Heavy,180,Bank59'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_PlasmaMed'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Plasma_Med'
+				AssociationName String 'Gun_Plasma_Med,180,Bank60'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_PlasmaLt'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Plasma_Light'
+				AssociationName String 'Gun_Plasma_Light,180,Bank61'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_ICPlasmaDualMed'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'ICPlasmaDualMed'
+				AssociationName String 'Gun_IC_PlasmaDualHeavy_CruiserFrontTop,180,Bank69'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_IC_PlasmaDualMega'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'ICPlasmaDualMega'
+				AssociationName String 'Gun_IC_PlasmaDualHeavy_DreadnoughtRear,180,Bank70'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_ICPlasma2ndDeckMed'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'ICPlasma2ndDeckMed'
+				AssociationName String 'Gun_IC_PlasmaMed2Deck_DestroyerSides,180,Bank71'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_ICPlasma_SingleHvy'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Plasma_ICSingle_Heavy'
+				AssociationName String 'Gun_IC_PlasmaSingleHeavy_CruiserFrontLow,180,Bank72'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_ICPlasma_SingleMed'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Plasma_ICSingle_Med'
+				AssociationName String 'Gun_IC_PlasmaSingleMed_CruiserSideMid,180,Bank73'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_MineLayer'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Starmine'
+				AssociationName String 'Gun_StarMine_Med,180,Bank68'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_StarMortar'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Star_Mortar'
+				AssociationName String 'Gun_StarMortar,180,Bank47'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_NovaMortar'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Nova_Motar'
+				AssociationName String 'Gun_NovaMortar,180,Bank19'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_CannonHvy2Deck'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'CannonHvy2Deck'
+				AssociationName String 'Gun_CannonBall_Heavy_2Deck,180,Bank13'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_CannonLt2Deck'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'CannonLt2Deck'
+				AssociationName String 'Gun_CannonBall_Light_2Deck,180,Bank15'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_Gattling2Deck'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Gattling2Deck'
+				AssociationName String 'Gun_Gattling_Light_2Deck,180,Bank28'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_Harpoon2Deck'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Harpoon2Deck'
+				AssociationName String 'Gun_Harpoon_Light_2Deck,180,Bank67'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_Lancer_PD_Lt'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'LancerPD_Lt'
+				AssociationName String 'Gun_Lancer_PD_Light,180,Bank30'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Weapon_Lancer_PD_Med'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Lancer_PD_Med'
+				AssociationName String 'Gun_Lancer_PD_Med,180,Bank31'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'BoardingNode0'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'BoardingEffectPoint'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'BoardingNode1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'BoardingEffectPoint'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'BoardingNode2'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'BoardingEffectPoint'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'WeaponBargeShip_Layer1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'Hull_wood'
+				AssociationName String 'vitalToShip=1,vitalToMaxVelocity=1,vitalToManeuverability=1,swappable=0,material=Hull Wood,hitpoints=100000'
+			}
+		}
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String 'Ship_WeaponBarge'
+FactoryType String 'ShipDemo'
+00000006 ConstData
+{
+	CenterOfMass Vector3( 0.000000, 0.000000, 0.000000 )
+	Mass Float 100000.000000
+	MaxThrust Float 1500000.000000
+	MaxSpeed Float 8.333333
+	RotationalFriction Float 20.000000
+	MaxAngularAcceleration Float 5.483114
+}
+Definition String 'COLLISIONDEFINITION'
+EntityType String 'Ship_WeaponBarge'
+FactoryType String 'BoundingRenderEntity'
+00000006 ConstData
+{
+	DetectionType String 'BoundingRenderEntity'
+	ResponseType String 'Ship'
+	User defined sphere size Bool False 
+	UserDefinedBoundingBoxExtents Bool True
+	MinExtents Vector3( -3.500000, -19.500000, -4.000000 )
+	MaxExtents Vector3( 3.500000, 37.000000, 5.000000 )
+}
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Ship_WeaponBarge'
+FactoryType String 'ShipCustomInfoFactory'
+00000042 ConstData
+{
+	00000003 GUIInfo Chunk
+	{
+		ShipBar Icon Texture String 'ShipBar_ShipIcon_Navy_Man_O_War'
+		Selected Indicator Percentage Of Radius Float 0.400000
+		Distance to Start Sphere Picking Float 400.000000
+	}
+	Displayable Shipname String ID String 'IDGS_TPDISPLAYABLESHIPTYPENAME_TPNOSHIPTYPENAMESET'
+	Ship Race String 'Navy'
+	Is Tender Bool False 
+	Number of lifeboats Int 0
+	Is Lifeboat Bool False 
+	Is Cloakable Bool False 
+	Ship Size Int 0
+	Core Damage Section Max HitPoints Int 100
+	Explosion Effect Name String 'ShipDebris_Explosion_Medium'
+	EngineType String 'Solar Sail'
+	EngineSoundName Emergency String 'Engine_Navy_EmergFull'
+	EngineSoundName Full String 'Engine_Navy_Full'
+	EngineSoundName Half String 'Engine_Navy_Med'
+	Victory Point Cost Int 1
+	Available in Multiplayer? Bool False 
+	Available Unique Ship Name ID 00 String 'IDGS_TPSHIPNAMEPROCYON00_BLACKCLOUD'
+	Available Unique Ship Name ID 01 String 'IDGS_TPSHIPNAMEPROCYON00_CONQUEST'
+	Available Unique Ship Name ID 02 String 'IDGS_TPSHIPNAMEPROCYON00_DARING'
+	Available Unique Ship Name ID 03 String 'IDGS_TPSHIPNAMEPROCYON00_DARKPRINCE'
+	Available Unique Ship Name ID 04 String 'IDGS_TPSHIPNAMEPROCYON00_DESTROYER'
+	Available Unique Ship Name ID 05 String 'IDGS_TPSHIPNAMEPROCYON00_DIPLOMACY'
+	Available Unique Ship Name ID 06 String 'IDGS_TPSHIPNAMEPROCYON00_DRAGON'
+	Available Unique Ship Name ID 07 String 'IDGS_TPSHIPNAMEPROCYON00_ECLIPSE'
+	Available Unique Ship Name ID 08 String 'IDGS_TPSHIPNAMEPROCYON00_ENDURANCE'
+	Available Unique Ship Name ID 09 String 'IDGS_TPSHIPNAMEPROCYON00_FASTCURRENT'
+	Available Unique Ship Name ID 10 String 'IDGS_TPSHIPNAMEPROCYON00_FORMIDABLE'
+	Available Unique Ship Name ID 11 String 'IDGS_TPSHIPNAMEPROCYON00_GARGANTUAN'
+	Max number of Gunners Int 0
+	Max number of Captains Int 1
+	Max number of First Mates Int 0
+	Max number of Navigators Int 0
+	Max number of Engineers Int 0
+	Max number of Riggers Int 0
+	Max number of Fighters Int 0
+	Max number of Lookouts Int 0
+	Repair Effect Name String 'Repair_Medium'
+}

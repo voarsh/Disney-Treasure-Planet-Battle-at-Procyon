@@ -1,0 +1,99 @@
+Type String 'Gun_StarMortar'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String ''
+	HasRender String 'Gun_StarMortar'
+	HasAI String 'Gun_StarMortar'
+	HasCustomInfo String 'Gun_StarMortar'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Gun_StarMortar'
+FactoryType String 'GunAI'
+00000004 ConstData
+{
+	Is Lobbing Gun Bool True
+	Is MineLaying Gun Bool False 
+	Is TorpedoLauncher Gun Bool False 
+	Is PointDefense Gun Bool False 
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Gun_StarMortar'
+FactoryType String 'RenderEntityFactory'
+00000031 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'StarMortarHeavy'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000023 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 2
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'StarMortarGun_Layer2'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunVerticalPivotPlacement'
+				DescriptorName String 'Vertical_Pivot_Point'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MuzzleNode0'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunMuzzlePlacement'
+				DescriptorName String 'Muzzle_1'
+				AssociationName String ''
+			}
+		}
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String ''
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Gun_StarMortar'
+FactoryType String 'GunCustomInfoFactory'
+00000033 ConstData
+{
+	BulletTypeName_Primary String 'Bullet_StarMortar'
+	BulletTypeName_Secondary String 'NoBulletType'
+	SoundName String 'Weapon_StarMortar_Fire'
+	MuzzleFlashEffect String 'Universal_MuzzleFlash'
+	MuzzleSpeed Float 25.000000
+	DuringBurstReloadTime Float 0.000000
+	BulletsPerBurst Int 1
+	TimeBetweenBursts Float 50.000000
+	CalculateAccuracyDeviationDuringBurst Bool False 
+	WeaponBar Icon Texture String 'WeaponBar_GunIcon_StarMortar'
+	VerticalRotationSpeed Float 1.134464
+	HorizontalRotationSpeed Float 1.134464
+	VerticalMinAngle Float -0.785049
+	VerticalMaxAngle Float 1.550027
+	LobAngle Float 0.785398
+	MaximumRange_Range Float 350.000000
+	LongRange_Range Float 270.000000
+	EffectiveRange_Range Float 160.000000
+	BulletAffectedByGravity Bool True
+	MaximumRange_AccuracyDeviation Float 0.436332
+	LongRange_AccuracyDeviation Float 0.349066
+	EffectiveRange_AccuracyDeviation Float 0.261799
+	MaximumRange_RicochetFactor Float 0.000000
+	LongRange_RicochetFactor Float 0.000000
+	EffectiveRange_RicochetFactor Float 0.000000
+	Victory Point Cost Int 40
+	Gun Name String ID String 'IDGS_TPGUNDISPLAYEDNAME_STARMORTAR'
+	Mount Type String 'Heavy  Mount'
+	Exclusion Race String 'None'
+	Can Be Fired While Cloaked Bool False 
+	Firing Crew Alert String 'GUNNER_FIRE'
+	SoundMaxDistance Float 1000.000000
+	SoundVolume Float 0.700000
+}

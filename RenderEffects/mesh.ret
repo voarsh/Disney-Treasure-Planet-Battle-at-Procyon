@@ -1,0 +1,46 @@
+00000043 Render Effect
+{
+	Technique Chunks - Size Int 2
+	00000018 Technique Chunks - Element
+	{
+		Pass Chunks Int 1
+		00000014 Pass
+		{
+			00000009 Render State Block
+			{
+				Enable ZBuffer Read Bool True
+				Enable ZBuffer Write Bool True
+				AlphaBlending String 'SRC_INVSRC'
+				Lighting String 'LIGHTING_VERTEXCOLOR'
+				Filtering String 'LINEAR_FILTERING'
+				Color Texture Effect (Stage0) String 'MODULATE_TEXTURE_WITH_DIFFUSE'
+				Alpha Texture Effect (Stage0) String 'MODULATE_TEXTURE_WITH_DIFFUSE'
+				Color Texture Effect (Stage1) String 'MODULATE_CURRENT_WITH_TFACTOR'
+				Alpha Texture Effect (Stage1) String 'MODULATE_CURRENT_WITH_TFACTOR'
+			}
+			Vertex Shader Name String 'HemisphericalLighting'
+			Pixel Shader Name String 'JS - RemoveMe PixelShader'
+		}
+	}
+	00000018 Technique Chunks - Element
+	{
+		Pass Chunks Int 1
+		00000014 Pass
+		{
+			00000009 Render State Block
+			{
+				Enable ZBuffer Read Bool True
+				Enable ZBuffer Write Bool True
+				AlphaBlending String 'SRC_INVSRC'
+				Lighting String 'LIGHTING_VERTEXCOLOR'
+				Filtering String 'LINEAR_FILTERING'
+				Color Texture Effect (Stage0) String 'MODULATE_TEXTURE_WITH_DIFFUSE'
+				Alpha Texture Effect (Stage0) String 'MODULATE_TEXTURE_WITH_DIFFUSE'
+				Color Texture Effect (Stage1) String 'MODULATE_CURRENT_WITH_TFACTOR'
+				Alpha Texture Effect (Stage1) String 'MODULATE_CURRENT_WITH_TFACTOR'
+			}
+			Vertex Shader Name String 'FixedFunction'
+			Pixel Shader Name String 'JS - RemoveMe PixelShader'
+		}
+	}
+}

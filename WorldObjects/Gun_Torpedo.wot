@@ -1,0 +1,94 @@
+Type String 'Gun_Torpedo'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String ''
+	HasRender String 'Gun_Torpedo'
+	HasAI String 'Gun_Torpedo'
+	HasCustomInfo String 'Gun_Torpedo'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Gun_Torpedo'
+FactoryType String 'GunAI'
+00000004 ConstData
+{
+	Is Lobbing Gun Bool False 
+	Is MineLaying Gun Bool False 
+	Is TorpedoLauncher Gun Bool True
+	Is PointDefense Gun Bool False 
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Gun_Torpedo'
+FactoryType String 'RenderEntityFactory'
+00000026 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'TorpedoGunSpecial'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000018 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 1
+		00000014 MeshAttributes - Element
+		{
+			MeshName String 'MuzzleNode0'
+			MeshAttribute - Size Int 2
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunMuzzlePlacement'
+				DescriptorName String 'TorpedoMuzzle'
+				AssociationName String ''
+			}
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunVerticalPivotPlacement'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String ''
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Gun_Torpedo'
+FactoryType String 'GunCustomInfoFactory'
+00000033 ConstData
+{
+	BulletTypeName_Primary String 'Bullet_Torpedo'
+	BulletTypeName_Secondary String 'NoBulletType'
+	SoundName String 'Weapon_Torpedo_Fire'
+	MuzzleFlashEffect String 'Torpedo_MuzzleFlash'
+	MuzzleSpeed Float 22.000000
+	DuringBurstReloadTime Float 0.000000
+	BulletsPerBurst Int 1
+	TimeBetweenBursts Float 35.000000
+	CalculateAccuracyDeviationDuringBurst Bool False 
+	WeaponBar Icon Texture String 'WeaponBar_GunIcon_Torpedo'
+	VerticalRotationSpeed Float 0.872665
+	HorizontalRotationSpeed Float 0.872665
+	VerticalMinAngle Float -0.174533
+	VerticalMaxAngle Float 0.436332
+	LobAngle Float 0.000000
+	MaximumRange_Range Float 350.000000
+	LongRange_Range Float 250.000000
+	EffectiveRange_Range Float 200.000000
+	BulletAffectedByGravity Bool False 
+	MaximumRange_AccuracyDeviation Float 0.523599
+	LongRange_AccuracyDeviation Float 0.349066
+	EffectiveRange_AccuracyDeviation Float 0.174533
+	MaximumRange_RicochetFactor Float -1000.000000
+	LongRange_RicochetFactor Float -1000.000000
+	EffectiveRange_RicochetFactor Float -1000.000000
+	Victory Point Cost Int 7
+	Gun Name String ID String 'IDGS_TPGUNDISPLAYEDNAME_TORPEDO'
+	Mount Type String 'Non-Selectable Special Mount'
+	Exclusion Race String 'None'
+	Can Be Fired While Cloaked Bool True
+	Firing Crew Alert String 'GUNNER_FIRE_TORPEDO'
+	SoundMaxDistance Float 600.000000
+	SoundVolume Float 0.700000
+}

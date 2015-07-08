@@ -1,0 +1,32 @@
+Type String 'Base_Cresentia'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String ''
+	HasRender String 'Base_Cresentia'
+	HasAI String ''
+	HasCustomInfo String ''
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String ''
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Base_Cresentia'
+FactoryType String 'RenderEntityFactory'
+00000009 ConstData
+{
+	Distant Bool True
+	Mesh Scene Name String 'BaseCresentiaLoRez'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000001 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 0
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String ''
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String ''

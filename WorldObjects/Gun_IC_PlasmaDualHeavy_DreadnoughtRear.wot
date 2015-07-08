@@ -1,0 +1,110 @@
+Type String 'Gun_IC_PlasmaDualHeavy_DreadnoughtRear'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String ''
+	HasRender String 'Gun_IC_PlasmaDualHeavy_DreadnoughtRear'
+	HasAI String 'Gun_IC_PlasmaDualHeavy_DreadnoughtRear'
+	HasCustomInfo String 'Gun_IC_PlasmaDualHeavy_DreadnoughtRear'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Gun_IC_PlasmaDualHeavy_DreadnoughtRear'
+FactoryType String 'GunAI'
+00000004 ConstData
+{
+	Is Lobbing Gun Bool False 
+	Is MineLaying Gun Bool False 
+	Is TorpedoLauncher Gun Bool False 
+	Is PointDefense Gun Bool False 
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Gun_IC_PlasmaDualHeavy_DreadnoughtRear'
+FactoryType String 'RenderEntityFactory'
+00000042 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'PlasmaDualHeavyDreadnoughtRear'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000034 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 3
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MuzzleNode0'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunMuzzlePlacement'
+				DescriptorName String 'Muzzle_1'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MuzzleNode1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunMuzzlePlacement'
+				DescriptorName String 'Muzzle_2'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'PlasmaDual_Heavy_rear_Layer2'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunVerticalPivotPlacement'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String ''
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Gun_IC_PlasmaDualHeavy_DreadnoughtRear'
+FactoryType String 'GunCustomInfoFactory'
+00000033 ConstData
+{
+	BulletTypeName_Primary String 'Bullet_Plasma_Heavy'
+	BulletTypeName_Secondary String 'NoBulletType'
+	SoundName String 'Weapon_PlasmaCannon_DualFireLarge'
+	MuzzleFlashEffect String 'PlasmaCannon_Medium_Muzzle'
+	MuzzleSpeed Float 60.000000
+	DuringBurstReloadTime Float 0.000000
+	BulletsPerBurst Int 1
+	TimeBetweenBursts Float 13.000000
+	CalculateAccuracyDeviationDuringBurst Bool False 
+	WeaponBar Icon Texture String 'WeaponBar_GunIcon_PlasmaGun_Dual_Heavy'
+	VerticalRotationSpeed Float 0.785398
+	HorizontalRotationSpeed Float 0.785398
+	VerticalMinAngle Float -0.767945
+	VerticalMaxAngle Float 1.535890
+	LobAngle Float 0.000000
+	MaximumRange_Range Float 410.000000
+	LongRange_Range Float 310.000000
+	EffectiveRange_Range Float 170.000000
+	BulletAffectedByGravity Bool True
+	MaximumRange_AccuracyDeviation Float 0.174533
+	LongRange_AccuracyDeviation Float 0.122173
+	EffectiveRange_AccuracyDeviation Float 0.191986
+	MaximumRange_RicochetFactor Float -70.000000
+	LongRange_RicochetFactor Float -80.000000
+	EffectiveRange_RicochetFactor Float -90.000000
+	Victory Point Cost Int 20
+	Gun Name String ID String 'IDGS_TPGUNDISPLAYEDNAME_ICPLASMADUALHEAVY'
+	Mount Type String 'Non-Selectable Dual Heavy  Mount'
+	Exclusion Race String 'None'
+	Can Be Fired While Cloaked Bool False 
+	Firing Crew Alert String 'GUNNER_FIRE'
+	SoundMaxDistance Float 800.000000
+	SoundVolume Float 0.700000
+}

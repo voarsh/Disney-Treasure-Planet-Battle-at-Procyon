@@ -1,0 +1,174 @@
+Type String 'Bullet_Magma'
+00000005 ConstData
+{
+	HasPhysics String 'Bullet_Magma'
+	HasCollision String 'Bullet_Magma'
+	HasRender String 'Bullet_Magma'
+	HasAI String ''
+	HasCustomInfo String 'Bullet_Magma'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String ''
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Bullet_Magma'
+FactoryType String 'RenderEntityFactory'
+00000020 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'VolcanoBullet'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000012 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 1
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Effect Emitter'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'EnginePortPlacement'
+				DescriptorName String 'Torpedo_engine'
+				AssociationName String 'volcano_Bullet'
+			}
+		}
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String 'Bullet_Magma'
+FactoryType String 'ProjectilePhysics'
+00000002 ConstData
+{
+	CenterOfMass Vector3( 0.000000, 0.000000, 0.000000 )
+	Mass Float 1000.000000
+}
+Definition String 'COLLISIONDEFINITION'
+EntityType String 'Bullet_Magma'
+FactoryType String 'Point'
+00000002 ConstData
+{
+	DetectionType String 'Point'
+	ResponseType String 'Bullet'
+}
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Bullet_Magma'
+FactoryType String 'StarMortarCustomInfoFactory'
+00000115 ConstData
+{
+	Magnitude Float 7000.000000
+	MaxRadius Float 40.000000
+	Duration Float 0.620000
+	HitEffect String 'volcano_Impact'
+	BulletEffect String 'volcano_Bullet'
+	Damage HitPoints Int 150
+	Decal Damage Size String 'Large'
+	# 
+	# Hull Wood DamagePotential
+	# 
+	Chance of Critical Damage: Wood Float 0.350000
+	Chance of Fire: Wood Float 0.800000
+	Initial Fire Strength: Wood Float 3.000000
+	Damage Lower Bound: Wood Float 50.000000
+	Damage Upper Bound: Wood Float 70.000000
+	# 
+	# Hull ReInforced Wood DamagePotential
+	# 
+	Chance of Critical Damage: Reinforced Float 0.150000
+	Chance of Fire: Reinforced Float 0.500000
+	Initial Fire Strength: Reinforced Float 1.000000
+	Damage Lower Bound: Reinforced Float 40.000000
+	Damage Upper Bound: Reinforced Float 60.000000
+	# 
+	# Hull Iron DamagePotential
+	# 
+	Chance of Critical Damage: Iron Float 0.050000
+	Chance of Fire: Iron Float 0.200000
+	Initial Fire Strength: Iron Float 1.000000
+	Damage Lower Bound: Iron Float 30.000000
+	Damage Upper Bound: Iron Float 40.000000
+	# 
+	# Sail Cloth DamagePotential
+	# 
+	Chance of Critical Damage: Cloth Float 0.000000
+	Chance of Fire: Cloth Float 0.900000
+	Initial Fire Strength: Cloth Float 5.000000
+	Damage Lower Bound: Cloth Float 50.000000
+	Damage Upper Bound: Cloth Float 70.000000
+	# 
+	# Wall Stone DamagePotential
+	# 
+	Chance of Critical Damage: Stone Float 1.000000
+	Chance of Fire: Stone Float 1.000000
+	Initial Fire Strength: Stone Float 1.000000
+	Damage Lower Bound: Stone Float 1.000000
+	Damage Upper Bound: Stone Float 1.000000
+	# 
+	# Dragon Scale DamagePotential
+	# 
+	Chance of Critical Damage: Dragon Float 0.500000
+	Chance of Fire: Dragon Float 0.500000
+	Initial Fire Strength: Dragon Float 0.500000
+	Damage Lower Bound: Dragon Float 5.000000
+	Damage Upper Bound: Dragon Float 15.000000
+	Impact Sound Max Distance Float 800.000000
+	Impact Sound Volume Float 1.000000
+	Travel Sound Max Distance Float 200.000000
+	Travel Sound Volume Float 1.000000
+	RicochetSound: Hull Wood String 'Ricochet_Wood'
+	00000005 ImpactSoundsHull Wood
+	{
+		Sound_0 String 'Volcano_Magma_Impact'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Hull ReInforced Wood String 'Ricochet_Wood_Reinforced'
+	00000005 ImpactSoundsHull ReInforced Wood
+	{
+		Sound_0 String 'Volcano_Magma_Impact'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Hull Iron String 'Ricochet_Iron'
+	00000005 ImpactSoundsHull Iron
+	{
+		Sound_0 String 'Volcano_Magma_Impact'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Sail Cloth String 'Ricochet_Wood'
+	00000005 ImpactSoundsSail Cloth
+	{
+		Sound_0 String 'Volcano_Magma_Impact'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Wall Stone String 'Ricochet_Wood'
+	00000005 ImpactSoundsWall Stone
+	{
+		Sound_0 String 'Volcano_Magma_Impact'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Dragon Scale String 'Ricochet_Wood'
+	00000005 ImpactSoundsDragon Scale
+	{
+		Sound_0 String 'Volcano_Magma_Impact'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	Travel Sound String 'Volcano_Magma_Travel'
+	Lifetime Float 30.000000
+}

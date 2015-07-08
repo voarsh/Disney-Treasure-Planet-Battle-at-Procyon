@@ -1,0 +1,182 @@
+Type String 'Bullet_Plasma_Heavy'
+00000005 ConstData
+{
+	HasPhysics String 'Bullet_Plasma_Heavy'
+	HasCollision String 'Bullet_Plasma_Heavy'
+	HasRender String 'Bullet_Plasma_Heavy'
+	HasAI String ''
+	HasCustomInfo String 'Bullet_Plasma_Heavy'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String ''
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Bullet_Plasma_Heavy'
+FactoryType String 'RenderEntityFactory'
+00000031 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'PlasmaShellHeavy'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000023 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 2
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Effect Emitter'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'EnginePortPlacement'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'plasmashellHeavy_Layer1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'EnginePortPlacement'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String 'Bullet_Plasma_Heavy'
+FactoryType String 'ProjectilePhysics'
+00000002 ConstData
+{
+	CenterOfMass Vector3( 0.000000, 0.000000, 0.000000 )
+	Mass Float 1000.000000
+}
+Definition String 'COLLISIONDEFINITION'
+EntityType String 'Bullet_Plasma_Heavy'
+FactoryType String 'Point'
+00000002 ConstData
+{
+	DetectionType String 'Point'
+	ResponseType String 'Bullet'
+}
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Bullet_Plasma_Heavy'
+FactoryType String 'BulletCustomInfoFactory'
+00000112 ConstData
+{
+	HitEffect String 'PlasmaCannon_Heavy_Impact'
+	BulletEffect String 'PlasmaCannon_Heavy_Trail'
+	Damage HitPoints Int 70
+	Decal Damage Size String 'Large'
+	# 
+	# Hull Wood DamagePotential
+	# 
+	Chance of Critical Damage: Wood Float 0.250000
+	Chance of Fire: Wood Float 0.250000
+	Initial Fire Strength: Wood Float 1.000000
+	Damage Lower Bound: Wood Float 45.000000
+	Damage Upper Bound: Wood Float 65.000000
+	# 
+	# Hull ReInforced Wood DamagePotential
+	# 
+	Chance of Critical Damage: Reinforced Float 0.200000
+	Chance of Fire: Reinforced Float 0.200000
+	Initial Fire Strength: Reinforced Float 1.000000
+	Damage Lower Bound: Reinforced Float 40.000000
+	Damage Upper Bound: Reinforced Float 50.000000
+	# 
+	# Hull Iron DamagePotential
+	# 
+	Chance of Critical Damage: Iron Float 0.200000
+	Chance of Fire: Iron Float 0.050000
+	Initial Fire Strength: Iron Float 1.000000
+	Damage Lower Bound: Iron Float 25.000000
+	Damage Upper Bound: Iron Float 35.000000
+	# 
+	# Sail Cloth DamagePotential
+	# 
+	Chance of Critical Damage: Cloth Float 0.000000
+	Chance of Fire: Cloth Float 0.150000
+	Initial Fire Strength: Cloth Float 1.000000
+	Damage Lower Bound: Cloth Float 9.000000
+	Damage Upper Bound: Cloth Float 10.000000
+	# 
+	# Wall Stone DamagePotential
+	# 
+	Chance of Critical Damage: Stone Float 1.000000
+	Chance of Fire: Stone Float 1.000000
+	Initial Fire Strength: Stone Float 1.000000
+	Damage Lower Bound: Stone Float 30.000000
+	Damage Upper Bound: Stone Float 40.000000
+	# 
+	# Dragon Scale DamagePotential
+	# 
+	Chance of Critical Damage: Dragon Float 0.500000
+	Chance of Fire: Dragon Float 0.500000
+	Initial Fire Strength: Dragon Float 0.500000
+	Damage Lower Bound: Dragon Float 35.000000
+	Damage Upper Bound: Dragon Float 45.000000
+	Impact Sound Max Distance Float 800.000000
+	Impact Sound Volume Float 1.000000
+	Travel Sound Max Distance Float 50.000000
+	Travel Sound Volume Float 0.700000
+	RicochetSound: Hull Wood String 'Weapon_PlasmaCannon_RichochetWood'
+	00000005 ImpactSoundsHull Wood
+	{
+		Sound_0 String 'Weapon_PlasmaCannon_Impact_WoodLarge'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Hull ReInforced Wood String 'Weapon_PlasmaCannon_RichochetWood'
+	00000005 ImpactSoundsHull ReInforced Wood
+	{
+		Sound_0 String 'Weapon_PlasmaCannon_Impact_WoodLarge'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Hull Iron String 'Weapon_PlasmaCannon_RicochetMetal'
+	00000005 ImpactSoundsHull Iron
+	{
+		Sound_0 String 'Weapon_PlasmaCannon_Impact_MetLarge'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Sail Cloth String 'Weapon_PlasmaCannon_RichochetWood'
+	00000005 ImpactSoundsSail Cloth
+	{
+		Sound_0 String 'Weapon_PlasmaCannon_Impact_SailLarge'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Wall Stone String 'Weapon_PlasmaCannon_RichochetWood'
+	00000005 ImpactSoundsWall Stone
+	{
+		Sound_0 String 'Weapon_PlasmaCannon_Impact_StoneLarge'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Dragon Scale String 'Weapon_PlasmaCannon_RichochetWood'
+	00000005 ImpactSoundsDragon Scale
+	{
+		Sound_0 String 'Explosion_Heavy01'
+		Sound_1 String 'Explosion_Heavy02'
+		Sound_2 String 'Explosion_Heavy03'
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	Travel Sound String ''
+	Lifetime Float 12.000000
+}

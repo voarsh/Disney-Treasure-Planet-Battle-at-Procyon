@@ -1,0 +1,4500 @@
+# (c) BaRkiNg DOG studios 2002
+00000040 WorldInfo
+{
+	IsMultiplayerMap Bool True
+	MustAssembleFleet Bool True
+	World Description String 'IDGS_TPWORLDDESCRIPTION_MP_RED_ROVER'
+	WorldNameID String 'IDGS_TPWORLDNAMES_MP_BASE_WAR'
+	Object Count Int 156
+	Team List - Size Int 2
+	00000003 Team List - Element
+	{
+		Team Name ID String 'IDGS_TPTEAMNAMES_NAVY'
+		Race Int 0
+		Race Lock Bool True
+	}
+	00000003 Team List - Element
+	{
+		Team Name ID String 'IDGS_TPTEAMNAMES_PIRATES'
+		Race Int 2
+		Race Lock Bool True
+	}
+	Number of Players Int 8
+	PlayerInfo - Player Name String 'navy'
+	PlayerInfo - TeamIndex Int 0
+	PlayerInfo - Player Name String 'pirate'
+	PlayerInfo - TeamIndex Int 1
+	PlayerInfo - Player Name String 'navy2'
+	PlayerInfo - TeamIndex Int 0
+	PlayerInfo - Player Name String 'pirate2'
+	PlayerInfo - TeamIndex Int 1
+	PlayerInfo - Player Name String 'navy3'
+	PlayerInfo - TeamIndex Int 0
+	PlayerInfo - Player Name String 'pirate3'
+	PlayerInfo - TeamIndex Int 1
+	PlayerInfo - Player Name String 'navy4'
+	PlayerInfo - TeamIndex Int 0
+	PlayerInfo - Player Name String 'pirate4'
+	PlayerInfo - TeamIndex Int 1
+	IsCampaign Bool False 
+	Use Custom World Name Bool False 
+	Custom World Name String ''
+	Use Custom World Description Bool False 
+	Custom World Description String ''
+}
+00000008 Game
+{
+	00000002 Time
+	{
+		Game Tick Int 0
+		Game Time Double 0
+	}
+	Frame Int -1
+	Paused Bool False 
+	ActivePlayerIndex Int -1
+}
+00004135 World
+{
+	WorldName String 'Red Rover'
+	Random Seed Int 0
+	World Size - Min Vector3( -2100.000000, -1750.000000, -750.000000 )
+	World Size - Max Vector3( 2100.000000, 1750.000000, 750.000000 )
+	# Player List
+	PlayerList Int 10
+	00000032 Player
+	{
+		Name String 'navy'
+		Color Colour( 0.000000, 0.000000, 1.000000, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( -383.768829, -429.000488, 0.000000 )
+		StartPointForwardVector Vector3( -0.251591, 0.967834, 0.000000 )
+		Race Int 0
+		Points Float 0.000000
+		TeamIndex Int 0
+		FormationType Int 2
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'pirate'
+		Color Colour( 1.000000, 0.000000, 0.000000, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( -420.658905, 328.140411, -0.000122 )
+		StartPointForwardVector Vector3( -0.013906, -0.999903, 0.000002 )
+		Race Int 2
+		Points Float 0.000000
+		TeamIndex Int 1
+		FormationType Int 2
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'navy2'
+		Color Colour( 0.000000, 1.000000, 1.000000, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( -129.499268, -354.148285, 0.000000 )
+		StartPointForwardVector Vector3( -0.115964, 0.993253, 0.000000 )
+		Race Int 0
+		Points Float 0.000000
+		TeamIndex Int 0
+		FormationType Int 2
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'pirate2'
+		Color Colour( 1.000000, 0.000000, 1.000000, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( -150.579514, 370.487488, 0.000000 )
+		StartPointForwardVector Vector3( 0.075158, -0.997172, 0.000002 )
+		Race Int 2
+		Points Float 0.000000
+		TeamIndex Int 1
+		FormationType Int 2
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'navy3'
+		Color Colour( 0.000000, 0.000000, 0.501961, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( 270.407440, -395.277374, 0.000000 )
+		StartPointForwardVector Vector3( 0.007071, 0.999975, 0.000002 )
+		Race Int 0
+		Points Float 0.000000
+		TeamIndex Int 0
+		FormationType Int 2
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'pirate3'
+		Color Colour( 0.501961, 0.000000, 0.000000, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( 221.834213, 361.333679, 0.000122 )
+		StartPointForwardVector Vector3( -0.028636, -0.999590, -0.000004 )
+		Race Int 2
+		Points Float 0.000000
+		TeamIndex Int 1
+		FormationType Int 2
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'navy4'
+		Color Colour( 0.650980, 0.792157, 0.941176, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( 612.366577, -332.149231, 0.000000 )
+		StartPointForwardVector Vector3( -0.014440, 0.999896, 0.000000 )
+		Race Int 0
+		Points Float 0.000000
+		TeamIndex Int 0
+		FormationType Int 2
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'pirate4'
+		Color Colour( 0.501961, 0.000000, 0.501961, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( 572.281189, 371.990692, 0.000000 )
+		StartPointForwardVector Vector3( 0.004910, -0.999988, 0.000001 )
+		Race Int 2
+		Points Float 0.000000
+		TeamIndex Int 1
+		FormationType Int 2
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'navybase'
+		Color Colour( 0.000000, 0.000000, 1.000000, 1.000000 )
+		IsPlayable Bool False 
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( -43.377441, -970.330566, 0.000000 )
+		StartPointForwardVector Vector3( 0.278182, 0.960528, 0.000000 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int -1
+		FormationType Int 0
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'Piratebase'
+		Color Colour( 1.000000, 0.000000, 0.000000, 1.000000 )
+		IsPlayable Bool False 
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( 10.601166, 799.953857, 0.000000 )
+		StartPointForwardVector Vector3( 0.100043, -0.994983, 0.000000 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int -1
+		FormationType Int 0
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	NextID Int 158
+	# World Object List
+	WorldObjects Int 156
+	ID Int 1
+	Type String 'Base_Montgomery'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -3.516921, -789.188416, 0.000244 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 8
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 3
+	Type String 'Island02'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -350.814606, -617.781921, 0.000000 )
+		Orientation Matrix33( -0.945519, 0.325568, 0.000000, -0.325568, -0.945519, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 4
+	Type String 'Island05'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 827.405884, -371.005737, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 5
+	Type String 'Island08'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 729.158508, 423.696442, 0.000000 )
+		Orientation Matrix33( 0.694658, -0.719340, 0.000000, 0.719340, 0.694658, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 6
+	Type String 'Island10'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -422.252594, 524.502441, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 7
+	Type String 'Island13'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 429.886505, 170.637543, 0.000000 )
+		Orientation Matrix33( 0.173648, -0.984808, 0.000000, 0.984808, 0.173648, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 8
+	Type String 'Island14'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 325.905487, -555.537354, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 9
+	Type String 'Island_Mega_02'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -1102.377075, -11.739556, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 10
+	Type String 'Island_Mega_03'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 1077.426514, 54.727417, 0.000000 )
+		Orientation Matrix33( 0.754710, -0.656059, 0.000000, 0.656059, 0.754710, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 12
+	Type String 'Terrain_Nebula'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -969.936584, -213.412674, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 13
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -147.881897, 627.304932, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 14
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -141.746429, 614.449341, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 15
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -120.893631, 607.478516, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 16
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -101.895065, 585.048584, 0.000031 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 17
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -82.190430, 564.572205, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 18
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -57.682724, 545.796692, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 19
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 36.901669, 542.182739, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 20
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 92.278229, 534.388306, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 21
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 55.824921, 530.482788, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 22
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 83.163162, 539.293518, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 23
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 128.436630, 561.454834, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 24
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 152.584000, 586.248718, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 25
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 151.155151, 607.991211, -0.000031 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 26
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 152.288681, 638.112061, 0.000031 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 27
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 158.782211, 666.497925, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 28
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 158.250381, 684.732849, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 29
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 148.175858, 708.004700, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 30
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 127.506554, 636.085083, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 31
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 98.706802, 591.368225, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 32
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 74.214096, 566.945862, 0.000031 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 33
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 86.567360, 572.679626, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 34
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 67.880554, 570.309509, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 35
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 47.643867, 571.261902, -0.000031 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 36
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -72.200424, 569.321777, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 37
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -123.139359, 582.073120, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 38
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -144.583359, 611.517395, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 39
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -151.872375, 655.690002, -0.000031 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 40
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -173.976669, 685.919250, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 41
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -182.372833, 728.316040, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 42
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -69.460136, -535.501282, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 43
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -66.400131, -556.436890, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 44
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -64.171097, -584.102356, 0.000061 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 45
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -68.779541, -600.483459, 0.000061 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 46
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -77.193069, -601.482239, 0.000061 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 47
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -87.953514, -577.681580, 0.000061 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 48
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -88.772560, -562.053833, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 49
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -92.037148, -541.230469, 0.000061 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 50
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -107.415016, -538.454590, -0.000061 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 51
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -108.575096, -572.489441, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 52
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -116.024559, -556.659729, -0.000061 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 53
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -117.434654, -584.221863, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 54
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -116.188896, -603.032410, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 55
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -130.901382, -603.901306, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 56
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -132.102585, -587.475891, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 57
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -135.467880, -570.753357, 0.000061 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 58
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -140.987106, -540.251160, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 59
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -157.303726, -539.924744, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 60
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -155.276932, -564.346069, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 61
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -151.652420, -582.352234, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 62
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -153.085617, -603.457520, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 63
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -155.996155, -630.941895, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 64
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 35.862026, -637.043030, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 65
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 60.880585, -636.412537, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 66
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 89.020172, -636.975464, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 67
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 114.033150, -637.475891, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 68
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 141.006317, -640.276184, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 69
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 141.837219, -605.863831, -0.000061 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 70
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 139.595856, -588.178528, -0.000061 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 71
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 120.236610, -591.342590, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 72
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 119.719612, -603.085999, 0.000061 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 73
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 97.592926, -599.130676, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 74
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 67.792191, -603.215515, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 75
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 46.583782, -606.288574, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 76
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 42.503925, -587.421326, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 77
+	Type String 'Island02'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -559.783081, 160.619095, 0.000000 )
+		Orientation Matrix33( 0.374607, 0.927184, 0.000000, -0.927184, 0.374607, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 78
+	Type String 'Island03'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -329.028900, 690.860657, 0.000000 )
+		Orientation Matrix33( -0.788011, 0.615662, 0.000000, -0.615662, -0.788011, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 79
+	Type String 'Island04'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 366.479156, 570.814392, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 80
+	Type String 'Island05'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 58.474380, -192.314209, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 81
+	Type String 'Island06'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 19.976303, 90.626953, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 82
+	Type String 'Island10'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -503.680359, -302.982422, 0.000244 )
+		Orientation Matrix33( -0.766045, 0.642788, 0.000000, -0.642788, -0.766045, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 83
+	Type String 'Island11'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 693.183228, -112.446075, 0.000000 )
+		Orientation Matrix33( 0.669131, 0.743145, 0.000000, -0.743145, 0.669131, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 84
+	Type String 'Island12'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -145.989594, -71.698975, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 85
+	Type String 'Island08'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 894.070618, 53.878674, 0.000000 )
+		Orientation Matrix33( 0.559193, -0.829038, 0.000000, 0.829038, 0.559193, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 86
+	Type String 'Island07'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 446.336182, -155.929199, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 87
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 62.404373, -564.494019, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 88
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 89.498634, -569.701965, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 89
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 124.036194, -570.396851, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 90
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 134.593643, -563.510620, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 91
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 117.904968, -540.050293, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 92
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 71.167114, -533.463684, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 93
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 37.647011, -534.393188, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 94
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -64.419632, 511.678436, 0.000031 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 95
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -80.644318, 502.394104, -0.000031 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 96
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -112.077377, 500.052002, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 97
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -137.965118, 515.656372, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 98
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -158.189148, 543.186951, 0.000031 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 99
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -165.724945, 566.098267, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 100
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -176.072723, 611.083435, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 101
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -129.728638, 550.652832, -0.000031 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 102
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -135.195465, 510.345886, 0.000031 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 103
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -104.594879, 477.229858, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 104
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -65.403374, 465.623291, 0.000031 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 105
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -118.440102, 481.493073, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 106
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -155.108032, 515.740112, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 107
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -169.712921, 542.547668, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 108
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 37.204071, 477.981140, -0.000031 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 109
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 68.272354, 438.266052, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 110
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 79.328133, 447.117859, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 111
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 67.853279, 478.033356, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 112
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 89.589851, 484.510284, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 113
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 117.126274, 504.700378, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 114
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 124.435036, 512.980591, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 115
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 133.749146, 476.114441, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 116
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 129.747589, 458.122314, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 117
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 173.517273, 464.110291, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 118
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 178.918900, 481.416504, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 119
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 182.006607, 524.507263, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 120
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 187.917618, 554.344360, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 121
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 204.854187, 603.938354, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 122
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 153.100235, 537.472046, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 123
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -195.667084, 561.693848, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 124
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -218.528229, 617.936890, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 125
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -193.442657, 630.465637, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 126
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -175.786804, 606.367249, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 127
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -211.560913, 671.353271, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 128
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -198.986359, 686.637573, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 129
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -186.841034, 656.349854, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 130
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -213.095490, 719.436279, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 131
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 194.921570, 536.703857, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 132
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 193.010635, 599.847290, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 133
+	Type String 'Base_PirateMP'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -11.945926, 748.328918, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 9
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 134
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -25.326767, 536.968140, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 135
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -18.304504, 518.184570, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 136
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -12.269424, 470.394073, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 137
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 14.289749, 514.706543, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 138
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 88.081238, 394.144928, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 139
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 24.191544, 378.427521, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 140
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -58.772003, 398.347870, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 141
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -109.523537, 431.008453, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 142
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -163.085815, 466.451935, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 143
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -206.525406, 515.893188, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 144
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -230.213989, 578.871155, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 145
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 132.969910, 402.262207, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 146
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 64.291061, 408.631592, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 147
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 7.039093, 447.893585, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 148
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -9.949677, 490.968506, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 149
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -37.973755, 564.468628, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 150
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -59.932701, 501.352509, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 151
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -107.467102, 437.491272, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 152
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 107.440033, 550.673950, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 153
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 38.830475, 425.935638, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 154
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -54.855179, 421.635620, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 155
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 109.102295, 450.091766, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 156
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -100.878899, 456.018127, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 157
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -149.176697, 443.261108, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 158
+	Type String 'Bullet_StarMine_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 15.866196, 413.741943, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	00000809 GameSpecific
+	{
+		World Description Sting ID String 'IDGS_TPWORLDDESCRIPTION_MP_RED_ROVER'
+		World Name Sting ID String 'IDGS_TPWORLDNAMES_MP_BASE_WAR'
+		00000001 Effect Event Keeper
+		{
+			NumEffectEventInfoChunks Int 0
+		}
+		Skybox mesh name String 'skybox_09_Layer1'
+		Ambient Light Colour( 0.141176, 0.141176, 0.141176, 1.000000 )
+		Vector for roof light orientation Vector3( 0.637654, 0.273401, -0.720173 )
+		Hemispherical floor light color Colour( 0.494118, 0.203922, 0.250980, 1.000000 )
+		Hemispherical roof light color Colour( 0.976471, 0.886275, 0.866667, 1.000000 )
+		World Initialized State Bool False 
+		World Buffer Size Float 500.000000
+		Waypoint Path Info Vector - Size Int 1
+		00000021 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'stormroute'
+			Waypoint Path Points - Size Int 19
+			Waypoint Path Points - Element Vector3( -1522.598022, -121.339432, -0.000244 )
+			Waypoint Path Points - Element Vector3( -871.893555, -240.416290, 0.000000 )
+			Waypoint Path Points - Element Vector3( -509.598907, -205.393723, 0.000000 )
+			Waypoint Path Points - Element Vector3( -186.611343, -179.807343, 0.000000 )
+			Waypoint Path Points - Element Vector3( 257.384613, -202.973251, 0.000000 )
+			Waypoint Path Points - Element Vector3( 662.388855, -200.044830, 0.000000 )
+			Waypoint Path Points - Element Vector3( 968.092407, -218.495056, 0.000000 )
+			Waypoint Path Points - Element Vector3( 1477.329468, -198.531113, 0.000000 )
+			Waypoint Path Points - Element Vector3( 1563.144531, -4.845786, 0.000000 )
+			Waypoint Path Points - Element Vector3( 1450.952881, 175.033020, 0.000000 )
+			Waypoint Path Points - Element Vector3( 1025.005737, 176.546448, 0.000000 )
+			Waypoint Path Points - Element Vector3( 710.715942, 173.265808, -40.000000 )
+			Waypoint Path Points - Element Vector3( 440.601196, 151.851669, -41.000000 )
+			Waypoint Path Points - Element Vector3( -70.108612, 167.134583, 1.000000 )
+			Waypoint Path Points - Element Vector3( -429.612762, 179.153305, -0.000244 )
+			Waypoint Path Points - Element Vector3( -690.837158, 165.456924, 0.000000 )
+			Waypoint Path Points - Element Vector3( -1047.606567, 187.550720, 0.000000 )
+			Waypoint Path Points - Element Vector3( -1476.696533, 83.422264, 0.000000 )
+			Waypoint Path Points - Element Vector3( -1550.070679, -7.425808, 0.000000 )
+		}
+		World Polygons Vectors - Size Int 1
+		00000011 World Polygons Vectors - Element
+		{
+			Name String 'storm'
+			Points Int 9
+			Points Coord( -1407.918335, -5.875975 )
+			Points Coord( -1472.848511, -90.062881 )
+			Points Coord( -1489.316406, -212.771912 )
+			Points Coord( -1424.462402, -305.978180 )
+			Points Coord( -1319.897095, -345.742920 )
+			Points Coord( -1235.723267, -298.071289 )
+			Points Coord( -1206.439209, -204.211243 )
+			Points Coord( -1221.257324, -72.966431 )
+			Points Coord( -1304.980957, -8.748769 )
+		}
+		World Point Sets Vector - Size Int 1
+		00000014 World Point Sets Vector - Element
+		{
+			Name String 'storm set'
+			World Points - Size Int 1
+			00000009 World Points - Element
+			{
+				World Point Magnitude Float 190.399872
+				00000005 World Point Basis
+				{
+					Position Vector3( -1340.995117, -148.515396, 20.000000 )
+					LookAt Vector Length Float 1.000000
+					Orientation - Cross Vector3( 1.000000, 0.000000, 0.000000 )
+					Orientation - Forward Vector3( 0.000000, 1.000000, 0.000000 )
+					Orientation - Up Vector3( 0.000000, 0.000000, 1.000000 )
+				}
+			}
+		}
+		Flag List - Size Int 0
+		Timer List - Size Int 0
+		Speech Event List - Size Int 0
+		PlayerAllianceInfoVector - Size Int 20
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 0
+			Player1 Int 2
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 0
+			Player1 Int 4
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 0
+			Player1 Int 6
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 0
+			Player1 Int 8
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 1
+			Player1 Int 3
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 1
+			Player1 Int 5
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 1
+			Player1 Int 7
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 1
+			Player1 Int 9
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 2
+			Player1 Int 4
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 2
+			Player1 Int 6
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 2
+			Player1 Int 8
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 3
+			Player1 Int 5
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 3
+			Player1 Int 7
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 3
+			Player1 Int 9
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 4
+			Player1 Int 6
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 4
+			Player1 Int 8
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 5
+			Player1 Int 7
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 5
+			Player1 Int 9
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 6
+			Player1 Int 8
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 7
+			Player1 Int 9
+		}
+		Team List - Size Int 2
+		00000003 Team List - Element
+		{
+			Team Name ID String 'IDGS_TPTEAMNAMES_NAVY'
+			Race Int 0
+			Race Lock Bool True
+		}
+		00000003 Team List - Element
+		{
+			Team Name ID String 'IDGS_TPTEAMNAMES_PIRATES'
+			Race Int 2
+			Race Lock Bool True
+		}
+		Winning Team Int -1
+		Num Groups Int 6
+		00000003 Group
+		{
+			Name String 'navy Island'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 1
+		}
+		00000003 Group
+		{
+			Name String 'pirate island'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 133
+		}
+		00000020 Group
+		{
+			Name String 'nuetral islands'
+			World Object IDs - Size Int 18
+			World Object IDs - Element Int 3
+			World Object IDs - Element Int 4
+			World Object IDs - Element Int 5
+			World Object IDs - Element Int 6
+			World Object IDs - Element Int 7
+			World Object IDs - Element Int 8
+			World Object IDs - Element Int 9
+			World Object IDs - Element Int 10
+			World Object IDs - Element Int 77
+			World Object IDs - Element Int 78
+			World Object IDs - Element Int 79
+			World Object IDs - Element Int 80
+			World Object IDs - Element Int 81
+			World Object IDs - Element Int 82
+			World Object IDs - Element Int 83
+			World Object IDs - Element Int 84
+			World Object IDs - Element Int 85
+			World Object IDs - Element Int 86
+		}
+		00000003 Group
+		{
+			Name String 'stormgroup'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 12
+		}
+		00000095 Group
+		{
+			Name String 'piratemines'
+			World Object IDs - Size Int 93
+			World Object IDs - Element Int 13
+			World Object IDs - Element Int 14
+			World Object IDs - Element Int 15
+			World Object IDs - Element Int 16
+			World Object IDs - Element Int 17
+			World Object IDs - Element Int 18
+			World Object IDs - Element Int 19
+			World Object IDs - Element Int 20
+			World Object IDs - Element Int 21
+			World Object IDs - Element Int 22
+			World Object IDs - Element Int 23
+			World Object IDs - Element Int 24
+			World Object IDs - Element Int 25
+			World Object IDs - Element Int 26
+			World Object IDs - Element Int 27
+			World Object IDs - Element Int 28
+			World Object IDs - Element Int 29
+			World Object IDs - Element Int 30
+			World Object IDs - Element Int 31
+			World Object IDs - Element Int 32
+			World Object IDs - Element Int 33
+			World Object IDs - Element Int 34
+			World Object IDs - Element Int 35
+			World Object IDs - Element Int 36
+			World Object IDs - Element Int 37
+			World Object IDs - Element Int 38
+			World Object IDs - Element Int 39
+			World Object IDs - Element Int 40
+			World Object IDs - Element Int 41
+			World Object IDs - Element Int 94
+			World Object IDs - Element Int 95
+			World Object IDs - Element Int 96
+			World Object IDs - Element Int 97
+			World Object IDs - Element Int 98
+			World Object IDs - Element Int 99
+			World Object IDs - Element Int 100
+			World Object IDs - Element Int 101
+			World Object IDs - Element Int 102
+			World Object IDs - Element Int 103
+			World Object IDs - Element Int 104
+			World Object IDs - Element Int 105
+			World Object IDs - Element Int 106
+			World Object IDs - Element Int 107
+			World Object IDs - Element Int 108
+			World Object IDs - Element Int 109
+			World Object IDs - Element Int 110
+			World Object IDs - Element Int 111
+			World Object IDs - Element Int 112
+			World Object IDs - Element Int 113
+			World Object IDs - Element Int 114
+			World Object IDs - Element Int 115
+			World Object IDs - Element Int 116
+			World Object IDs - Element Int 117
+			World Object IDs - Element Int 118
+			World Object IDs - Element Int 119
+			World Object IDs - Element Int 120
+			World Object IDs - Element Int 121
+			World Object IDs - Element Int 122
+			World Object IDs - Element Int 123
+			World Object IDs - Element Int 124
+			World Object IDs - Element Int 125
+			World Object IDs - Element Int 126
+			World Object IDs - Element Int 127
+			World Object IDs - Element Int 128
+			World Object IDs - Element Int 129
+			World Object IDs - Element Int 130
+			World Object IDs - Element Int 131
+			World Object IDs - Element Int 132
+			World Object IDs - Element Int 134
+			World Object IDs - Element Int 135
+			World Object IDs - Element Int 136
+			World Object IDs - Element Int 137
+			World Object IDs - Element Int 138
+			World Object IDs - Element Int 139
+			World Object IDs - Element Int 140
+			World Object IDs - Element Int 141
+			World Object IDs - Element Int 142
+			World Object IDs - Element Int 143
+			World Object IDs - Element Int 144
+			World Object IDs - Element Int 145
+			World Object IDs - Element Int 146
+			World Object IDs - Element Int 147
+			World Object IDs - Element Int 148
+			World Object IDs - Element Int 149
+			World Object IDs - Element Int 150
+			World Object IDs - Element Int 151
+			World Object IDs - Element Int 152
+			World Object IDs - Element Int 153
+			World Object IDs - Element Int 154
+			World Object IDs - Element Int 155
+			World Object IDs - Element Int 156
+			World Object IDs - Element Int 157
+			World Object IDs - Element Int 158
+		}
+		00000044 Group
+		{
+			Name String 'navymines'
+			World Object IDs - Size Int 42
+			World Object IDs - Element Int 42
+			World Object IDs - Element Int 43
+			World Object IDs - Element Int 44
+			World Object IDs - Element Int 45
+			World Object IDs - Element Int 46
+			World Object IDs - Element Int 47
+			World Object IDs - Element Int 48
+			World Object IDs - Element Int 49
+			World Object IDs - Element Int 50
+			World Object IDs - Element Int 51
+			World Object IDs - Element Int 52
+			World Object IDs - Element Int 53
+			World Object IDs - Element Int 54
+			World Object IDs - Element Int 55
+			World Object IDs - Element Int 56
+			World Object IDs - Element Int 57
+			World Object IDs - Element Int 58
+			World Object IDs - Element Int 59
+			World Object IDs - Element Int 60
+			World Object IDs - Element Int 61
+			World Object IDs - Element Int 62
+			World Object IDs - Element Int 63
+			World Object IDs - Element Int 64
+			World Object IDs - Element Int 65
+			World Object IDs - Element Int 66
+			World Object IDs - Element Int 67
+			World Object IDs - Element Int 68
+			World Object IDs - Element Int 69
+			World Object IDs - Element Int 70
+			World Object IDs - Element Int 71
+			World Object IDs - Element Int 72
+			World Object IDs - Element Int 73
+			World Object IDs - Element Int 74
+			World Object IDs - Element Int 75
+			World Object IDs - Element Int 76
+			World Object IDs - Element Int 87
+			World Object IDs - Element Int 88
+			World Object IDs - Element Int 89
+			World Object IDs - Element Int 90
+			World Object IDs - Element Int 91
+			World Object IDs - Element Int 92
+			World Object IDs - Element Int 93
+		}
+		00000312 World Rules
+		{
+			Rule List Int 7
+			Rule Name String 'Init World ( Hidden From Designers )'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000001 Condition List
+			{
+				Type String 'World Initialize'
+			}
+			NumActions Int 9
+			00000020 Action List
+			{
+				Type String '*State Init* Setup Nebula'
+				World Object ID Int 12
+				New Nebula Name String 'storm'
+				Polygon Name String 'storm'
+				Lightning On/Off String 'TRUE'
+				Lightning Blast Recharge Time Float 2.000000
+				Meteors On/Off String 'FALSE'
+				Meteor Strike Recharge Time Float 0.000000
+				Nebula Cloud Effect Name String 'EFFECT'
+				Solar Storm Effect Name String 'SolarStorm'
+				Meteor Shower Effect Name  String 'EFFECT'
+				Nebula Cloud Point Set Name String 'POINT SET'
+				Solar Storm Point Set Name String 'storm set'
+				Meteor Shower Point Set Name String 'POINT SET'
+				Rotational Winds On/Off String 'TRUE'
+				Wind Magnitude Float 12.000000
+				Nebula Cloud Energy Drain On/Off String 'FALSE'
+				Nebula Occlusion On/Off String 'TRUE'
+				Solar Storm Wind Damage Frequency Float 1.000000
+				Ambient sound max distance Float 300.000000
+			}
+			00000006 Action List
+			{
+				Type String '*State Init* Setup Island'
+				World Object ID Int 1
+				Combat Strength Int 60
+				Player/Owner String 'navybase'
+				Gunnery Level String 'Green'
+				AI Stance String 'Stance_Aggressive'
+			}
+			00000006 Action List
+			{
+				Type String '*State Init* Setup Island'
+				World Object ID Int 7
+				Combat Strength Int 0
+				Player/Owner String 'NO PLAYER'
+				Gunnery Level String 'CREW SKILL LEVEL'
+				AI Stance String 'AI STANCE'
+			}
+			00000006 Action List
+			{
+				Type String '*State Init* Setup Island'
+				World Object ID Int 9
+				Combat Strength Int 0
+				Player/Owner String 'NO PLAYER'
+				Gunnery Level String 'CREW SKILL LEVEL'
+				AI Stance String 'AI STANCE'
+			}
+			00000006 Action List
+			{
+				Type String '*State Init* Setup Island'
+				World Object ID Int 10
+				Combat Strength Int 0
+				Player/Owner String 'NO PLAYER'
+				Gunnery Level String 'CREW SKILL LEVEL'
+				AI Stance String 'AI STANCE'
+			}
+			00000006 Action List
+			{
+				Type String '*State Init* Setup Island'
+				World Object ID Int 79
+				Combat Strength Int 0
+				Player/Owner String 'NO PLAYER'
+				Gunnery Level String 'CREW SKILL LEVEL'
+				AI Stance String 'AI STANCE'
+			}
+			00000006 Action List
+			{
+				Type String '*State Init* Setup Island'
+				World Object ID Int 84
+				Combat Strength Int 0
+				Player/Owner String 'NO PLAYER'
+				Gunnery Level String 'CREW SKILL LEVEL'
+				AI Stance String 'AI STANCE'
+			}
+			00000006 Action List
+			{
+				Type String '*State Init* Setup Island'
+				World Object ID Int 77
+				Combat Strength Int 0
+				Player/Owner String 'NO PLAYER'
+				Gunnery Level String 'CREW SKILL LEVEL'
+				AI Stance String 'AI STANCE'
+			}
+			00000006 Action List
+			{
+				Type String '*State Init* Setup Island'
+				World Object ID Int 133
+				Combat Strength Int 80
+				Player/Owner String 'Piratebase'
+				Gunnery Level String 'Elite'
+				AI Stance String 'Stance_Aggressive'
+			}
+			Rule Name String 'setup'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000001 Condition List
+			{
+				Type String 'World Initialize'
+			}
+			NumActions Int 11
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'stormgroup'
+				Path Name String 'stormroute'
+				Follow Mode String 'loop'
+				Find Closest Point String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group Space Objects velocity'
+				Group Name String 'stormgroup'
+				Velocity Int 10
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Owner'
+				Group/Unit Name String 'navymines'
+				New Owner String 'navy'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Owner'
+				Group/Unit Name String 'piratemines'
+				New Owner String 'pirate'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'navy Island'
+				AI Stance String 'Stance_Aggressive'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'pirate island'
+				AI Stance String 'Stance_Aggressive'
+			}
+			00000006 Action List
+			{
+				Type String 'Play Music Track'
+				File Name String 'BTL_NavyBig_Full02'
+				Crossfade transition String 'TRUE'
+				Fade Out Time ( secs ) Float 2.000000
+				Fade In Time ( secs ) Float 2.000000
+				New Volume ( 0 to 1 ) Float 0.800000
+			}
+			00000004 Action List
+			{
+				Type String 'Setup Team Objective'
+				Team Name String 'IDGS_TPTEAMNAMES_NAVY'
+				Objective Point String 'navy target'
+				Objective Task String 'navy obj1'
+			}
+			00000004 Action List
+			{
+				Type String 'Setup Team Objective'
+				Team Name String 'IDGS_TPTEAMNAMES_NAVY'
+				Objective Point String 'NO OBJECTIVE POINT'
+				Objective Task String 'navy obj2'
+			}
+			00000004 Action List
+			{
+				Type String 'Setup Team Objective'
+				Team Name String 'IDGS_TPTEAMNAMES_PIRATES'
+				Objective Point String 'pirate target'
+				Objective Task String 'pirate obj 1'
+			}
+			00000004 Action List
+			{
+				Type String 'Setup Team Objective'
+				Team Name String 'IDGS_TPTEAMNAMES_PIRATES'
+				Objective Point String 'NO OBJECTIVE POINT'
+				Objective Task String 'pirate obj 2'
+			}
+			Rule Name String 'navywin'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000005 Condition List
+			{
+				Type String 'Group/Unit Vital Section has >,<,= X damage'
+				Group/Unit Name String 'pirate island'
+				Vital Section String 'vitalToMission'
+				Equivalence String 'Equal To'
+				Damage Percent Float 1.000000
+			}
+			NumActions Int 2
+			00000002 Action List
+			{
+				Type String 'Team X Wins'
+				Team Name String 'IDGS_TPTEAMNAMES_NAVY'
+			}
+			00000005 Action List
+			{
+				Type String 'End Game'
+				Use Custom Message String 'FALSE'
+				Winner - Custom Message String ID String 'IDGS_TPINGAMEMESSAGE_GAME_WON'
+				Loser - Custom Message String ID String 'IDGS_TPINGAMEMESSAGE_GAME_GENERAL_NAVYDEFEAT'
+				Show Stats Screen String 'TRUE'
+			}
+			Rule Name String 'piratewin'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000005 Condition List
+			{
+				Type String 'Group/Unit Vital Section has >,<,= X damage'
+				Group/Unit Name String 'navy Island'
+				Vital Section String 'vitalToMission'
+				Equivalence String 'Equal To'
+				Damage Percent Float 1.000000
+			}
+			NumActions Int 2
+			00000002 Action List
+			{
+				Type String 'Team X Wins'
+				Team Name String 'IDGS_TPTEAMNAMES_PIRATES'
+			}
+			00000005 Action List
+			{
+				Type String 'End Game'
+				Use Custom Message String 'TRUE'
+				Winner - Custom Message String ID String 'IDGS_TPINGAMEMESSAGE_GAME_WON'
+				Loser - Custom Message String ID String 'IDGS_TPINGAMEMESSAGE_GAME_GENERAL_PIRATEDEFEAT'
+				Show Stats Screen String 'TRUE'
+			}
+			Rule Name String 'endgame'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000001 Condition List
+			{
+				Type String 'Team Game Complete'
+			}
+			NumActions Int 2
+			00000001 Action List
+			{
+				Type String 'Remaining Team Wins'
+			}
+			00000005 Action List
+			{
+				Type String 'End Game'
+				Use Custom Message String 'FALSE'
+				Winner - Custom Message String ID String 'GAME STRING'
+				Loser - Custom Message String ID String 'GAME STRING'
+				Show Stats Screen String 'TRUE'
+			}
+			Rule Name String 'Navywin2'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Team has captured a ship from Group/Unit'
+				Team Name String 'IDGS_TPTEAMNAMES_NAVY'
+				Group/Unit String 'pirate island'
+				Number Of Captures Int 0
+			}
+			NumActions Int 2
+			00000002 Action List
+			{
+				Type String 'Team X Wins'
+				Team Name String 'IDGS_TPTEAMNAMES_NAVY'
+			}
+			00000005 Action List
+			{
+				Type String 'End Game'
+				Use Custom Message String 'TRUE'
+				Winner - Custom Message String ID String 'IDGS_TPINGAMEMESSAGE_GAME_WON'
+				Loser - Custom Message String ID String 'IDGS_TPINGAMEMESSAGE_GAME_GENERAL_PIRATEDEFEAT'
+				Show Stats Screen String 'TRUE'
+			}
+			Rule Name String 'piratewin2'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Team has captured a ship from Group/Unit'
+				Team Name String 'IDGS_TPTEAMNAMES_PIRATES'
+				Group/Unit String 'navy Island'
+				Number Of Captures Int 0
+			}
+			NumActions Int 2
+			00000002 Action List
+			{
+				Type String 'Team X Wins'
+				Team Name String 'IDGS_TPTEAMNAMES_PIRATES'
+			}
+			00000005 Action List
+			{
+				Type String 'End Game'
+				Use Custom Message String 'TRUE'
+				Winner - Custom Message String ID String 'IDGS_TPINGAMEMESSAGE_GAME_WON'
+				Loser - Custom Message String ID String 'IDGS_TPINGAMEMESSAGE_GAME_GENERAL_PIRATEDEFEAT'
+				Show Stats Screen String 'TRUE'
+			}
+		}
+		00000046 Objective System
+		{
+			Current Objective Point Int -1
+			Current Point Visible On StarMap Bool True
+			Objective Point Info - Size Int 2
+			00000002 Objective Point Info - Element
+			{
+				Name String 'pirate target'
+				Position Vector3( -2.847740, -787.702209, 0.000000 )
+			}
+			00000002 Objective Point Info - Element
+			{
+				Name String 'navy target'
+				Position Vector3( -11.516190, 751.742432, 0.000000 )
+			}
+			Objective Task Array - Size Int 4
+			00000005 Objective Task Array - Element
+			{
+				Name String 'navy obj1'
+				TextStringID String 'IDGS_TPOBJECTIVES2_MP_DESTROYENEMYBASE'
+				Active Bool False 
+				Completed Bool False 
+				Failed Bool False 
+			}
+			00000005 Objective Task Array - Element
+			{
+				Name String 'navy obj2'
+				TextStringID String 'IDGS_TPOBJECTIVES2_MP_DEFENDBASE'
+				Active Bool False 
+				Completed Bool False 
+				Failed Bool False 
+			}
+			00000005 Objective Task Array - Element
+			{
+				Name String 'pirate obj 1'
+				TextStringID String 'IDGS_TPOBJECTIVES2_MP_DESTROYENEMYBASE'
+				Active Bool False 
+				Completed Bool False 
+				Failed Bool False 
+			}
+			00000005 Objective Task Array - Element
+			{
+				Name String 'pirate obj 2'
+				TextStringID String 'IDGS_TPOBJECTIVES2_MP_DEFENDBASE'
+				Active Bool False 
+				Completed Bool False 
+				Failed Bool False 
+			}
+		}
+		00000001 Rope
+		{
+			RopeInfo - Size Int 0
+		}
+		00000001 Grappled Objects
+		{
+			Grappled Objects Info - Size Int 0
+		}
+		00000001 Boarding Actions
+		{
+			Boarding Actions Info - Size Int 0
+		}
+		00000002 Journal Entry
+		{
+			Page Info - Size Int 0
+			Title StringID String 'IDGS_TPJOURNALSCREEN_DUMMY_TITLE'
+		}
+		00000001 World Map
+		{
+			Backdrop Texture Name String 'Map_RedRover'
+		}
+		Can Assemble Fleets Bool True
+		World Crew List - Size Int 0
+		World Arms List - Size Int 0
+		00000022 MapText System
+		{
+			MapText Point Info - Size Int 3
+			00000004 MapText Point Info - Element
+			{
+				Name String 'navy base'
+				DisplayedText String 'IDGS_TPMAPTEXTITEMS_MP_REDROVER'
+				Position Vector3( -7.850983, -778.795898, 0.000000 )
+				Visible Bool True
+			}
+			00000004 MapText Point Info - Element
+			{
+				Name String 'pirate base'
+				DisplayedText String 'IDGS_TPMAPTEXTITEMS_GENERAL_CAMP_LATCHKEY'
+				Position Vector3( -20.348267, 760.359985, 0.000000 )
+				Visible Bool True
+			}
+			00000004 MapText Point Info - Element
+			{
+				Name String 'islands'
+				DisplayedText String 'IDGS_TPMAPTEXTITEMS_GENERAL_ARCHIPELAGO_SUMMERS'
+				Position Vector3( -139.975616, -48.782104, 0.000000 )
+				Visible Bool True
+			}
+		}
+		READAIENTITYCOUNTS Bool False 
+		Journal Music Name String 'GameMusicTemp'
+		PlayEndMovie Bool False 
+		IsCampaign Bool False 
+		Is Alliance Change Allowed Bool False 
+		Use Custom World Name Bool False 
+		Custom World Name String ''
+		Use Custom World Description Bool False 
+		Custom World Description String ''
+		Islands Make Sounds Bool True
+		DATA_NEBULA_CAMERA_EFFECT Int 0
+		DATA_NEXT_NEBULA_CAMERA_EFFECT Int 0
+		00000001 DATA_NEBULA_CAMERA_EFFECT_FADE_IN_TIMER
+		{
+			StartTime Double 0
+		}
+		00000001 DATA_NEBULA_CAMERA_EFFECT_SPIN_TIMER
+		{
+			StartTime Double 0
+		}
+	}
+}
+00000304 GameImpl
+{
+	SelectedWorldObjectID Int -1
+	00000006 GameStats
+	{
+		PlayerKillInfo - Size Int 0
+		PlayerDockInfo - Size Int 0
+		PlayerLifeBoatSavedInfo - Size Int 0
+		FleetSizeInfo - Size Int 0
+		PlayerDamageInfo - Size Int 0
+		SinglePlayer Points Int 0
+	}
+	SinglePlayerVictoryPoints Int 0
+	SinglePlayerCrewList - Size Int 0
+	SinglePlayerArmsList - Size Int 0
+	00000014 HUD
+	{
+		Are NIS Bars Open Bool False 
+		Skip Current Speech Event Bool False 
+		00000001 Active Speech Event Timer
+		{
+			StartTime Double 0
+		}
+		Speech Event Active Bool False 
+		Speech Event Queue - Size Int 0
+		Artificial Pause Between Speech Events Active Bool False 
+		00000001 Artificial Pause Between Speech Events Timer
+		{
+			StartTime Double 0
+		}
+		Request To Close NIS Bars Bool False 
+	}
+	Game Complete Bool False 
+	Custom Game Complete Bool False 
+	00000001 Game Complete Timer
+	{
+		StartTime Double 0
+	}
+	Custom Game Complete String String ''
+	Game Winner Players - Size Int 0
+	User Interface Disabled Bool False 
+	Is Campaign Game Bool False 
+	Show Stats Screen Bool True
+	Goto Next Level Enabled Bool False 
+	Next Level World Name String ''
+	00000001 Next Level Display Timer
+	{
+		StartTime Double 0
+	}
+	Already Created Game Bool False 
+	00000218 Game Camera
+	{
+		00000028 FlyCameraController
+		{
+			00000015 Camera
+			{
+				AspectRatio Float 1.000000
+				FieldOfView Float 0.785398
+				NearPlane Float 0.500000
+				FarPlane Float 3000.000000
+				UsingResolutionBasedAspectRatio Bool True
+				Orthographic Bool False 
+				OrthographicZoom Float 1.000000
+				00000005 LocalBasis
+				{
+					Position Vector3( 0.000000, 0.000000, 0.000000 )
+					LookAt Vector Length Float 1.000000
+					Orientation - Cross Vector3( 1.000000, 0.000000, 0.000000 )
+					Orientation - Forward Vector3( 0.000000, 1.000000, 0.000000 )
+					Orientation - Up Vector3( 0.000000, 0.000000, 1.000000 )
+				}
+			}
+			00000002 TargetInfo
+			{
+				TargetID Int -1
+				TargetPoint Vector3( 0.000000, 0.000000, 0.000000 )
+			}
+			00000001 GameTimeUpdateTimer
+			{
+				StartTime Double 0
+			}
+			NewFocusData Bool True
+		}
+		00000046 SplineCameraController
+		{
+			00000015 Camera
+			{
+				AspectRatio Float 1.000000
+				FieldOfView Float 0.785398
+				NearPlane Float 0.500000
+				FarPlane Float 3000.000000
+				UsingResolutionBasedAspectRatio Bool True
+				Orthographic Bool False 
+				OrthographicZoom Float 1.000000
+				00000005 LocalBasis
+				{
+					Position Vector3( 0.000000, 0.000000, 0.000000 )
+					LookAt Vector Length Float 10.000000
+					Orientation - Cross Vector3( -1.000000, 0.000000, 0.000000 )
+					Orientation - Forward Vector3( 0.000000, -1.000000, 0.000000 )
+					Orientation - Up Vector3( 0.000000, 0.000000, 1.000000 )
+				}
+			}
+			00000002 TargetInfo
+			{
+				TargetID Int -1
+				TargetPoint Vector3( 0.000000, 0.000000, 0.000000 )
+			}
+			00000001 GameTimeUpdateTimer
+			{
+				StartTime Double 0
+			}
+			NewFocusData Bool True
+			00000010 PositionInterpolater
+			{
+				Position Vector3( 0.000000, 0.000000, 0.000000 )
+				StartPointControlPoint Vector3( 0.000000, 0.000000, 0.000000 )
+				EndPointControlPoint Vector3( 0.000000, 0.000000, 0.000000 )
+				ControlIndex Int 0
+				Acceleration Float 10.000000
+				MaxSpeed Float 30.000000
+				Speed Float 0.000000
+				Distance Float 0.000000
+				Percentage Float -431602080.000000
+				ControlPointsInfo - Size Int 0
+			}
+			PrevTargetPoint Vector3( 0.000000, -10.000000, 0.000000 )
+			LockPosition Bool False 
+			LockOrientation Bool False 
+			ForceOrientation Bool False 
+			PercentIncrement Float -431602080.000000
+		}
+		00000042 SwoopCameraController
+		{
+			00000015 Camera
+			{
+				AspectRatio Float 1.000000
+				FieldOfView Float 0.785398
+				NearPlane Float 0.500000
+				FarPlane Float 3000.000000
+				UsingResolutionBasedAspectRatio Bool True
+				Orthographic Bool False 
+				OrthographicZoom Float 1.000000
+				00000005 LocalBasis
+				{
+					Position Vector3( 0.000000, 0.000000, 0.000000 )
+					LookAt Vector Length Float 10.000000
+					Orientation - Cross Vector3( -1.000000, 0.000000, 0.000000 )
+					Orientation - Forward Vector3( 0.000000, -1.000000, 0.000000 )
+					Orientation - Up Vector3( 0.000000, 0.000000, 1.000000 )
+				}
+			}
+			00000002 TargetInfo
+			{
+				TargetID Int -1
+				TargetPoint Vector3( 0.000000, 0.000000, 0.000000 )
+			}
+			00000001 GameTimeUpdateTimer
+			{
+				StartTime Double 0
+			}
+			NewFocusData Bool True
+			DistanceToTarget Float 20.000000
+			DesiredToTarget Float 20.000000
+			HorizontalRotation Float 0.000000
+			MaxHorizontalRotation Float 0.000000
+			MaxDistanceToTarget Float 300.000000
+			MinHorizontalRotation Float 0.000000
+			MinDistanceToTarget Float 2.000000
+			RestrictMinHorizontal Bool False 
+			RestrictMinDistance Bool True
+			RestrictMaxHorizontal Bool False 
+			RestrictMaxDistance Bool True
+			PercentIncrement Float -431602080.000000
+			TargetPoint Vector3( 0.000000, 0.000000, 0.000000 )
+			JumpToFocusPoint Bool False 
+		}
+		00000046 TransitionCameraController
+		{
+			00000015 Camera
+			{
+				AspectRatio Float 1.000000
+				FieldOfView Float 0.785398
+				NearPlane Float 0.500000
+				FarPlane Float 3000.000000
+				UsingResolutionBasedAspectRatio Bool True
+				Orthographic Bool False 
+				OrthographicZoom Float 1.000000
+				00000005 LocalBasis
+				{
+					Position Vector3( 0.000000, 0.000000, 0.000000 )
+					LookAt Vector Length Float 10.000000
+					Orientation - Cross Vector3( -1.000000, 0.000000, 0.000000 )
+					Orientation - Forward Vector3( 0.000000, -1.000000, 0.000000 )
+					Orientation - Up Vector3( 0.000000, 0.000000, 1.000000 )
+				}
+			}
+			00000002 TargetInfo
+			{
+				TargetID Int -1
+				TargetPoint Vector3( 0.000000, 0.000000, 0.000000 )
+			}
+			00000001 GameTimeUpdateTimer
+			{
+				StartTime Double 0
+			}
+			NewFocusData Bool True
+			00000010 PositionInterpolater
+			{
+				Position Vector3( 0.000000, 0.000000, 0.000000 )
+				StartPointControlPoint Vector3( 0.000000, 0.000000, 0.000000 )
+				EndPointControlPoint Vector3( 0.000000, 0.000000, 0.000000 )
+				ControlIndex Int 0
+				Acceleration Float 10.000000
+				MaxSpeed Float 30.000000
+				Speed Float 0.000000
+				Distance Float 0.000000
+				Percentage Float -431602080.000000
+				ControlPointsInfo - Size Int 0
+			}
+			PrevTargetPoint Vector3( 0.000000, -10.000000, 0.000000 )
+			LockPosition Bool False 
+			LockOrientation Bool False 
+			ForceOrientation Bool False 
+			PercentIncrement Float -431602080.000000
+		}
+		00000034 AttachCameraController
+		{
+			00000015 Camera
+			{
+				AspectRatio Float 1.000000
+				FieldOfView Float 0.785398
+				NearPlane Float 0.500000
+				FarPlane Float 3000.000000
+				UsingResolutionBasedAspectRatio Bool True
+				Orthographic Bool False 
+				OrthographicZoom Float 1.000000
+				00000005 LocalBasis
+				{
+					Position Vector3( 0.000000, 0.000000, 0.000000 )
+					LookAt Vector Length Float 10.000000
+					Orientation - Cross Vector3( -1.000000, 0.000000, 0.000000 )
+					Orientation - Forward Vector3( 0.000000, -1.000000, 0.000000 )
+					Orientation - Up Vector3( 0.000000, 0.000000, 1.000000 )
+				}
+			}
+			00000002 TargetInfo
+			{
+				TargetID Int -1
+				TargetPoint Vector3( 0.000000, 0.000000, 0.000000 )
+			}
+			00000001 GameTimeUpdateTimer
+			{
+				StartTime Double 0
+			}
+			NewFocusData Bool True
+			AttachedObjectID Int -1
+			Distance Float 1.000000
+			AngleYZ Float 0.000000
+			AngleXY Float 0.000000
+			LockOrientation Bool False 
+			PercentIncrement Float -431602080.000000
+		}
+		CameraMode Int 0
+		TargetModeForTransition Int -842150451
+		InTransitionMode Bool False 
+		TurnOffNISWhenDoneTransition Bool True
+		TransitionStartPoint Vector3( 0.000000, 0.000000, 0.000000 )
+		LastTargetPosition Vector3( 0.000000, 0.000000, 0.000000 )
+		LastCameraPosition Vector3( 0.000000, 0.000000, 0.000000 )
+	}
+	00000018 SoundPlayer
+	{
+		00000006 CurrentMix
+		{
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+		}
+		00000006 UserMix
+		{
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+		}
+	}
+	00000001 MusicPlayer
+	{
+		Is Playing Bool False 
+	}
+	00000005 TPSound
+	{
+		MusicVolume Float 1.000000
+		SpeechOcurring Bool False 
+		CreatedSoundData - Size Int 0
+		Abyss Volume Float 0.000000
+		Inside Abyss Bool False 
+	}
+	Radar Active Bool True
+	Crew Speech Silent State Bool False 
+}

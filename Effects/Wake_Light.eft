@@ -1,0 +1,30 @@
+00000027 EffectStream
+{
+	EffectName String 'Wake_Light'
+	EffectMaxRadius Float 50.000000
+	NumPrimitives Int 1
+	PrimitiveName String 'Trail'
+	00000020 Primitive
+	{
+		Duration Float 20.000000
+		StartDelay Float 0.000000
+		UseWorldCoordInternaly Bool False 
+		PrimitiveDescription String ''
+		CHUNKDATA_CONST_ACCEPTS_EFFECT_VARIABLES_STRING_VECTOR - Size Int 2
+		CHUNKDATA_CONST_ACCEPTS_EFFECT_VARIABLES_STRING_VECTOR - Element String 'SPHERE_VELOCITY_EMITTER_LENGTH_MULTIPLY'
+		CHUNKDATA_CONST_ACCEPTS_EFFECT_VARIABLES_STRING_VECTOR - Element String 'EMITTER_RATE_MULTIPLY'
+		RenderPassNumber Int 1
+		Everlasting Bool True
+		UpdateWhenFaded Bool True
+		DoneWhenFaded Bool False 
+		00000001 TextureRenderInfo
+		{
+			TextureName String 'Wake.tga'
+		}
+		BackDrift Float 0.110000
+		OutDrift Float 0.020000
+		InitialWidth Float 30.000000
+		TextureFlowBack Bool True
+		GenerateEvenWhenFaded Bool False 
+	}
+}

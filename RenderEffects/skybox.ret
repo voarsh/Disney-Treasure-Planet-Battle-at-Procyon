@@ -1,0 +1,25 @@
+00000022 Render Effect
+{
+	Technique Chunks - Size Int 1
+	00000018 Technique Chunks - Element
+	{
+		Pass Chunks Int 1
+		00000014 Pass
+		{
+			00000009 Render State Block
+			{
+				Enable ZBuffer Read Bool True
+				Enable ZBuffer Write Bool False 
+				AlphaBlending String 'DISABLED'
+				Lighting String 'NOLIGHTING_VERTEXCOLOR'
+				Filtering String 'LINEAR_FILTERING'
+				Color Texture Effect (Stage0) String 'MODULATE_TEXTURE_WITH_DIFFUSE'
+				Alpha Texture Effect (Stage0) String 'MODULATE_TEXTURE_WITH_DIFFUSE'
+				Color Texture Effect (Stage1) String 'DISABLE'
+				Alpha Texture Effect (Stage1) String 'DISABLE'
+			}
+			Vertex Shader Name String 'FixedFunction'
+			Pixel Shader Name String 'JS - RemoveMe PixelShader'
+		}
+	}
+}

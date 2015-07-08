@@ -1,0 +1,54 @@
+Type String 'Ship_Debris'
+00000005 ConstData
+{
+	HasPhysics String 'Ship_Debris'
+	HasCollision String 'Ship_Debris'
+	HasRender String 'Ship_Debris'
+	HasAI String ''
+	HasCustomInfo String 'Ship_Debris'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String ''
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Ship_Debris'
+FactoryType String 'RenderEntityFactory'
+00000009 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'NONE'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000001 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 0
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String 'Ship_Debris'
+FactoryType String 'SpaceObjectPhysics'
+00000003 ConstData
+{
+	CenterOfMass Vector3( 0.000000, 0.000000, 0.000000 )
+	Mass Float 20.000000
+	Acceleration Float 3.000000
+}
+Definition String 'COLLISIONDEFINITION'
+EntityType String 'Ship_Debris'
+FactoryType String 'BoundingSphere'
+00000005 ConstData
+{
+	DetectionType String 'Null'
+	ResponseType String 'Null'
+	User defined sphere size Bool True
+	LocalPosition Vector3( 0.000000, 0.000000, 0.000000 )
+	Radius Float 1.000000
+}
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Ship_Debris'
+FactoryType String 'ShipDebrisCustomInfoFactory'
+00000002 ConstData
+{
+	LifeTimeMin Float 7.000000
+	LifeTimeMax Float 12.500000
+}

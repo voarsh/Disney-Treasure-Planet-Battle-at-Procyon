@@ -1,0 +1,5972 @@
+# (c) BaRkiNg DOG studios 2002
+00000028 WorldInfo
+{
+	IsMultiplayerMap Bool True
+	MustAssembleFleet Bool False 
+	World Description String 'IDGS_TPWORLDDESCRIPTION_SAMPLE'
+	WorldNameID String 'IDGS_TPJOURNALSCREEN_MISSION12_JOURNALTITLE'
+	Object Count Int 49
+	Team List - Size Int 0
+	Number of Players Int 8
+	PlayerInfo - Player Name String 'PlayerStart'
+	PlayerInfo - TeamIndex Int -1
+	PlayerInfo - Player Name String 'RoyalGuard'
+	PlayerInfo - TeamIndex Int -1
+	PlayerInfo - Player Name String 'Procs'
+	PlayerInfo - TeamIndex Int -1
+	PlayerInfo - Player Name String 'Pirates'
+	PlayerInfo - TeamIndex Int -1
+	PlayerInfo - Player Name String 'RoyalPalace'
+	PlayerInfo - TeamIndex Int -1
+	PlayerInfo - Player Name String 'Procs2'
+	PlayerInfo - TeamIndex Int -1
+	PlayerInfo - Player Name String 'Procs3'
+	PlayerInfo - TeamIndex Int -1
+	PlayerInfo - Player Name String 'DeathProcs'
+	PlayerInfo - TeamIndex Int -1
+	IsCampaign Bool True
+	Use Custom World Name Bool False 
+	Custom World Name String ''
+	Use Custom World Description Bool False 
+	Custom World Description String ''
+}
+00000008 Game
+{
+	00000002 Time
+	{
+		Game Tick Int 0
+		Game Time Double 0
+	}
+	Frame Int -1
+	Paused Bool False 
+	ActivePlayerIndex Int -1
+}
+00005619 World
+{
+	WorldName String 'Mission12'
+	Random Seed Int 1249037870
+	World Size - Min Vector3( -2000.000000, -2000.000000, -1500.000000 )
+	World Size - Max Vector3( 2000.000000, 2000.000000, 1500.000000 )
+	# Player List
+	PlayerList Int 8
+	00000032 Player
+	{
+		Name String 'PlayerStart'
+		Color Colour( 0.023529, 0.317647, 0.992157, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( 362.745239, -466.305176, 0.000000 )
+		StartPointForwardVector Vector3( -0.973834, 0.227259, 0.000000 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int -1
+		FormationType Int 6
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'RoyalGuard'
+		Color Colour( 0.066667, 0.266667, 0.733333, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( 469.815674, -775.739380, 0.000000 )
+		StartPointForwardVector Vector3( -0.726709, 0.686946, 0.000000 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int -1
+		FormationType Int 0
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'Procs'
+		Color Colour( 0.047059, 0.713726, 0.062745, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( 526.156860, -722.276123, 0.000000 )
+		StartPointForwardVector Vector3( -0.661328, 0.750096, 0.000000 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int -1
+		FormationType Int 0
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'Pirates'
+		Color Colour( 0.768627, 0.027451, 0.047059, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( 604.404297, -669.343384, 0.000000 )
+		StartPointForwardVector Vector3( -0.687936, 0.725772, 0.000000 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int -1
+		FormationType Int 0
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'RoyalPalace'
+		Color Colour( 1.000000, 1.000000, 1.000000, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( 672.161621, -599.718384, 0.000000 )
+		StartPointForwardVector Vector3( -0.687082, 0.726580, 0.000000 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int -1
+		FormationType Int 0
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'Procs2'
+		Color Colour( 0.047059, 0.713726, 0.062745, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( 745.097900, -548.765137, 0.000000 )
+		StartPointForwardVector Vector3( -0.616355, 0.787468, 0.000000 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int -1
+		FormationType Int 0
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'Procs3'
+		Color Colour( 0.047059, 0.713726, 0.062745, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( 818.269653, -500.604980, 0.000000 )
+		StartPointForwardVector Vector3( -0.597317, 0.802005, 0.000000 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int -1
+		FormationType Int 0
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'DeathProcs'
+		Color Colour( 1.000000, 1.000000, 1.000000, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( 642.726135, -634.349243, 0.000000 )
+		StartPointForwardVector Vector3( -0.578230, 0.815874, 0.000000 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int -1
+		FormationType Int 0
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	NextID Int 126
+	# World Object List
+	WorldObjects Int 49
+	ID Int 1
+	Type String 'Ship_Navy_ManOWar'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 360.414612, -466.487213, -0.000061 )
+		Orientation Matrix33( 0.258819, 0.965927, 0.000000, -0.965927, 0.258819, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 0
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 2
+	Type String 'Ship_Navy_Frigate'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 420.320648, -437.434174, 0.000000 )
+		Orientation Matrix33( 0.258819, 0.965927, 0.000000, -0.965927, 0.258819, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 0
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 3
+	Type String 'Ship_Navy_Cutter'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 393.334869, -526.191956, 0.000000 )
+		Orientation Matrix33( 0.258819, 0.965927, 0.000000, -0.965927, 0.258819, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 0
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 4
+	Type String 'Ship_Navy_Torpedo'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 450.262512, -500.947998, -0.000061 )
+		Orientation Matrix33( 0.258819, 0.965927, 0.000000, -0.965927, 0.258819, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 0
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 5
+	Type String 'Ship_Pirate_Silver'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 520.682861, -336.518951, 0.000000 )
+		Orientation Matrix33( 0.961262, 0.275637, 0.000000, -0.275637, 0.961262, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 3
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 6
+	Type String 'Ship_Pirate_Carrack'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 514.032837, -419.653442, 0.000000 )
+		Orientation Matrix33( 0.961262, 0.275637, 0.000000, -0.275637, 0.961262, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 3
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 7
+	Type String 'Ship_Pirate_Barque'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 578.922729, -401.440735, 0.000000 )
+		Orientation Matrix33( 0.961262, 0.275637, 0.000000, -0.275637, 0.961262, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 3
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 8
+	Type String 'Ship_Pirate_Barque'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 559.523560, -473.432678, 0.000000 )
+		Orientation Matrix33( 0.961262, 0.275637, 0.000000, -0.275637, 0.961262, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 3
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 9
+	Type String 'Ship_Pirate_Carrack'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 637.075867, -457.392334, 0.000000 )
+		Orientation Matrix33( 0.961262, 0.275637, 0.000000, -0.275637, 0.961262, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 3
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 10
+	Type String 'Base_QueensPalace'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -622.174683, 633.296265, -9.000000 )
+		Orientation Matrix33( 0.743145, -0.669131, 0.000000, 0.669131, 0.743145, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 4
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 11
+	Type String 'Terrain_Planet_Parliament'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -3424.236816, 1299.113403, 349.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 12
+	Type String 'Terrain_Moon_Parliament'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -1944.355591, 1513.353394, 460.000000 )
+		Orientation Matrix33( 0.974490, 0.223253, 0.022969, -0.222146, 0.944935, 0.240310, 0.031946, -0.239282, 0.970425 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 19
+	Type String 'Ship_Navy_Cutter'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -385.899567, -474.573120, 0.000000 )
+		Orientation Matrix33( -0.999391, 0.034899, 0.000000, -0.034899, -0.999391, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 20
+	Type String 'Ship_Navy_Cutter'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -538.467834, -469.916809, 0.000000 )
+		Orientation Matrix33( -0.999391, 0.034899, 0.000000, -0.034899, -0.999391, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 39
+	Type String 'Island_Med03'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -54.088776, 944.142273, 0.000000 )
+		Orientation Matrix33( 0.891007, 0.453991, 0.000000, -0.453991, 0.891007, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 57
+	Type String 'Island_Med03'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -1124.255981, 289.416748, 0.000000 )
+		Orientation Matrix33( 0.642788, -0.766045, 0.000000, 0.766045, 0.642788, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 59
+	Type String 'Ship_Procyon_Cruiser'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 446.023926, 698.277100, 0.000000 )
+		Orientation Matrix33( -0.017452, -0.999848, 0.000000, 0.999848, -0.017452, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 2
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 60
+	Type String 'Ship_Procyon_Cruiser'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 537.655090, 563.942566, 0.000000 )
+		Orientation Matrix33( -0.017452, -0.999848, 0.000000, 0.999848, -0.017452, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 2
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 61
+	Type String 'Ship_Procyon_Cruiser'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 447.246094, 419.331726, 0.000000 )
+		Orientation Matrix33( -0.017452, -0.999848, 0.000000, 0.999848, -0.017452, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 2
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 64
+	Type String 'Ship_Navy_Frigate'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 860.861755, 645.312012, 0.000000 )
+		Orientation Matrix33( -0.017453, 0.999848, 0.000000, -0.999848, -0.017453, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 65
+	Type String 'Ship_Navy_Assault_Cutter'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 873.116821, 470.898285, 0.000000 )
+		Orientation Matrix33( -0.017453, 0.999848, 0.000000, -0.999848, -0.017453, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 68
+	Type String 'Ship_Procyon_Cruiser'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -98.499580, 1510.834473, 0.000000 )
+		Orientation Matrix33( -0.731354, 0.681998, 0.000000, -0.681998, -0.731354, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 5
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 71
+	Type String 'Ship_Procyon_Dreadnought'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 132.709290, 932.151855, -0.000244 )
+		Orientation Matrix33( -0.992547, 0.121869, 0.000000, -0.121869, -0.992547, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 2
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 75
+	Type String 'Ship_Procyon_Submersible'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -420.697937, 306.003937, 0.000000 )
+		Orientation Matrix33( -0.978148, 0.207911, 0.000000, -0.207911, -0.978148, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 2
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 78
+	Type String 'Ship_Procyon_Submersible'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -177.453339, 300.305115, 0.000000 )
+		Orientation Matrix33( -0.156435, 0.987689, 0.000000, -0.987689, -0.156435, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 2
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 79
+	Type String 'Ship_Procyon_Submersible'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -193.767471, 307.872223, 0.000000 )
+		Orientation Matrix33( -0.156435, 0.987689, 0.000000, -0.987689, -0.156435, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 2
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 80
+	Type String 'Ship_Procyon_Submersible'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -858.401062, 446.531372, 0.000000 )
+		Orientation Matrix33( -0.829038, -0.559193, 0.000000, 0.559193, -0.829038, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 2
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 81
+	Type String 'Ship_Procyon_Submersible'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -330.380402, 575.596252, 0.000000 )
+		Orientation Matrix33( -1.000001, 0.000000, 0.000000, 0.000000, -1.000001, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 2
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 82
+	Type String 'Ship_Procyon_Cutter'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 71.834244, -344.058624, 0.000000 )
+		Orientation Matrix33( -0.469472, -0.882948, 0.000000, 0.882948, -0.469472, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 2
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 85
+	Type String 'Ship_Procyon_Cruiser'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 103.074265, 848.773071, 0.000000 )
+		Orientation Matrix33( -0.996195, 0.087156, 0.000000, -0.087156, -0.996195, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 2
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 100
+	Type String 'Island_Rocky_06'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -73.462471, 291.725677, 0.000244 )
+		Orientation Matrix33( -0.891007, 0.453991, 0.000000, -0.453991, -0.891007, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 101
+	Type String 'Island_Rocky_06'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -1137.891846, 975.672302, 0.000000 )
+		Orientation Matrix33( 0.848048, -0.529920, 0.000000, 0.529920, 0.848048, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 102
+	Type String 'Island_Rocky_06'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -515.056213, 1235.660645, 0.000000 )
+		Orientation Matrix33( -0.069757, -0.997565, 0.000000, 0.997565, -0.069757, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 103
+	Type String 'Island_Rocky_06'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -726.845093, 9.673609, 0.000000 )
+		Orientation Matrix33( 0.121869, 0.992546, 0.000000, -0.992546, 0.121869, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 104
+	Type String 'Ship_Procyon_Cutter'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -101.503273, 1448.133301, 0.000000 )
+		Orientation Matrix33( -0.788012, 0.615662, 0.000000, -0.615662, -0.788012, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 5
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 106
+	Type String 'Ship_Procyon_Cutter'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -81.792877, 1372.573853, -0.000061 )
+		Orientation Matrix33( -0.788012, 0.615662, 0.000000, -0.615662, -0.788012, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 5
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 107
+	Type String 'Ship_Navy_Heavy_Escort_Amelia'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -461.967377, -526.377075, 0.000000 )
+		Orientation Matrix33( -1.000000, 0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 108
+	Type String 'Ship_Procyon_Dreadnought'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 530.956299, -772.711609, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 7
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 109
+	Type String 'Ship_Procyon_Dreadnought'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 578.711182, -719.926025, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 7
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 110
+	Type String 'Ship_Procyon_Dreadnought'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 632.873718, -665.113159, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 7
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 115
+	Type String 'Ship_Procyon_IceFist'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -432.654846, -738.424500, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 6
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 116
+	Type String 'Ship_Procyon_Cruiser'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -466.135406, -690.135681, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 6
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 117
+	Type String 'Ship_Navy_Cutter'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -460.640167, -427.084076, -0.000008 )
+		Orientation Matrix33( -0.999391, 0.034899, 0.000000, -0.034899, -0.999391, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 121
+	Type String 'Ship_Procyon_Cutter'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 43.305195, -401.531311, 0.000000 )
+		Orientation Matrix33( -0.325568, -0.945519, 0.000000, 0.945519, -0.325568, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 2
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 122
+	Type String 'Ship_Procyon_IceFist'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -33.594536, 1608.552124, 0.000000 )
+		Orientation Matrix33( -0.848049, 0.529919, 0.000000, -0.529919, -0.848049, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 5
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 123
+	Type String 'Ship_Procyon_IceFist'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 95.399857, 1501.423340, 0.000000 )
+		Orientation Matrix33( -0.819153, 0.573577, 0.000000, -0.573577, -0.819153, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 5
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 124
+	Type String 'Ship_Procyon_Cruiser'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 4.785133, 1427.376953, 0.000000 )
+		Orientation Matrix33( -0.743145, 0.669131, 0.000000, -0.669131, -0.743145, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 5
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 125
+	Type String 'Ship_Procyon_Cruiser'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -12.364342, 1503.857788, 0.000000 )
+		Orientation Matrix33( -0.788011, 0.615661, 0.000000, -0.615661, -0.788011, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 5
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 126
+	Type String 'Ship_Procyon_Cruiser'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -193.635315, -636.621643, 0.000000 )
+		Orientation Matrix33( 0.342020, -0.939693, 0.000000, 0.939693, 0.342020, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 6
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	00004396 GameSpecific
+	{
+		World Description Sting ID String 'IDGS_TPWORLDDESCRIPTION_SAMPLE'
+		World Name Sting ID String 'IDGS_TPJOURNALSCREEN_MISSION12_JOURNALTITLE'
+		00000001 Effect Event Keeper
+		{
+			NumEffectEventInfoChunks Int 0
+		}
+		Skybox mesh name String 'skybox_08_Layer1'
+		Ambient Light Colour( 0.117647, 0.117647, 0.117647, 1.000000 )
+		Vector for roof light orientation Vector3( 0.232357, 0.828029, -0.510273 )
+		Hemispherical floor light color Colour( 0.356863, 0.101961, 0.101961, 1.000000 )
+		Hemispherical roof light color Colour( 0.968627, 0.941176, 0.941176, 1.000000 )
+		World Initialized State Bool False 
+		World Buffer Size Float 500.000000
+		Waypoint Path Info Vector - Size Int 18
+		00000004 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'ProcICOffScreenToParl'
+			Waypoint Path Points - Size Int 2
+			Waypoint Path Points - Element Vector3( -106.590027, 1343.302979, 3.000244 )
+			Waypoint Path Points - Element Vector3( -379.909485, 936.223083, 0.000000 )
+		}
+		00000004 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'PiratesToRoyalTwo'
+			Waypoint Path Points - Size Int 2
+			Waypoint Path Points - Element Vector3( 515.993652, -253.003250, 0.000000 )
+			Waypoint Path Points - Element Vector3( 628.004517, 339.781677, 0.000000 )
+		}
+		00000005 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'EndProcToParl'
+			Waypoint Path Points - Size Int 3
+			Waypoint Path Points - Element Vector3( 83.552010, 816.593445, 0.000000 )
+			Waypoint Path Points - Element Vector3( -39.893932, 719.614136, 0.000244 )
+			Waypoint Path Points - Element Vector3( -396.228485, 665.402527, 0.000000 )
+		}
+		00000004 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'MainProcsToParl'
+			Waypoint Path Points - Size Int 2
+			Waypoint Path Points - Element Vector3( -501.279755, -381.856171, 0.000244 )
+			Waypoint Path Points - Element Vector3( -599.025452, 221.064255, 0.000000 )
+		}
+		00000008 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'OpeningNISFirstShot'
+			Waypoint Path Points - Size Int 6
+			Waypoint Path Points - Element Vector3( -156.580032, 730.841980, 239.000000 )
+			Waypoint Path Points - Element Vector3( -291.165955, 746.161438, 114.000000 )
+			Waypoint Path Points - Element Vector3( -366.251709, 742.993530, 54.000000 )
+			Waypoint Path Points - Element Vector3( -464.364441, 641.638367, -25.000000 )
+			Waypoint Path Points - Element Vector3( -532.932129, 505.791321, -34.000000 )
+			Waypoint Path Points - Element Vector3( -603.972656, 399.337372, -34.000000 )
+		}
+		00000005 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'NISLookAtRoyalGuard'
+			Waypoint Path Points - Size Int 3
+			Waypoint Path Points - Element Vector3( -558.122192, -535.737122, 0.000000 )
+			Waypoint Path Points - Element Vector3( -505.355865, -571.653809, 0.000000 )
+			Waypoint Path Points - Element Vector3( -450.071045, -573.712891, 0.000031 )
+		}
+		00000004 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'NISLookAtProcs'
+			Waypoint Path Points - Size Int 2
+			Waypoint Path Points - Element Vector3( -606.331421, -634.330261, -3.000000 )
+			Waypoint Path Points - Element Vector3( -380.016663, -614.121948, -3.000000 )
+		}
+		00000004 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'NISLookAtPlayerandPirates'
+			Waypoint Path Points - Size Int 2
+			Waypoint Path Points - Element Vector3( 224.493423, -431.934509, 34.000000 )
+			Waypoint Path Points - Element Vector3( 589.271057, -194.544022, 34.000000 )
+		}
+		00000004 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'SilverLeaves'
+			Waypoint Path Points - Size Int 2
+			Waypoint Path Points - Element Vector3( 771.075012, 548.802734, 0.000000 )
+			Waypoint Path Points - Element Vector3( 1943.927856, 1907.132324, 0.000000 )
+		}
+		00000004 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'LookAtSubs'
+			Waypoint Path Points - Size Int 2
+			Waypoint Path Points - Element Vector3( -183.638092, 268.809387, 18.000000 )
+			Waypoint Path Points - Element Vector3( -150.447281, 283.142578, 25.000000 )
+		}
+		00000004 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'ProcTwoParl'
+			Waypoint Path Points - Size Int 2
+			Waypoint Path Points - Element Vector3( 345.716980, 543.536865, 0.000000 )
+			Waypoint Path Points - Element Vector3( -366.180389, 523.461548, -0.000061 )
+		}
+		00000012 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'ProcOffScreenLoop1'
+			Waypoint Path Points - Size Int 10
+			Waypoint Path Points - Element Vector3( -358.280975, 602.944824, 0.000000 )
+			Waypoint Path Points - Element Vector3( -515.060730, 387.856842, 0.000000 )
+			Waypoint Path Points - Element Vector3( -572.863586, 346.104156, -0.000122 )
+			Waypoint Path Points - Element Vector3( -724.146240, 312.076538, 0.000000 )
+			Waypoint Path Points - Element Vector3( -894.292236, 429.892426, 0.000000 )
+			Waypoint Path Points - Element Vector3( -935.276123, 589.913574, 0.000000 )
+			Waypoint Path Points - Element Vector3( -840.246765, 825.130920, 0.000000 )
+			Waypoint Path Points - Element Vector3( -701.642029, 939.648132, 0.000000 )
+			Waypoint Path Points - Element Vector3( -410.789337, 933.802368, 0.000000 )
+			Waypoint Path Points - Element Vector3( -338.449371, 749.283630, 0.000000 )
+		}
+		00000012 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'ProcOffScreenLoop2'
+			Waypoint Path Points - Size Int 10
+			Waypoint Path Points - Element Vector3( -737.415771, 822.830627, 1.000000 )
+			Waypoint Path Points - Element Vector3( -849.795410, 677.874146, 0.000000 )
+			Waypoint Path Points - Element Vector3( -880.245117, 557.591064, 0.000000 )
+			Waypoint Path Points - Element Vector3( -814.228699, 444.496399, 0.000000 )
+			Waypoint Path Points - Element Vector3( -655.194641, 369.534241, 0.000000 )
+			Waypoint Path Points - Element Vector3( -561.880981, 406.238373, 0.000000 )
+			Waypoint Path Points - Element Vector3( -386.576324, 617.278320, 0.000000 )
+			Waypoint Path Points - Element Vector3( -407.477203, 789.936340, 0.000000 )
+			Waypoint Path Points - Element Vector3( -475.146515, 862.978394, 0.000000 )
+			Waypoint Path Points - Element Vector3( -640.721497, 885.600403, 0.000000 )
+		}
+		00000006 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'FailedLookAtParl'
+			Waypoint Path Points - Size Int 4
+			Waypoint Path Points - Element Vector3( -474.026337, 853.548462, 64.000000 )
+			Waypoint Path Points - Element Vector3( -437.733643, 773.214844, 54.000000 )
+			Waypoint Path Points - Element Vector3( -453.266052, 662.886719, 43.000000 )
+			Waypoint Path Points - Element Vector3( -581.300842, 557.645996, 21.000000 )
+		}
+		00000004 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'EndICNIS'
+			Waypoint Path Points - Size Int 2
+			Waypoint Path Points - Element Vector3( -180.289932, 567.128784, 40.000000 )
+			Waypoint Path Points - Element Vector3( 63.462406, 656.571350, 40.000000 )
+		}
+		00000005 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'BoardingOne'
+			Waypoint Path Points - Size Int 3
+			Waypoint Path Points - Element Vector3( -374.167969, 492.516327, 0.000000 )
+			Waypoint Path Points - Element Vector3( -555.248413, 516.905090, 0.000000 )
+			Waypoint Path Points - Element Vector3( -581.301941, 475.704407, 0.000000 )
+		}
+		00000005 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'BoardingTwo'
+			Waypoint Path Points - Size Int 3
+			Waypoint Path Points - Element Vector3( -421.681793, 662.689758, 0.000000 )
+			Waypoint Path Points - Element Vector3( -478.505676, 640.712830, 0.000000 )
+			Waypoint Path Points - Element Vector3( -507.566711, 599.418335, 0.000000 )
+		}
+		00000004 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'TorpWatch'
+			Waypoint Path Points - Size Int 2
+			Waypoint Path Points - Element Vector3( -434.489044, 459.918671, 49.000000 )
+			Waypoint Path Points - Element Vector3( -404.975739, 480.482147, 49.000000 )
+		}
+		World Polygons Vectors - Size Int 18
+		00000006 World Polygons Vectors - Element
+		{
+			Name String 'RoyalGuardFight'
+			Points Int 4
+			Points Coord( -1261.386108, -133.572922 )
+			Points Coord( -71.817261, -150.319901 )
+			Points Coord( -68.337250, -1127.749390 )
+			Points Coord( -1250.891846, -1070.414795 )
+		}
+		00000008 World Polygons Vectors - Element
+		{
+			Name String 'RoyalGuardTwoFight'
+			Points Int 6
+			Points Coord( 234.580658, 302.635559 )
+			Points Coord( 270.315308, 1175.585938 )
+			Points Coord( 1201.110840, 1158.043579 )
+			Points Coord( 1114.247681, -43.920696 )
+			Points Coord( 251.378540, -89.462662 )
+			Points Coord( 17.883366, -6.733787 )
+		}
+		00000008 World Polygons Vectors - Element
+		{
+			Name String 'NearParl'
+			Points Int 6
+			Points Coord( -1119.333252, 378.400024 )
+			Points Coord( -690.153442, 53.028931 )
+			Points Coord( -56.126484, 276.786987 )
+			Points Coord( -136.405685, 912.838074 )
+			Points Coord( -539.079895, 1201.225464 )
+			Points Coord( -1118.023438, 992.605286 )
+		}
+		00000006 World Polygons Vectors - Element
+		{
+			Name String 'OffScreenTrigger'
+			Points Int 4
+			Points Coord( -444.097565, 1220.126587 )
+			Points Coord( -143.103821, 1015.339844 )
+			Points Coord( 0.984924, 1205.316528 )
+			Points Coord( -302.935608, 1387.712402 )
+		}
+		00000006 World Polygons Vectors - Element
+		{
+			Name String 'EndProcTrigger'
+			Points Int 4
+			Points Coord( -107.914360, 841.219116 )
+			Points Coord( -90.914444, 604.659424 )
+			Points Coord( -13.852305, 621.022278 )
+			Points Coord( -50.803455, 918.309753 )
+		}
+		00000011 World Polygons Vectors - Element
+		{
+			Name String 'PlayerHeadsRightToParl'
+			Points Int 9
+			Points Coord( -1281.224609, -149.004181 )
+			Points Coord( -243.318954, -148.637955 )
+			Points Coord( 18.397871, 12.880192 )
+			Points Coord( 234.969391, 315.634338 )
+			Points Coord( 322.109558, 1150.819580 )
+			Points Coord( 285.109558, 1541.819580 )
+			Points Coord( 77.109558, 1233.819580 )
+			Points Coord( -605.362427, 1411.014893 )
+			Points Coord( -1305.114380, 1157.024536 )
+		}
+		00000006 World Polygons Vectors - Element
+		{
+			Name String 'NextToParl'
+			Points Int 4
+			Points Coord( -541.265686, 1051.082642 )
+			Points Coord( -302.964569, 845.540039 )
+			Points Coord( -171.967148, 928.116150 )
+			Points Coord( -453.917114, 1119.528931 )
+		}
+		00000010 World Polygons Vectors - Element
+		{
+			Name String 'OutOfBounds'
+			Points Int 8
+			Points Coord( -1400.681030, 1221.494263 )
+			Points Coord( -1344.955078, -1178.312866 )
+			Points Coord( 19.698711, -1227.502686 )
+			Points Coord( 458.281158, -564.948364 )
+			Points Coord( 1245.396484, -84.803795 )
+			Points Coord( 1319.203125, 1256.686646 )
+			Points Coord( 581.112610, 1294.200684 )
+			Points Coord( -587.727051, 1490.355835 )
+		}
+		00000006 World Polygons Vectors - Element
+		{
+			Name String 'CloseToSecondBattle'
+			Points Int 4
+			Points Coord( 404.739014, 165.750122 )
+			Points Coord( 956.681091, 249.271606 )
+			Points Coord( 968.116577, 900.056030 )
+			Points Coord( 425.810913, 833.433472 )
+		}
+		00000017 World Polygons Vectors - Element
+		{
+			Name String 'LandingBoundary'
+			Points Int 15
+			Points Coord( -619.815002, 467.386871 )
+			Points Coord( -583.934998, 434.427429 )
+			Points Coord( -531.666199, 490.251740 )
+			Points Coord( -565.413452, 538.855957 )
+			Points Coord( -629.752197, 578.942200 )
+			Points Coord( -629.322021, 618.074341 )
+			Points Coord( -590.083374, 639.625549 )
+			Points Coord( -569.791931, 615.515625 )
+			Points Coord( -527.025879, 570.079468 )
+			Points Coord( -505.266388, 551.370483 )
+			Points Coord( -454.727936, 605.716675 )
+			Points Coord( -489.130127, 652.625183 )
+			Points Coord( -536.106812, 687.894470 )
+			Points Coord( -585.516418, 716.964294 )
+			Points Coord( -724.447021, 562.843628 )
+		}
+		00000019 World Polygons Vectors - Element
+		{
+			Name String 'NestMustBeLeft'
+			Points Int 17
+			Points Coord( 1551.301147, -1546.237915 )
+			Points Coord( -1538.376831, -1548.185181 )
+			Points Coord( -1566.165894, 1030.312988 )
+			Points Coord( -1304.976440, 1164.577148 )
+			Points Coord( -1257.425415, -356.477539 )
+			Points Coord( -1261.052856, -1070.532471 )
+			Points Coord( -60.744045, -1130.107422 )
+			Points Coord( 323.252716, -437.558044 )
+			Points Coord( 1112.005249, -48.665825 )
+			Points Coord( 1117.330444, 23.225956 )
+			Points Coord( 1217.383545, 1172.877808 )
+			Points Coord( 266.920990, 1182.604736 )
+			Points Coord( -609.675537, 1415.659546 )
+			Points Coord( -1569.409302, 1055.134644 )
+			Points Coord( -1571.251465, 1572.084839 )
+			Points Coord( -1571.131592, 1574.081421 )
+			Points Coord( 1578.976807, 1588.973267 )
+		}
+		00000006 World Polygons Vectors - Element
+		{
+			Name String 'RoyalOneBoundary'
+			Points Int 4
+			Points Coord( -814.640808, -288.380005 )
+			Points Coord( -778.855469, -958.037964 )
+			Points Coord( -193.218323, -960.765686 )
+			Points Coord( -144.680511, -201.370361 )
+		}
+		00000007 World Polygons Vectors - Element
+		{
+			Name String 'ChaffBorderZone'
+			Points Int 5
+			Points Coord( -821.714111, -263.327881 )
+			Points Coord( -775.005981, -934.541138 )
+			Points Coord( -60.253780, -1123.513062 )
+			Points Coord( 317.488037, -429.311615 )
+			Points Coord( 24.732983, -0.152463 )
+		}
+		00000006 World Polygons Vectors - Element
+		{
+			Name String 'StartBoardingOne'
+			Points Int 4
+			Points Coord( -646.729614, 491.043304 )
+			Points Coord( -588.410583, 437.489014 )
+			Points Coord( -548.191162, 475.998627 )
+			Points Coord( -610.022705, 542.507141 )
+		}
+		00000006 World Polygons Vectors - Element
+		{
+			Name String 'StartBoardingTwo'
+			Points Int 4
+			Points Coord( -579.858032, 629.911499 )
+			Points Coord( -511.604797, 563.751221 )
+			Points Coord( -476.863770, 596.800659 )
+			Points Coord( -544.677002, 673.125366 )
+		}
+		00000006 World Polygons Vectors - Element
+		{
+			Name String 'SlowDownOne'
+			Points Int 4
+			Points Coord( -587.488770, 436.569550 )
+			Points Coord( -649.346497, 493.492432 )
+			Points Coord( -597.445313, 558.104004 )
+			Points Coord( -534.364807, 491.383545 )
+		}
+		00000006 World Polygons Vectors - Element
+		{
+			Name String 'SlowDownTwo'
+			Points Int 4
+			Points Coord( -564.427795, 613.085999 )
+			Points Coord( -504.920959, 555.787170 )
+			Points Coord( -454.260406, 608.901550 )
+			Points Coord( -514.899109, 680.308899 )
+		}
+		00000006 World Polygons Vectors - Element
+		{
+			Name String 'NewForMainIC'
+			Points Int 4
+			Points Coord( -718.416992, 65.628632 )
+			Points Coord( -450.670868, 145.044098 )
+			Points Coord( -534.156677, 310.236481 )
+			Points Coord( -739.597046, 256.147919 )
+		}
+		World Point Sets Vector - Size Int 3
+		00000014 World Point Sets Vector - Element
+		{
+			Name String 'LookAtPlanets'
+			World Points - Size Int 1
+			00000009 World Points - Element
+			{
+				World Point Magnitude Float 5.000000
+				00000005 World Point Basis
+				{
+					Position Vector3( -1334.860718, 969.371094, 361.000000 )
+					LookAt Vector Length Float 0.000000
+					Orientation - Cross Vector3( 1.000000, 0.000000, 0.000000 )
+					Orientation - Forward Vector3( 0.000000, 1.000000, 0.000000 )
+					Orientation - Up Vector3( 0.000000, 0.000000, 1.000000 )
+				}
+			}
+		}
+		00000014 World Point Sets Vector - Element
+		{
+			Name String 'LookAtParl'
+			World Points - Size Int 1
+			00000009 World Points - Element
+			{
+				World Point Magnitude Float 5.000000
+				00000005 World Point Basis
+				{
+					Position Vector3( -643.930664, 633.409912, 0.000000 )
+					LookAt Vector Length Float 0.000000
+					Orientation - Cross Vector3( 1.000000, 0.000000, 0.000000 )
+					Orientation - Forward Vector3( 0.000000, 1.000000, 0.000000 )
+					Orientation - Up Vector3( 0.000000, 0.000000, 1.000000 )
+				}
+			}
+		}
+		00000014 World Point Sets Vector - Element
+		{
+			Name String 'BattleOneBorderReturn'
+			World Points - Size Int 1
+			00000009 World Points - Element
+			{
+				World Point Magnitude Float 5.000000
+				00000005 World Point Basis
+				{
+					Position Vector3( -466.440735, -594.524414, 0.000000 )
+					LookAt Vector Length Float 0.000000
+					Orientation - Cross Vector3( 1.000000, 0.000000, 0.000000 )
+					Orientation - Forward Vector3( 0.000000, 1.000000, 0.000000 )
+					Orientation - Up Vector3( 0.000000, 0.000000, 1.000000 )
+				}
+			}
+		}
+		Flag List - Size Int 15
+		00000002 Flag List - Element
+		{
+			Flag Name String 'TriggerProcICOffscreen'
+			Flag Value Bool False 
+		}
+		00000002 Flag List - Element
+		{
+			Flag Name String 'TriggerEndProcIC'
+			Flag Value Bool False 
+		}
+		00000002 Flag List - Element
+		{
+			Flag Name String 'TriggerSubs'
+			Flag Value Bool False 
+		}
+		00000002 Flag List - Element
+		{
+			Flag Name String 'OffScreenTriggerHappened'
+			Flag Value Bool False 
+		}
+		00000002 Flag List - Element
+		{
+			Flag Name String 'MissionOver'
+			Flag Value Bool False 
+		}
+		00000002 Flag List - Element
+		{
+			Flag Name String 'Docked'
+			Flag Value Bool False 
+		}
+		00000002 Flag List - Element
+		{
+			Flag Name String 'DockedAlreadyHappened'
+			Flag Value Bool False 
+		}
+		00000002 Flag List - Element
+		{
+			Flag Name String 'TimeToEndGame'
+			Flag Value Bool False 
+		}
+		00000002 Flag List - Element
+		{
+			Flag Name String 'EndGameHappened'
+			Flag Value Bool False 
+		}
+		00000002 Flag List - Element
+		{
+			Flag Name String 'LandingTriggerHappened'
+			Flag Value Bool False 
+		}
+		00000002 Flag List - Element
+		{
+			Flag Name String 'HesDeadJim'
+			Flag Value Bool False 
+		}
+		00000002 Flag List - Element
+		{
+			Flag Name String 'PlayerOutsideOfParlVolume'
+			Flag Value Bool False 
+		}
+		00000002 Flag List - Element
+		{
+			Flag Name String 'AmeliaVulnerable'
+			Flag Value Bool False 
+		}
+		00000002 Flag List - Element
+		{
+			Flag Name String 'BombardWarningHasPlayed'
+			Flag Value Bool False 
+		}
+		00000002 Flag List - Element
+		{
+			Flag Name String 'InSubNIS'
+			Flag Value Bool False 
+		}
+		Timer List - Size Int 9
+		00000006 Timer List - Element
+		{
+			Timer Name String 'OpeningNISTimer'
+			Timer Status Bool False 
+			00000001 Timer Value Chunk
+			{
+				StartTime Double 62.469
+			}
+		}
+		00000006 Timer List - Element
+		{
+			Timer Name String 'OpeningNIStimer2'
+			Timer Status Bool False 
+			00000001 Timer Value Chunk
+			{
+				StartTime Double 82.368
+			}
+		}
+		00000006 Timer List - Element
+		{
+			Timer Name String 'OpeningNISTimer3'
+			Timer Status Bool False 
+			00000001 Timer Value Chunk
+			{
+				StartTime Double 0.66
+			}
+		}
+		00000006 Timer List - Element
+		{
+			Timer Name String 'BombardingTimer'
+			Timer Status Bool False 
+			00000001 Timer Value Chunk
+			{
+				StartTime Double 9.504
+			}
+		}
+		00000006 Timer List - Element
+		{
+			Timer Name String 'SubTimer'
+			Timer Status Bool False 
+			00000001 Timer Value Chunk
+			{
+				StartTime Double 12.111
+			}
+		}
+		00000006 Timer List - Element
+		{
+			Timer Name String 'EndTimer'
+			Timer Status Bool False 
+			00000001 Timer Value Chunk
+			{
+				StartTime Double 57.981
+			}
+		}
+		00000006 Timer List - Element
+		{
+			Timer Name String 'AmeliaInvulPause'
+			Timer Status Bool False 
+			00000001 Timer Value Chunk
+			{
+				StartTime Double 33.66
+			}
+		}
+		00000006 Timer List - Element
+		{
+			Timer Name String 'EndICTimer'
+			Timer Status Bool False 
+			00000001 Timer Value Chunk
+			{
+				StartTime Double 20.031
+			}
+		}
+		00000006 Timer List - Element
+		{
+			Timer Name String 'ExtraAmeliaTime'
+			Timer Status Bool False 
+			00000001 Timer Value Chunk
+			{
+				StartTime Double 9.834
+			}
+		}
+		Speech Event List - Size Int 22
+		00000017 Speech Event List - Element
+		{
+			Name String 'M12AMELIA01'
+			Sound FileName String 'M12AMELIA01'
+			Text Color Colour( 1.000000, 0.501961, 0.000000, 1.000000 )
+			FaceTexture String 'TalkingHead_Character_Amelia_Angry'
+			TalkingHeadLocation Int 0
+			Has Been Played Once Bool False 
+			Is Secondary Speech Bool False 
+			Display Time Float 0.000000
+			Open Chat Bar Bool True
+			Open Talking Head Bool True
+			Has Text Bool True
+			Use Sound File Length Bool True
+			Always Open Speech Event Bar Bool True
+			Valid Text StringID Bool True
+			TextStringID String 'IDGS_TPSPEECHEVENTS005_M12AMELIA01'
+			Valid Speaker ID Bool True
+			SpeakerID String 'IDGS_TPSPEAKERNAMES_AMELIA'
+		}
+		00000017 Speech Event List - Element
+		{
+			Name String 'M12PROCAMBASS01'
+			Sound FileName String 'M12PROCAMBASS01'
+			Text Color Colour( 0.749020, 0.858824, 0.749020, 1.000000 )
+			FaceTexture String 'TalkingHead_Character_Procyon_Diplomat_Stoic'
+			TalkingHeadLocation Int 0
+			Has Been Played Once Bool False 
+			Is Secondary Speech Bool False 
+			Display Time Float 0.000000
+			Open Chat Bar Bool True
+			Open Talking Head Bool True
+			Has Text Bool True
+			Use Sound File Length Bool True
+			Always Open Speech Event Bar Bool True
+			Valid Text StringID Bool True
+			TextStringID String 'IDGS_TPSPEECHEVENTS005_M12PROCAMBASS01'
+			Valid Speaker ID Bool True
+			SpeakerID String 'IDGS_TPSPEAKERNAMES_EVAR'
+		}
+		00000017 Speech Event List - Element
+		{
+			Name String 'M12JIM01'
+			Sound FileName String 'M12JIM01'
+			Text Color Colour( 0.784314, 0.478431, 0.960784, 1.000000 )
+			FaceTexture String 'TalkingHead_Character_Jim_Concerned'
+			TalkingHeadLocation Int 1
+			Has Been Played Once Bool False 
+			Is Secondary Speech Bool False 
+			Display Time Float 0.000000
+			Open Chat Bar Bool True
+			Open Talking Head Bool True
+			Has Text Bool True
+			Use Sound File Length Bool True
+			Always Open Speech Event Bar Bool True
+			Valid Text StringID Bool True
+			TextStringID String 'IDGS_TPSPEECHEVENTS005_M12JIM01'
+			Valid Speaker ID Bool True
+			SpeakerID String 'IDGS_TPSPEAKERNAMES_JIM'
+		}
+		00000017 Speech Event List - Element
+		{
+			Name String 'M12SILVER01'
+			Sound FileName String 'M12SILVER01'
+			Text Color Colour( 0.752941, 0.129412, 0.886275, 1.000000 )
+			FaceTexture String 'TalkingHead_Character_JohnSilver_Real_Stoic'
+			TalkingHeadLocation Int 0
+			Has Been Played Once Bool False 
+			Is Secondary Speech Bool False 
+			Display Time Float 0.000000
+			Open Chat Bar Bool True
+			Open Talking Head Bool True
+			Has Text Bool True
+			Use Sound File Length Bool True
+			Always Open Speech Event Bar Bool True
+			Valid Text StringID Bool True
+			TextStringID String 'IDGS_TPSPEECHEVENTS005_M12SILVER01'
+			Valid Speaker ID Bool True
+			SpeakerID String 'IDGS_TPSPEAKERNAMES_SILVER'
+		}
+		00000017 Speech Event List - Element
+		{
+			Name String 'M12AMELIA02'
+			Sound FileName String 'M12AMELIA02'
+			Text Color Colour( 1.000000, 0.501961, 0.000000, 1.000000 )
+			FaceTexture String 'TalkingHead_Character_Amelia_Stern'
+			TalkingHeadLocation Int 0
+			Has Been Played Once Bool False 
+			Is Secondary Speech Bool False 
+			Display Time Float 0.000000
+			Open Chat Bar Bool True
+			Open Talking Head Bool True
+			Has Text Bool True
+			Use Sound File Length Bool True
+			Always Open Speech Event Bar Bool True
+			Valid Text StringID Bool True
+			TextStringID String 'IDGS_TPSPEECHEVENTS005_M12AMELIA02'
+			Valid Speaker ID Bool True
+			SpeakerID String 'IDGS_TPSPEAKERNAMES_AMELIA'
+		}
+		00000017 Speech Event List - Element
+		{
+			Name String 'M12SILVER02'
+			Sound FileName String 'M12SILVER02'
+			Text Color Colour( 0.752941, 0.129412, 0.886275, 1.000000 )
+			FaceTexture String 'TalkingHead_Character_JohnSilver_Real_Angry'
+			TalkingHeadLocation Int 0
+			Has Been Played Once Bool False 
+			Is Secondary Speech Bool False 
+			Display Time Float 0.000000
+			Open Chat Bar Bool True
+			Open Talking Head Bool True
+			Has Text Bool True
+			Use Sound File Length Bool True
+			Always Open Speech Event Bar Bool True
+			Valid Text StringID Bool True
+			TextStringID String 'IDGS_TPSPEECHEVENTS005_M12SILVER02'
+			Valid Speaker ID Bool True
+			SpeakerID String 'IDGS_TPSPEAKERNAMES_SILVER'
+		}
+		00000017 Speech Event List - Element
+		{
+			Name String 'M12JIM02'
+			Sound FileName String 'M12JIM02'
+			Text Color Colour( 0.784314, 0.478431, 0.960784, 1.000000 )
+			FaceTexture String 'TalkingHead_Character_Jim_Concerned'
+			TalkingHeadLocation Int 1
+			Has Been Played Once Bool False 
+			Is Secondary Speech Bool False 
+			Display Time Float 0.000000
+			Open Chat Bar Bool True
+			Open Talking Head Bool True
+			Has Text Bool True
+			Use Sound File Length Bool True
+			Always Open Speech Event Bar Bool True
+			Valid Text StringID Bool True
+			TextStringID String 'IDGS_TPSPEECHEVENTS005_M12JIM02'
+			Valid Speaker ID Bool True
+			SpeakerID String 'IDGS_TPSPEAKERNAMES_JIM'
+		}
+		00000017 Speech Event List - Element
+		{
+			Name String 'M12SILVER03'
+			Sound FileName String 'M12SILVER03'
+			Text Color Colour( 0.752941, 0.129412, 0.886275, 1.000000 )
+			FaceTexture String 'TalkingHead_Character_JohnSilver_Real_Happy'
+			TalkingHeadLocation Int 0
+			Has Been Played Once Bool False 
+			Is Secondary Speech Bool False 
+			Display Time Float 0.000000
+			Open Chat Bar Bool True
+			Open Talking Head Bool True
+			Has Text Bool True
+			Use Sound File Length Bool True
+			Always Open Speech Event Bar Bool True
+			Valid Text StringID Bool True
+			TextStringID String 'IDGS_TPSPEECHEVENTS005_M12SILVER03'
+			Valid Speaker ID Bool True
+			SpeakerID String 'IDGS_TPSPEAKERNAMES_SILVER'
+		}
+		00000017 Speech Event List - Element
+		{
+			Name String 'M12ONYX01'
+			Sound FileName String 'M12ONYX01'
+			Text Color Colour( 1.000000, 0.850980, 0.000000, 1.000000 )
+			FaceTexture String 'TalkingHead_Character_Onyx_Angry'
+			TalkingHeadLocation Int 1
+			Has Been Played Once Bool False 
+			Is Secondary Speech Bool False 
+			Display Time Float 0.000000
+			Open Chat Bar Bool True
+			Open Talking Head Bool True
+			Has Text Bool True
+			Use Sound File Length Bool True
+			Always Open Speech Event Bar Bool True
+			Valid Text StringID Bool True
+			TextStringID String 'IDGS_TPSPEECHEVENTS005_M12ONYX01'
+			Valid Speaker ID Bool True
+			SpeakerID String 'IDGS_TPSPEAKERNAMES_ONYX'
+		}
+		00000017 Speech Event List - Element
+		{
+			Name String 'M12ONYX00'
+			Sound FileName String 'M12ONYX00'
+			Text Color Colour( 1.000000, 0.850980, 0.000000, 1.000000 )
+			FaceTexture String 'TalkingHead_Character_Onyx_Stern'
+			TalkingHeadLocation Int 1
+			Has Been Played Once Bool False 
+			Is Secondary Speech Bool False 
+			Display Time Float 0.000000
+			Open Chat Bar Bool True
+			Open Talking Head Bool True
+			Has Text Bool True
+			Use Sound File Length Bool True
+			Always Open Speech Event Bar Bool True
+			Valid Text StringID Bool True
+			TextStringID String 'IDGS_TPSPEECHEVENTS005_M12ONYX00'
+			Valid Speaker ID Bool True
+			SpeakerID String 'IDGS_TPSPEAKERNAMES_ONYX'
+		}
+		00000017 Speech Event List - Element
+		{
+			Name String 'M12ONYX02'
+			Sound FileName String 'M12ONYX02'
+			Text Color Colour( 1.000000, 0.850980, 0.000000, 1.000000 )
+			FaceTexture String 'TalkingHead_Character_Onyx_Stern'
+			TalkingHeadLocation Int 1
+			Has Been Played Once Bool False 
+			Is Secondary Speech Bool False 
+			Display Time Float 0.000000
+			Open Chat Bar Bool True
+			Open Talking Head Bool True
+			Has Text Bool True
+			Use Sound File Length Bool True
+			Always Open Speech Event Bar Bool True
+			Valid Text StringID Bool True
+			TextStringID String 'IDGS_TPSPEECHEVENTS005_M12ONYX02'
+			Valid Speaker ID Bool True
+			SpeakerID String 'IDGS_TPSPEAKERNAMES_ONYX'
+		}
+		00000017 Speech Event List - Element
+		{
+			Name String 'M12JIM03'
+			Sound FileName String 'M12JIM03'
+			Text Color Colour( 0.784314, 0.478431, 0.960784, 1.000000 )
+			FaceTexture String 'TalkingHead_Character_Jim_Shocked'
+			TalkingHeadLocation Int 1
+			Has Been Played Once Bool False 
+			Is Secondary Speech Bool False 
+			Display Time Float 0.000000
+			Open Chat Bar Bool True
+			Open Talking Head Bool True
+			Has Text Bool True
+			Use Sound File Length Bool True
+			Always Open Speech Event Bar Bool True
+			Valid Text StringID Bool True
+			TextStringID String 'IDGS_TPSPEECHEVENTS005_M12JIM03'
+			Valid Speaker ID Bool True
+			SpeakerID String 'IDGS_TPSPEAKERNAMES_JIM'
+		}
+		00000017 Speech Event List - Element
+		{
+			Name String 'M12JIM04'
+			Sound FileName String 'M12JIM04'
+			Text Color Colour( 0.784314, 0.478431, 0.960784, 1.000000 )
+			FaceTexture String 'TalkingHead_Character_Jim_Shocked'
+			TalkingHeadLocation Int 1
+			Has Been Played Once Bool False 
+			Is Secondary Speech Bool False 
+			Display Time Float 0.000000
+			Open Chat Bar Bool True
+			Open Talking Head Bool True
+			Has Text Bool True
+			Use Sound File Length Bool True
+			Always Open Speech Event Bar Bool True
+			Valid Text StringID Bool True
+			TextStringID String 'IDGS_TPSPEECHEVENTS005_M12JIM04'
+			Valid Speaker ID Bool True
+			SpeakerID String 'IDGS_TPSPEAKERNAMES_JIM'
+		}
+		00000017 Speech Event List - Element
+		{
+			Name String 'M12ONYX03'
+			Sound FileName String 'M12ONYX03'
+			Text Color Colour( 1.000000, 0.850980, 0.000000, 1.000000 )
+			FaceTexture String 'TalkingHead_Character_Onyx_Stern'
+			TalkingHeadLocation Int 1
+			Has Been Played Once Bool False 
+			Is Secondary Speech Bool False 
+			Display Time Float 0.000000
+			Open Chat Bar Bool True
+			Open Talking Head Bool True
+			Has Text Bool True
+			Use Sound File Length Bool True
+			Always Open Speech Event Bar Bool True
+			Valid Text StringID Bool True
+			TextStringID String 'IDGS_TPSPEECHEVENTS005_M12ONYX03'
+			Valid Speaker ID Bool True
+			SpeakerID String 'IDGS_TPSPEAKERNAMES_ONYX'
+		}
+		00000017 Speech Event List - Element
+		{
+			Name String 'M12ONYX04'
+			Sound FileName String 'M12ONYX04'
+			Text Color Colour( 1.000000, 0.850980, 0.000000, 1.000000 )
+			FaceTexture String 'TalkingHead_Character_Onyx_Angry'
+			TalkingHeadLocation Int 1
+			Has Been Played Once Bool False 
+			Is Secondary Speech Bool False 
+			Display Time Float 0.000000
+			Open Chat Bar Bool True
+			Open Talking Head Bool True
+			Has Text Bool True
+			Use Sound File Length Bool True
+			Always Open Speech Event Bar Bool True
+			Valid Text StringID Bool True
+			TextStringID String 'IDGS_TPSPEECHEVENTS005_M12ONYX04'
+			Valid Speaker ID Bool True
+			SpeakerID String 'IDGS_TPSPEAKERNAMES_ONYX'
+		}
+		00000017 Speech Event List - Element
+		{
+			Name String 'M12JIM05'
+			Sound FileName String 'M12JIM05'
+			Text Color Colour( 0.784314, 0.478431, 0.960784, 1.000000 )
+			FaceTexture String 'TalkingHead_Character_Jim_Happy'
+			TalkingHeadLocation Int 1
+			Has Been Played Once Bool False 
+			Is Secondary Speech Bool False 
+			Display Time Float 0.000000
+			Open Chat Bar Bool True
+			Open Talking Head Bool True
+			Has Text Bool True
+			Use Sound File Length Bool True
+			Always Open Speech Event Bar Bool True
+			Valid Text StringID Bool True
+			TextStringID String 'IDGS_TPSPEECHEVENTS005_M12JIM05'
+			Valid Speaker ID Bool True
+			SpeakerID String 'IDGS_TPSPEAKERNAMES_JIM'
+		}
+		00000017 Speech Event List - Element
+		{
+			Name String 'M12JIM06'
+			Sound FileName String 'M12JIM06'
+			Text Color Colour( 0.784314, 0.478431, 0.960784, 1.000000 )
+			FaceTexture String 'TalkingHead_Character_Jim_Angry'
+			TalkingHeadLocation Int 1
+			Has Been Played Once Bool False 
+			Is Secondary Speech Bool False 
+			Display Time Float 0.000000
+			Open Chat Bar Bool True
+			Open Talking Head Bool True
+			Has Text Bool True
+			Use Sound File Length Bool True
+			Always Open Speech Event Bar Bool True
+			Valid Text StringID Bool True
+			TextStringID String 'IDGS_TPSPEECHEVENTS005_M12JIM06'
+			Valid Speaker ID Bool True
+			SpeakerID String 'IDGS_TPSPEAKERNAMES_JIM'
+		}
+		00000017 Speech Event List - Element
+		{
+			Name String 'M12JIM07'
+			Sound FileName String 'M12JIM07'
+			Text Color Colour( 0.784314, 0.478431, 0.960784, 1.000000 )
+			FaceTexture String 'TalkingHead_Character_Jim_Angry'
+			TalkingHeadLocation Int 1
+			Has Been Played Once Bool False 
+			Is Secondary Speech Bool False 
+			Display Time Float 0.000000
+			Open Chat Bar Bool True
+			Open Talking Head Bool True
+			Has Text Bool True
+			Use Sound File Length Bool True
+			Always Open Speech Event Bar Bool True
+			Valid Text StringID Bool True
+			TextStringID String 'IDGS_TPSPEECHEVENTS005_M12JIM07'
+			Valid Speaker ID Bool True
+			SpeakerID String 'IDGS_TPSPEAKERNAMES_JIM'
+		}
+		00000017 Speech Event List - Element
+		{
+			Name String 'M12ONYX05'
+			Sound FileName String 'M12ONYX05'
+			Text Color Colour( 1.000000, 0.850980, 0.000000, 1.000000 )
+			FaceTexture String 'TalkingHead_Character_Onyx_Stern'
+			TalkingHeadLocation Int 1
+			Has Been Played Once Bool False 
+			Is Secondary Speech Bool False 
+			Display Time Float 0.000000
+			Open Chat Bar Bool True
+			Open Talking Head Bool True
+			Has Text Bool True
+			Use Sound File Length Bool True
+			Always Open Speech Event Bar Bool True
+			Valid Text StringID Bool True
+			TextStringID String 'IDGS_TPSPEECHEVENTS005_M12ONYX05'
+			Valid Speaker ID Bool True
+			SpeakerID String 'IDGS_TPSPEAKERNAMES_ONYX'
+		}
+		00000017 Speech Event List - Element
+		{
+			Name String 'M12JIM08'
+			Sound FileName String 'M12JIM08'
+			Text Color Colour( 0.784314, 0.478431, 0.960784, 1.000000 )
+			FaceTexture String 'TalkingHead_Character_Jim_Concerned'
+			TalkingHeadLocation Int 1
+			Has Been Played Once Bool False 
+			Is Secondary Speech Bool False 
+			Display Time Float 0.000000
+			Open Chat Bar Bool True
+			Open Talking Head Bool True
+			Has Text Bool True
+			Use Sound File Length Bool True
+			Always Open Speech Event Bar Bool True
+			Valid Text StringID Bool True
+			TextStringID String 'IDGS_TPSPEECHEVENTS005_M12JIM08'
+			Valid Speaker ID Bool True
+			SpeakerID String 'IDGS_TPSPEAKERNAMES_JIM'
+		}
+		00000017 Speech Event List - Element
+		{
+			Name String 'M12JIM10'
+			Sound FileName String 'M12JIM10'
+			Text Color Colour( 0.784314, 0.478431, 0.960784, 1.000000 )
+			FaceTexture String 'TalkingHead_Character_Jim_Angry'
+			TalkingHeadLocation Int 1
+			Has Been Played Once Bool False 
+			Is Secondary Speech Bool False 
+			Display Time Float 0.000000
+			Open Chat Bar Bool True
+			Open Talking Head Bool True
+			Has Text Bool True
+			Use Sound File Length Bool True
+			Always Open Speech Event Bar Bool True
+			Valid Text StringID Bool True
+			TextStringID String 'IDGS_TPSPEECHEVENTS005_M12JIM10'
+			Valid Speaker ID Bool True
+			SpeakerID String 'IDGS_TPSPEAKERNAMES_JIM'
+		}
+		00000017 Speech Event List - Element
+		{
+			Name String 'M12PROCAMBASS02'
+			Sound FileName String 'M12PROCAMBASS02'
+			Text Color Colour( 0.749020, 0.858824, 0.749020, 1.000000 )
+			FaceTexture String 'TalkingHead_Character_Procyon_Diplomat_Angry'
+			TalkingHeadLocation Int 0
+			Has Been Played Once Bool False 
+			Is Secondary Speech Bool False 
+			Display Time Float 0.000000
+			Open Chat Bar Bool True
+			Open Talking Head Bool True
+			Has Text Bool True
+			Use Sound File Length Bool True
+			Always Open Speech Event Bar Bool True
+			Valid Text StringID Bool True
+			TextStringID String 'IDGS_TPSPEECHEVENTS005_M12PROCAMBASS02'
+			Valid Speaker ID Bool True
+			SpeakerID String 'IDGS_TPSPEAKERNAMES_EVAR'
+		}
+		PlayerAllianceInfoVector - Size Int 10
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 0
+			Player1 Int 1
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 0
+			Player1 Int 3
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 0
+			Player1 Int 4
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 1
+			Player1 Int 3
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 1
+			Player1 Int 4
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 2
+			Player1 Int 5
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 2
+			Player1 Int 7
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 3
+			Player1 Int 4
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 5
+			Player1 Int 7
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 6
+			Player1 Int 7
+		}
+		Team List - Size Int 0
+		Winning Team Int -1
+		Num Groups Int 15
+		00000006 Group
+		{
+			Name String 'PlayerPlaceholder'
+			World Object IDs - Size Int 4
+			World Object IDs - Element Int 1
+			World Object IDs - Element Int 2
+			World Object IDs - Element Int 3
+			World Object IDs - Element Int 4
+		}
+		00000007 Group
+		{
+			Name String 'Pirates'
+			World Object IDs - Size Int 5
+			World Object IDs - Element Int 5
+			World Object IDs - Element Int 6
+			World Object IDs - Element Int 7
+			World Object IDs - Element Int 8
+			World Object IDs - Element Int 9
+		}
+		00000003 Group
+		{
+			Name String 'Parliament'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 10
+		}
+		00000004 Group
+		{
+			Name String 'planets'
+			World Object IDs - Size Int 2
+			World Object IDs - Element Int 11
+			World Object IDs - Element Int 12
+		}
+		00000005 Group
+		{
+			Name String 'ProcICMain'
+			World Object IDs - Size Int 3
+			World Object IDs - Element Int 115
+			World Object IDs - Element Int 116
+			World Object IDs - Element Int 126
+		}
+		00000006 Group
+		{
+			Name String 'RoyalGuardOne'
+			World Object IDs - Size Int 4
+			World Object IDs - Element Int 19
+			World Object IDs - Element Int 20
+			World Object IDs - Element Int 107
+			World Object IDs - Element Int 117
+		}
+		00000008 Group
+		{
+			Name String 'Islands'
+			World Object IDs - Size Int 6
+			World Object IDs - Element Int 39
+			World Object IDs - Element Int 57
+			World Object IDs - Element Int 100
+			World Object IDs - Element Int 101
+			World Object IDs - Element Int 102
+			World Object IDs - Element Int 103
+		}
+		00000005 Group
+		{
+			Name String 'ProcICPirates'
+			World Object IDs - Size Int 3
+			World Object IDs - Element Int 59
+			World Object IDs - Element Int 60
+			World Object IDs - Element Int 61
+		}
+		00000004 Group
+		{
+			Name String 'RoyalGuardTwo'
+			World Object IDs - Size Int 2
+			World Object IDs - Element Int 64
+			World Object IDs - Element Int 65
+		}
+		00000009 Group
+		{
+			Name String 'ProcICOffScreen'
+			World Object IDs - Size Int 7
+			World Object IDs - Element Int 68
+			World Object IDs - Element Int 104
+			World Object IDs - Element Int 106
+			World Object IDs - Element Int 122
+			World Object IDs - Element Int 123
+			World Object IDs - Element Int 124
+			World Object IDs - Element Int 125
+		}
+		00000004 Group
+		{
+			Name String 'ProcICEnd'
+			World Object IDs - Size Int 2
+			World Object IDs - Element Int 71
+			World Object IDs - Element Int 85
+		}
+		00000004 Group
+		{
+			Name String 'ProcChaff'
+			World Object IDs - Size Int 2
+			World Object IDs - Element Int 82
+			World Object IDs - Element Int 121
+		}
+		00000007 Group
+		{
+			Name String 'ProcSubs'
+			World Object IDs - Size Int 5
+			World Object IDs - Element Int 75
+			World Object IDs - Element Int 78
+			World Object IDs - Element Int 79
+			World Object IDs - Element Int 80
+			World Object IDs - Element Int 81
+		}
+		00000002 Group
+		{
+			Name String 'DUMMYICEND'
+			World Object IDs - Size Int 0
+		}
+		00000005 Group
+		{
+			Name String 'DontBeASuck'
+			World Object IDs - Size Int 3
+			World Object IDs - Element Int 108
+			World Object IDs - Element Int 109
+			World Object IDs - Element Int 110
+		}
+		00003065 World Rules
+		{
+			Rule List Int 68
+			Rule Name String 'Init World ( Hidden From Designers )'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000001 Condition List
+			{
+				Type String 'World Initialize'
+			}
+			NumActions Int 41
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 1
+				Ship Name String 'Observer Primary'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'PlayerStart'
+				Primary Ship String 'TRUE'
+				Crew Skill Level String 'Average'
+				Boardable String 'TRUE'
+				Localized Ship Name String 'LOCALIZED SHIP NAME'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 2
+				Ship Name String 'Observer2'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'PlayerStart'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Average'
+				Boardable String 'TRUE'
+				Localized Ship Name String 'LOCALIZED SHIP NAME'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 3
+				Ship Name String 'Observer1'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'PlayerStart'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Average'
+				Boardable String 'TRUE'
+				Localized Ship Name String 'LOCALIZED SHIP NAME'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 4
+				Ship Name String 'Observer3'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'PlayerStart'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'TRUE'
+				Localized Ship Name String 'LOCALIZED SHIP NAME'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 5
+				Ship Name String 'Argentum'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Pirates'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'IDGS_TPCAMPAIGNSHIPNAMES00_ARGENTUM'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 6
+				Ship Name String 'Jolly Robert'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Pirates'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Average'
+				Boardable String 'TRUE'
+				Localized Ship Name String 'IDGS_TPCAMPAIGNSHIPNAMES00_THE_JOLLY_ROBERT'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 7
+				Ship Name String ''
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Pirates'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'CREW SKILL LEVEL'
+				Boardable String 'TRUE'
+				Localized Ship Name String 'IDGS_TPCAMPAIGNSHIPNAMES01_JACK_OF_CLUBS'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 8
+				Ship Name String ''
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Pirates'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Average'
+				Boardable String 'TRUE'
+				Localized Ship Name String 'IDGS_TPCAMPAIGNSHIPNAMES01_CROOKED_KEEL'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 9
+				Ship Name String 'Black Edward'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Pirates'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Average'
+				Boardable String 'TRUE'
+				Localized Ship Name String 'IDGS_TPCAMPAIGNSHIPNAMES00_BLACK_EDWARD'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 19
+				Ship Name String 'RLS Eglantine Price'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'RoyalGuard'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Average'
+				Boardable String 'TRUE'
+				Localized Ship Name String 'IDGS_TPCAMPAIGNSHIPNAMES00_RLS_EGLANTINE_PRICE'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 20
+				Ship Name String 'RLS Wilby Daniels'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'RoyalGuard'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Average'
+				Boardable String 'TRUE'
+				Localized Ship Name String 'IDGS_TPCAMPAIGNSHIPNAMES00_RLS_WILBY_DANIELS'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 59
+				Ship Name String ''
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Procs'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'IDGS_TPCAMPAIGNSHIPNAMES02_EXILE'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 60
+				Ship Name String ''
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Procs'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'IDGS_TPCAMPAIGNSHIPNAMES01_VENOM'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 61
+				Ship Name String ''
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Procs'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'IDGS_TPCAMPAIGNSHIPNAMES01_HUNTER'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 64
+				Ship Name String ''
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'RoyalGuard'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Average'
+				Boardable String 'TRUE'
+				Localized Ship Name String 'IDGS_TPCAMPAIGNSHIPNAMES01_RLS_MIGHTY'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 65
+				Ship Name String ''
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'RoyalGuard'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Average'
+				Boardable String 'TRUE'
+				Localized Ship Name String 'IDGS_TPCAMPAIGNSHIPNAMES01_RLS_NIGHTINGALE'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 68
+				Ship Name String 'Gladiator'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Procs2'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'IDGS_TPSHIPNAMEPROCYON01_GLADIATOR'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 71
+				Ship Name String 'Wailing Wind'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Procs'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'TRUE'
+				Localized Ship Name String 'IDGS_TPCAMPAIGNSHIPNAMES00_WAILING_WIND'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 75
+				Ship Name String 'Wraith'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Procs'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'IDGS_TPCAMPAIGNSHIPNAMES00_WRAITH'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 78
+				Ship Name String 'Shadow'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Procs'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'IDGS_TPCAMPAIGNSHIPNAMES00_SHADOW'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 79
+				Ship Name String 'Shade'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Procs'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'IDGS_TPCAMPAIGNSHIPNAMES00_SHADE'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 80
+				Ship Name String ''
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Procs'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'IDGS_TPCAMPAIGNSHIPNAMES00_SNAP_FROST'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 81
+				Ship Name String ''
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Procs'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'IDGS_TPCAMPAIGNSHIPNAMES00_SPECTER'
+			}
+			00000006 Action List
+			{
+				Type String '*State Init* Setup Island'
+				World Object ID Int 10
+				Combat Strength Int 100
+				Player/Owner String 'RoyalPalace'
+				Gunnery Level String 'Green'
+				AI Stance String 'Stance_Aggressive'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 82
+				Ship Name String 'PSR Daring'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Procs'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'TRUE'
+				Localized Ship Name String 'IDGS_TPCAMPAIGNSHIPNAMES01_PSR_DARING'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 85
+				Ship Name String 'Hunter'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Procs'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'IDGS_TPCAMPAIGNSHIPNAMES01_HUNTER'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 104
+				Ship Name String 'Windrush'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Procs2'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'TRUE'
+				Localized Ship Name String 'IDGS_TPSHIPNAMEPROCYON01_WINDRUSH'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 106
+				Ship Name String 'Winddagger'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Procs2'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'TRUE'
+				Localized Ship Name String 'IDGS_TPSHIPNAMEPROCYON01_WINDDAGGER'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 107
+				Ship Name String 'Lyonesse'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'RoyalGuard'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'IDGS_TPCAMPAIGNSHIPNAMES00_RLS_LYONESSE'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 108
+				Ship Name String 'Hailfist'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'DeathProcs'
+				Primary Ship String 'TRUE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'IDGS_TPSHIPNAMEPROCYON01_HAILFIST'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 109
+				Ship Name String 'Subjugatoin'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'DeathProcs'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'IDGS_TPSHIPNAMEPROCYON01_SUBJUGATION'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 110
+				Ship Name String 'Terror'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'DeathProcs'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'IDGS_TPSHIPNAMEPROCYON01_TERROR'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 115
+				Ship Name String 'Stalker'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Procs3'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'TRUE'
+				Localized Ship Name String 'IDGS_TPSHIPNAMEPROCYON01_STALKER'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 116
+				Ship Name String 'Retaliation'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Procs3'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'IDGS_TPSHIPNAMEPROCYON01_RETALIATION'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 117
+				Ship Name String 'RLS Reliant'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'RoyalGuard'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Average'
+				Boardable String 'TRUE'
+				Localized Ship Name String 'IDGS_TPCAMPAIGNSHIPNAMES01_RLS_RELIANT'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 121
+				Ship Name String 'PSR Eclipse'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Procs'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'TRUE'
+				Localized Ship Name String 'IDGS_TPCAMPAIGNSHIPNAMES01_PSR_ECLIPSE'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 122
+				Ship Name String 'Diplomacy'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Procs2'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'TRUE'
+				Localized Ship Name String 'IDGS_TPCAMPAIGNSHIPNAMES01_PSR_DIPLOMACY'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 123
+				Ship Name String 'Conquest'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Procs2'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'TRUE'
+				Localized Ship Name String 'IDGS_TPCAMPAIGNSHIPNAMES01_PSR_CONQUEST'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 124
+				Ship Name String 'Gikar'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Procs2'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'IDGS_TPSHIPNAMEPROCYON01_GIKAR'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 125
+				Ship Name String 'Korsh'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Procs2'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'IDGS_TPSHIPNAMEPROCYON01_KORSH'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 126
+				Ship Name String 'Revenge'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Procs3'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'IDGS_TPSHIPNAMEPROCYON00_REVENGE'
+			}
+			Rule Name String 'MissionStart'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000001 Condition List
+			{
+				Type String 'World Initialize'
+			}
+			NumActions Int 27
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Hold Position'
+				Group/Unit Name String 'ProcICOffScreen'
+				Boolean String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Visibility'
+				Group/Unit Name String 'ProcICOffScreen'
+				Boolean String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Hold Position'
+				Group/Unit Name String 'ProcICEnd'
+				Boolean String 'TRUE'
+			}
+			00000004 Action List
+			{
+				Type String 'Set Group/Unit Cloak State'
+				Group Name String 'ProcSubs'
+				Cloak State String 'TRUE'
+				AI Can Override String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Hold Position'
+				Group/Unit Name String 'ProcSubs'
+				Boolean String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Mission Essential'
+				Group Name String 'Player0 Group,HUMAN CONTROLLED COMMAND SHIP'
+				Boolean String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Visibility'
+				Group/Unit Name String 'ProcICEnd'
+				Boolean String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Vulnerability'
+				Group Name String 'ProcICEnd'
+				Invulnerable Percent Float 1.000000
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Vulnerability'
+				Group Name String 'RoyalGuardOne'
+				Invulnerable Percent Float 0.750000
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Vulnerability'
+				Group Name String 'ProcICMain'
+				Invulnerable Percent Float 0.750000
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Border Zone'
+				Group/Unit Name String 'RoyalGuardTwo'
+				Polygon Name String 'CloseToSecondBattle'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Border Zone'
+				Group/Unit Name String 'ProcICPirates'
+				Polygon Name String 'CloseToSecondBattle'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Lifeboat Creation State'
+				Group Name String 'Pirates'
+				Boolean String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Lifeboat Creation State'
+				Group Name String 'Player0 Group'
+				Boolean String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Lifeboat Creation State'
+				Group Name String 'RoyalGuardOne'
+				Boolean String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Hold Position'
+				Group/Unit Name String 'DUMMYICEND'
+				Boolean String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Hold Position'
+				Group/Unit Name String 'DontBeASuck'
+				Boolean String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Visibility'
+				Group/Unit Name String 'DontBeASuck'
+				Boolean String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Hold Position'
+				Group/Unit Name String 'ProcChaff'
+				Boolean String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Border Zone'
+				Group/Unit Name String 'RoyalGuardOne'
+				Polygon Name String 'RoyalOneBoundary'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Border Zone'
+				Group/Unit Name String 'ProcChaff'
+				Polygon Name String 'ChaffBorderZone'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Border Zone Return Point'
+				Group/Unit Name String 'RoyalGuardOne'
+				Pointset Name String 'BattleOneBorderReturn'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Border Zone Return Point'
+				Group/Unit Name String 'ProcChaff'
+				Pointset Name String 'BattleOneBorderReturn'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Visibility'
+				Group/Unit Name String 'ProcSubs'
+				Boolean String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Dockable'
+				Group Name String 'Parliament'
+				Boolean String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Hold Position'
+				Group/Unit Name String 'Player0 Group'
+				Boolean String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Fleet Hold Fire'
+				PLAYER FLEET String 'PlayerStart'
+				HOLD FIRE String 'TRUE'
+			}
+			Rule Name String 'OpeningNIS'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000001 Condition List
+			{
+				Type String 'World Initialize'
+			}
+			NumActions Int 6
+			00000003 Action List
+			{
+				Type String 'NIS Start'
+				All Objects Visible String 'TRUE'
+				Open NIS bars instantly String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Path'
+				Path Name String 'OpeningNISFirstShot'
+				Jump to start String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Speed'
+				Acceleration Float 10.000000
+				Max Velocity Float 40.000000
+			}
+			00000002 Action List
+			{
+				Type String 'NIS Focus camera on Point'
+				Point Set Name String 'LookAtPlanets'
+			}
+			00000002 Action List
+			{
+				Type String 'Start Timer'
+				Timer Name String 'OpeningNISTimer'
+			}
+			00000006 Action List
+			{
+				Type String 'Play Music Track'
+				File Name String 'NEUTRL_WonderGoo'
+				Crossfade transition String 'FALSE'
+				Fade Out Time ( secs ) Float 0.000000
+				Fade In Time ( secs ) Float 0.000000
+				New Volume ( 0 to 1 ) Float 0.850000
+			}
+			Rule Name String 'OpeningNIS2'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'OpeningNISTimer'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 5
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'NIS Focus camera on Point'
+				Point Set Name String 'LookAtParl'
+			}
+			Rule Name String 'OpeningNIS3'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'OpeningNISTimer'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 10
+			}
+			NumActions Int 4
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Path'
+				Path Name String 'NISLookAtRoyalGuard'
+				Jump to start String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Speed'
+				Acceleration Float 4.000000
+				Max Velocity Float 6.000000
+			}
+			00000002 Action List
+			{
+				Type String 'NIS Focus camera on Group/Unit'
+				GroupUnit Name String 'RoyalGuardOne'
+			}
+			00000006 Action List
+			{
+				Type String 'Play Music Track'
+				File Name String 'BTL_PrepareForBattle_Bass'
+				Crossfade transition String 'TRUE'
+				Fade Out Time ( secs ) Float 5.000000
+				Fade In Time ( secs ) Float 1.000000
+				New Volume ( 0 to 1 ) Float 0.900000
+			}
+			Rule Name String 'OpeningNIS4'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'OpeningNISTimer'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 12
+			}
+			NumActions Int 2
+			00000002 Action List
+			{
+				Type String 'Play speech event'
+				Speech Event Name String 'M12AMELIA01'
+			}
+			00000002 Action List
+			{
+				Type String 'Stop Timer'
+				Timer Name String 'OpeningNISTimer'
+			}
+			Rule Name String 'OpeningNIS5'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000002 Condition List
+			{
+				Type String 'Speech Event Played Once'
+				Speech Event Name String 'M12AMELIA01'
+			}
+			NumActions Int 4
+			00000006 Action List
+			{
+				Type String 'Play Music Track'
+				File Name String 'BTL_PrepareForBattle'
+				Crossfade transition String 'TRUE'
+				Fade Out Time ( secs ) Float 3.000000
+				Fade In Time ( secs ) Float 3.000000
+				New Volume ( 0 to 1 ) Float 0.900000
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Path'
+				Path Name String 'NISLookAtProcs'
+				Jump to start String 'TRUE'
+			}
+			00000002 Action List
+			{
+				Type String 'NIS Focus camera on Group/Unit'
+				GroupUnit Name String 'ProcICMain,Retaliation'
+			}
+			00000002 Action List
+			{
+				Type String 'Start Timer'
+				Timer Name String 'OpeningNIStimer2'
+			}
+			Rule Name String 'OpeningNIS6'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'OpeningNIStimer2'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 2
+			}
+			NumActions Int 2
+			00000002 Action List
+			{
+				Type String 'Play speech event'
+				Speech Event Name String 'M12PROCAMBASS01'
+			}
+			00000002 Action List
+			{
+				Type String 'Stop Timer'
+				Timer Name String 'OpeningNIStimer2'
+			}
+			Rule Name String 'OpeningNIS7'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000002 Condition List
+			{
+				Type String 'Speech Event Played Once'
+				Speech Event Name String 'M12PROCAMBASS01'
+			}
+			NumActions Int 4
+			00000003 Action List
+			{
+				Type String 'GroupA to attack GroupB'
+				Attack Group String 'ProcICMain'
+				Target Group String 'RoyalGuardOne'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'ProcICMain'
+				AI Stance String 'Stance_Aggressive'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'RoyalGuardOne'
+				AI Stance String 'Stance_Aggressive'
+			}
+			00000002 Action List
+			{
+				Type String 'Start Timer'
+				Timer Name String 'OpeningNISTimer3'
+			}
+			Rule Name String 'OpeningNIS8'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'OpeningNISTimer3'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 3
+			}
+			NumActions Int 3
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Path'
+				Path Name String 'NISLookAtPlayerandPirates'
+				Jump to start String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Speed'
+				Acceleration Float 6.000000
+				Max Velocity Float 15.000000
+			}
+			00000002 Action List
+			{
+				Type String 'NIS Focus camera on Group/Unit'
+				GroupUnit Name String 'Player0 Group,HUMAN CONTROLLED COMMAND SHIP'
+			}
+			Rule Name String 'OpeningNIS9'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'OpeningNISTimer3'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 6
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Play speech event'
+				Speech Event Name String 'M12JIM01'
+			}
+			Rule Name String 'OpeningNIS10'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000002 Condition List
+			{
+				Type String 'Speech Event Played Once'
+				Speech Event Name String 'M12JIM01'
+			}
+			NumActions Int 5
+			00000002 Action List
+			{
+				Type String 'Play speech event'
+				Speech Event Name String 'M12SILVER01'
+			}
+			00000002 Action List
+			{
+				Type String 'NIS Focus camera on Group/Unit'
+				GroupUnit Name String 'Pirates,Argentum'
+			}
+			00000004 Action List
+			{
+				Type String 'Set FleetFormation Type'
+				Player Name String 'Pirates'
+				Formation Type String 'Custom'
+				Hold Formation String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Pirates'
+				AI Stance String 'Stance Persistant'
+			}
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'Pirates'
+				Path Name String 'PiratesToRoyalTwo'
+				Follow Mode String 'to end'
+				Find Closest Point String 'TRUE'
+			}
+			Rule Name String 'OpeningNIS11'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000002 Condition List
+			{
+				Type String 'Speech Event Played Once'
+				Speech Event Name String 'M12SILVER01'
+			}
+			NumActions Int 12
+			00000001 Action List
+			{
+				Type String 'NIS End'
+			}
+			00000005 Action List
+			{
+				Type String 'Focus Camera On Group'
+				GroupUnit Name String 'Player0 Group,HUMAN CONTROLLED COMMAND SHIP'
+				Distance Float 90.000000
+				Relative Angle Float 20.000000
+				Use Transition String 'TRUE'
+			}
+			00000002 Action List
+			{
+				Type String 'Set Current Objective Point'
+				Objective Point String 'RoyalGuard'
+			}
+			00000002 Action List
+			{
+				Type String 'Set Current Objective Point Visible On Starmap'
+				Visible On Starmap String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Objective Task Active State'
+				Objective Task String 'SaveRoyalGuard'
+				Active State String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Player0 Group'
+				AI Stance String 'Stance_Aggressive'
+			}
+			00000002 Action List
+			{
+				Type String 'Start Timer'
+				Timer Name String 'AmeliaInvulPause'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Hold Position'
+				Group/Unit Name String 'ProcChaff'
+				Boolean String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'ProcChaff'
+				AI Stance String 'Stance_Aggressive'
+			}
+			00000003 Action List
+			{
+				Type String 'GroupA to attack GroupB'
+				Attack Group String 'ProcChaff'
+				Target Group String 'Player0 Group'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Hold Position'
+				Group/Unit Name String 'Player0 Group'
+				Boolean String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Fleet Hold Fire'
+				PLAYER FLEET String 'PlayerStart'
+				HOLD FIRE String 'FALSE'
+			}
+			Rule Name String 'ProcsOffscreenToParl'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 2
+			00000003 Condition List
+			{
+				Type String 'Flag Condition'
+				Flag Name String 'TriggerProcICOffscreen'
+				Boolean Value String 'TRUE'
+			}
+			00000003 Condition List
+			{
+				Type String 'Flag Condition'
+				Flag Name String 'OffScreenTriggerHappened'
+				Boolean Value String 'FALSE'
+			}
+			NumActions Int 6
+			00000004 Action List
+			{
+				Type String 'Set FleetFormation Type'
+				Player Name String 'Procs2'
+				Formation Type String 'Custom'
+				Hold Formation String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Visibility'
+				Group/Unit Name String 'ProcICOffScreen'
+				Boolean String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Hold Position'
+				Group/Unit Name String 'ProcICOffScreen'
+				Boolean String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'ProcICOffScreen'
+				AI Stance String 'Stance Persistant'
+			}
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'ProcICOffScreen'
+				Path Name String 'ProcICOffScreenToParl'
+				Follow Mode String 'to end'
+				Find Closest Point String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Flag Action'
+				Flag Name String 'OffScreenTriggerHappened'
+				Boolean Value String 'TRUE'
+			}
+			Rule Name String 'ProcsOffScreenCloseToParl'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000003 Condition List
+			{
+				Type String 'Enter Volume'
+				Group Name String 'ProcICOffScreen'
+				Volume Name String 'OffScreenTrigger'
+			}
+			NumActions Int 7
+			00000002 Action List
+			{
+				Type String 'Play speech event'
+				Speech Event Name String 'M12SILVER02'
+			}
+			00000002 Action List
+			{
+				Type String 'Play speech event'
+				Speech Event Name String 'M12JIM02'
+			}
+			00000002 Action List
+			{
+				Type String 'Play speech event'
+				Speech Event Name String 'M12SILVER03'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Objective Task Active State'
+				Objective Task String 'DefendTheQueen'
+				Active State String 'TRUE'
+			}
+			00000002 Action List
+			{
+				Type String 'Set Current Objective Point'
+				Objective Point String 'Parl'
+			}
+			00000002 Action List
+			{
+				Type String 'Set Current Objective Point Visible On Starmap'
+				Visible On Starmap String 'TRUE'
+			}
+			00000002 Action List
+			{
+				Type String 'Clear Group/Unit Border Zone'
+				Group/Unit Name String 'ProcChaff'
+			}
+			Rule Name String 'ProcsOffScreenCloseToParl-OnyxWarning'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 3
+			00000005 Condition List
+			{
+				Type String 'Group to Group Distance'
+				GroupA Name String 'ProcICOffScreen'
+				Equivalence String 'Less Than'
+				Distance Int 400
+				GroupB Name String 'Parliament'
+			}
+			00000003 Condition List
+			{
+				Type String 'Flag Condition'
+				Flag Name String 'PlayerOutsideOfParlVolume'
+				Boolean Value String 'FALSE'
+			}
+			00000003 Condition List
+			{
+				Type String 'Flag Condition'
+				Flag Name String 'BombardWarningHasPlayed'
+				Boolean Value String 'FALSE'
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Play speech event'
+				Speech Event Name String 'M12ONYX00'
+			}
+			Rule Name String 'RoyalGuardOneDead'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000002 Condition List
+			{
+				Type String 'Group Destroyed'
+				Group Name String 'RoyalGuardOne'
+			}
+			NumActions Int 5
+			00000003 Action List
+			{
+				Type String 'Set Flag Action'
+				Flag Name String 'TriggerProcICOffscreen'
+				Boolean Value String 'TRUE'
+			}
+			00000004 Action List
+			{
+				Type String 'Set FleetFormation Type'
+				Player Name String 'Procs2'
+				Formation Type String 'Diamond'
+				Hold Formation String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'ProcICMain'
+				AI Stance String 'Stance Persistant'
+			}
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'ProcICMain'
+				Path Name String 'MainProcsToParl'
+				Follow Mode String 'to end'
+				Find Closest Point String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Objective Task Failed State'
+				Objective Task String 'SaveRoyalGuard'
+				Failed State String 'TRUE'
+			}
+			Rule Name String 'RoyalTwoBattleStart'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000003 Condition List
+			{
+				Type String 'Enter Volume'
+				Group Name String 'Pirates'
+				Volume Name String 'CloseToSecondBattle'
+			}
+			NumActions Int 2
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'ProcICPirates'
+				AI Stance String 'Stance_Aggressive'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Border Zone'
+				Group/Unit Name String 'Pirates'
+				Polygon Name String 'RoyalGuardTwoFight'
+			}
+			Rule Name String 'PlayerIgnoresObjSaveRoyal'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000003 Condition List
+			{
+				Type String 'Enter Volume'
+				Group Name String 'Player0 Group,HUMAN CONTROLLED COMMAND SHIP'
+				Volume Name String 'RoyalGuardTwoFight'
+			}
+			NumActions Int 1
+			00000003 Action List
+			{
+				Type String 'Set Flag Action'
+				Flag Name String 'TriggerProcICOffscreen'
+				Boolean Value String 'TRUE'
+			}
+			Rule Name String 'PlayerHeadsRightToParl'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000003 Condition List
+			{
+				Type String 'Enter Volume'
+				Group Name String 'Player0 Group,HUMAN CONTROLLED COMMAND SHIP'
+				Volume Name String 'PlayerHeadsRightToParl'
+			}
+			NumActions Int 4
+			00000003 Action List
+			{
+				Type String 'Set Flag Action'
+				Flag Name String 'TriggerProcICOffscreen'
+				Boolean Value String 'TRUE'
+			}
+			00000004 Action List
+			{
+				Type String 'Set FleetFormation Type'
+				Player Name String 'Pirates'
+				Formation Type String 'Custom'
+				Hold Formation String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Pirates,Argentum'
+				AI Stance String 'Stance Persistant'
+			}
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'Pirates,Argentum'
+				Path Name String 'SilverLeaves'
+				Follow Mode String 'to end'
+				Find Closest Point String 'TRUE'
+			}
+			Rule Name String 'SicSubsOnPlayer'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000003 Condition List
+			{
+				Type String 'Enter Volume'
+				Group Name String 'Player0 Group,HUMAN CONTROLLED COMMAND SHIP'
+				Volume Name String 'NearParl'
+			}
+			NumActions Int 5
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Visibility'
+				Group/Unit Name String 'ProcSubs'
+				Boolean String 'TRUE'
+			}
+			00000004 Action List
+			{
+				Type String 'Set Group/Unit Cloak State'
+				Group Name String 'ProcSubs'
+				Cloak State String 'TRUE'
+				AI Can Override String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Hold Position'
+				Group/Unit Name String 'ProcSubs,Wraith'
+				Boolean String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'ProcSubs,Wraith'
+				AI Stance String 'Stance_Aggressive'
+			}
+			00000003 Action List
+			{
+				Type String 'GroupA to attack GroupB'
+				Attack Group String 'ProcSubs,Wraith'
+				Target Group String 'Player0 Group,HUMAN CONTROLLED COMMAND SHIP'
+			}
+			Rule Name String 'PlayerAttackedbySubs'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Group/Unit Fired X Shots'
+				Group/Unit Name String 'ProcSubs,Wraith'
+				Number Of Rounds Fired Int 0
+				Equivalence String 'Greater Than'
+			}
+			NumActions Int 10
+			00000003 Action List
+			{
+				Type String 'NIS Start'
+				All Objects Visible String 'FALSE'
+				Open NIS bars instantly String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Path'
+				Path Name String 'TorpWatch'
+				Jump to start String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Speed'
+				Acceleration Float 5.000000
+				Max Velocity Float 20.000000
+			}
+			00000002 Action List
+			{
+				Type String 'NIS Focus camera on Group/Unit'
+				GroupUnit Name String 'ProcSubs,Wraith'
+			}
+			00000002 Action List
+			{
+				Type String 'Play speech event'
+				Speech Event Name String 'M12ONYX02'
+			}
+			00000002 Action List
+			{
+				Type String 'Play speech event'
+				Speech Event Name String 'M12JIM03'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Max Throttle Percent (Max user settable)'
+				Group Name String 'Player0 Group'
+				Throttle Percent Float 0.250000
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Vulnerability'
+				Group Name String 'Player0 Group'
+				Invulnerable Percent Float 0.100000
+			}
+			00000006 Action List
+			{
+				Type String 'Play Music Track'
+				File Name String 'NEUTRL_IronClad_Spooky'
+				Crossfade transition String 'TRUE'
+				Fade Out Time ( secs ) Float 1.000000
+				Fade In Time ( secs ) Float 1.000000
+				New Volume ( 0 to 1 ) Float 0.900000
+			}
+			00000003 Action List
+			{
+				Type String 'Set Flag Action'
+				Flag Name String 'InSubNIS'
+				Boolean Value String 'TRUE'
+			}
+			Rule Name String 'PlayerAttackedbySubs2'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000002 Condition List
+			{
+				Type String 'Speech Event Played Once'
+				Speech Event Name String 'M12JIM03'
+			}
+			NumActions Int 4
+			00000002 Action List
+			{
+				Type String 'Start Timer'
+				Timer Name String 'SubTimer'
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Path'
+				Path Name String 'LookAtSubs'
+				Jump to start String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Speed'
+				Acceleration Float 2.000000
+				Max Velocity Float 5.000000
+			}
+			00000002 Action List
+			{
+				Type String 'NIS Focus camera on Group/Unit'
+				GroupUnit Name String 'ProcSubs,Shadow'
+			}
+			Rule Name String 'PlayerAttackedbySubs3'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'SubTimer'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 2
+			}
+			NumActions Int 1
+			00000004 Action List
+			{
+				Type String 'Set Group/Unit Cloak State'
+				Group Name String 'ProcSubs'
+				Cloak State String 'FALSE'
+				AI Can Override String 'FALSE'
+			}
+			Rule Name String 'PlayerAttackedbySubs4'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'SubTimer'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 7
+			}
+			NumActions Int 7
+			00000001 Action List
+			{
+				Type String 'NIS End'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Max Throttle Percent (Max user settable)'
+				Group Name String 'Player0 Group'
+				Throttle Percent Float 1.000000
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Vulnerability'
+				Group Name String 'Player0 Group'
+				Invulnerable Percent Float 0.000000
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Hold Position'
+				Group/Unit Name String 'ProcSubs'
+				Boolean String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'ProcSubs'
+				AI Stance String 'Stance_Aggressive'
+			}
+			00000003 Action List
+			{
+				Type String 'GroupA to attack GroupB'
+				Attack Group String 'ProcSubs'
+				Target Group String 'Player0 Group'
+			}
+			00000004 Action List
+			{
+				Type String 'Set Group/Unit Cloak State'
+				Group Name String 'ProcSubs'
+				Cloak State String 'FALSE'
+				AI Can Override String 'TRUE'
+			}
+			Rule Name String 'PlayerAttackedbySubs5'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'SubTimer'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 10
+			}
+			NumActions Int 5
+			00000002 Action List
+			{
+				Type String 'Play speech event'
+				Speech Event Name String 'M12JIM04'
+			}
+			00000002 Action List
+			{
+				Type String 'Play speech event'
+				Speech Event Name String 'M12ONYX03'
+			}
+			00000002 Action List
+			{
+				Type String 'Play speech event'
+				Speech Event Name String 'M12JIM05'
+			}
+			00000006 Action List
+			{
+				Type String 'Play Music Track'
+				File Name String 'BTL_IronClad_SecondEncountr'
+				Crossfade transition String 'TRUE'
+				Fade Out Time ( secs ) Float 3.000000
+				Fade In Time ( secs ) Float 2.000000
+				New Volume ( 0 to 1 ) Float 0.900000
+			}
+			00000003 Action List
+			{
+				Type String 'Set Flag Action'
+				Flag Name String 'InSubNIS'
+				Boolean Value String 'FALSE'
+			}
+			Rule Name String 'ProcsAttackParlment'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000003 Condition List
+			{
+				Type String 'Enter Volume'
+				Group Name String 'ProcICOffScreen'
+				Volume Name String 'NextToParl'
+			}
+			NumActions Int 14
+			00000004 Action List
+			{
+				Type String 'Set FleetFormation Type'
+				Player Name String 'Procs2'
+				Formation Type String 'None'
+				Hold Formation String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'ProcICOffScreen'
+				AI Stance String 'Stance_Aggressive'
+			}
+			00000003 Action List
+			{
+				Type String 'GroupA to attack GroupB'
+				Attack Group String 'ProcICOffScreen'
+				Target Group String 'Parliament'
+			}
+			00000002 Action List
+			{
+				Type String 'Start Timer'
+				Timer Name String 'BombardingTimer'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'ProcICOffScreen,Gikar'
+				AI Stance String 'Stance Persistant'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'ProcICOffScreen,Gladiator'
+				AI Stance String 'Stance Persistant'
+			}
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'ProcICOffScreen,Gikar'
+				Path Name String 'ProcOffScreenLoop1'
+				Follow Mode String 'loop'
+				Find Closest Point String 'TRUE'
+			}
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'ProcICOffScreen,Gladiator'
+				Path Name String 'ProcOffScreenLoop2'
+				Follow Mode String 'loop'
+				Find Closest Point String 'TRUE'
+			}
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'ProcICOffScreen,Windrush'
+				Path Name String 'ProcOffScreenLoop1'
+				Follow Mode String 'loop'
+				Find Closest Point String 'TRUE'
+			}
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'ProcICOffScreen,Winddagger'
+				Path Name String 'ProcOffScreenLoop2'
+				Follow Mode String 'loop'
+				Find Closest Point String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'ProcICOffScreen,Windrush'
+				AI Stance String 'Stance Persistant'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'ProcICOffScreen,Korsh'
+				AI Stance String 'Stance_Aggressive'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'ProcICOffScreen,Winddagger'
+				AI Stance String 'Stance Persistant'
+			}
+			00000003 Action List
+			{
+				Type String 'GroupA to attack GroupB'
+				Attack Group String 'ProcICOffScreen,Korsh'
+				Target Group String 'Player0 Group,HUMAN CONTROLLED COMMAND SHIP'
+			}
+			Rule Name String 'ProcsAttackParlmentWarning'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'BombardingTimer'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 5
+			}
+			NumActions Int 2
+			00000002 Action List
+			{
+				Type String 'Play speech event'
+				Speech Event Name String 'M12ONYX01'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Flag Action'
+				Flag Name String 'BombardWarningHasPlayed'
+				Boolean Value String 'TRUE'
+			}
+			Rule Name String 'ProcsBoarding'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'BombardingTimer'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 55
+			}
+			NumActions Int 5
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Boardable'
+				Group Name String 'Parliament'
+				Boolean String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'ProcICOffScreen,Conquest'
+				AI Stance String 'Stance Persistant'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'ProcICOffScreen,Diplomacy'
+				AI Stance String 'Stance Persistant'
+			}
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'ProcICOffScreen,Conquest'
+				Path Name String 'BoardingOne'
+				Follow Mode String 'to end'
+				Find Closest Point String 'TRUE'
+			}
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'ProcICOffScreen,Diplomacy'
+				Path Name String 'BoardingTwo'
+				Follow Mode String 'to end'
+				Find Closest Point String 'TRUE'
+			}
+			Rule Name String 'ProcsBoarding-Conquest'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 2
+			00000003 Condition List
+			{
+				Type String 'Enter Volume'
+				Group Name String 'ProcICOffScreen,Conquest'
+				Volume Name String 'LandingBoundary'
+			}
+			00000003 Condition List
+			{
+				Type String 'Flag Condition'
+				Flag Name String 'LandingTriggerHappened'
+				Boolean Value String 'FALSE'
+			}
+			NumActions Int 2
+			00000003 Action List
+			{
+				Type String 'Set Flag Action'
+				Flag Name String 'Docked'
+				Boolean Value String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Flag Action'
+				Flag Name String 'LandingTriggerHappened'
+				Boolean Value String 'TRUE'
+			}
+			Rule Name String 'ProcsBoarding-Diplomacy'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 2
+			00000003 Condition List
+			{
+				Type String 'Enter Volume'
+				Group Name String 'ProcICOffScreen,Diplomacy'
+				Volume Name String 'LandingBoundary'
+			}
+			00000003 Condition List
+			{
+				Type String 'Flag Condition'
+				Flag Name String 'LandingTriggerHappened'
+				Boolean Value String 'FALSE'
+			}
+			NumActions Int 2
+			00000003 Action List
+			{
+				Type String 'Set Flag Action'
+				Flag Name String 'Docked'
+				Boolean Value String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Flag Action'
+				Flag Name String 'LandingTriggerHappened'
+				Boolean Value String 'TRUE'
+			}
+			Rule Name String 'ProcsBoardingSpeech'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 3
+			00000003 Condition List
+			{
+				Type String 'Flag Condition'
+				Flag Name String 'Docked'
+				Boolean Value String 'TRUE'
+			}
+			00000003 Condition List
+			{
+				Type String 'Flag Condition'
+				Flag Name String 'DockedAlreadyHappened'
+				Boolean Value String 'FALSE'
+			}
+			00000003 Condition List
+			{
+				Type String 'Flag Condition'
+				Flag Name String 'InSubNIS'
+				Boolean Value String 'FALSE'
+			}
+			NumActions Int 3
+			00000003 Action List
+			{
+				Type String 'Set Flag Action'
+				Flag Name String 'DockedAlreadyHappened'
+				Boolean Value String 'TRUE'
+			}
+			00000002 Action List
+			{
+				Type String 'Play speech event'
+				Speech Event Name String 'M12ONYX04'
+			}
+			00000002 Action List
+			{
+				Type String 'Play speech event'
+				Speech Event Name String 'M12JIM06'
+			}
+			Rule Name String 'BoardingOneStart'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000003 Condition List
+			{
+				Type String 'Enter Volume'
+				Group Name String 'ProcICOffScreen,Conquest'
+				Volume Name String 'StartBoardingOne'
+			}
+			NumActions Int 2
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Hold Position'
+				Group/Unit Name String 'ProcICOffScreen,Conquest'
+				Boolean String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Max Throttle Percent (Max user settable)'
+				Group Name String 'ProcICOffScreen,Conquest'
+				Throttle Percent Float 1.000000
+			}
+			Rule Name String 'BoardingTwoStart'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000003 Condition List
+			{
+				Type String 'Enter Volume'
+				Group Name String 'ProcICOffScreen,Diplomacy'
+				Volume Name String 'StartBoardingTwo'
+			}
+			NumActions Int 2
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Hold Position'
+				Group/Unit Name String 'ProcICOffScreen,Diplomacy'
+				Boolean String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Max Throttle Percent (Max user settable)'
+				Group Name String 'ProcICOffScreen,Diplomacy'
+				Throttle Percent Float 1.000000
+			}
+			Rule Name String 'FinalGambit'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Group has X members'
+				Group Name String 'ProcICOffScreen'
+				Equivalence String 'Less Than'
+				number Int 3
+			}
+			NumActions Int 18
+			00000002 Action List
+			{
+				Type String 'Play speech event'
+				Speech Event Name String 'M12JIM07'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Hold Position'
+				Group/Unit Name String 'ProcICEnd'
+				Boolean String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Vulnerability'
+				Group Name String 'ProcICEnd'
+				Invulnerable Percent Float 0.000000
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'ProcICEnd'
+				AI Stance String 'Stance Persistant'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Visibility'
+				Group/Unit Name String 'ProcICEnd'
+				Boolean String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Pirates'
+				AI Stance String 'Stance Persistant'
+			}
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'ProcICEnd'
+				Path Name String 'EndProcToParl'
+				Follow Mode String 'to end'
+				Find Closest Point String 'TRUE'
+			}
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'Pirates'
+				Path Name String 'SilverLeaves'
+				Follow Mode String 'to end'
+				Find Closest Point String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'ProcICPirates'
+				AI Stance String 'Stance Persistant'
+			}
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'ProcICPirates'
+				Path Name String 'SilverLeaves'
+				Follow Mode String 'to end'
+				Find Closest Point String 'TRUE'
+			}
+			00000002 Action List
+			{
+				Type String 'Clear Group/Unit Border Zone'
+				Group/Unit Name String 'Pirates'
+			}
+			00000002 Action List
+			{
+				Type String 'Clear Group/Unit Border Zone'
+				Group/Unit Name String 'ProcICPirates'
+			}
+			00000002 Action List
+			{
+				Type String 'Clear Group/Unit Border Zone'
+				Group/Unit Name String 'RoyalGuardTwo'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'RoyalGuardTwo'
+				AI Stance String 'Stance Persistant'
+			}
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'RoyalGuardTwo'
+				Path Name String 'SilverLeaves'
+				Follow Mode String 'to end'
+				Find Closest Point String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'ProcICOffScreen,Conquest'
+				AI Stance String 'Stance_Aggressive'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'ProcICOffScreen,Diplomacy'
+				AI Stance String 'Stance_Aggressive'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Hold Position'
+				Group/Unit Name String 'ProcICOffScreen'
+				Boolean String 'FALSE'
+			}
+			Rule Name String 'LookAtEndIC'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000003 Condition List
+			{
+				Type String 'Enter Volume'
+				Group Name String 'ProcICEnd,Wailing Wind'
+				Volume Name String 'EndProcTrigger'
+			}
+			NumActions Int 8
+			00000003 Action List
+			{
+				Type String 'NIS Start'
+				All Objects Visible String 'TRUE'
+				Open NIS bars instantly String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Path'
+				Path Name String 'EndICNIS'
+				Jump to start String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Speed'
+				Acceleration Float 15.000000
+				Max Velocity Float 25.000000
+			}
+			00000002 Action List
+			{
+				Type String 'NIS Focus camera on Group/Unit'
+				GroupUnit Name String 'ProcICEnd,Wailing Wind'
+			}
+			00000002 Action List
+			{
+				Type String 'Play speech event'
+				Speech Event Name String 'M12ONYX05'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Vulnerability'
+				Group Name String 'Player0 Group'
+				Invulnerable Percent Float 0.100000
+			}
+			00000006 Action List
+			{
+				Type String 'Play Music Track'
+				File Name String 'TRANS_BassNote_Sting'
+				Crossfade transition String 'TRUE'
+				Fade Out Time ( secs ) Float 2.000000
+				Fade In Time ( secs ) Float 1.000000
+				New Volume ( 0 to 1 ) Float 0.900000
+			}
+			00000003 Action List
+			{
+				Type String 'GroupA to attack GroupB'
+				Attack Group String 'ProcICEnd,Wailing Wind'
+				Target Group String 'Player0 Group,HUMAN CONTROLLED COMMAND SHIP'
+			}
+			Rule Name String 'LookAtEndIC2'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000002 Condition List
+			{
+				Type String 'Speech Event Played Once'
+				Speech Event Name String 'M12ONYX05'
+			}
+			NumActions Int 6
+			00000001 Action List
+			{
+				Type String 'NIS Focus on Main Ship'
+			}
+			00000001 Action List
+			{
+				Type String 'NIS End'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Vulnerability'
+				Group Name String 'Player0 Group'
+				Invulnerable Percent Float 0.000000
+			}
+			00000006 Action List
+			{
+				Type String 'Play Music Track'
+				File Name String 'BTL_Ironclad_FirstEncountr'
+				Crossfade transition String 'TRUE'
+				Fade Out Time ( secs ) Float 2.000000
+				Fade In Time ( secs ) Float 1.000000
+				New Volume ( 0 to 1 ) Float 0.900000
+			}
+			00000002 Action List
+			{
+				Type String 'Start Timer'
+				Timer Name String 'EndICTimer'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'ProcICEnd'
+				AI Stance String 'Stance_Aggressive'
+			}
+			Rule Name String 'LookAtEndIC3'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'EndICTimer'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 3
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Play speech event'
+				Speech Event Name String 'M12JIM08'
+			}
+			Rule Name String 'PlayerandEndICParl'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000003 Condition List
+			{
+				Type String 'Enter Volume'
+				Group Name String 'ProcICEnd'
+				Volume Name String 'NearParl'
+			}
+			NumActions Int 4
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'ProcICEnd'
+				AI Stance String 'Stance_Aggressive'
+			}
+			00000003 Action List
+			{
+				Type String 'GroupA to attack GroupB'
+				Attack Group String 'ProcICEnd'
+				Target Group String 'Player0 Group'
+			}
+			00000004 Action List
+			{
+				Type String 'Set Group/Unit Cloak State'
+				Group Name String 'ProcSubs'
+				Cloak State String 'FALSE'
+				AI Can Override String 'FALSE'
+			}
+			00000002 Action List
+			{
+				Type String 'Start Timer'
+				Timer Name String 'EndTimer'
+			}
+			Rule Name String 'JimDead-MissionOver'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000002 Condition List
+			{
+				Type String 'Group/Unit contains no mission essential ships'
+				Group Name String 'Player0 Group'
+			}
+			NumActions Int 3
+			00000006 Action List
+			{
+				Type String 'Play Music Track'
+				File Name String 'UNDRSCORE_Tragic01'
+				Crossfade transition String 'TRUE'
+				Fade Out Time ( secs ) Float 2.000000
+				Fade In Time ( secs ) Float 1.000000
+				New Volume ( 0 to 1 ) Float 0.950000
+			}
+			00000005 Action List
+			{
+				Type String 'End Game'
+				Use Custom Message String 'TRUE'
+				Winner - Custom Message String ID String 'GAME STRING'
+				Loser - Custom Message String ID String 'IDGS_TPINGAMEMESSAGE_GAME_M12_FAILED_QUEEN'
+				Show Stats Screen String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Flag Action'
+				Flag Name String 'HesDeadJim'
+				Boolean Value String 'TRUE'
+			}
+			Rule Name String 'ParliamentDead-MissionOver'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000005 Condition List
+			{
+				Type String 'Group/Unit Vital Section has >,<,= X damage'
+				Group/Unit Name String 'Parliament'
+				Vital Section String 'vitalToMission'
+				Equivalence String 'Equal To'
+				Damage Percent Float 1.000000
+			}
+			NumActions Int 6
+			00000006 Action List
+			{
+				Type String 'Play Music Track'
+				File Name String 'UNDRSCORE_Tragic01'
+				Crossfade transition String 'TRUE'
+				Fade Out Time ( secs ) Float 2.000000
+				Fade In Time ( secs ) Float 1.000000
+				New Volume ( 0 to 1 ) Float 0.950000
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Start'
+				All Objects Visible String 'FALSE'
+				Open NIS bars instantly String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Path'
+				Path Name String 'FailedLookAtParl'
+				Jump to start String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Speed'
+				Acceleration Float 2.000000
+				Max Velocity Float 5.000000
+			}
+			00000002 Action List
+			{
+				Type String 'NIS Focus camera on Point'
+				Point Set Name String 'LookAtParl'
+			}
+			00000005 Action List
+			{
+				Type String 'End Game'
+				Use Custom Message String 'TRUE'
+				Winner - Custom Message String ID String 'GAME STRING'
+				Loser - Custom Message String ID String 'IDGS_TPINGAMEMESSAGE_GAME_M12_FAILED_QUEEN'
+				Show Stats Screen String 'TRUE'
+			}
+			Rule Name String 'ParliamentCaptured-MissionOver'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000005 Condition List
+			{
+				Type String 'Player Vs Player capture count'
+				Player Name A String 'Procs'
+				Player Name B String 'RoyalPalace'
+				Equivalence String 'Equal To'
+				Number Of Captures Int 1
+			}
+			NumActions Int 6
+			00000006 Action List
+			{
+				Type String 'Play Music Track'
+				File Name String 'UNDRSCORE_Tragic01'
+				Crossfade transition String 'TRUE'
+				Fade Out Time ( secs ) Float 2.000000
+				Fade In Time ( secs ) Float 1.000000
+				New Volume ( 0 to 1 ) Float 0.950000
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Start'
+				All Objects Visible String 'FALSE'
+				Open NIS bars instantly String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Path'
+				Path Name String 'FailedLookAtParl'
+				Jump to start String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Speed'
+				Acceleration Float 2.000000
+				Max Velocity Float 5.000000
+			}
+			00000002 Action List
+			{
+				Type String 'NIS Focus camera on Point'
+				Point Set Name String 'LookAtParl'
+			}
+			00000005 Action List
+			{
+				Type String 'End Game'
+				Use Custom Message String 'TRUE'
+				Winner - Custom Message String ID String 'GAME STRING'
+				Loser - Custom Message String ID String 'IDGS_TPINGAMEMESSAGE_GAME_M12_FAILED_QUEEN'
+				Show Stats Screen String 'TRUE'
+			}
+			Rule Name String 'EndTimer-movietime'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 3
+			00000003 Condition List
+			{
+				Type String 'Flag Condition'
+				Flag Name String 'TimeToEndGame'
+				Boolean Value String 'TRUE'
+			}
+			00000003 Condition List
+			{
+				Type String 'Flag Condition'
+				Flag Name String 'EndGameHappened'
+				Boolean Value String 'FALSE'
+			}
+			00000003 Condition List
+			{
+				Type String 'Flag Condition'
+				Flag Name String 'HesDeadJim'
+				Boolean Value String 'FALSE'
+			}
+			NumActions Int 2
+			00000002 Action List
+			{
+				Type String 'Play speech event'
+				Speech Event Name String 'M12JIM10'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Flag Action'
+				Flag Name String 'EndGameHappened'
+				Boolean Value String 'TRUE'
+			}
+			Rule Name String 'EndTimer-movietime2'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000002 Condition List
+			{
+				Type String 'Speech Event Played Once'
+				Speech Event Name String 'M12JIM10'
+			}
+			NumActions Int 5
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Vulnerability'
+				Group Name String 'Player0 Group'
+				Invulnerable Percent Float 1.000000
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Start'
+				All Objects Visible String 'TRUE'
+				Open NIS bars instantly String 'FALSE'
+			}
+			00000006 Action List
+			{
+				Type String 'Play Music Track'
+				File Name String 'NEUTRL_IronClad_Spooky'
+				Crossfade transition String 'FALSE'
+				Fade Out Time ( secs ) Float 2.000000
+				Fade In Time ( secs ) Float 1.000000
+				New Volume ( 0 to 1 ) Float 0.950000
+			}
+			00000002 Action List
+			{
+				Type String 'Play speech event'
+				Speech Event Name String 'M12PROCAMBASS02'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Max Throttle Percent (Max user settable)'
+				Group Name String 'ProcICEnd,Wailing Wind'
+				Throttle Percent Float 0.600000
+			}
+			Rule Name String 'PlayMovie'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000002 Condition List
+			{
+				Type String 'Speech Event Played Once'
+				Speech Event Name String 'M12PROCAMBASS02'
+			}
+			NumActions Int 4
+			00000003 Action List
+			{
+				Type String 'GroupA to Ram GroupB'
+				Group Name String 'ProcICEnd,Wailing Wind'
+				Group Unit Target String 'Player0 Group,HUMAN CONTROLLED COMMAND SHIP'
+			}
+			00000005 Action List
+			{
+				Type String 'NIS Attach Camera'
+				Group/Unit Name String 'ProcICEnd,Wailing Wind'
+				Distance Float 55.000000
+				Angle YZ Float 45.000000
+				Angle XY Float 45.000000
+			}
+			00000002 Action List
+			{
+				Type String 'NIS Focus camera on Group/Unit'
+				GroupUnit Name String 'ProcICEnd,Wailing Wind'
+			}
+			00000003 Action List
+			{
+				Type String 'Goto Next Level'
+				World String 'Mission13.twt'
+				Display Loading String String 'FALSE'
+			}
+			Rule Name String 'SavedTheRoyalGuard'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 2
+			00000004 Condition List
+			{
+				Type String 'Group has X members'
+				Group Name String 'RoyalGuardOne'
+				Equivalence String 'Greater Than'
+				number Int 0
+			}
+			00000004 Condition List
+			{
+				Type String 'Group has X members'
+				Group Name String 'ProcICMain'
+				Equivalence String 'Less Than'
+				number Int 2
+			}
+			NumActions Int 5
+			00000003 Action List
+			{
+				Type String 'Set Objective Task Complete State'
+				Objective Task String 'SaveRoyalGuard'
+				Complete State String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Flag Action'
+				Flag Name String 'TriggerProcICOffscreen'
+				Boolean Value String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'RoyalGuardOne'
+				AI Stance String 'Stance Persistant'
+			}
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'RoyalGuardOne'
+				Path Name String 'MainProcsToParl'
+				Follow Mode String 'to end'
+				Find Closest Point String 'TRUE'
+			}
+			00000002 Action List
+			{
+				Type String 'Clear Group/Unit Border Zone'
+				Group/Unit Name String 'RoyalGuardOne'
+			}
+			Rule Name String 'SavedRoyalGuardToParl'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000003 Condition List
+			{
+				Type String 'Enter Volume'
+				Group Name String 'RoyalGuardOne'
+				Volume Name String 'NearParl'
+			}
+			NumActions Int 1
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'RoyalGuardOne'
+				AI Stance String 'Stance_Aggressive'
+			}
+			Rule Name String 'MainProcsReachParliament'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000003 Condition List
+			{
+				Type String 'Enter Volume'
+				Group Name String 'ProcICMain'
+				Volume Name String 'NewForMainIC'
+			}
+			NumActions Int 2
+			00000004 Action List
+			{
+				Type String 'Set FleetFormation Type'
+				Player Name String 'Procs2'
+				Formation Type String 'None'
+				Hold Formation String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'ProcICMain'
+				AI Stance String 'Stance_Neutral'
+			}
+			Rule Name String 'AmeliaInvulnNoMore - distance'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000003 Condition List
+			{
+				Type String 'Enter Volume'
+				Group Name String 'Player0 Group'
+				Volume Name String 'RoyalGuardFight'
+			}
+			NumActions Int 1
+			00000003 Action List
+			{
+				Type String 'Set Flag Action'
+				Flag Name String 'AmeliaVulnerable'
+				Boolean Value String 'TRUE'
+			}
+			Rule Name String 'AmeliaInvulnNoMore - time'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'AmeliaInvulPause'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 90
+			}
+			NumActions Int 1
+			00000003 Action List
+			{
+				Type String 'Set Flag Action'
+				Flag Name String 'AmeliaVulnerable'
+				Boolean Value String 'TRUE'
+			}
+			Rule Name String 'AmeliaInvulnNoMore'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000003 Condition List
+			{
+				Type String 'Flag Condition'
+				Flag Name String 'AmeliaVulnerable'
+				Boolean Value String 'TRUE'
+			}
+			NumActions Int 3
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Vulnerability'
+				Group Name String 'RoyalGuardOne'
+				Invulnerable Percent Float 0.000000
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Vulnerability'
+				Group Name String 'ProcICMain'
+				Invulnerable Percent Float 0.000000
+			}
+			00000002 Action List
+			{
+				Type String 'Start Timer'
+				Timer Name String 'ExtraAmeliaTime'
+			}
+			Rule Name String 'AmeliaExtraTime1'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'ExtraAmeliaTime'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 5
+			}
+			NumActions Int 1
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Vulnerability'
+				Group Name String 'RoyalGuardOne,Lyonesse'
+				Invulnerable Percent Float 0.250000
+			}
+			Rule Name String 'AmeliaExtraTime2'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'ExtraAmeliaTime'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 20
+			}
+			NumActions Int 1
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Vulnerability'
+				Group Name String 'RoyalGuardOne,Lyonesse'
+				Invulnerable Percent Float 0.000000
+			}
+			Rule Name String 'EndCondition-Damage'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Group/Unit has >,<,= X damage'
+				Group/Unit Name String 'ProcICEnd,Wailing Wind'
+				Equivalence String 'Greater Than'
+				Damage Percent Float 0.500000
+			}
+			NumActions Int 2
+			00000003 Action List
+			{
+				Type String 'Set Flag Action'
+				Flag Name String 'TimeToEndGame'
+				Boolean Value String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Vulnerability'
+				Group Name String 'Player0 Group'
+				Invulnerable Percent Float 0.100000
+			}
+			Rule Name String 'EndCondition-Distance'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000005 Condition List
+			{
+				Type String 'Group to Group Distance'
+				GroupA Name String 'ProcICEnd,Wailing Wind'
+				Equivalence String 'Less Than'
+				Distance Int 250
+				GroupB Name String 'Player0 Group,HUMAN CONTROLLED COMMAND SHIP'
+			}
+			NumActions Int 2
+			00000003 Action List
+			{
+				Type String 'Set Flag Action'
+				Flag Name String 'TimeToEndGame'
+				Boolean Value String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Vulnerability'
+				Group Name String 'Player0 Group'
+				Invulnerable Percent Float 0.100000
+			}
+			Rule Name String 'PlayerMusicSwitch'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 2
+			00000003 Condition List
+			{
+				Type String 'Flag Condition'
+				Flag Name String 'TriggerProcICOffscreen'
+				Boolean Value String 'TRUE'
+			}
+			00000003 Condition List
+			{
+				Type String 'Enter Volume'
+				Group Name String 'Player0 Group,HUMAN CONTROLLED COMMAND SHIP'
+				Volume Name String 'NearParl'
+			}
+			NumActions Int 1
+			00000006 Action List
+			{
+				Type String 'Play Music Track'
+				File Name String 'BTL_IronClad_SecondEncountr'
+				Crossfade transition String 'TRUE'
+				Fade Out Time ( secs ) Float 1.000000
+				Fade In Time ( secs ) Float 1.000000
+				New Volume ( 0 to 1 ) Float 0.900000
+			}
+			Rule Name String 'OutOfBounds'
+			Run Once Bool False 
+			Is Active Bool True
+			NumConditions Int 1
+			00000003 Condition List
+			{
+				Type String 'Exit Volume'
+				Group Name String 'Player0 Group,HUMAN CONTROLLED COMMAND SHIP'
+				Volume Name String 'OutOfBounds'
+			}
+			NumActions Int 1
+			00000001 Action List
+			{
+				Type String 'Crew Speech - Helm Off Course'
+			}
+			Rule Name String 'PlayerNearBattleTwo'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000003 Condition List
+			{
+				Type String 'Enter Volume'
+				Group Name String 'Player0 Group'
+				Volume Name String 'RoyalGuardTwoFight'
+			}
+			NumActions Int 8
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Hold Position'
+				Group/Unit Name String 'RoyalGuardTwo'
+				Boolean String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'RoyalGuardTwo'
+				AI Stance String 'Stance_Aggressive'
+			}
+			00000003 Action List
+			{
+				Type String 'GroupA to attack GroupB'
+				Attack Group String 'RoyalGuardTwo'
+				Target Group String 'ProcICPirates'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Hold Position'
+				Group/Unit Name String 'ProcICPirates'
+				Boolean String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'ProcICPirates'
+				AI Stance String 'Stance_Aggressive'
+			}
+			00000003 Action List
+			{
+				Type String 'GroupA to attack GroupB'
+				Attack Group String 'ProcICPirates'
+				Target Group String 'Player0 Group'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Visibility'
+				Group/Unit Name String 'ProcICPirates'
+				Boolean String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Visibility'
+				Group/Unit Name String 'RoyalGuardTwo'
+				Boolean String 'TRUE'
+			}
+			Rule Name String 'PlayerNotNearBattleTwo'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000001 Condition List
+			{
+				Type String 'World Initialize'
+			}
+			NumActions Int 6
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Visibility'
+				Group/Unit Name String 'ProcICPirates'
+				Boolean String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Visibility'
+				Group/Unit Name String 'RoyalGuardTwo'
+				Boolean String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Hold Position'
+				Group/Unit Name String 'ProcICPirates'
+				Boolean String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Hold Position'
+				Group/Unit Name String 'RoyalGuardTwo'
+				Boolean String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'ProcICPirates'
+				AI Stance String 'Stance_Dummy'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'RoyalGuardTwo'
+				AI Stance String 'Stance_Dummy'
+			}
+			Rule Name String 'PlayerInParlVolume'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000003 Condition List
+			{
+				Type String 'Enter Volume'
+				Group Name String 'Player0 Group,HUMAN CONTROLLED COMMAND SHIP'
+				Volume Name String 'NearParl'
+			}
+			NumActions Int 1
+			00000003 Action List
+			{
+				Type String 'Set Flag Action'
+				Flag Name String 'PlayerOutsideOfParlVolume'
+				Boolean Value String 'TRUE'
+			}
+			Rule Name String 'PlayerHoldsBack'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 2
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'AmeliaInvulPause'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 300
+			}
+			00000004 Condition List
+			{
+				Type String 'Is Group In Volume'
+				Group Name String 'Player0 Group,HUMAN CONTROLLED COMMAND SHIP'
+				Volume Name String 'NestMustBeLeft'
+				Entire Group String 'FALSE'
+			}
+			NumActions Int 4
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Visibility'
+				Group/Unit Name String 'DontBeASuck'
+				Boolean String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Hold Position'
+				Group/Unit Name String 'DontBeASuck'
+				Boolean String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'DontBeASuck'
+				AI Stance String 'Stance_Aggressive'
+			}
+			00000003 Action List
+			{
+				Type String 'GroupA to attack GroupB'
+				Attack Group String 'DontBeASuck'
+				Target Group String 'Player0 Group,HUMAN CONTROLLED COMMAND SHIP'
+			}
+			Rule Name String 'TurnOffObjPointerAtMainFight'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000005 Condition List
+			{
+				Type String 'Group to Group Distance'
+				GroupA Name String 'Player0 Group,HUMAN CONTROLLED COMMAND SHIP'
+				Equivalence String 'Less Than'
+				Distance Int 300
+				GroupB Name String 'RoyalGuardOne'
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Set Current Objective Point Visible On Starmap'
+				Visible On Starmap String 'FALSE'
+			}
+			Rule Name String 'AmeliaSpeechWelcomeParty'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000003 Condition List
+			{
+				Type String 'Enter Volume'
+				Group Name String 'Player0 Group,HUMAN CONTROLLED COMMAND SHIP'
+				Volume Name String 'RoyalGuardFight'
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Play speech event'
+				Speech Event Name String 'M12AMELIA02'
+			}
+			Rule Name String 'PlayerNearBadGuys'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000005 Condition List
+			{
+				Type String 'Group to Group Distance'
+				GroupA Name String 'Player0 Group,HUMAN CONTROLLED COMMAND SHIP'
+				Equivalence String 'Less Than'
+				Distance Int 400
+				GroupB Name String 'ProcICMain'
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Set Current Objective Point'
+				Objective Point String 'NO OBJECTIVE POINT'
+			}
+			Rule Name String 'DockableBackOn'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000003 Condition List
+			{
+				Type String 'Enter Volume'
+				Group Name String 'Player0 Group'
+				Volume Name String 'NearParl'
+			}
+			NumActions Int 1
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Dockable'
+				Group Name String 'Parliament'
+				Boolean String 'TRUE'
+			}
+			Rule Name String 'BoardingSlowDownOne'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000003 Condition List
+			{
+				Type String 'Enter Volume'
+				Group Name String 'ProcICOffScreen,Conquest'
+				Volume Name String 'StartBoardingOne'
+			}
+			NumActions Int 1
+			00000003 Action List
+			{
+				Type String 'Set Max Throttle Percent (Max user settable)'
+				Group Name String 'ProcICOffScreen,Conquest'
+				Throttle Percent Float 0.250000
+			}
+			Rule Name String 'BoardingSlowDownTwo'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000003 Condition List
+			{
+				Type String 'Enter Volume'
+				Group Name String 'ProcICOffScreen,Diplomacy'
+				Volume Name String 'StartBoardingTwo'
+			}
+			NumActions Int 1
+			00000003 Action List
+			{
+				Type String 'Set Max Throttle Percent (Max user settable)'
+				Group Name String 'ProcICOffScreen,Diplomacy'
+				Throttle Percent Float 0.250000
+			}
+			Rule Name String 'PlayerEntersChaffBorder'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000003 Condition List
+			{
+				Type String 'Enter Volume'
+				Group Name String 'Player0 Group'
+				Volume Name String 'ChaffBorderZone'
+			}
+			NumActions Int 3
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'ProcICMain,Revenge'
+				AI Stance String 'Stance_Aggressive'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Vulnerability'
+				Group Name String 'ProcICMain,Revenge'
+				Invulnerable Percent Float 0.000000
+			}
+			00000003 Action List
+			{
+				Type String 'GroupA to attack GroupB'
+				Attack Group String 'ProcICMain,Revenge'
+				Target Group String 'Player0 Group'
+			}
+		}
+		00000038 Objective System
+		{
+			Current Objective Point Int -1
+			Current Point Visible On StarMap Bool True
+			Objective Point Info - Size Int 2
+			00000002 Objective Point Info - Element
+			{
+				Name String 'RoyalGuard'
+				Position Vector3( -463.481567, -601.154175, 0.000000 )
+			}
+			00000002 Objective Point Info - Element
+			{
+				Name String 'Parl'
+				Position Vector3( -635.584045, 616.549805, 0.000000 )
+			}
+			Objective Task Array - Size Int 3
+			00000005 Objective Task Array - Element
+			{
+				Name String 'SaveRoyalGuard'
+				TextStringID String 'IDGS_TPOBJECTIVES_M1201AIDROYALFLEET'
+				Active Bool False 
+				Completed Bool False 
+				Failed Bool False 
+			}
+			00000005 Objective Task Array - Element
+			{
+				Name String 'DefendTheQueen'
+				TextStringID String 'IDGS_TPOBJECTIVES_M1202DEFENDQUEEN'
+				Active Bool False 
+				Completed Bool False 
+				Failed Bool False 
+			}
+			00000005 Objective Task Array - Element
+			{
+				Name String 'StopBoarders'
+				TextStringID String 'IDGS_TPOBJECTIVES_M1203DESTROYBOARDERS'
+				Active Bool False 
+				Completed Bool False 
+				Failed Bool False 
+			}
+		}
+		00000001 Rope
+		{
+			RopeInfo - Size Int 0
+		}
+		00000001 Grappled Objects
+		{
+			Grappled Objects Info - Size Int 0
+		}
+		00000001 Boarding Actions
+		{
+			Boarding Actions Info - Size Int 0
+		}
+		00000038 Journal Entry
+		{
+			Page Info - Size Int 6
+			00000003 Page Info - Element
+			{
+				TextStringID String 'IDGS_TPSPEECHEVENTSJOURNALS_J12JIM01'
+				SpeechEventFileName String 'J12JIM01'
+				PictureTexture String 'Journal_Mission12_Shot1'
+			}
+			00000003 Page Info - Element
+			{
+				TextStringID String 'IDGS_TPSPEECHEVENTSJOURNALS_J12JIM02'
+				SpeechEventFileName String 'J12JIM02'
+				PictureTexture String 'Journal_Mission12_Shot2'
+			}
+			00000003 Page Info - Element
+			{
+				TextStringID String 'IDGS_TPSPEECHEVENTSJOURNALS_J12JIM03'
+				SpeechEventFileName String 'J12JIM03'
+				PictureTexture String 'Journal_Mission12_Shot3'
+			}
+			00000003 Page Info - Element
+			{
+				TextStringID String 'IDGS_TPSPEECHEVENTSJOURNALS_J12JIM04'
+				SpeechEventFileName String 'J12JIM04'
+				PictureTexture String 'Journal_Mission12_Shot4'
+			}
+			00000003 Page Info - Element
+			{
+				TextStringID String 'IDGS_TPSPEECHEVENTSJOURNALS_J12JIM05'
+				SpeechEventFileName String 'J12JIM05'
+				PictureTexture String 'Journal_Mission12_Shot5'
+			}
+			00000003 Page Info - Element
+			{
+				TextStringID String 'IDGS_TPSPEECHEVENTSJOURNALS_J12MORPHY01'
+				SpeechEventFileName String 'J12SILVERMORPH01'
+				PictureTexture String 'Journal_Mission12_Shot6'
+			}
+			Title StringID String 'IDGS_TPJOURNALSCREEN_MISSION12_JOURNALTITLE'
+		}
+		00000001 World Map
+		{
+			Backdrop Texture Name String 'MapMission12'
+		}
+		Can Assemble Fleets Bool False 
+		World Crew List - Size Int 0
+		World Arms List - Size Int 0
+		00000008 MapText System
+		{
+			MapText Point Info - Size Int 1
+			00000004 MapText Point Info - Element
+			{
+				Name String 'Parliament'
+				DisplayedText String 'IDGS_TPMAPTEXTITEMS_M12_PARLIAMENT'
+				Position Vector3( -645.438904, 619.608643, 0.000000 )
+				Visible Bool True
+			}
+		}
+		READAIENTITYCOUNTS Bool False 
+		Journal Music Name String 'JOURNAL_12HappyEnd'
+		PlayEndMovie Bool True
+		IsCampaign Bool True
+		Is Alliance Change Allowed Bool False 
+		Use Custom World Name Bool False 
+		Custom World Name String ''
+		Use Custom World Description Bool False 
+		Custom World Description String ''
+		Islands Make Sounds Bool True
+		DATA_NEBULA_CAMERA_EFFECT Int 0
+		DATA_NEXT_NEBULA_CAMERA_EFFECT Int 0
+		00000001 DATA_NEBULA_CAMERA_EFFECT_FADE_IN_TIMER
+		{
+			StartTime Double 0
+		}
+		00000001 DATA_NEBULA_CAMERA_EFFECT_SPIN_TIMER
+		{
+			StartTime Double 0
+		}
+	}
+}
+00000304 GameImpl
+{
+	SelectedWorldObjectID Int -1
+	00000006 GameStats
+	{
+		PlayerKillInfo - Size Int 0
+		PlayerDockInfo - Size Int 0
+		PlayerLifeBoatSavedInfo - Size Int 0
+		FleetSizeInfo - Size Int 0
+		PlayerDamageInfo - Size Int 0
+		SinglePlayer Points Int 0
+	}
+	SinglePlayerVictoryPoints Int 0
+	SinglePlayerCrewList - Size Int 0
+	SinglePlayerArmsList - Size Int 0
+	00000014 HUD
+	{
+		Are NIS Bars Open Bool False 
+		Skip Current Speech Event Bool False 
+		00000001 Active Speech Event Timer
+		{
+			StartTime Double 0
+		}
+		Speech Event Active Bool False 
+		Speech Event Queue - Size Int 0
+		Artificial Pause Between Speech Events Active Bool False 
+		00000001 Artificial Pause Between Speech Events Timer
+		{
+			StartTime Double 0
+		}
+		Request To Close NIS Bars Bool False 
+	}
+	Game Complete Bool False 
+	Custom Game Complete Bool False 
+	00000001 Game Complete Timer
+	{
+		StartTime Double 0
+	}
+	Custom Game Complete String String ''
+	Game Winner Players - Size Int 0
+	User Interface Disabled Bool False 
+	Is Campaign Game Bool False 
+	Show Stats Screen Bool True
+	Goto Next Level Enabled Bool False 
+	Next Level World Name String ''
+	00000001 Next Level Display Timer
+	{
+		StartTime Double 0
+	}
+	Already Created Game Bool False 
+	00000218 Game Camera
+	{
+		00000028 FlyCameraController
+		{
+			00000015 Camera
+			{
+				AspectRatio Float 1.000000
+				FieldOfView Float 0.785398
+				NearPlane Float 0.500000
+				FarPlane Float 3000.000000
+				UsingResolutionBasedAspectRatio Bool True
+				Orthographic Bool False 
+				OrthographicZoom Float 1.000000
+				00000005 LocalBasis
+				{
+					Position Vector3( 0.000000, 0.000000, 0.000000 )
+					LookAt Vector Length Float 1.000000
+					Orientation - Cross Vector3( 1.000000, 0.000000, 0.000000 )
+					Orientation - Forward Vector3( 0.000000, 1.000000, 0.000000 )
+					Orientation - Up Vector3( 0.000000, 0.000000, 1.000000 )
+				}
+			}
+			00000002 TargetInfo
+			{
+				TargetID Int -1
+				TargetPoint Vector3( 0.000000, 0.000000, 0.000000 )
+			}
+			00000001 GameTimeUpdateTimer
+			{
+				StartTime Double 0
+			}
+			NewFocusData Bool True
+		}
+		00000046 SplineCameraController
+		{
+			00000015 Camera
+			{
+				AspectRatio Float 1.000000
+				FieldOfView Float 0.785398
+				NearPlane Float 0.500000
+				FarPlane Float 3000.000000
+				UsingResolutionBasedAspectRatio Bool True
+				Orthographic Bool False 
+				OrthographicZoom Float 1.000000
+				00000005 LocalBasis
+				{
+					Position Vector3( 0.000000, 0.000000, 0.000000 )
+					LookAt Vector Length Float 10.000000
+					Orientation - Cross Vector3( -1.000000, 0.000000, 0.000000 )
+					Orientation - Forward Vector3( 0.000000, -1.000000, 0.000000 )
+					Orientation - Up Vector3( 0.000000, 0.000000, 1.000000 )
+				}
+			}
+			00000002 TargetInfo
+			{
+				TargetID Int -1
+				TargetPoint Vector3( 0.000000, 0.000000, 0.000000 )
+			}
+			00000001 GameTimeUpdateTimer
+			{
+				StartTime Double 0
+			}
+			NewFocusData Bool True
+			00000010 PositionInterpolater
+			{
+				Position Vector3( 0.000000, 0.000000, 0.000000 )
+				StartPointControlPoint Vector3( 0.000000, 0.000000, 0.000000 )
+				EndPointControlPoint Vector3( 0.000000, 0.000000, 0.000000 )
+				ControlIndex Int 0
+				Acceleration Float 10.000000
+				MaxSpeed Float 30.000000
+				Speed Float 0.000000
+				Distance Float 0.000000
+				Percentage Float -431602080.000000
+				ControlPointsInfo - Size Int 0
+			}
+			PrevTargetPoint Vector3( 0.000000, -10.000000, 0.000000 )
+			LockPosition Bool False 
+			LockOrientation Bool False 
+			ForceOrientation Bool False 
+			PercentIncrement Float -431602080.000000
+		}
+		00000042 SwoopCameraController
+		{
+			00000015 Camera
+			{
+				AspectRatio Float 1.000000
+				FieldOfView Float 0.785398
+				NearPlane Float 0.500000
+				FarPlane Float 3000.000000
+				UsingResolutionBasedAspectRatio Bool True
+				Orthographic Bool False 
+				OrthographicZoom Float 1.000000
+				00000005 LocalBasis
+				{
+					Position Vector3( 0.000000, 0.000000, 0.000000 )
+					LookAt Vector Length Float 10.000000
+					Orientation - Cross Vector3( -1.000000, 0.000000, 0.000000 )
+					Orientation - Forward Vector3( 0.000000, -1.000000, 0.000000 )
+					Orientation - Up Vector3( 0.000000, 0.000000, 1.000000 )
+				}
+			}
+			00000002 TargetInfo
+			{
+				TargetID Int -1
+				TargetPoint Vector3( 0.000000, 0.000000, 0.000000 )
+			}
+			00000001 GameTimeUpdateTimer
+			{
+				StartTime Double 0
+			}
+			NewFocusData Bool True
+			DistanceToTarget Float 20.000000
+			DesiredToTarget Float 20.000000
+			HorizontalRotation Float 0.000000
+			MaxHorizontalRotation Float 0.000000
+			MaxDistanceToTarget Float 300.000000
+			MinHorizontalRotation Float 0.000000
+			MinDistanceToTarget Float 2.000000
+			RestrictMinHorizontal Bool False 
+			RestrictMinDistance Bool True
+			RestrictMaxHorizontal Bool False 
+			RestrictMaxDistance Bool True
+			PercentIncrement Float -431602080.000000
+			TargetPoint Vector3( 0.000000, 0.000000, 0.000000 )
+			JumpToFocusPoint Bool False 
+		}
+		00000046 TransitionCameraController
+		{
+			00000015 Camera
+			{
+				AspectRatio Float 1.000000
+				FieldOfView Float 0.785398
+				NearPlane Float 0.500000
+				FarPlane Float 3000.000000
+				UsingResolutionBasedAspectRatio Bool True
+				Orthographic Bool False 
+				OrthographicZoom Float 1.000000
+				00000005 LocalBasis
+				{
+					Position Vector3( 0.000000, 0.000000, 0.000000 )
+					LookAt Vector Length Float 10.000000
+					Orientation - Cross Vector3( -1.000000, 0.000000, 0.000000 )
+					Orientation - Forward Vector3( 0.000000, -1.000000, 0.000000 )
+					Orientation - Up Vector3( 0.000000, 0.000000, 1.000000 )
+				}
+			}
+			00000002 TargetInfo
+			{
+				TargetID Int -1
+				TargetPoint Vector3( 0.000000, 0.000000, 0.000000 )
+			}
+			00000001 GameTimeUpdateTimer
+			{
+				StartTime Double 0
+			}
+			NewFocusData Bool True
+			00000010 PositionInterpolater
+			{
+				Position Vector3( 0.000000, 0.000000, 0.000000 )
+				StartPointControlPoint Vector3( 0.000000, 0.000000, 0.000000 )
+				EndPointControlPoint Vector3( 0.000000, 0.000000, 0.000000 )
+				ControlIndex Int 0
+				Acceleration Float 10.000000
+				MaxSpeed Float 30.000000
+				Speed Float 0.000000
+				Distance Float 0.000000
+				Percentage Float -431602080.000000
+				ControlPointsInfo - Size Int 0
+			}
+			PrevTargetPoint Vector3( 0.000000, -10.000000, 0.000000 )
+			LockPosition Bool False 
+			LockOrientation Bool False 
+			ForceOrientation Bool False 
+			PercentIncrement Float -431602080.000000
+		}
+		00000034 AttachCameraController
+		{
+			00000015 Camera
+			{
+				AspectRatio Float 1.000000
+				FieldOfView Float 0.785398
+				NearPlane Float 0.500000
+				FarPlane Float 3000.000000
+				UsingResolutionBasedAspectRatio Bool True
+				Orthographic Bool False 
+				OrthographicZoom Float 1.000000
+				00000005 LocalBasis
+				{
+					Position Vector3( 0.000000, 0.000000, 0.000000 )
+					LookAt Vector Length Float 10.000000
+					Orientation - Cross Vector3( -1.000000, 0.000000, 0.000000 )
+					Orientation - Forward Vector3( 0.000000, -1.000000, 0.000000 )
+					Orientation - Up Vector3( 0.000000, 0.000000, 1.000000 )
+				}
+			}
+			00000002 TargetInfo
+			{
+				TargetID Int -1
+				TargetPoint Vector3( 0.000000, 0.000000, 0.000000 )
+			}
+			00000001 GameTimeUpdateTimer
+			{
+				StartTime Double 0
+			}
+			NewFocusData Bool True
+			AttachedObjectID Int -1
+			Distance Float 1.000000
+			AngleYZ Float 0.000000
+			AngleXY Float 0.000000
+			LockOrientation Bool False 
+			PercentIncrement Float -431602080.000000
+		}
+		CameraMode Int 0
+		TargetModeForTransition Int -842150451
+		InTransitionMode Bool False 
+		TurnOffNISWhenDoneTransition Bool True
+		TransitionStartPoint Vector3( 0.000000, 0.000000, 0.000000 )
+		LastTargetPosition Vector3( 0.000000, 0.000000, 0.000000 )
+		LastCameraPosition Vector3( 0.000000, 0.000000, 0.000000 )
+	}
+	00000018 SoundPlayer
+	{
+		00000006 CurrentMix
+		{
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+		}
+		00000006 UserMix
+		{
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+		}
+	}
+	00000001 MusicPlayer
+	{
+		Is Playing Bool False 
+	}
+	00000005 TPSound
+	{
+		MusicVolume Float 1.000000
+		SpeechOcurring Bool False 
+		CreatedSoundData - Size Int 0
+		Abyss Volume Float 0.000000
+		Inside Abyss Bool False 
+	}
+	Radar Active Bool True
+	Crew Speech Silent State Bool False 
+}

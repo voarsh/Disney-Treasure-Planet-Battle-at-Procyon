@@ -1,0 +1,94 @@
+Type String 'Gun_Null_Weapon'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String ''
+	HasRender String 'Gun_Null_Weapon'
+	HasAI String 'Gun_Null_Weapon'
+	HasCustomInfo String 'Gun_Null_Weapon'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Gun_Null_Weapon'
+FactoryType String 'GunAI'
+00000004 ConstData
+{
+	Is Lobbing Gun Bool False 
+	Is MineLaying Gun Bool False 
+	Is TorpedoLauncher Gun Bool False 
+	Is PointDefense Gun Bool False 
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Gun_Null_Weapon'
+FactoryType String 'RenderEntityFactory'
+00000026 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'CannonMed2Deck'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000018 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 1
+		00000014 MeshAttributes - Element
+		{
+			MeshName String 'MuzzleNode0'
+			MeshAttribute - Size Int 2
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunMuzzlePlacement'
+				DescriptorName String 'CannonMed2Deck_Muzzle'
+				AssociationName String ''
+			}
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunVerticalPivotPlacement'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String ''
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Gun_Null_Weapon'
+FactoryType String 'GunCustomInfoFactory'
+00000033 ConstData
+{
+	BulletTypeName_Primary String 'Bullet_Gattling'
+	BulletTypeName_Secondary String 'NoBulletType'
+	SoundName String 'Weapon_Gattgun_Fire'
+	MuzzleFlashEffect String 'Gattling_Light_Muzzle'
+	MuzzleSpeed Float 70.000000
+	DuringBurstReloadTime Float 0.150000
+	BulletsPerBurst Int 8
+	TimeBetweenBursts Float 2.500000
+	CalculateAccuracyDeviationDuringBurst Bool True
+	WeaponBar Icon Texture String 'WeaponBar_GunIcon_GattlingGun'
+	VerticalRotationSpeed Float 1.570796
+	HorizontalRotationSpeed Float 1.570796
+	VerticalMinAngle Float -0.785049
+	VerticalMaxAngle Float 1.550027
+	LobAngle Float 0.000000
+	MaximumRange_Range Float 120.000000
+	LongRange_Range Float 75.000000
+	EffectiveRange_Range Float 45.000000
+	BulletAffectedByGravity Bool True
+	MaximumRange_AccuracyDeviation Float 0.191812
+	LongRange_AccuracyDeviation Float 0.122173
+	EffectiveRange_AccuracyDeviation Float 0.049916
+	MaximumRange_RicochetFactor Float 0.000000
+	LongRange_RicochetFactor Float 0.000000
+	EffectiveRange_RicochetFactor Float -10.000000
+	Victory Point Cost Int 3
+	Gun Name String ID String 'IDGS_TPGUNDISPLAYEDNAME_GATTLINGLIGHT2NDDECK'
+	Mount Type String 'Non-Selectable Light   Mount'
+	Exclusion Race String 'None'
+	Can Be Fired While Cloaked Bool False 
+	Firing Crew Alert String 'GUNNER_FIRE'
+	SoundMaxDistance Float 500.000000
+	SoundVolume Float 0.700000
+}

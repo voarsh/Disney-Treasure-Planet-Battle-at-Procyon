@@ -1,0 +1,70 @@
+Type String 'Ship_Pirate_Carrack_Wrecked'
+00000005 ConstData
+{
+	HasPhysics String 'Ship_Pirate_Carrack_Wrecked'
+	HasCollision String 'Ship_Pirate_Carrack_Wrecked'
+	HasRender String 'Ship_Pirate_Carrack_Wrecked'
+	HasAI String 'Ship_Pirate_Carrack_Wrecked'
+	HasCustomInfo String 'Ship_Pirate_Carrack_Wrecked'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Ship_Pirate_Carrack_Wrecked'
+FactoryType String 'SpaceObjectAI'
+00000000 ConstData
+{
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Ship_Pirate_Carrack_Wrecked'
+FactoryType String 'RenderEntityFactory'
+00000009 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'PirateCarrackShipWrecked'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000001 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 0
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String 'Ship_Pirate_Carrack_Wrecked'
+FactoryType String 'SpaceObjectPhysics'
+00000003 ConstData
+{
+	CenterOfMass Vector3( 0.000000, 0.000000, 0.000000 )
+	Mass Float 30000.000000
+	Acceleration Float 0.000000
+}
+Definition String 'COLLISIONDEFINITION'
+EntityType String 'Ship_Pirate_Carrack_Wrecked'
+FactoryType String 'BoundingRenderEntity'
+00000006 ConstData
+{
+	DetectionType String 'BoundingRenderEntity'
+	ResponseType String 'Space Object'
+	User defined sphere size Bool False 
+	UserDefinedBoundingBoxExtents Bool True
+	MinExtents Vector3( -5.500000, -10.000000, -11.000000 )
+	MaxExtents Vector3( 0.250000, 11.000000, -2.100000 )
+}
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Ship_Pirate_Carrack_Wrecked'
+FactoryType String 'AsteroidCustomInfoFactory'
+00000013 ConstData
+{
+	Max Hit Points Int 1000
+	WorldObject To Create Upon Death 0 String ''
+	WorldObject To Create Upon Death 1 String ''
+	WorldObject To Create Upon Death 2 String ''
+	WorldObject To Create Upon Death 3 String ''
+	WorldObject To Create Upon Death 4 String ''
+	WorldObject To Create Upon Death 5 String ''
+	WorldObject To Create Upon Death 6 String ''
+	WorldObject To Create Upon Death 7 String ''
+	WorldObject To Create Upon Death 8 String ''
+	WorldObject To Create Upon Death 9 String ''
+	ExplosionEffect String 'ShipDestruction'
+	Report Spotting Bool False 
+}

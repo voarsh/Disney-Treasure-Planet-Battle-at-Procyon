@@ -1,0 +1,64 @@
+Type String 'Island_Dragon_04'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String 'Island_Dragon_04'
+	HasRender String 'Island_Dragon_04'
+	HasAI String 'Island_Dragon_04'
+	HasCustomInfo String 'Island_Dragon_04'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Island_Dragon_04'
+FactoryType String 'IslandAI'
+00000001 ConstData
+{
+	Default SightRange Float 3000.000000
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Island_Dragon_04'
+FactoryType String 'RenderEntityFactory'
+00000009 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'IslandDragon4'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000001 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 0
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String 'Island_Dragon_04'
+FactoryType String 'BoundingRenderEntity'
+00000004 ConstData
+{
+	DetectionType String 'OBBTree'
+	ResponseType String 'Static Object'
+	User defined sphere size Bool False 
+	UserDefinedBoundingBoxExtents Bool False 
+}
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Island_Dragon_04'
+FactoryType String 'IslandCustomInfoFactory'
+00000015 ConstData
+{
+	Occlusion Polygon Point # 00 Vector3( 2.000000, -148.000000, 0.000000 )
+	Occlusion Polygon Point # 01 Vector3( -26.000000, 40.000000, 0.000000 )
+	Occlusion Polygon Point # 02 Vector3( -32.000000, 155.000000, 0.000000 )
+	Occlusion Polygon Point # 03 Vector3( 9.000000, 157.000000, 0.000000 )
+	Occlusion Polygon Point # 04 Vector3( 53.000000, 50.000000, 0.000000 )
+	Occlusion Polygon Point # 05 Vector3( 53.000000, -82.000000, 0.000000 )
+	Occlusion Polygon Point # 06 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 07 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 08 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 09 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point Count Int 0
+	Race String 'Civilian'
+	HasAmbientSound Bool False 
+	Core Damage Section Max HitPoints Int -842150451
+	AnnounceSighting Bool False 
+}

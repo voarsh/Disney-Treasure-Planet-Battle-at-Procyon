@@ -1,0 +1,42 @@
+Type String 'Crew_Wlr_Vinkmu'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String ''
+	HasRender String ''
+	HasAI String ''
+	HasCustomInfo String 'Crew_Wlr_Vinkmu'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String ''
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String ''
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String ''
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Crew_Wlr_Vinkmu'
+FactoryType String 'CrewCustomInfoFactory'
+00000019 ConstData
+{
+	Crew Race String 'Procyon'
+	Point Value Int 3
+	Crew Name String ID String 'IDGS_TPCREWNAME03_TUSK_VINKMU'
+	Leadership Skill Active Bool False 
+	Leadership Skill Ability Value Int 0
+	Navigation Skill Active Bool False 
+	Navigation Skill Ability Value Int 0
+	Spotting Skill Active Bool True
+	Spotting Skill Ability Value Int 1
+	Engineering Skill Active Bool False 
+	Engineering Skill Ability Value Int 0
+	Rigging Skill Active Bool True
+	Rigging Skill Ability Value Int 4
+	Combat Skill Active Bool True
+	Combat Skill Ability Value Int 4
+	Gunnery Skill Active Bool True
+	Gunnery Skill Ability Value Int 3
+	Talking Head Texture String 'TalkingHead_Character_Tuskrus_1'
+	Species String 'Tuskrus'
+}

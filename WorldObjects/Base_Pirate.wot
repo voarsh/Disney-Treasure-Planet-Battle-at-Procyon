@@ -1,0 +1,339 @@
+Type String 'Base_Pirate'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String 'Base_Pirate'
+	HasRender String 'Base_Pirate'
+	HasAI String 'Base_Pirate'
+	HasCustomInfo String 'Base_Pirate'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Base_Pirate'
+FactoryType String 'IslandAI'
+00000001 ConstData
+{
+	Default SightRange Float 3000.000000
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Base_Pirate'
+FactoryType String 'RenderEntityFactory'
+00000284 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'BasePirate'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000276 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 25
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MedMount1_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'MedMount_1'
+				AssociationName String 'Gun_CannonBall_Med,360,Bank00'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MedMount3_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'MedMount_3'
+				AssociationName String 'Gun_Lancer_Med,90,Bank01'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MedMount4_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'MedMount_4'
+				AssociationName String 'Gun_Lancer_Med,90,Bank01'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MedMount7_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'MedMount_7'
+				AssociationName String 'Gun_Lancer_Med,180,Bank02'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MedMount8_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'MedMount_8'
+				AssociationName String 'Gun_Lancer_Med,180,Bank02'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Heavymount1_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'HeavyBaseCannon_1'
+				AssociationName String 'Gun_CannonBall_Light,180,Bank04'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Heavymount3_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'HeavyBaseCannon_3'
+				AssociationName String 'Gun_CannonBall_Light,180,Bank04'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Heavymount4_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'HeavyBaseCannon_4'
+				AssociationName String 'Gun_CannonBall_Light,180,Bank04'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Heavymount6_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'HeavyBaseCannon_6'
+				AssociationName String 'Gun_CannonBall_Light,180,Bank05'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Heavymount8_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'HeavyBaseCannon_8'
+				AssociationName String 'Gun_CannonBall_Light,180,Bank05'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Heavymount10_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'HeavyMount_1'
+				AssociationName String 'Gun_CannonBall_Light,180,Bank05'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Lightmount4_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Burrowing_Harpoon_4'
+				AssociationName String 'Gun_Harpoon_Light,270,Bank06'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'DockPoint1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DockPoint'
+				DescriptorName String 'DockPoint1'
+				AssociationName String 'CRANES'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'BoardingNode0'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'BoardingEffectPoint'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'BoardingNode1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'BoardingEffectPoint'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'BoardingNode2'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'BoardingEffectPoint'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Top_Flag'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'FlagAttachmentPoint'
+				DescriptorName String 'Top_FlagPoint'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Bottom_Flag'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'FlagAttachmentPoint'
+				DescriptorName String 'Bottom_FlagPoint'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'PirateBase_Layer2'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'Tower_1_stone'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=0,swappable=1,material=Wall Stone,hitpoints=250,debrisMeshScene=BasePirateBrokenTower1,debrisFx=Falling_Debris,destructFx={ Falling_Building 0.000000 0.000000 ( -59.000000 2.000000 37.000000 ) }'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'PirateBase_Layer3'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'Building_2_stone'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=1,swappable=1,material=Wall Stone,hitpoints=200,destructFx={ Falling_Building 0.000000 0.000000 ( -43.000000 5.000000 -19.299999 ) },destructFx={ Final_Ship_Chunk_large 0.000000 0.000000 ( -34.000000 8.000000 0.100000 ) },destructFx={ Falling_Building 0.000000 0.000000 ( -6.500000 8.000000 -17.000000 ) }'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'PirateBase_Layer4'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'default'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=0,swappable=1,material=Hull Wood,hitpoints=800'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'PirateBase_Layer5'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'Tower2_stone'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=0,swappable=1,material=Wall Stone,hitpoints=250,destructFx={ Falling_Building 0.000000 0.000000 ( 29.299999 4.700000 50.000000 ) }'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'PirateBase_Layer6'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'main_building_stone'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=0,swappable=1,material=Wall Stone,hitpoints=350,destructFx={ Falling_Building 0.000000 0.000000 ( 48.500000 6.800000 11.000000 ) },destructFx={ Falling_Building 0.000000 0.000000 ( 51.000000 6.800000 -1.200000 ) },destructFx={ Final_Ship_Chunk_large 0.000000 0.000000 ( 15.000000 6.500000 -1.800000 ) },destructFx={ Final_Ship_Chunk 0.000000 0.000000 ( 18.700001 6.800000 -11.700000 ) },destructFx={ StarMortar_Heavy_Impact 0.000000 0.000000 ( 32.000000 15.000000 -20.000000 ) },destructFx={ Final_Ship_Chunk 0.000000 0.000000 ( 32.000000 15.000000 -20.000000 ) },destructFx={ Falling_Building 0.000000 0.000000 ( 12.000000 10.300000 -23.299999 ) },destructFx={ Falling_Building 0.000000 0.000000 ( 23.100000 10.300000 12.800000 ) }'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'PirateBase_Layer7'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'fence_front_wood'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=0,swappable=1,material=Hull Wood,hitpoints=150,destructFx={ Final_Ship_Chunk_large 0.000000 0.000000 ( 1.400000 10.300000 25.400000 ) },destructFx={ Falling_Building 0.000000 0.000000 ( 23.299999 7.000000 24.799999 ) },destructFx={ Falling_Building 0.000000 0.000000 ( 41.500000 7.000000 16.500000 ) }'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'PirateBase_Layer8'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'fence_back_wood'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=0,swappable=1,material=Hull Wood,hitpoints=100,destructFx={ Falling_Building 0.000000 0.000000 ( 33.099998 10.400000 -25.700001 ) },destructFx={ Final_Ship_Chunk 0.000000 0.000000 ( 47.599998 8.800000 -10.600000 ) },destructFx={ Falling_Building 0.000000 0.000000 ( 11.300000 9.500000 -31.400000 ) }'
+			}
+		}
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String 'Base_Pirate'
+FactoryType String 'BoundingRenderEntity'
+00000004 ConstData
+{
+	DetectionType String 'OBBTree'
+	ResponseType String 'Static Object'
+	User defined sphere size Bool False 
+	UserDefinedBoundingBoxExtents Bool False 
+}
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Base_Pirate'
+FactoryType String 'IslandCustomInfoFactory'
+00000015 ConstData
+{
+	Occlusion Polygon Point # 00 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 01 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 02 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 03 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 04 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 05 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 06 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 07 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 08 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 09 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point Count Int 0
+	Race String 'Pirate'
+	HasAmbientSound Bool False 
+	Core Damage Section Max HitPoints Int -858993460
+	AnnounceSighting Bool False 
+}

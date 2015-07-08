@@ -1,0 +1,149 @@
+Type String 'Bullet_EnergyNet'
+00000005 ConstData
+{
+	HasPhysics String 'Bullet_EnergyNet'
+	HasCollision String 'Bullet_EnergyNet'
+	HasRender String ''
+	HasAI String ''
+	HasCustomInfo String 'Bullet_EnergyNet'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String ''
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String ''
+Definition String 'PHYSICSDEFINITION'
+EntityType String 'Bullet_EnergyNet'
+FactoryType String 'ProjectilePhysics'
+00000002 ConstData
+{
+	CenterOfMass Vector3( 0.000000, 0.000000, 0.000000 )
+	Mass Float 1000.000000
+}
+Definition String 'COLLISIONDEFINITION'
+EntityType String 'Bullet_EnergyNet'
+FactoryType String 'Point'
+00000002 ConstData
+{
+	DetectionType String 'Point'
+	ResponseType String 'Bullet'
+}
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Bullet_EnergyNet'
+FactoryType String 'EnergyNetCustomInfoFactory'
+00000114 ConstData
+{
+	Duration Float 35.000000
+	PercentageOfEnergyDissipated Float 0.550000
+	HitEffect String 'EnergyNet_medium_Impact'
+	BulletEffect String 'EnergyNet_medium_bullet'
+	Damage HitPoints Int 1
+	Decal Damage Size String 'Small'
+	# 
+	# Hull Wood DamagePotential
+	# 
+	Chance of Critical Damage: Wood Float 0.000000
+	Chance of Fire: Wood Float 0.000000
+	Initial Fire Strength: Wood Float 1.000000
+	Damage Lower Bound: Wood Float 0.000000
+	Damage Upper Bound: Wood Float 0.000000
+	# 
+	# Hull ReInforced Wood DamagePotential
+	# 
+	Chance of Critical Damage: Reinforced Float 0.000000
+	Chance of Fire: Reinforced Float 0.000000
+	Initial Fire Strength: Reinforced Float 1.000000
+	Damage Lower Bound: Reinforced Float 0.000000
+	Damage Upper Bound: Reinforced Float 0.000000
+	# 
+	# Hull Iron DamagePotential
+	# 
+	Chance of Critical Damage: Iron Float 0.000000
+	Chance of Fire: Iron Float 0.000000
+	Initial Fire Strength: Iron Float 1.000000
+	Damage Lower Bound: Iron Float 0.000000
+	Damage Upper Bound: Iron Float 0.000000
+	# 
+	# Sail Cloth DamagePotential
+	# 
+	Chance of Critical Damage: Cloth Float 0.000000
+	Chance of Fire: Cloth Float 0.000000
+	Initial Fire Strength: Cloth Float 1.000000
+	Damage Lower Bound: Cloth Float 0.000000
+	Damage Upper Bound: Cloth Float 0.000000
+	# 
+	# Wall Stone DamagePotential
+	# 
+	Chance of Critical Damage: Stone Float 1.000000
+	Chance of Fire: Stone Float 1.000000
+	Initial Fire Strength: Stone Float 1.000000
+	Damage Lower Bound: Stone Float 1.000000
+	Damage Upper Bound: Stone Float 1.000000
+	# 
+	# Dragon Scale DamagePotential
+	# 
+	Chance of Critical Damage: Dragon Float 0.500000
+	Chance of Fire: Dragon Float 0.500000
+	Initial Fire Strength: Dragon Float 0.500000
+	Damage Lower Bound: Dragon Float 0.500000
+	Damage Upper Bound: Dragon Float 0.500000
+	Impact Sound Max Distance Float 450.000000
+	Impact Sound Volume Float 1.000000
+	Travel Sound Max Distance Float 50.000000
+	Travel Sound Volume Float 1.000000
+	RicochetSound: Hull Wood String 'Ricochet_Wood'
+	00000005 ImpactSoundsHull Wood
+	{
+		Sound_0 String 'Weapon_Energynet_Impact_Wood'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Hull ReInforced Wood String 'Ricochet_Wood_Reinforced'
+	00000005 ImpactSoundsHull ReInforced Wood
+	{
+		Sound_0 String 'Weapon_Energynet_Impact_Wood'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Hull Iron String 'Ricochet_Iron'
+	00000005 ImpactSoundsHull Iron
+	{
+		Sound_0 String 'Weapon_Energynet_Impact_Metal'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Sail Cloth String 'Ricochet_Wood'
+	00000005 ImpactSoundsSail Cloth
+	{
+		Sound_0 String 'Weapon_Energynet_Impact_Wood'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Wall Stone String 'Ricochet_Wood'
+	00000005 ImpactSoundsWall Stone
+	{
+		Sound_0 String 'Weapon_Energynet_Impact_Stone'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Dragon Scale String 'Ricochet_Wood'
+	00000005 ImpactSoundsDragon Scale
+	{
+		Sound_0 String 'Weapon_Energynet_Impact_Wood'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	Travel Sound String 'Weapon_Energynet_Travel'
+	Lifetime Float 12.000000
+}

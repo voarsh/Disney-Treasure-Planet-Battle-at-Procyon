@@ -1,0 +1,42 @@
+Type String 'Crew_Wlr_XLR1'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String ''
+	HasRender String ''
+	HasAI String ''
+	HasCustomInfo String 'Crew_Wlr_XLR1'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String ''
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String ''
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String ''
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Crew_Wlr_XLR1'
+FactoryType String 'CrewCustomInfoFactory'
+00000019 ConstData
+{
+	Crew Race String 'Procyon'
+	Point Value Int 5
+	Crew Name String ID String 'IDGS_TPCREWNAME_WBT_XRL_O1'
+	Leadership Skill Active Bool False 
+	Leadership Skill Ability Value Int 0
+	Navigation Skill Active Bool False 
+	Navigation Skill Ability Value Int 0
+	Spotting Skill Active Bool False 
+	Spotting Skill Ability Value Int 0
+	Engineering Skill Active Bool False 
+	Engineering Skill Ability Value Int 0
+	Rigging Skill Active Bool False 
+	Rigging Skill Ability Value Int 0
+	Combat Skill Active Bool True
+	Combat Skill Ability Value Int 8
+	Gunnery Skill Active Bool False 
+	Gunnery Skill Ability Value Int 0
+	Talking Head Texture String 'TalkingHead_Character_Warbot_1'
+	Species String 'WAR_BOT'
+}

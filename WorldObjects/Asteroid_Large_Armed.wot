@@ -1,0 +1,101 @@
+Type String 'Asteroid_Large_Armed'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String 'Asteroid_Large_Armed'
+	HasRender String 'Asteroid_Large_Armed'
+	HasAI String 'Asteroid_Large_Armed'
+	HasCustomInfo String 'Asteroid_Large_Armed'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Asteroid_Large_Armed'
+FactoryType String 'IslandAI'
+00000001 ConstData
+{
+	Default SightRange Float 500.000000
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Asteroid_Large_Armed'
+FactoryType String 'RenderEntityFactory'
+00000042 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'AsteroidPirateLarge'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000034 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 3
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Gun_Null1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'AsteroidGun_2Deck'
+				AssociationName String 'Gun_CannonBall_Heavy_2Deck,45,Bank00'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Gun_Null2'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'AsteroidGun_2Deck2'
+				AssociationName String 'Gun_CannonBall_Heavy_2Deck,45,Bank00'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'ASTEROIDSPirateLg_Layer1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'Pirate_Asteroid__rock'
+				AssociationName String 'vitalToShip=1,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=0,swappable=0,material=Hull ReInforced Wood,hitpoints=195,vitalSectionCoreDamagePercent=100,destructFx={ Merchant_Explosion 0.000000 0.000000 ( 0.000000 -4.000000 0.000000 ) },destructFx={ Final_Ship_Chunk 0.000000 0.000000 ( 0.000000 3.000000 0.000000 ) }'
+			}
+		}
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String 'Asteroid_Large_Armed'
+FactoryType String 'BoundingRenderEntity'
+00000008 ConstData
+{
+	DetectionType String 'OBBTree'
+	ResponseType String 'Static Object'
+	User defined sphere size Bool True
+	LocalPosition Vector3( 0.000000, 0.000000, 1.200000 )
+	Radius Float 10.000000
+	UserDefinedBoundingBoxExtents Bool True
+	MinExtents Vector3( -5.000000, -5.500000, -5.000000 )
+	MaxExtents Vector3( 5.500000, 5.000000, 5.000000 )
+}
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Asteroid_Large_Armed'
+FactoryType String 'IslandCustomInfoFactory'
+00000015 ConstData
+{
+	Occlusion Polygon Point # 00 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 01 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 02 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 03 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 04 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 05 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 06 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 07 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 08 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 09 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point Count Int 0
+	Race String 'Pirate'
+	HasAmbientSound Bool False 
+	Core Damage Section Max HitPoints Int 185
+	AnnounceSighting Bool False 
+}

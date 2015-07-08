@@ -1,0 +1,3090 @@
+# (c) BaRkiNg DOG studios 2002
+00000040 WorldInfo
+{
+	IsMultiplayerMap Bool True
+	MustAssembleFleet Bool True
+	World Description String 'IDGS_TPWORLDDESCRIPTION_MP_MOUSETRAP'
+	WorldNameID String 'IDGS_TPWORLDNAMES_MP_MOUSETRAP'
+	Object Count Int 85
+	Team List - Size Int 2
+	00000003 Team List - Element
+	{
+		Team Name ID String 'IDGS_TPTEAMNAMES_PIRATES'
+		Race Int 2
+		Race Lock Bool True
+	}
+	00000003 Team List - Element
+	{
+		Team Name ID String 'IDGS_TPTEAMNAMES_PROCYON'
+		Race Int 3
+		Race Lock Bool True
+	}
+	Number of Players Int 8
+	PlayerInfo - Player Name String 'Pirate1'
+	PlayerInfo - TeamIndex Int 0
+	PlayerInfo - Player Name String 'Procyon1'
+	PlayerInfo - TeamIndex Int 1
+	PlayerInfo - Player Name String 'Pirate2'
+	PlayerInfo - TeamIndex Int 0
+	PlayerInfo - Player Name String 'Procyon2'
+	PlayerInfo - TeamIndex Int 1
+	PlayerInfo - Player Name String 'Pirate3'
+	PlayerInfo - TeamIndex Int 0
+	PlayerInfo - Player Name String 'Procyon3'
+	PlayerInfo - TeamIndex Int 1
+	PlayerInfo - Player Name String 'Pirate4'
+	PlayerInfo - TeamIndex Int 0
+	PlayerInfo - Player Name String 'Procyon4'
+	PlayerInfo - TeamIndex Int 1
+	IsCampaign Bool False 
+	Use Custom World Name Bool False 
+	Custom World Name String ''
+	Use Custom World Description Bool False 
+	Custom World Description String ''
+}
+00000008 Game
+{
+	00000002 Time
+	{
+		Game Tick Int 0
+		Game Time Double 0
+	}
+	Frame Int -1
+	Paused Bool False 
+	ActivePlayerIndex Int -1
+}
+00002725 World
+{
+	WorldName String 'Mousetrap'
+	Random Seed Int 1649599747
+	World Size - Min Vector3( -1750.000000, -1750.000000, -1000.000000 )
+	World Size - Max Vector3( 1750.000000, 1750.000000, 1000.000000 )
+	# Player List
+	PlayerList Int 11
+	00000032 Player
+	{
+		Name String 'Pirate1'
+		Color Colour( 1.000000, 0.000000, 0.000000, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( 101.075745, 739.635437, 0.000000 )
+		StartPointForwardVector Vector3( -0.061652, -0.998098, 0.000000 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int 0
+		FormationType Int 5
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'Procyon1'
+		Color Colour( 0.000000, 0.501961, 0.000000, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( -334.470764, -325.066528, 0.000000 )
+		StartPointForwardVector Vector3( 0.105450, 0.994425, 0.000000 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int 1
+		FormationType Int 5
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'Pirate2'
+		Color Colour( 1.000000, 0.000000, 1.000000, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( -119.999084, 664.412842, 0.000000 )
+		StartPointForwardVector Vector3( 0.063015, -0.998013, 0.000000 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int 0
+		FormationType Int 5
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'Procyon2'
+		Color Colour( 0.000000, 0.501961, 0.501961, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( -103.333199, -353.976013, 0.000000 )
+		StartPointForwardVector Vector3( 0.005383, 0.999986, 0.000000 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int 1
+		FormationType Int 5
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'Pirate3'
+		Color Colour( 0.701961, 0.023529, 0.278431, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( -21.555115, 518.665710, 0.000000 )
+		StartPointForwardVector Vector3( 0.026120, -0.999659, 0.000000 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int 0
+		FormationType Int 5
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'Procyon3'
+		Color Colour( 0.039216, 0.721569, 0.447059, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( 73.632263, -361.613708, 0.000000 )
+		StartPointForwardVector Vector3( -0.165934, 0.986137, 0.000000 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int 1
+		FormationType Int 5
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'Pirate4'
+		Color Colour( 0.509804, 0.039216, 0.023529, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( 258.276245, 557.711548, -0.000061 )
+		StartPointForwardVector Vector3( -0.037740, -0.999288, 0.000000 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int 0
+		FormationType Int 5
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'Procyon4'
+		Color Colour( 0.109804, 0.400000, 0.101961, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( 198.134308, -367.823975, 0.000000 )
+		StartPointForwardVector Vector3( -0.265867, 0.964010, 0.000000 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int 1
+		FormationType Int 5
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'procyon supply fleet'
+		Color Colour( 0.701961, 1.000000, 0.701961, 1.000000 )
+		IsPlayable Bool False 
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( 76.666611, -1034.967529, 0.000000 )
+		StartPointForwardVector Vector3( 0.067777, 0.997700, 0.000000 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int -1
+		FormationType Int 0
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'asteroids'
+		Color Colour( 1.000000, 1.000000, 1.000000, 1.000000 )
+		IsPlayable Bool False 
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( -741.180908, 253.768250, 0.000000 )
+		StartPointForwardVector Vector3( -0.117601, 0.993061, 0.000000 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int -1
+		FormationType Int 0
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'pirate base'
+		Color Colour( 1.000000, 1.000000, 1.000000, 1.000000 )
+		IsPlayable Bool False 
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( -7.950306, 1013.276672, 0.000000 )
+		StartPointForwardVector Vector3( 0.025130, -0.999684, 0.000000 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int -1
+		FormationType Int 0
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	NextID Int 166
+	# World Object List
+	WorldObjects Int 85
+	ID Int 1
+	Type String 'Island_Rocky_01'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 149.293320, 578.948242, 0.000000 )
+		Orientation Matrix33( 0.798635, -0.601815, 0.000000, 0.601815, 0.798635, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 2
+	Type String 'Island_Rocky_02'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 203.626343, 293.774414, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 3
+	Type String 'Island_Rocky_03'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -241.913757, 131.384048, 0.000000 )
+		Orientation Matrix33( 0.945519, -0.325568, 0.000000, 0.325568, 0.945519, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 4
+	Type String 'Island_Rocky_04'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 493.104431, -398.794434, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 5
+	Type String 'Island_Rocky_05'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 322.135010, -105.738823, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 6
+	Type String 'Island_Rocky_06'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 571.554626, 403.824646, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 7
+	Type String 'Island_Rocky_07'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -175.903351, 467.941376, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 8
+	Type String 'Island_Rocky_07'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 938.541260, -634.863770, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 9
+	Type String 'Island_Rocky_08'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 715.752625, -692.478882, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 10
+	Type String 'Island_Volcano_01'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 796.264954, -262.245850, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 11
+	Type String 'Island_Volcano_03'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 977.132751, -475.886841, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 12
+	Type String 'Island_Volcano_04'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 744.204895, 169.638367, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 13
+	Type String 'Island_Volcano_05'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 1153.533081, -231.187378, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 14
+	Type String 'Island_Volcano_06'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 908.690430, -2.352280, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 15
+	Type String 'Island_Volcano_07'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 554.851318, -110.297371, -0.000122 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 17
+	Type String 'Island_Med01'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -235.443130, 793.431396, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 18
+	Type String 'Island_Med02'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -104.520447, 1216.715576, 0.000000 )
+		Orientation Matrix33( -0.984808, -0.173648, 0.000000, 0.173648, -0.984808, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 20
+	Type String 'Island_Med05'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 342.488800, 1163.342041, 0.000000 )
+		Orientation Matrix33( 0.913546, -0.406737, 0.000000, 0.406737, 0.913546, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 30
+	Type String 'Island_Med04'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 628.024902, 917.253113, 0.000000 )
+		Orientation Matrix33( -0.190809, -0.981627, 0.000000, 0.981627, -0.190809, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 32
+	Type String 'Island_Med07'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -752.674744, 609.321289, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 33
+	Type String 'Island_Med08'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -1056.901733, 1065.398804, 9.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 34
+	Type String 'Island_Med09'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 393.898224, 612.740845, 0.000122 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 36
+	Type String 'Asteroid_Large'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -489.193359, 343.385315, 0.000061 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 37
+	Type String 'Asteroid_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -428.322327, 1210.625122, -0.999939 )
+		Orientation Matrix33( -0.000583, 0.844984, 0.534791, 0.121572, -0.530765, 0.838754, 0.992582, 0.065504, -0.102417 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 39
+	Type String 'Asteroid_Huge'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -392.858459, 1106.650146, -10.000000 )
+		Orientation Matrix33( -0.992766, 0.018271, -0.118668, 0.108556, -0.285696, -0.952152, -0.051300, -0.958146, 0.281646 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 41
+	Type String 'Asteroid_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -363.062836, 1184.589966, 6.000000 )
+		Orientation Matrix33( 0.457452, 0.420884, -0.783323, -0.009737, -0.878472, -0.477694, -0.889181, 0.226149, -0.397761 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 45
+	Type String 'Asteroid_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -360.293610, 1044.421021, -15.000000 )
+		Orientation Matrix33( -0.317889, 0.211371, 0.924267, -0.222496, 0.930981, -0.289431, -0.921652, -0.297652, -0.248919 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 51
+	Type String 'Asteroid_Huge'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -397.331451, 897.430725, -16.000000 )
+		Orientation Matrix33( 0.086200, -0.485892, -0.869758, 0.910295, 0.393201, -0.129444, 0.404885, -0.780578, 0.476199 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 52
+	Type String 'Asteroid_Small'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -390.334656, 907.311096, 1.000000 )
+		Orientation Matrix33( -0.326641, -0.045898, 0.944034, 0.755311, -0.613105, 0.231533, 0.568165, 0.788667, 0.234933 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 55
+	Type String 'Asteroid_Huge'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -399.636932, 738.397766, -13.000000 )
+		Orientation Matrix33( -0.034864, 0.353431, -0.934811, -0.547787, 0.775593, 0.313664, 0.835891, 0.523013, 0.166564 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 56
+	Type String 'Asteroid_Small'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -400.451965, 723.772766, -19.000000 )
+		Orientation Matrix33( -0.164474, 0.365764, 0.916059, 0.589904, -0.707847, 0.388543, 0.790545, 0.604293, -0.099343 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 57
+	Type String 'Asteroid_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -365.728088, 709.708557, 14.000000 )
+		Orientation Matrix33( 0.498707, -0.375735, -0.781098, 0.239487, -0.806347, 0.540787, -0.833029, -0.456757, -0.312147 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 59
+	Type String 'Asteroid_Huge'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -377.196198, 615.878723, -1.000000 )
+		Orientation Matrix33( -0.161801, 0.638783, -0.752182, -0.157451, 0.735750, 0.658697, 0.974181, 0.225010, -0.018468 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 60
+	Type String 'Asteroid_Small'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -377.196198, 607.878723, -7.000000 )
+		Orientation Matrix33( 0.110516, 0.993731, -0.016883, -0.448080, 0.034655, -0.893321, -0.887136, 0.106291, 0.449101 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 61
+	Type String 'Asteroid_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -376.974731, 602.653625, 7.000000 )
+		Orientation Matrix33( 0.645189, 0.675764, 0.356476, 0.176971, 0.321706, -0.930154, -0.743245, 0.663211, 0.087971 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 62
+	Type String 'Asteroid_Large'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -398.208771, 445.973755, 16.000000 )
+		Orientation Matrix33( -0.005100, 0.007895, -0.999956, -0.242390, 0.970138, 0.008896, 0.970165, 0.242425, -0.003034 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 64
+	Type String 'Asteroid_Small'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -480.693298, 400.342407, 14.000000 )
+		Orientation Matrix33( 0.011504, -0.906063, -0.422986, -0.044152, 0.422141, -0.905454, 0.998959, 0.029092, -0.035148 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 65
+	Type String 'Asteroid_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -469.693420, 395.342407, -17.000000 )
+		Orientation Matrix33( 0.160054, -0.985879, 0.049245, 0.182575, -0.019461, -0.982999, 0.970077, 0.166324, 0.176882 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 67
+	Type String 'Asteroid_Huge'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -498.451416, 209.582352, -6.000000 )
+		Orientation Matrix33( 0.119223, -0.312589, 0.942377, -0.168978, 0.928911, 0.329500, -0.978382, -0.198525, 0.057927 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 69
+	Type String 'Asteroid_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -497.009277, 239.655350, 5.000000 )
+		Orientation Matrix33( 0.236985, 0.944921, -0.225748, 0.221681, 0.173642, 0.959534, 0.945883, -0.277439, -0.168320 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 70
+	Type String 'Asteroid_Small'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -493.337006, 225.326248, 19.000000 )
+		Orientation Matrix33( -0.389759, 0.874692, 0.288100, 0.082251, 0.344654, -0.935120, -0.917236, -0.340774, -0.206277 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 71
+	Type String 'Asteroid_Huge'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -580.264954, 86.387413, -4.000000 )
+		Orientation Matrix33( 0.177998, 0.560913, 0.808513, -0.204740, -0.782543, 0.587970, 0.962496, -0.270193, -0.024449 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 72
+	Type String 'Asteroid_Small'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -570.540527, 73.478897, 6.000000 )
+		Orientation Matrix33( -0.288253, 0.224781, -0.930797, 0.209234, -0.933781, -0.290298, -0.934415, -0.278434, 0.222133 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 75
+	Type String 'Asteroid_Huge'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -577.973450, -32.479382, 12.000061 )
+		Orientation Matrix33( 0.854720, 0.477672, 0.203182, -0.291032, 0.765085, -0.574409, -0.429830, 0.431826, 0.792951 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 76
+	Type String 'Asteroid_Small'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -594.321777, -37.835121, 7.000000 )
+		Orientation Matrix33( -0.070965, 0.804887, 0.589169, 0.727017, -0.362669, 0.583025, 0.682943, 0.469710, -0.559430 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 77
+	Type String 'Asteroid_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -599.655273, -60.085083, 6.000000 )
+		Orientation Matrix33( -0.240980, 0.144539, 0.959707, 0.970462, 0.047608, 0.236510, -0.011504, 0.988353, -0.151742 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 84
+	Type String 'Asteroid_Large'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -728.546814, -77.795074, 1.000000 )
+		Orientation Matrix33( 0.220042, 0.012111, -0.975415, 0.405746, -0.910458, 0.080227, -0.887103, -0.413424, -0.205253 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 86
+	Type String 'Asteroid_Small'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -711.820313, -216.158691, 0.000000 )
+		Orientation Matrix33( 0.191909, 0.736688, 0.648430, 0.036021, -0.665553, 0.745481, 0.980751, -0.119707, -0.154262 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 88
+	Type String 'Asteroid_Large'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -719.476318, -209.609299, 15.000000 )
+		Orientation Matrix33( 0.094295, 0.480984, -0.871644, -0.027361, 0.876467, 0.480685, 0.995168, -0.021477, 0.095807 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 91
+	Type String 'Asteroid_Huge'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -827.313049, -248.463089, -3.000000 )
+		Orientation Matrix33( 0.153201, -0.495755, -0.854843, -0.978119, -0.199290, -0.059719, -0.140756, 0.845287, -0.515439 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 93
+	Type String 'Asteroid_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -829.134766, -409.689148, 7.000000 )
+		Orientation Matrix33( 0.188350, 0.842276, 0.505069, -0.188921, 0.535742, -0.822976, -0.963760, 0.059589, 0.260030 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 97
+	Type String 'Asteroid_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -817.471802, -400.240051, -9.000000 )
+		Orientation Matrix33( 0.934700, -0.310382, -0.173202, -0.106263, 0.220985, -0.969471, 0.339182, 0.924569, 0.173573 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 99
+	Type String 'Asteroid_Huge'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -774.366638, -338.029114, -18.000000 )
+		Orientation Matrix33( -0.053260, 0.266178, 0.962451, -0.115835, -0.958960, 0.258802, 0.991840, -0.097702, 0.081907 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 100
+	Type String 'Asteroid_Small'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -750.366638, -309.029114, -14.000000 )
+		Orientation Matrix33( 0.117043, 0.730025, 0.673323, 0.920071, -0.334931, 0.203200, 0.373858, 0.595722, -0.710876 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 101
+	Type String 'Asteroid_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -919.816162, -378.321838, -6.000000 )
+		Orientation Matrix33( 0.032796, -0.151206, 0.987958, 0.626350, -0.767192, -0.138210, 0.778852, 0.623340, 0.069547 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 107
+	Type String 'Asteroid_Huge'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -942.556396, -464.750977, 13.000000 )
+		Orientation Matrix33( 0.900047, -0.161948, -0.404585, 0.278905, 0.927414, 0.249230, 0.334856, -0.337160, 0.879883 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 109
+	Type String 'Asteroid_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -972.524597, -555.980957, -17.000000 )
+		Orientation Matrix33( 0.505482, -0.368040, 0.780407, 0.369263, -0.725179, -0.581172, 0.779829, 0.581947, -0.230661 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 110
+	Type String 'Asteroid_Large'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -969.524597, -548.980957, 10.000000 )
+		Orientation Matrix33( 0.338013, -0.917391, 0.210096, -0.925115, -0.364894, -0.104950, 0.172943, -0.158889, -0.972031 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 111
+	Type String 'Asteroid_Huge'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -1098.472412, -544.063965, -20.000122 )
+		Orientation Matrix33( -0.355294, 0.533561, -0.767515, 0.266671, -0.729109, -0.630307, -0.895909, -0.428618, 0.116763 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 113
+	Type String 'Asteroid_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -1118.472412, -539.063965, -2.000122 )
+		Orientation Matrix33( -0.196191, 0.972466, 0.125775, -0.387318, 0.040984, -0.921035, -0.900829, -0.229414, 0.368613 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 118
+	Type String 'Asteroid_Small'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -1024.378174, -569.809509, -3.000000 )
+		Orientation Matrix33( 0.490335, -0.768877, 0.410365, 0.570298, -0.072988, -0.818189, 0.659038, 0.635217, 0.402701 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 119
+	Type String 'Asteroid_Huge'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -1020.378052, -563.809509, 7.000000 )
+		Orientation Matrix33( 0.000858, -0.029142, -0.999575, -0.140751, 0.989621, -0.028973, 0.990045, 0.140716, -0.003252 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 124
+	Type String 'Asteroid_Large'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -1147.617065, -621.699707, -4.000000 )
+		Orientation Matrix33( 0.593121, -0.723698, 0.352800, 0.618788, 0.690103, 0.375312, -0.515080, -0.004297, 0.857131 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 125
+	Type String 'Asteroid_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -1179.617065, -645.699707, -5.000000 )
+		Orientation Matrix33( -0.486851, -0.855679, -0.175469, -0.443228, 0.068903, 0.893757, -0.752679, 0.512899, -0.412806 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 129
+	Type String 'Asteroid_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -591.948608, 140.361435, -9.000000 )
+		Orientation Matrix33( 0.492356, -0.860678, -0.129684, 0.261165, 0.288213, -0.921263, 0.830288, 0.419721, 0.366682 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 132
+	Type String 'Asteroid_Large'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -484.144226, 404.328186, 5.000000 )
+		Orientation Matrix33( 0.752477, 0.533687, -0.385948, 0.652233, -0.685230, 0.324116, -0.091487, -0.495618, -0.863709 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 133
+	Type String 'Asteroid_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -457.928833, 685.869263, 9.000000 )
+		Orientation Matrix33( 0.114415, -0.325942, -0.938441, 0.335532, -0.876454, 0.345321, -0.935055, -0.354387, 0.009085 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 136
+	Type String 'Asteroid_Large'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -450.934021, 678.721313, 13.000000 )
+		Orientation Matrix33( -0.417893, 0.873571, 0.249476, 0.831321, 0.256936, 0.492838, 0.366430, 0.413348, -0.833590 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 141
+	Type String 'Asteroid_Med'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -453.312897, 1214.068481, -5.000000 )
+		Orientation Matrix33( 0.328560, 0.844356, 0.423216, -0.728469, -0.058656, 0.682563, 0.601150, -0.532563, 0.595816 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 142
+	Type String 'Asteroid_Small'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -440.313019, 1216.068481, -6.000000 )
+		Orientation Matrix33( 0.410884, 0.857714, -0.309033, -0.270355, -0.209089, -0.939782, -0.870679, 0.469690, 0.145976 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 143
+	Type String 'Asteroid_Huge'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -445.212250, 1186.091675, -4.000000 )
+		Orientation Matrix33( -0.713340, -0.226127, -0.663334, -0.352158, -0.702679, 0.618245, -0.605913, 0.674617, 0.421616 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 147
+	Type String 'Asteroid_Huge'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -560.574768, 315.378357, 2.000000 )
+		Orientation Matrix33( 0.163362, -0.980456, -0.109627, 0.480268, 0.176097, -0.859263, 0.861775, 0.087720, 0.499649 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 150
+	Type String 'Asteroid_Large'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -662.588745, 82.979156, 9.000000 )
+		Orientation Matrix33( 0.014473, 0.786087, -0.617946, -0.018088, 0.618116, 0.785879, 0.999732, -0.000196, 0.023165 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 152
+	Type String 'Asteroid_Large'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -789.044739, -121.292587, 14.000000 )
+		Orientation Matrix33( -0.666115, 0.444236, -0.599121, -0.166426, -0.871549, -0.461199, -0.727044, -0.207502, 0.654484 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 154
+	Type String 'Asteroid_Small'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -791.967041, -122.655823, 12.000000 )
+		Orientation Matrix33( 0.175729, -0.969007, 0.173621, 0.344655, -0.104644, -0.932879, 0.922134, 0.223774, 0.315584 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 156
+	Type String 'Island_Icy_02'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -246.973755, -648.475708, 0.000000 )
+		Orientation Matrix33( 0.406737, -0.913546, 0.000000, 0.913546, 0.406737, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 157
+	Type String 'Island_Icy_03'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 409.228912, -782.485779, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 158
+	Type String 'Island_Icy_04'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 624.384094, -981.323425, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 159
+	Type String 'Island_Icy_05'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -586.479004, -945.083740, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 161
+	Type String 'Ship_Procyon_Tender'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -78.841011, -772.599670, 0.000000 )
+		Orientation Matrix33( 0.034900, -0.999391, 0.000000, 0.999391, 0.034900, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 8
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 162
+	Type String 'Ship_Procyon_Tender'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 161.220734, -767.929993, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 8
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 163
+	Type String 'Ship_Procyon_Sloop'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 29.993025, -647.209595, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 8
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 164
+	Type String 'Ship_Procyon_Frigate'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 277.961517, -696.308594, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 8
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 165
+	Type String 'Ship_Procyon_Frigate'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -100.592316, -685.234314, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 8
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 166
+	Type String 'Base_PirateMP_3'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -10.458221, 913.868835, 0.000000 )
+		Orientation Matrix33( -0.978148, -0.207912, 0.000000, 0.207912, -0.978148, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 10
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	00000713 GameSpecific
+	{
+		World Description Sting ID String 'IDGS_TPWORLDDESCRIPTION_MP_MOUSETRAP'
+		World Name Sting ID String 'IDGS_TPWORLDNAMES_MP_MOUSETRAP'
+		00000001 Effect Event Keeper
+		{
+			NumEffectEventInfoChunks Int 0
+		}
+		Skybox mesh name String 'skybox_01_Layer1'
+		Ambient Light Colour( 0.141176, 0.141176, 0.141176, 1.000000 )
+		Vector for roof light orientation Vector3( -0.779060, 0.253133, -0.573576 )
+		Hemispherical floor light color Colour( 0.219608, 0.282353, 0.474510, 1.000000 )
+		Hemispherical roof light color Colour( 0.866667, 0.909804, 0.972549, 1.000000 )
+		World Initialized State Bool False 
+		World Buffer Size Float 500.000000
+		Waypoint Path Info Vector - Size Int 1
+		00000010 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'asteroid arc'
+			Waypoint Path Points - Size Int 8
+			Waypoint Path Points - Element Vector3( -1415.481201, -811.322998, -1.000000 )
+			Waypoint Path Points - Element Vector3( -1075.767822, -594.896851, -1.000000 )
+			Waypoint Path Points - Element Vector3( -904.030457, -464.414490, -1.000000 )
+			Waypoint Path Points - Element Vector3( -627.706604, -22.675903, -1.000000 )
+			Waypoint Path Points - Element Vector3( -528.863647, 213.861511, -1.000000 )
+			Waypoint Path Points - Element Vector3( -420.067108, 639.101196, -1.000000 )
+			Waypoint Path Points - Element Vector3( -422.166168, 993.629578, -1.000000 )
+			Waypoint Path Points - Element Vector3( -439.622589, 1475.261719, -1.000000 )
+		}
+		World Polygons Vectors - Size Int 1
+		00000014 World Polygons Vectors - Element
+		{
+			Name String 'proc repair area'
+			Points Int 12
+			Points Coord( -28.952734, -283.880737 )
+			Points Coord( 407.646240, -334.205750 )
+			Points Coord( 561.152283, -585.070618 )
+			Points Coord( 744.905334, -983.917908 )
+			Points Coord( 409.581543, -991.242920 )
+			Points Coord( -20.896837, -968.785339 )
+			Points Coord( -187.473145, -985.679932 )
+			Points Coord( -410.211395, -955.604736 )
+			Points Coord( -494.778564, -943.148682 )
+			Points Coord( -557.441895, -869.970886 )
+			Points Coord( -510.216919, -528.765503 )
+			Points Coord( -378.517975, -339.555969 )
+		}
+		World Point Sets Vector - Size Int 0
+		Flag List - Size Int 0
+		Timer List - Size Int 0
+		Speech Event List - Size Int 0
+		PlayerAllianceInfoVector - Size Int 20
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 0
+			Player1 Int 2
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 0
+			Player1 Int 4
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 0
+			Player1 Int 6
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 0
+			Player1 Int 10
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 1
+			Player1 Int 3
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 1
+			Player1 Int 5
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 1
+			Player1 Int 7
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 1
+			Player1 Int 8
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 2
+			Player1 Int 4
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 2
+			Player1 Int 6
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 2
+			Player1 Int 10
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 3
+			Player1 Int 5
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 3
+			Player1 Int 7
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 3
+			Player1 Int 8
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 4
+			Player1 Int 6
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 4
+			Player1 Int 10
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 5
+			Player1 Int 7
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 5
+			Player1 Int 8
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 6
+			Player1 Int 10
+		}
+		00000002 PlayerAllianceInfoVector - Element
+		{
+			Player0 Int 7
+			Player1 Int 8
+		}
+		Team List - Size Int 2
+		00000003 Team List - Element
+		{
+			Team Name ID String 'IDGS_TPTEAMNAMES_PIRATES'
+			Race Int 2
+			Race Lock Bool True
+		}
+		00000003 Team List - Element
+		{
+			Team Name ID String 'IDGS_TPTEAMNAMES_PROCYON'
+			Race Int 3
+			Race Lock Bool True
+		}
+		Winning Team Int -1
+		Num Groups Int 4
+		00000028 Group
+		{
+			Name String 'Islands'
+			World Object IDs - Size Int 26
+			World Object IDs - Element Int 1
+			World Object IDs - Element Int 2
+			World Object IDs - Element Int 3
+			World Object IDs - Element Int 4
+			World Object IDs - Element Int 5
+			World Object IDs - Element Int 6
+			World Object IDs - Element Int 7
+			World Object IDs - Element Int 8
+			World Object IDs - Element Int 9
+			World Object IDs - Element Int 10
+			World Object IDs - Element Int 11
+			World Object IDs - Element Int 12
+			World Object IDs - Element Int 13
+			World Object IDs - Element Int 14
+			World Object IDs - Element Int 15
+			World Object IDs - Element Int 17
+			World Object IDs - Element Int 18
+			World Object IDs - Element Int 20
+			World Object IDs - Element Int 30
+			World Object IDs - Element Int 32
+			World Object IDs - Element Int 33
+			World Object IDs - Element Int 34
+			World Object IDs - Element Int 156
+			World Object IDs - Element Int 157
+			World Object IDs - Element Int 158
+			World Object IDs - Element Int 159
+		}
+		00000003 Group
+		{
+			Name String 'pirate base'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 166
+		}
+		00000055 Group
+		{
+			Name String 'arc asteroids'
+			World Object IDs - Size Int 53
+			World Object IDs - Element Int 36
+			World Object IDs - Element Int 37
+			World Object IDs - Element Int 39
+			World Object IDs - Element Int 41
+			World Object IDs - Element Int 45
+			World Object IDs - Element Int 51
+			World Object IDs - Element Int 52
+			World Object IDs - Element Int 55
+			World Object IDs - Element Int 56
+			World Object IDs - Element Int 57
+			World Object IDs - Element Int 59
+			World Object IDs - Element Int 60
+			World Object IDs - Element Int 61
+			World Object IDs - Element Int 62
+			World Object IDs - Element Int 64
+			World Object IDs - Element Int 65
+			World Object IDs - Element Int 67
+			World Object IDs - Element Int 69
+			World Object IDs - Element Int 70
+			World Object IDs - Element Int 71
+			World Object IDs - Element Int 72
+			World Object IDs - Element Int 75
+			World Object IDs - Element Int 76
+			World Object IDs - Element Int 77
+			World Object IDs - Element Int 84
+			World Object IDs - Element Int 86
+			World Object IDs - Element Int 88
+			World Object IDs - Element Int 91
+			World Object IDs - Element Int 93
+			World Object IDs - Element Int 97
+			World Object IDs - Element Int 99
+			World Object IDs - Element Int 100
+			World Object IDs - Element Int 101
+			World Object IDs - Element Int 107
+			World Object IDs - Element Int 109
+			World Object IDs - Element Int 110
+			World Object IDs - Element Int 111
+			World Object IDs - Element Int 113
+			World Object IDs - Element Int 118
+			World Object IDs - Element Int 119
+			World Object IDs - Element Int 124
+			World Object IDs - Element Int 125
+			World Object IDs - Element Int 129
+			World Object IDs - Element Int 132
+			World Object IDs - Element Int 133
+			World Object IDs - Element Int 136
+			World Object IDs - Element Int 141
+			World Object IDs - Element Int 142
+			World Object IDs - Element Int 143
+			World Object IDs - Element Int 147
+			World Object IDs - Element Int 150
+			World Object IDs - Element Int 152
+			World Object IDs - Element Int 154
+		}
+		00000007 Group
+		{
+			Name String 'proc supply fleet'
+			World Object IDs - Size Int 5
+			World Object IDs - Element Int 161
+			World Object IDs - Element Int 162
+			World Object IDs - Element Int 163
+			World Object IDs - Element Int 164
+			World Object IDs - Element Int 165
+		}
+		00000343 World Rules
+		{
+			Rule List Int 7
+			Rule Name String 'Init World ( Hidden From Designers )'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000001 Condition List
+			{
+				Type String 'World Initialize'
+			}
+			NumActions Int 13
+			00000006 Action List
+			{
+				Type String '*State Init* Setup Island'
+				World Object ID Int 7
+				Combat Strength Int 0
+				Player/Owner String 'NO PLAYER'
+				Gunnery Level String 'CREW SKILL LEVEL'
+				AI Stance String 'AI STANCE'
+			}
+			00000006 Action List
+			{
+				Type String '*State Init* Setup Island'
+				World Object ID Int 3
+				Combat Strength Int 0
+				Player/Owner String 'NO PLAYER'
+				Gunnery Level String 'CREW SKILL LEVEL'
+				AI Stance String 'AI STANCE'
+			}
+			00000006 Action List
+			{
+				Type String '*State Init* Setup Island'
+				World Object ID Int 17
+				Combat Strength Int 0
+				Player/Owner String 'NO PLAYER'
+				Gunnery Level String 'CREW SKILL LEVEL'
+				AI Stance String 'AI STANCE'
+			}
+			00000006 Action List
+			{
+				Type String '*State Init* Setup Island'
+				World Object ID Int 1
+				Combat Strength Int 0
+				Player/Owner String 'NO PLAYER'
+				Gunnery Level String 'CREW SKILL LEVEL'
+				AI Stance String 'AI STANCE'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 161
+				Ship Name String 'PSR Tarsus'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Aggressive'
+				Player/Owner String 'procyon supply fleet'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Green'
+				Boardable String 'TRUE'
+				Localized Ship Name String 'IDGS_TPSHIPNAMEPROCYON00_SIRIUS'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 162
+				Ship Name String 'PSR Skataris'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Aggressive'
+				Player/Owner String 'procyon supply fleet'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Average'
+				Boardable String 'TRUE'
+				Localized Ship Name String 'IDGS_TPSHIPNAMEPROCYON00_MAJORIS'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 163
+				Ship Name String 'PSR FalKorum'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Aggressive'
+				Player/Owner String 'procyon supply fleet'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Average'
+				Boardable String 'TRUE'
+				Localized Ship Name String 'IDGS_TPSHIPNAMEPROCYON01_FROSTKNIFE'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 164
+				Ship Name String 'PSR Neutron Claw'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Aggressive'
+				Player/Owner String 'procyon supply fleet'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Average'
+				Boardable String 'TRUE'
+				Localized Ship Name String 'IDGS_TPSHIPNAMEPROCYON00_CRESCENTBEAR'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 165
+				Ship Name String 'PSR Nova Bear'
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Aggressive'
+				Player/Owner String 'procyon supply fleet'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Average'
+				Boardable String 'TRUE'
+				Localized Ship Name String 'IDGS_TPSHIPNAMEPROCYON01_NOVAMACE'
+			}
+			00000006 Action List
+			{
+				Type String '*State Init* Setup Island'
+				World Object ID Int 166
+				Combat Strength Int 100
+				Player/Owner String 'pirate base'
+				Gunnery Level String 'Elite'
+				AI Stance String 'Stance_Aggressive'
+			}
+			00000006 Action List
+			{
+				Type String '*State Init* Setup Island'
+				World Object ID Int 18
+				Combat Strength Int 0
+				Player/Owner String 'NO PLAYER'
+				Gunnery Level String 'CREW SKILL LEVEL'
+				AI Stance String 'AI STANCE'
+			}
+			00000006 Action List
+			{
+				Type String '*State Init* Setup Island'
+				World Object ID Int 20
+				Combat Strength Int 0
+				Player/Owner String 'NO PLAYER'
+				Gunnery Level String 'CREW SKILL LEVEL'
+				AI Stance String 'AI STANCE'
+			}
+			00000006 Action List
+			{
+				Type String '*State Init* Setup Island'
+				World Object ID Int 156
+				Combat Strength Int 0
+				Player/Owner String 'NO PLAYER'
+				Gunnery Level String 'CREW SKILL LEVEL'
+				AI Stance String 'AI STANCE'
+			}
+			Rule Name String 'setup'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000001 Condition List
+			{
+				Type String 'World Initialize'
+			}
+			NumActions Int 7
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Owner'
+				Group/Unit Name String 'proc supply fleet'
+				New Owner String 'procyon supply fleet'
+			}
+			00000009 Action List
+			{
+				Type String 'Setup Asteroid Belt'
+				Group Name String 'arc asteroids'
+				Path Name String 'asteroid arc'
+				Follow Mode String 'teleport loop'
+				Find Closest Point String 'TRUE'
+				Velocity Upper m/sec Float 25.000000
+				Velocity Lower m/sec Float 10.000000
+				Tumble Upper Rads/sec Float 3.000000
+				Tumble Lower Rads/sec Float 0.200000
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Owner'
+				Group/Unit Name String 'arc asteroids'
+				New Owner String 'asteroids'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Hold Position'
+				Group/Unit Name String 'proc supply fleet'
+				Boolean String 'TRUE'
+			}
+			00000004 Action List
+			{
+				Type String 'Setup Team Objective'
+				Team Name String 'IDGS_TPTEAMNAMES_PROCYON'
+				Objective Point String 'Proc Obj'
+				Objective Task String 'Procyon Obj'
+			}
+			00000004 Action List
+			{
+				Type String 'Setup Team Objective'
+				Team Name String 'IDGS_TPTEAMNAMES_PIRATES'
+				Objective Point String 'NO OBJECTIVE POINT'
+				Objective Task String 'Pirate Obj'
+			}
+			00000006 Action List
+			{
+				Type String 'Play Music Track'
+				File Name String 'BTL_DeadlyPirate_AltSlow'
+				Crossfade transition String 'TRUE'
+				Fade Out Time ( secs ) Float 2.000000
+				Fade In Time ( secs ) Float 2.000000
+				New Volume ( 0 to 1 ) Float 0.700000
+			}
+			Rule Name String 'Proc Win'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000005 Condition List
+			{
+				Type String 'Group/Unit Vital Section has >,<,= X damage'
+				Group/Unit Name String 'pirate base'
+				Vital Section String 'vitalToMission'
+				Equivalence String 'Equal To'
+				Damage Percent Float 1.000000
+			}
+			NumActions Int 2
+			00000002 Action List
+			{
+				Type String 'Team X Wins'
+				Team Name String 'IDGS_TPTEAMNAMES_PROCYON'
+			}
+			00000005 Action List
+			{
+				Type String 'End Game'
+				Use Custom Message String 'TRUE'
+				Winner - Custom Message String ID String 'IDGS_TPINGAMEMESSAGE_GAME_WON'
+				Loser - Custom Message String ID String 'IDGS_TPINGAMEMESSAGE_GAME_GENERAL_PROCYONDEFEAT'
+				Show Stats Screen String 'TRUE'
+			}
+			Rule Name String 'pirate win'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000002 Condition List
+			{
+				Type String 'Team X has no ships'
+				Team Name String 'IDGS_TPTEAMNAMES_PROCYON'
+			}
+			NumActions Int 2
+			00000002 Action List
+			{
+				Type String 'Team X Wins'
+				Team Name String 'IDGS_TPTEAMNAMES_PIRATES'
+			}
+			00000005 Action List
+			{
+				Type String 'End Game'
+				Use Custom Message String 'TRUE'
+				Winner - Custom Message String ID String 'IDGS_TPINGAMEMESSAGE_GAME_WON'
+				Loser - Custom Message String ID String 'IDGS_TPINGAMEMESSAGE_GAME_GENERAL_PRIVATEERDEFEAT'
+				Show Stats Screen String 'TRUE'
+			}
+			Rule Name String 'gaurd zone'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000003 Condition List
+			{
+				Type String 'Team Member Enters Volume'
+				Team Name String 'IDGS_TPTEAMNAMES_PIRATES'
+				Volume Name String 'proc repair area'
+			}
+			NumActions Int 4
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Hold Position'
+				Group/Unit Name String 'proc supply fleet,PSR Neutron Claw'
+				Boolean String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Hold Position'
+				Group/Unit Name String 'proc supply fleet,PSR Nova Bear'
+				Boolean String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit Hold Position'
+				Group/Unit Name String 'proc supply fleet,PSR FalKorum'
+				Boolean String 'FALSE'
+			}
+			00000006 Action List
+			{
+				Type String 'Play Music Track'
+				File Name String 'BTL_ProcWarDrums_Slow'
+				Crossfade transition String 'TRUE'
+				Fade Out Time ( secs ) Float 2.000000
+				Fade In Time ( secs ) Float 2.000000
+				New Volume ( 0 to 1 ) Float 0.700000
+			}
+			Rule Name String 'dead human'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000001 Condition List
+			{
+				Type String 'No Human Controlled Ships Remain'
+			}
+			NumActions Int 1
+			00000005 Action List
+			{
+				Type String 'End Game'
+				Use Custom Message String 'TRUE'
+				Winner - Custom Message String ID String 'IDGS_TPINGAMEMESSAGE_GAME_LOST'
+				Loser - Custom Message String ID String 'IDGS_TPINGAMEMESSAGE_GAME_LOST'
+				Show Stats Screen String 'TRUE'
+			}
+			Rule Name String 'proc win2'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Team has captured a ship from Group/Unit'
+				Team Name String 'IDGS_TPTEAMNAMES_PROCYON'
+				Group/Unit String 'pirate base'
+				Number Of Captures Int 0
+			}
+			NumActions Int 2
+			00000002 Action List
+			{
+				Type String 'Team X Wins'
+				Team Name String 'IDGS_TPTEAMNAMES_PROCYON'
+			}
+			00000005 Action List
+			{
+				Type String 'End Game'
+				Use Custom Message String 'TRUE'
+				Winner - Custom Message String ID String 'IDGS_TPINGAMEMESSAGE_GAME_WON'
+				Loser - Custom Message String ID String 'IDGS_TPINGAMEMESSAGE_GAME_GENERAL_PROCYONDEFEAT'
+				Show Stats Screen String 'TRUE'
+			}
+		}
+		00000025 Objective System
+		{
+			Current Objective Point Int -1
+			Current Point Visible On StarMap Bool True
+			Objective Point Info - Size Int 1
+			00000002 Objective Point Info - Element
+			{
+				Name String 'Proc Obj'
+				Position Vector3( -11.270416, 861.667236, 0.000000 )
+			}
+			Objective Task Array - Size Int 2
+			00000005 Objective Task Array - Element
+			{
+				Name String 'Procyon Obj'
+				TextStringID String 'IDGS_TPOBJECTIVES2_MP_DESTROYENEMYBASE'
+				Active Bool False 
+				Completed Bool False 
+				Failed Bool False 
+			}
+			00000005 Objective Task Array - Element
+			{
+				Name String 'Pirate Obj'
+				TextStringID String 'IDGS_TPOBJECTIVES2_MP_DEFENDBASE'
+				Active Bool False 
+				Completed Bool False 
+				Failed Bool False 
+			}
+		}
+		00000001 Rope
+		{
+			RopeInfo - Size Int 0
+		}
+		00000001 Grappled Objects
+		{
+			Grappled Objects Info - Size Int 0
+		}
+		00000001 Boarding Actions
+		{
+			Boarding Actions Info - Size Int 0
+		}
+		00000002 Journal Entry
+		{
+			Page Info - Size Int 0
+			Title StringID String 'IDGS_TPJOURNALSCREEN_DUMMY_TITLE'
+		}
+		00000001 World Map
+		{
+			Backdrop Texture Name String 'Map_Mousetrap'
+		}
+		Can Assemble Fleets Bool True
+		World Crew List - Size Int 0
+		World Arms List - Size Int 0
+		00000022 MapText System
+		{
+			MapText Point Info - Size Int 3
+			00000004 MapText Point Info - Element
+			{
+				Name String 'pirate base'
+				DisplayedText String 'IDGS_TPMAPTEXTITEMS_GENERAL_CAMP_STRONGBOX'
+				Position Vector3( -9.998058, 870.772705, 0.000000 )
+				Visible Bool True
+			}
+			00000004 MapText Point Info - Element
+			{
+				Name String 'asteroid belt'
+				DisplayedText String 'IDGS_TPMAPTEXTITEMS_M04_CAUTION_ASTEROIDS'
+				Position Vector3( -697.839600, -26.898315, 0.000000 )
+				Visible Bool True
+			}
+			00000004 MapText Point Info - Element
+			{
+				Name String 'valcano islans'
+				DisplayedText String 'IDGS_TPMAPTEXTITEMS_GENERAL_ISLANDS_BLACKHEART_BELT'
+				Position Vector3( 553.604492, -67.607300, 0.000000 )
+				Visible Bool True
+			}
+		}
+		READAIENTITYCOUNTS Bool False 
+		Journal Music Name String 'JournalMusic'
+		PlayEndMovie Bool False 
+		IsCampaign Bool False 
+		Is Alliance Change Allowed Bool False 
+		Use Custom World Name Bool False 
+		Custom World Name String ''
+		Use Custom World Description Bool False 
+		Custom World Description String ''
+		Islands Make Sounds Bool True
+		DATA_NEBULA_CAMERA_EFFECT Int 0
+		DATA_NEXT_NEBULA_CAMERA_EFFECT Int 0
+		00000001 DATA_NEBULA_CAMERA_EFFECT_FADE_IN_TIMER
+		{
+			StartTime Double 0
+		}
+		00000001 DATA_NEBULA_CAMERA_EFFECT_SPIN_TIMER
+		{
+			StartTime Double 0
+		}
+	}
+}
+00000304 GameImpl
+{
+	SelectedWorldObjectID Int -1
+	00000006 GameStats
+	{
+		PlayerKillInfo - Size Int 0
+		PlayerDockInfo - Size Int 0
+		PlayerLifeBoatSavedInfo - Size Int 0
+		FleetSizeInfo - Size Int 0
+		PlayerDamageInfo - Size Int 0
+		SinglePlayer Points Int 0
+	}
+	SinglePlayerVictoryPoints Int 0
+	SinglePlayerCrewList - Size Int 0
+	SinglePlayerArmsList - Size Int 0
+	00000014 HUD
+	{
+		Are NIS Bars Open Bool False 
+		Skip Current Speech Event Bool False 
+		00000001 Active Speech Event Timer
+		{
+			StartTime Double 0
+		}
+		Speech Event Active Bool False 
+		Speech Event Queue - Size Int 0
+		Artificial Pause Between Speech Events Active Bool False 
+		00000001 Artificial Pause Between Speech Events Timer
+		{
+			StartTime Double 0
+		}
+		Request To Close NIS Bars Bool False 
+	}
+	Game Complete Bool False 
+	Custom Game Complete Bool False 
+	00000001 Game Complete Timer
+	{
+		StartTime Double 0
+	}
+	Custom Game Complete String String ''
+	Game Winner Players - Size Int 0
+	User Interface Disabled Bool False 
+	Is Campaign Game Bool False 
+	Show Stats Screen Bool True
+	Goto Next Level Enabled Bool False 
+	Next Level World Name String ''
+	00000001 Next Level Display Timer
+	{
+		StartTime Double 0
+	}
+	Already Created Game Bool False 
+	00000218 Game Camera
+	{
+		00000028 FlyCameraController
+		{
+			00000015 Camera
+			{
+				AspectRatio Float 1.000000
+				FieldOfView Float 0.785398
+				NearPlane Float 0.500000
+				FarPlane Float 3000.000000
+				UsingResolutionBasedAspectRatio Bool True
+				Orthographic Bool False 
+				OrthographicZoom Float 1.000000
+				00000005 LocalBasis
+				{
+					Position Vector3( 0.000000, 0.000000, 0.000000 )
+					LookAt Vector Length Float 1.000000
+					Orientation - Cross Vector3( 1.000000, 0.000000, 0.000000 )
+					Orientation - Forward Vector3( 0.000000, 1.000000, 0.000000 )
+					Orientation - Up Vector3( 0.000000, 0.000000, 1.000000 )
+				}
+			}
+			00000002 TargetInfo
+			{
+				TargetID Int -1
+				TargetPoint Vector3( 0.000000, 0.000000, 0.000000 )
+			}
+			00000001 GameTimeUpdateTimer
+			{
+				StartTime Double 0
+			}
+			NewFocusData Bool True
+		}
+		00000046 SplineCameraController
+		{
+			00000015 Camera
+			{
+				AspectRatio Float 1.000000
+				FieldOfView Float 0.785398
+				NearPlane Float 0.500000
+				FarPlane Float 3000.000000
+				UsingResolutionBasedAspectRatio Bool True
+				Orthographic Bool False 
+				OrthographicZoom Float 1.000000
+				00000005 LocalBasis
+				{
+					Position Vector3( 0.000000, 0.000000, 0.000000 )
+					LookAt Vector Length Float 10.000000
+					Orientation - Cross Vector3( -1.000000, 0.000000, 0.000000 )
+					Orientation - Forward Vector3( 0.000000, -1.000000, 0.000000 )
+					Orientation - Up Vector3( 0.000000, 0.000000, 1.000000 )
+				}
+			}
+			00000002 TargetInfo
+			{
+				TargetID Int -1
+				TargetPoint Vector3( 0.000000, 0.000000, 0.000000 )
+			}
+			00000001 GameTimeUpdateTimer
+			{
+				StartTime Double 0
+			}
+			NewFocusData Bool True
+			00000010 PositionInterpolater
+			{
+				Position Vector3( 0.000000, 0.000000, 0.000000 )
+				StartPointControlPoint Vector3( 0.000000, 0.000000, 0.000000 )
+				EndPointControlPoint Vector3( 0.000000, 0.000000, 0.000000 )
+				ControlIndex Int 0
+				Acceleration Float 10.000000
+				MaxSpeed Float 30.000000
+				Speed Float 0.000000
+				Distance Float 0.000000
+				Percentage Float -431602080.000000
+				ControlPointsInfo - Size Int 0
+			}
+			PrevTargetPoint Vector3( 0.000000, -10.000000, 0.000000 )
+			LockPosition Bool False 
+			LockOrientation Bool False 
+			ForceOrientation Bool False 
+			PercentIncrement Float -431602080.000000
+		}
+		00000042 SwoopCameraController
+		{
+			00000015 Camera
+			{
+				AspectRatio Float 1.000000
+				FieldOfView Float 0.785398
+				NearPlane Float 0.500000
+				FarPlane Float 3000.000000
+				UsingResolutionBasedAspectRatio Bool True
+				Orthographic Bool False 
+				OrthographicZoom Float 1.000000
+				00000005 LocalBasis
+				{
+					Position Vector3( 0.000000, 0.000000, 0.000000 )
+					LookAt Vector Length Float 10.000000
+					Orientation - Cross Vector3( -1.000000, 0.000000, 0.000000 )
+					Orientation - Forward Vector3( 0.000000, -1.000000, 0.000000 )
+					Orientation - Up Vector3( 0.000000, 0.000000, 1.000000 )
+				}
+			}
+			00000002 TargetInfo
+			{
+				TargetID Int -1
+				TargetPoint Vector3( 0.000000, 0.000000, 0.000000 )
+			}
+			00000001 GameTimeUpdateTimer
+			{
+				StartTime Double 0
+			}
+			NewFocusData Bool True
+			DistanceToTarget Float 20.000000
+			DesiredToTarget Float 20.000000
+			HorizontalRotation Float 0.000000
+			MaxHorizontalRotation Float 0.000000
+			MaxDistanceToTarget Float 300.000000
+			MinHorizontalRotation Float 0.000000
+			MinDistanceToTarget Float 2.000000
+			RestrictMinHorizontal Bool False 
+			RestrictMinDistance Bool True
+			RestrictMaxHorizontal Bool False 
+			RestrictMaxDistance Bool True
+			PercentIncrement Float -431602080.000000
+			TargetPoint Vector3( 0.000000, 0.000000, 0.000000 )
+			JumpToFocusPoint Bool False 
+		}
+		00000046 TransitionCameraController
+		{
+			00000015 Camera
+			{
+				AspectRatio Float 1.000000
+				FieldOfView Float 0.785398
+				NearPlane Float 0.500000
+				FarPlane Float 3000.000000
+				UsingResolutionBasedAspectRatio Bool True
+				Orthographic Bool False 
+				OrthographicZoom Float 1.000000
+				00000005 LocalBasis
+				{
+					Position Vector3( 0.000000, 0.000000, 0.000000 )
+					LookAt Vector Length Float 10.000000
+					Orientation - Cross Vector3( -1.000000, 0.000000, 0.000000 )
+					Orientation - Forward Vector3( 0.000000, -1.000000, 0.000000 )
+					Orientation - Up Vector3( 0.000000, 0.000000, 1.000000 )
+				}
+			}
+			00000002 TargetInfo
+			{
+				TargetID Int -1
+				TargetPoint Vector3( 0.000000, 0.000000, 0.000000 )
+			}
+			00000001 GameTimeUpdateTimer
+			{
+				StartTime Double 0
+			}
+			NewFocusData Bool True
+			00000010 PositionInterpolater
+			{
+				Position Vector3( 0.000000, 0.000000, 0.000000 )
+				StartPointControlPoint Vector3( 0.000000, 0.000000, 0.000000 )
+				EndPointControlPoint Vector3( 0.000000, 0.000000, 0.000000 )
+				ControlIndex Int 0
+				Acceleration Float 10.000000
+				MaxSpeed Float 30.000000
+				Speed Float 0.000000
+				Distance Float 0.000000
+				Percentage Float -431602080.000000
+				ControlPointsInfo - Size Int 0
+			}
+			PrevTargetPoint Vector3( 0.000000, -10.000000, 0.000000 )
+			LockPosition Bool False 
+			LockOrientation Bool False 
+			ForceOrientation Bool False 
+			PercentIncrement Float -431602080.000000
+		}
+		00000034 AttachCameraController
+		{
+			00000015 Camera
+			{
+				AspectRatio Float 1.000000
+				FieldOfView Float 0.785398
+				NearPlane Float 0.500000
+				FarPlane Float 3000.000000
+				UsingResolutionBasedAspectRatio Bool True
+				Orthographic Bool False 
+				OrthographicZoom Float 1.000000
+				00000005 LocalBasis
+				{
+					Position Vector3( 0.000000, 0.000000, 0.000000 )
+					LookAt Vector Length Float 10.000000
+					Orientation - Cross Vector3( -1.000000, 0.000000, 0.000000 )
+					Orientation - Forward Vector3( 0.000000, -1.000000, 0.000000 )
+					Orientation - Up Vector3( 0.000000, 0.000000, 1.000000 )
+				}
+			}
+			00000002 TargetInfo
+			{
+				TargetID Int -1
+				TargetPoint Vector3( 0.000000, 0.000000, 0.000000 )
+			}
+			00000001 GameTimeUpdateTimer
+			{
+				StartTime Double 0
+			}
+			NewFocusData Bool True
+			AttachedObjectID Int -1
+			Distance Float 1.000000
+			AngleYZ Float 0.000000
+			AngleXY Float 0.000000
+			LockOrientation Bool False 
+			PercentIncrement Float -431602080.000000
+		}
+		CameraMode Int 0
+		TargetModeForTransition Int -842150451
+		InTransitionMode Bool False 
+		TurnOffNISWhenDoneTransition Bool True
+		TransitionStartPoint Vector3( 0.000000, 0.000000, 0.000000 )
+		LastTargetPosition Vector3( 0.000000, 0.000000, 0.000000 )
+		LastCameraPosition Vector3( 0.000000, 0.000000, 0.000000 )
+	}
+	00000018 SoundPlayer
+	{
+		00000006 CurrentMix
+		{
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+		}
+		00000006 UserMix
+		{
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+		}
+	}
+	00000001 MusicPlayer
+	{
+		Is Playing Bool False 
+	}
+	00000005 TPSound
+	{
+		MusicVolume Float 1.000000
+		SpeechOcurring Bool False 
+		CreatedSoundData - Size Int 0
+		Abyss Volume Float 0.000000
+		Inside Abyss Bool False 
+	}
+	Radar Active Bool True
+	Crew Speech Silent State Bool False 
+}

@@ -1,0 +1,99 @@
+Type String 'Gun_NovaMortar'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String ''
+	HasRender String 'Gun_NovaMortar'
+	HasAI String 'Gun_NovaMortar'
+	HasCustomInfo String 'Gun_NovaMortar'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Gun_NovaMortar'
+FactoryType String 'GunAI'
+00000004 ConstData
+{
+	Is Lobbing Gun Bool True
+	Is MineLaying Gun Bool False 
+	Is TorpedoLauncher Gun Bool False 
+	Is PointDefense Gun Bool False 
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Gun_NovaMortar'
+FactoryType String 'RenderEntityFactory'
+00000031 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'NovaMortar'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000023 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 2
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'NovaMortarGun_Layer1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunVerticalPivotPlacement'
+				DescriptorName String 'Vertical_pivot_Point'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MuzzleNode_0'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunMuzzlePlacement'
+				DescriptorName String 'Muzzle_1'
+				AssociationName String ''
+			}
+		}
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String ''
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Gun_NovaMortar'
+FactoryType String 'GunCustomInfoFactory'
+00000033 ConstData
+{
+	BulletTypeName_Primary String 'Bullet_NovaMortar'
+	BulletTypeName_Secondary String 'NoBulletType'
+	SoundName String 'Weapon_Novamortar_Fire'
+	MuzzleFlashEffect String 'Universal_MuzzleFlash'
+	MuzzleSpeed Float 25.000000
+	DuringBurstReloadTime Float 0.000000
+	BulletsPerBurst Int 1
+	TimeBetweenBursts Float 80.000000
+	CalculateAccuracyDeviationDuringBurst Bool False 
+	WeaponBar Icon Texture String 'WeaponBar_GunIcon_NovaMortar'
+	VerticalRotationSpeed Float 0.523600
+	HorizontalRotationSpeed Float 0.523600
+	VerticalMinAngle Float -0.785000
+	VerticalMaxAngle Float 1.550000
+	LobAngle Float 0.785400
+	MaximumRange_Range Float 500.000000
+	LongRange_Range Float 350.000000
+	EffectiveRange_Range Float 200.000000
+	BulletAffectedByGravity Bool True
+	MaximumRange_AccuracyDeviation Float 0.261800
+	LongRange_AccuracyDeviation Float 0.174500
+	EffectiveRange_AccuracyDeviation Float 0.087300
+	MaximumRange_RicochetFactor Float 0.000000
+	LongRange_RicochetFactor Float 0.000000
+	EffectiveRange_RicochetFactor Float 0.000000
+	Victory Point Cost Int 50
+	Gun Name String ID String 'IDGS_TPGUNDISPLAYEDNAME_NOVAMORTAR'
+	Mount Type String 'Non-Selectable Special Mount'
+	Exclusion Race String 'None'
+	Can Be Fired While Cloaked Bool False 
+	Firing Crew Alert String 'GUNNER_FIRE'
+	SoundMaxDistance Float 1000.000000
+	SoundVolume Float 0.900000
+}

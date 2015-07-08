@@ -1,0 +1,361 @@
+Type String 'Base_QueensPalace'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String 'Base_QueensPalace'
+	HasRender String 'Base_QueensPalace'
+	HasAI String 'Base_QueensPalace'
+	HasCustomInfo String 'Base_QueensPalace'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Base_QueensPalace'
+FactoryType String 'IslandAI'
+00000001 ConstData
+{
+	Default SightRange Float 2000.000000
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Base_QueensPalace'
+FactoryType String 'RenderEntityFactory'
+00000306 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'BaseQueensPalace'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000298 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 27
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'DockPoint1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DockPoint'
+				DescriptorName String 'DockPoint1'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'DockPoint2'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DockPoint'
+				DescriptorName String 'DockPoint2'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'HeavyMount14'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'HeavyMount14'
+				AssociationName String 'Gun_CannonBall_Heavy,180,Bank01'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'HeavyMount15'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'HeavyMount15'
+				AssociationName String 'Gun_CannonBall_Heavy,180,Bank02'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'HeavyMount16'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'HeavyMount16'
+				AssociationName String 'Gun_CannonBall_Heavy,180,Bank02'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'HeavyMount17'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'HeavyMount17'
+				AssociationName String 'Gun_CannonBall_Heavy,180,Bank02'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'HeavyMount18'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'HeavyMount18'
+				AssociationName String 'Gun_CannonBall_Heavy,180,Bank02'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'PDLancer9'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'PDLancer9'
+				AssociationName String 'Gun_Lancer_PD_Med,180,Bank05'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'PDLancer10'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'PDLancer10'
+				AssociationName String 'Gun_Lancer_PD_Med,180,Bank05'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'PDLancer11'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'PDLancer11'
+				AssociationName String 'Gun_Lancer_PD_Med,180,Bank05'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'PDLancer12'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'PDLancer12'
+				AssociationName String 'Gun_Lancer_PD_Med,180,Bank05'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'PDLancer13'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'PDLancer13'
+				AssociationName String 'Gun_Lancer_PD_Med,180,Bank05'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'BoardingNode0'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'BoardingEffectPoint'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'BoardingNode1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'BoardingEffectPoint'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'BoardingNode2'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'BoardingEffectPoint'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'BoardingNode6'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'BoardingEffectPoint'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Top_Flag'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'FlagAttachmentPoint'
+				DescriptorName String 'Top_Flag'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Bottom_Flag'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'FlagAttachmentPoint'
+				DescriptorName String 'Bottom_Flag'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'HeavyMount20'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'HeavyMount20'
+				AssociationName String 'Gun_CannonBall_Heavy,180,Bank02'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'HeavyMount13'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'HeavyMount13'
+				AssociationName String 'Gun_CannonBall_Heavy,180,Bank01'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'HeavyMount12'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'HeavyMount12'
+				AssociationName String 'Gun_CannonBall_Heavy,180,Bank01'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'QueensPalace_Layer2'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'palace_stone'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=1,swappable=1,material=Wall Stone,hitpoints=500,adjacent=QueensPalace_Layer3+QueensPalace_Layer4+QueensPalace_Layer5+,destructFx={ Final_Ship_Chunk_large 0.000000 0.000000 ( 32.299999 15.700000 -19.299999 ) },destructFx={ Final_Ship_Chunk_large 0.000000 0.000000 ( 23.400000 11.600000 -9.700000 ) },destructFx={ Falling_Building 0.000000 0.000000 ( 21.600000 12.600000 -22.000000 ) },destructFx={ Falling_Building 0.000000 0.000000 ( 8.200000 15.100000 -22.299999 ) },destructFx={ Final_Ship_Chunk_large 0.000000 0.000000 ( -15.100000 32.000000 -23.299999 ) },destructFx={ Final_Ship_Chunk_large 0.000000 0.000000 ( -29.700001 22.799999 -42.500000 ) },destructFx={ Final_Ship_Chunk_large 0.000000 0.000000 ( -40.000000 14.900000 -22.299999 ) },destructFx={ Falling_Building 0.000000 0.000000 ( -61.500000 14.900000 -19.200001 ) },destructFx={ Falling_Building 0.000000 0.000000 ( -47.900002 14.900000 -36.400002 ) },destructFx={ Falling_Building 0.000000 0.000000 ( 16.100000 14.900000 -35.099998 ) },destructFx={ Falling_Building 0.000000 0.000000 ( 1.200000 14.900000 9.000000 ) },destructFx={ Final_Ship_Chunk_large 0.000000 0.000000 ( -34.000000 14.900000 9.000000 ) },destructFx={ FireOnShip 0.000000 0.000000 ( 5.400000 5.600000 2.700000 ) },destructFx={ FireOnShip 0.000000 0.000000 ( -36.900002 5.800000 -47.200001 ) }'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'QueensPalace_Layer3'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'buildings_stone'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=1,swappable=1,material=Wall Stone,hitpoints=300,adjacent=QueensPalace_Layer2+QueensPalace_Layer4+QueensPalace_Layer5+,destructFx={ Merchant_Explosion 0.000000 0.000000 ( 25.900000 4.500000 119.000000 ) },destructFx={ Merchant_Explosion 0.000000 0.000000 ( 4.200000 4.500000 150.000000 ) },destructFx={ Merchant_Explosion 0.000000 0.000000 ( -12.300000 4.500000 171.000000 ) },destructFx={ Falling_Building 0.000000 0.000000 ( -31.000000 4.500000 182.000000 ) },destructFx={ Falling_Building 0.000000 0.000000 ( -23.000000 4.500000 154.000000 ) },destructFx={ Falling_Building 0.000000 0.000000 ( -7.200000 4.500000 133.199997 ) },destructFx={ FireOnShip 0.000000 0.000000 ( -1.900000 2.600000 151.399994 ) }'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'QueensPalace_Layer4'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'buildings_2_stone'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=1,swappable=1,material=Wall Stone,hitpoints=300,adjacent=QueensPalace_Layer2+QueensPalace_Layer3+QueensPalace_Layer5+,destructFx={ Merchant_Explosion 0.000000 0.000000 ( 23.200001 4.500000 62.700001 ) },destructFx={ Falling_Building 0.000000 0.000000 ( 35.000000 -1.600000 75.400002 ) },destructFx={ Falling_Building 0.000000 0.000000 ( 33.200001 -1.600000 98.000000 ) },destructFx={ Merchant_Explosion 0.000000 0.000000 ( -5.000000 -1.600000 86.800003 ) },destructFx={ FireOnShip 0.000000 0.000000 ( 34.500000 -1.600000 56.500000 ) },destructFx={ FireOnShip 0.000000 0.000000 ( 10.700000 -1.600000 94.800003 ) }'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'QueensPalace_Layer5'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'buildings_3_stone'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=1,swappable=1,material=Wall Stone,hitpoints=300,adjacent=QueensPalace_Layer2+QueensPalace_Layer3+QueensPalace_Layer4+,destructFx={ Merchant_Explosion 0.000000 0.000000 ( 41.000000 5.800000 -160.000000 ) },destructFx={ Merchant_Explosion 0.000000 0.000000 ( 30.200001 5.800000 -77.000000 ) },destructFx={ Falling_Building 0.000000 0.000000 ( 62.500000 5.800000 -140.000000 ) },destructFx={ Falling_Building 0.000000 0.000000 ( 67.000000 5.800000 -93.300003 ) },destructFx={ Falling_Building 0.000000 0.000000 ( 13.400000 5.800000 120.599998 ) },destructFx={ FireOnShip 0.000000 0.000000 ( 69.400002 5.800000 -81.199997 ) },destructFx={ FireOnShip 0.000000 0.000000 ( 17.100000 5.800000 -158.000000 ) },destructFx={ FireOnShip 0.000000 0.000000 ( 72.000000 5.800000 -158.000000 ) }'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'QueensPalace_Layer6'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'dock_1_wood'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=1,swappable=1,material=Hull Wood,hitpoints=500,destructFx={ Final_Ship_Chunk_large 0.000000 0.000000 ( 75.500000 -1.400000 58.099998 ) },destructFx={ Final_Ship_Chunk_large 0.000000 0.000000 ( 75.500000 -1.400000 40.000000 ) },destructFx={ FireOnShip 0.000000 0.000000 ( 55.299999 -1.400000 40.000000 ) }'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'QueensPalace_Layer7'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'dock_2_wood'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=1,swappable=1,material=Hull Wood,hitpoints=500,destructFx={ Final_Ship_Chunk_large 0.000000 0.000000 ( 118.000000 2.300000 -88.000000 ) },destructFx={ Falling_Building 0.000000 0.000000 ( 117.900002 2.300000 -72.900002 ) },destructFx={ FireOnShip 0.000000 0.000000 ( 98.000000 2.300000 -72.900002 ) }'
+			}
+		}
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String 'Base_QueensPalace'
+FactoryType String 'BoundingRenderEntity'
+00000004 ConstData
+{
+	DetectionType String 'OBBTree'
+	ResponseType String 'Static Object'
+	User defined sphere size Bool False 
+	UserDefinedBoundingBoxExtents Bool False 
+}
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Base_QueensPalace'
+FactoryType String 'IslandCustomInfoFactory'
+00000015 ConstData
+{
+	Occlusion Polygon Point # 00 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 01 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 02 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 03 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 04 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 05 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 06 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 07 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 08 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 09 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point Count Int 0
+	Race String 'Navy'
+	HasAmbientSound Bool False 
+	Core Damage Section Max HitPoints Int -842150451
+	AnnounceSighting Bool False 
+}

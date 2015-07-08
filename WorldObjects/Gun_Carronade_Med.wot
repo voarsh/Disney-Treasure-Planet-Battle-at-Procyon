@@ -1,0 +1,99 @@
+Type String 'Gun_Carronade_Med'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String ''
+	HasRender String 'Gun_Carronade_Med'
+	HasAI String 'Gun_Carronade_Med'
+	HasCustomInfo String 'Gun_Carronade_Med'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Gun_Carronade_Med'
+FactoryType String 'GunAI'
+00000004 ConstData
+{
+	Is Lobbing Gun Bool False 
+	Is MineLaying Gun Bool False 
+	Is TorpedoLauncher Gun Bool False 
+	Is PointDefense Gun Bool False 
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Gun_Carronade_Med'
+FactoryType String 'RenderEntityFactory'
+00000031 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'CarronadeMedium'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000023 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 2
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MuzzleNode0'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunMuzzlePlacement'
+				DescriptorName String 'CarronadeMedium'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MediumCarronade_Layer2'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunVerticalPivotPlacement'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String ''
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Gun_Carronade_Med'
+FactoryType String 'GunCustomInfoFactory'
+00000033 ConstData
+{
+	BulletTypeName_Primary String 'Bullet_Carronade_Medium'
+	BulletTypeName_Secondary String 'NoBulletType'
+	SoundName String 'Weapon_Caranade_FireMed'
+	MuzzleFlashEffect String 'CannonBall_Heavy_Muzzle'
+	MuzzleSpeed Float 30.000000
+	DuringBurstReloadTime Float 0.000000
+	BulletsPerBurst Int 1
+	TimeBetweenBursts Float 8.000000
+	CalculateAccuracyDeviationDuringBurst Bool False 
+	WeaponBar Icon Texture String 'WeaponBar_GunIcon_Carronaid_Mediuam'
+	VerticalRotationSpeed Float 1.134464
+	HorizontalRotationSpeed Float 0.959931
+	VerticalMinAngle Float -0.785049
+	VerticalMaxAngle Float 1.550027
+	LobAngle Float 0.000000
+	MaximumRange_Range Float 130.000000
+	LongRange_Range Float 100.000000
+	EffectiveRange_Range Float 80.000000
+	BulletAffectedByGravity Bool True
+	MaximumRange_AccuracyDeviation Float 0.209440
+	LongRange_AccuracyDeviation Float 0.174533
+	EffectiveRange_AccuracyDeviation Float 0.069813
+	MaximumRange_RicochetFactor Float -20.000000
+	LongRange_RicochetFactor Float -40.000000
+	EffectiveRange_RicochetFactor Float -60.000000
+	Victory Point Cost Int 6
+	Gun Name String ID String 'IDGS_TPGUNDISPLAYEDNAME_CARRONADEMEDIUM'
+	Mount Type String 'Medium Mount'
+	Exclusion Race String 'Procyon'
+	Can Be Fired While Cloaked Bool False 
+	Firing Crew Alert String 'GUNNER_FIRE'
+	SoundMaxDistance Float 800.000000
+	SoundVolume Float 0.700000
+}

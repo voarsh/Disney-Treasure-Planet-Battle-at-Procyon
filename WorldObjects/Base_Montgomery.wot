@@ -1,0 +1,482 @@
+Type String 'Base_Montgomery'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String 'Base_Montgomery'
+	HasRender String 'Base_Montgomery'
+	HasAI String 'Base_Montgomery'
+	HasCustomInfo String 'Base_Montgomery'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Base_Montgomery'
+FactoryType String 'IslandAI'
+00000001 ConstData
+{
+	Default SightRange Float 3000.000000
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Base_Montgomery'
+FactoryType String 'RenderEntityFactory'
+00000427 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'BaseMontgomery'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000419 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 38
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MedLancer2_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'MedLancer_2'
+				AssociationName String 'Gun_StarMortar,180,Bank01'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MedCannon1_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'MedCannon_1'
+				AssociationName String 'Gun_CannonBall_Med,120,Bank02'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MedCannon2_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'MedCannon_2'
+				AssociationName String 'Gun_CannonBall_Med,120,Bank02'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MedCannon3_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'MedCannon_3'
+				AssociationName String 'Gun_CannonBall_Med,120,Bank02'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MedCannon4_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'MedCannon_4'
+				AssociationName String 'Gun_CannonBall_Med,120,Bank02'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MedCannon5_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'MedCannon_5'
+				AssociationName String 'Gun_GravCharge_Med,150,Bank03'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MedCannon6_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'MedCannon_6'
+				AssociationName String 'Gun_CannonBall_Med,120,Bank04'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MedCannon7_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'MedCannon_7'
+				AssociationName String 'Gun_CannonBall_Med,120,Bank04'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MedCannon8_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'MedCannon_8'
+				AssociationName String 'Gun_CannonBall_Med,50,Bank04'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'LightGattling1_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'LightGattling_1'
+				AssociationName String 'Gun_Gattling_Light,160,Bank05'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'LightGattling2_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'LightGattling_2'
+				AssociationName String 'Gun_Gattling_Light,160,Bank06'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'LightCannon1_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'LightBaseCannon_1'
+				AssociationName String 'Gun_Plasma_Light,50,Bank07'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'LightCannon2_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'LightBaseCannon_2'
+				AssociationName String 'Gun_Plasma_Light,50,Bank07'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'LightCannon3_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'LightBaseCannon_3'
+				AssociationName String 'Gun_Plasma_Light,50,Bank08'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'LightCannon4_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'LightBaseCannon_4'
+				AssociationName String 'Gun_Plasma_Light,50,Bank08'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'HeavyCannon1_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'HeavyCannon_1'
+				AssociationName String 'Gun_ArcturianFire_Heavy,90,Bank09'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'HeavyCannon2_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'HeavyCannon_2'
+				AssociationName String 'Gun_ArcturianFire_Heavy,90,Bank09'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'HeavyCannon3_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'HeavyCannon_3'
+				AssociationName String 'Gun_ArcturianFire_Heavy,90,Bank09'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'HeavyCannon4_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'HeavyCannon_4'
+				AssociationName String 'Gun_Plasma_Heavy,120,Bank10'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'HeavyCannon5_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'HeavyCannon_5'
+				AssociationName String 'Gun_Plasma_Heavy,120,Bank10'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'NovaMortar_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Nova_Mortar'
+				AssociationName String 'Gun_NovaMortar,180,Bank11'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MedCannon9_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'MedCannon_9'
+				AssociationName String 'Gun_Plasma_Heavy,160,Bank12'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'DockPoint'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DockPoint'
+				DescriptorName String 'Dock_Point'
+				AssociationName String 'CRANES'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'DockPoint2'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DockPoint'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'BoardingNode0'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'BoardingEffectPoint'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'BoardingNode1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'BoardingEffectPoint'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Top_Flag'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'FlagAttachmentPoint'
+				DescriptorName String 'Top_Flagpoint'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Bottom_Flag'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'FlagAttachmentPoint'
+				DescriptorName String 'Bottom_FlagPoint'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'WayStationMontgomery_Layer1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'Main_Island_undamagable'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=0,swappable=0,material=Sail Cloth,hitpoints=10'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'WayStationMontgomery_Layer2'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'Building_1_stone'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=1,swappable=1,material=Wall Stone,hitpoints=200,destructFx={ Falling_Building 0.000000 0.000000 ( 48.000000 3.000000 0.600000 ) }'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'WayStationMontgomery_Layer3'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'Building_2_stone'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=1,swappable=1,material=Wall Stone,hitpoints=200,destructFx={ Falling_Building 0.000000 0.000000 ( -45.599998 3.000000 0.500000 ) }'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'WayStationMontgomery_Layer4'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'Building_3_stone'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=1,swappable=1,material=Wall Stone,hitpoints=300,destructFx={ Final_Ship_Chunk_large 0.000000 0.000000 ( -12.200000 3.000000 35.000000 ) },destructFx={ StarMortar_Heavy_Impact 0.000000 0.000000 ( -4.200000 16.400000 28.000000 ) }'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'WayStationMontgomery_Layer5'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'walls_stone'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=0,swappable=1,material=Wall Stone,hitpoints=400,destructFx={ Falling_Building 0.000000 0.000000 ( -27.000000 3.000000 35.200001 ) },destructFx={ Final_Ship_Chunk_large 0.000000 0.000000 ( -10.000000 3.000000 59.200001 ) },destructFx={ Falling_Building 0.000000 0.000000 ( 18.600000 3.000000 45.000000 ) }'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'WayStationMontgomery_Layer6'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'rear_building_stone'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=0,swappable=1,material=Wall Stone,hitpoints=150,destructFx={ Falling_Building 0.000000 0.000000 ( 7.700000 6.400000 -130.500000 ) }'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'WayStationMontgomery_Layer7'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'Walls_stone'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=0,swappable=1,material=Wall Stone,hitpoints=300,destructFx={ Falling_Building 0.000000 0.000000 ( -65.000000 3.000000 18.000000 ) },destructFx={ Final_Ship_Chunk_large 0.000000 0.000000 ( -73.000000 3.000000 48.500000 ) },destructFx={ Falling_Building 0.000000 0.000000 ( -72.000000 3.000000 68.000000 ) }'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'WayStationMontgomery_Layer8'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'main_walls_stone'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=0,swappable=1,material=Wall Stone,hitpoints=300,destructFx={ Falling_Building 0.000000 0.000000 ( -63.000000 3.000000 -60.599998 ) },destructFx={ Falling_Building 0.000000 0.000000 ( -63.000000 3.000000 -21.000000 ) }'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'WayStationMontgomery_Layer9'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'Dock_wood'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=0,swappable=1,material=Hull Wood,hitpoints=1000'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'WayStationMontgomery_Layer10'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'Dock2_wood'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=0,swappable=1,material=Hull Wood,hitpoints=800'
+			}
+		}
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String 'Base_Montgomery'
+FactoryType String 'BoundingRenderEntity'
+00000004 ConstData
+{
+	DetectionType String 'OBBTree'
+	ResponseType String 'Static Object'
+	User defined sphere size Bool False 
+	UserDefinedBoundingBoxExtents Bool False 
+}
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Base_Montgomery'
+FactoryType String 'IslandCustomInfoFactory'
+00000015 ConstData
+{
+	Occlusion Polygon Point # 00 Vector3( -80.000000, 7.000000, 0.000000 )
+	Occlusion Polygon Point # 01 Vector3( 104.000000, -98.000000, 0.000000 )
+	Occlusion Polygon Point # 02 Vector3( 86.000000, -148.000000, 0.000000 )
+	Occlusion Polygon Point # 03 Vector3( 6.000000, -156.000000, 0.000000 )
+	Occlusion Polygon Point # 04 Vector3( -60.000000, -106.000000, 0.000000 )
+	Occlusion Polygon Point # 05 Vector3( -48.000000, -28.000000, 0.000000 )
+	Occlusion Polygon Point # 06 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 07 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 08 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 09 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point Count Int 0
+	Race String 'Navy'
+	HasAmbientSound Bool False 
+	Core Damage Section Max HitPoints Int -842150451
+	AnnounceSighting Bool False 
+}

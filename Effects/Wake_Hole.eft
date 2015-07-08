@@ -1,0 +1,31 @@
+00000028 EffectStream
+{
+	EffectName String 'Wake_Hole'
+	EffectMaxRadius Float 1400.000000
+	NumPrimitives Int 1
+	PrimitiveName String 'Trail'
+	00000021 Primitive
+	{
+		Duration Float 20.000000
+		StartDelay Float 0.000000
+		UseWorldCoordInternaly Bool False 
+		PrimitiveDescription String ''
+		CHUNKDATA_CONST_ACCEPTS_EFFECT_VARIABLES_STRING_VECTOR - Size Int 3
+		CHUNKDATA_CONST_ACCEPTS_EFFECT_VARIABLES_STRING_VECTOR - Element String 'SPHERE_VELOCITY_EMITTER_LENGTH_MULTIPLY'
+		CHUNKDATA_CONST_ACCEPTS_EFFECT_VARIABLES_STRING_VECTOR - Element String 'EMITTER_RATE_MULTIPLY'
+		CHUNKDATA_CONST_ACCEPTS_EFFECT_VARIABLES_STRING_VECTOR - Element String 'DIE_OUT'
+		RenderPassNumber Int 1
+		Everlasting Bool True
+		UpdateWhenFaded Bool True
+		DoneWhenFaded Bool False 
+		00000001 TextureRenderInfo
+		{
+			TextureName String 'FireBlackHole.tga'
+		}
+		BackDrift Float -0.100000
+		OutDrift Float 0.200000
+		InitialWidth Float 50.000000
+		TextureFlowBack Bool False 
+		GenerateEvenWhenFaded Bool True 
+	}
+}

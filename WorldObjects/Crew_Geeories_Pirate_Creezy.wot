@@ -1,0 +1,42 @@
+Type String 'Crew_Geeories_Pirate_Creezy'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String ''
+	HasRender String ''
+	HasAI String ''
+	HasCustomInfo String 'Crew_Geeories_Pirate_Creezy'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String ''
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String ''
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String ''
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Crew_Geeories_Pirate_Creezy'
+FactoryType String 'CrewCustomInfoFactory'
+00000019 ConstData
+{
+	Crew Race String 'Pirate'
+	Point Value Int 7
+	Crew Name String ID String 'IDGS_TPCREWNAME02_CREEZY'
+	Leadership Skill Active Bool True
+	Leadership Skill Ability Value Int 6
+	Navigation Skill Active Bool False 
+	Navigation Skill Ability Value Int 0
+	Spotting Skill Active Bool True
+	Spotting Skill Ability Value Int 7
+	Engineering Skill Active Bool True
+	Engineering Skill Ability Value Int 8
+	Rigging Skill Active Bool False 
+	Rigging Skill Ability Value Int 0
+	Combat Skill Active Bool False 
+	Combat Skill Ability Value Int 0
+	Gunnery Skill Active Bool False 
+	Gunnery Skill Ability Value Int 0
+	Talking Head Texture String 'TalkingHead_Character_Geeories_0'
+	Species String 'Geeorie'
+}

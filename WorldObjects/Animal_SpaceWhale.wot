@@ -1,0 +1,83 @@
+Type String 'Animal_SpaceWhale'
+00000005 ConstData
+{
+	HasPhysics String 'Animal_SpaceWhale'
+	HasCollision String 'Animal_SpaceWhale'
+	HasRender String 'Animal_SpaceWhale'
+	HasAI String 'Animal_SpaceWhale'
+	HasCustomInfo String 'Animal_SpaceWhale'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Animal_SpaceWhale'
+FactoryType String 'SpaceAnimalAI'
+00000000 ConstData
+{
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Animal_SpaceWhale'
+FactoryType String 'RenderEntityFactory'
+00000009 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'AnimalSpaceWhale'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000001 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 0
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String 'Animal_SpaceWhale'
+FactoryType String 'Whale Physics'
+00000009 ConstData
+{
+	CenterOfMass Vector3( 0.000000, 0.000000, 0.000000 )
+	Mass Float 2000.000000
+	MaxThrust Float 30000.000000
+	MaxSpeed Float 11.111111
+	RotationalFriction Float 20.000000
+	MaxAngularAcceleration Float 30.461155
+	Max Dive Pitch Float 0.500000
+	Max Climb Pitch Float 0.700000
+	Dive Time Float 2.500000
+}
+Definition String 'COLLISIONDEFINITION'
+EntityType String 'Animal_SpaceWhale'
+FactoryType String 'BoundingRenderEntity'
+00000006 ConstData
+{
+	DetectionType String 'BoundingRenderEntity'
+	ResponseType String 'Space Object'
+	User defined sphere size Bool False 
+	UserDefinedBoundingBoxExtents Bool True
+	MinExtents Vector3( -2.500000, -1.000000, -3.000000 )
+	MaxExtents Vector3( 2.500000, 6.000000, 3.000000 )
+}
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Animal_SpaceWhale'
+FactoryType String 'SpaceAnimalCustomInfoFactory'
+00000019 ConstData
+{
+	00000002 GUIInfo Chunk
+	{
+		Selected Indicator Percentage Of Radius Float 1.000000
+		Distance to Start Sphere Picking Float 20.000000
+	}
+	ShortestTimeBetweenSounds Float 3.000000
+	LongestTimeBetweenSounds Float 10.000000
+	Sound_0 String 'Animal_WhaleCall01'
+	Sound_1 String 'Animal_WhaleCall02'
+	Sound_2 String 'Animal_WhaleCall03'
+	Sound_3 String 'Animal_WhaleCall04'
+	Sound_4 String 'Animal_WhaleCall05'
+	Sound_5 String 'Animal_WhaleCall06'
+	Sound_6 String ''
+	Sound_7 String ''
+	Sound_8 String ''
+	Sound_9 String ''
+	Report spotting Bool True
+	Report type String 'SPOTTER_WHALES'
+	Sound Distance Float 400.000
+}

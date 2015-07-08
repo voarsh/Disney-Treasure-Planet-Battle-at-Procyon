@@ -1,0 +1,163 @@
+Type String 'Bullet_NovaMortar_Secondary'
+00000005 ConstData
+{
+	HasPhysics String 'Bullet_NovaMortar_Secondary'
+	HasCollision String 'Bullet_NovaMortar_Secondary'
+	HasRender String 'Bullet_NovaMortar_Secondary'
+	HasAI String ''
+	HasCustomInfo String 'Bullet_NovaMortar_Secondary'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String ''
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Bullet_NovaMortar_Secondary'
+FactoryType String 'RenderEntityFactory'
+00000009 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'StarMortarBullet'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000001 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 0
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String 'Bullet_NovaMortar_Secondary'
+FactoryType String 'ProjectilePhysics'
+00000002 ConstData
+{
+	CenterOfMass Vector3( 0.000000, 0.000000, 0.000000 )
+	Mass Float 1.000000
+}
+Definition String 'COLLISIONDEFINITION'
+EntityType String 'Bullet_NovaMortar_Secondary'
+FactoryType String 'Point'
+00000002 ConstData
+{
+	DetectionType String 'Point'
+	ResponseType String 'Bullet'
+}
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Bullet_NovaMortar_Secondary'
+FactoryType String 'StarMortarCustomInfoFactory'
+00000115 ConstData
+{
+	Magnitude Float 15000.000000
+	MaxRadius Float 60.000000
+	Duration Float 3.000000
+	HitEffect String 'StarMortar_Heavy_Impact'
+	BulletEffect String 'Star_Mortar_Trail'
+	Damage HitPoints Int 40
+	Decal Damage Size String 'Large'
+	# 
+	# Hull Wood DamagePotential
+	# 
+	Chance of Critical Damage: Wood Float 0.000000
+	Chance of Fire: Wood Float 0.400000
+	Initial Fire Strength: Wood Float 1.000000
+	Damage Lower Bound: Wood Float 60.000000
+	Damage Upper Bound: Wood Float 65.000000
+	# 
+	# Hull ReInforced Wood DamagePotential
+	# 
+	Chance of Critical Damage: Reinforced Float 0.300000
+	Chance of Fire: Reinforced Float 0.000000
+	Initial Fire Strength: Reinforced Float 1.000000
+	Damage Lower Bound: Reinforced Float 56.000000
+	Damage Upper Bound: Reinforced Float 64.000000
+	# 
+	# Hull Iron DamagePotential
+	# 
+	Chance of Critical Damage: Iron Float 0.000000
+	Chance of Fire: Iron Float 0.000000
+	Initial Fire Strength: Iron Float 1.000000
+	Damage Lower Bound: Iron Float 50.000000
+	Damage Upper Bound: Iron Float 60.000000
+	# 
+	# Sail Cloth DamagePotential
+	# 
+	Chance of Critical Damage: Cloth Float 0.000000
+	Chance of Fire: Cloth Float 0.500000
+	Initial Fire Strength: Cloth Float 1.000000
+	Damage Lower Bound: Cloth Float 70.000000
+	Damage Upper Bound: Cloth Float 80.000000
+	# 
+	# Wall Stone DamagePotential
+	# 
+	Chance of Critical Damage: Stone Float 0.000000
+	Chance of Fire: Stone Float 0.000000
+	Initial Fire Strength: Stone Float 0.000000
+	Damage Lower Bound: Stone Float 48.000000
+	Damage Upper Bound: Stone Float 52.000000
+	# 
+	# Dragon Scale DamagePotential
+	# 
+	Chance of Critical Damage: Dragon Float 0.000000
+	Chance of Fire: Dragon Float 0.000000
+	Initial Fire Strength: Dragon Float 0.000000
+	Damage Lower Bound: Dragon Float 60.000000
+	Damage Upper Bound: Dragon Float 70.000000
+	Impact Sound Max Distance Float 4000.000000
+	Impact Sound Volume Float 1.000000
+	Travel Sound Max Distance Float 50.000000
+	Travel Sound Volume Float 1.000000
+	RicochetSound: Hull Wood String 'Ricochet_Wood'
+	00000005 ImpactSoundsHull Wood
+	{
+		Sound_0 String 'Weapon_Mortar_ImpactEtherium'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Hull ReInforced Wood String 'Ricochet_Wood_Reinforced'
+	00000005 ImpactSoundsHull ReInforced Wood
+	{
+		Sound_0 String 'Weapon_Mortar_ImpactEtherium'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Hull Iron String 'Richocet_MetalBounce02'
+	00000005 ImpactSoundsHull Iron
+	{
+		Sound_0 String 'Weapon_Mortar_ImpactEtherium'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Sail Cloth String 'Ricochet_Wood'
+	00000005 ImpactSoundsSail Cloth
+	{
+		Sound_0 String 'Weapon_Mortar_ImpactEtherium'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Wall Stone String 'Ricochet_Wood'
+	00000005 ImpactSoundsWall Stone
+	{
+		Sound_0 String 'Weapon_Mortar_ImpactEtherium'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Dragon Scale String 'Ricochet_Wood'
+	00000005 ImpactSoundsDragon Scale
+	{
+		Sound_0 String 'Weapon_Mortar_ImpactEtherium'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	Travel Sound String 'Weapon_NovaMortar_Travel'
+	Lifetime Float 30.000000
+}

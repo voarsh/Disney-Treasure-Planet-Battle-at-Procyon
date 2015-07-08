@@ -1,0 +1,42 @@
+Type String 'Crew_Arc_Navy_JBigbootie'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String ''
+	HasRender String ''
+	HasAI String ''
+	HasCustomInfo String 'Crew_Arc_Navy_JBigbootie'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String ''
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String ''
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String ''
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Crew_Arc_Navy_JBigbootie'
+FactoryType String 'CrewCustomInfoFactory'
+00000019 ConstData
+{
+	Crew Race String 'Navy'
+	Point Value Int 4
+	Crew Name String ID String 'IDGS_TPCREWNAME03_ARC_JBIGBOOTE'
+	Leadership Skill Active Bool True
+	Leadership Skill Ability Value Int 4
+	Navigation Skill Active Bool True
+	Navigation Skill Ability Value Int 5
+	Spotting Skill Active Bool True
+	Spotting Skill Ability Value Int 2
+	Engineering Skill Active Bool True
+	Engineering Skill Ability Value Int 4
+	Rigging Skill Active Bool True
+	Rigging Skill Ability Value Int 5
+	Combat Skill Active Bool False 
+	Combat Skill Ability Value Int 0
+	Gunnery Skill Active Bool False 
+	Gunnery Skill Ability Value Int 0
+	Talking Head Texture String 'TalkingHead_Character_Arcturians_0'
+	Species String 'Arcturian'
+}

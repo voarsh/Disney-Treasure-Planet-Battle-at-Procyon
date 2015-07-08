@@ -1,0 +1,25 @@
+Type String 'Terrain_Etherium_Current'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String ''
+	HasRender String ''
+	HasAI String ''
+	HasCustomInfo String 'Terrain_Etherium_Current'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String ''
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String ''
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String ''
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Terrain_Etherium_Current'
+FactoryType String 'EtheriumCurrentCustomInfoFactory'
+00000002 ConstData
+{
+	Magnitude Float 25000.000000
+	Radius Float 60.000000
+}

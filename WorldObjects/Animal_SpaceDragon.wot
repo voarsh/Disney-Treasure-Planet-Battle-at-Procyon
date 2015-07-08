@@ -1,0 +1,101 @@
+Type String 'Animal_SpaceDragon'
+00000005 ConstData
+{
+	HasPhysics String 'Animal_SpaceDragon'
+	HasCollision String 'Animal_SpaceDragon'
+	HasRender String 'Animal_SpaceDragon'
+	HasAI String 'Animal_SpaceDragon'
+	HasCustomInfo String 'Animal_SpaceDragon'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Animal_SpaceDragon'
+FactoryType String 'DragonAI'
+00000001 ConstData
+{
+	Default SightRange Float 500.000000
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Animal_SpaceDragon'
+FactoryType String 'RenderEntityFactory'
+00000031 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'AnimalSpaceDragon'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000023 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 2
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MouthGunMount'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'default'
+				AssociationName String 'Gun_DragonBreath,45,Bank00'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'SpaceDragon_Layer1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'default'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=0,swappable=0,material=Dragon Scale,hitpoints=500'
+			}
+		}
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String 'Animal_SpaceDragon'
+FactoryType String 'DragonPhysics'
+00000006 ConstData
+{
+	CenterOfMass Vector3( 0.000000, 0.000000, 0.000000 )
+	Mass Float 1000.000000
+	MaxThrust Float 15000.000000
+	MaxSpeed Float 12.000000
+	RotationalFriction Float 20.000000
+	MaxAngularAcceleration Float 6.000000
+}
+Definition String 'COLLISIONDEFINITION'
+EntityType String 'Animal_SpaceDragon'
+FactoryType String 'BoundingRenderEntity'
+00000004 ConstData
+{
+	DetectionType String 'BoundingRenderEntity'
+	ResponseType String 'Ship'
+	User defined sphere size Bool False 
+	UserDefinedBoundingBoxExtents Bool False 
+}
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Animal_SpaceDragon'
+FactoryType String 'DragonCustomInfoFactory'
+00000019 ConstData
+{
+	00000002 GUIInfo Chunk
+	{
+		Selected Indicator Percentage Of Radius Float 0.400000
+		Distance to Start Sphere Picking Float 20.000000
+	}
+	ShortestTimeBetweenSounds Float 07.000000
+	LongestTimeBetweenSounds Float 13.000000
+	Sound_0 String 'Animal_SpaceDragon_01'
+	Sound_1 String 'Animal_SpaceDragon_02'
+	Sound_2 String 'Animal_SpaceDragon_03'
+	Sound_3 String 'Animal_SpaceDragon_04'
+	Sound_4 String 'Animal_SpaceDragon_05'
+	Sound_5 String 'Animal_SpaceDragon_06'
+	Sound_6 String ''
+	Sound_7 String ''
+	Sound_8 String ''
+	Sound_9 String ''
+	Report spotting Bool True
+	Report type String 'SPOTTER_DRAGONS'
+	Sound Distance Float 700.000
+}

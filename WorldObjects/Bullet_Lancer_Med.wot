@@ -1,0 +1,147 @@
+Type String 'Bullet_Lancer_Med'
+00000005 ConstData
+{
+	HasPhysics String 'Bullet_Lancer_Med'
+	HasCollision String 'Bullet_Lancer_Med'
+	HasRender String ''
+	HasAI String ''
+	HasCustomInfo String 'Bullet_Lancer_Med'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String ''
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String ''
+Definition String 'PHYSICSDEFINITION'
+EntityType String 'Bullet_Lancer_Med'
+FactoryType String 'ProjectilePhysics'
+00000002 ConstData
+{
+	CenterOfMass Vector3( 0.000000, 0.000000, 0.000000 )
+	Mass Float 1000.000000
+}
+Definition String 'COLLISIONDEFINITION'
+EntityType String 'Bullet_Lancer_Med'
+FactoryType String 'Point'
+00000002 ConstData
+{
+	DetectionType String 'Defensive WeaponFire'
+	ResponseType String 'Defensive WeaponFire'
+}
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Bullet_Lancer_Med'
+FactoryType String 'BulletCustomInfoFactory'
+00000112 ConstData
+{
+	HitEffect String 'Lancer_Medium_Impact'
+	BulletEffect String 'Lancer_MediumBullet_Sprite'
+	Damage HitPoints Int 2
+	Decal Damage Size String 'Medium'
+	# 
+	# Hull Wood DamagePotential
+	# 
+	Chance of Critical Damage: Wood Float 0.100000
+	Chance of Fire: Wood Float 0.150000
+	Initial Fire Strength: Wood Float 1.000000
+	Damage Lower Bound: Wood Float 8.000000
+	Damage Upper Bound: Wood Float 10.000000
+	# 
+	# Hull ReInforced Wood DamagePotential
+	# 
+	Chance of Critical Damage: Reinforced Float 0.050000
+	Chance of Fire: Reinforced Float 0.100000
+	Initial Fire Strength: Reinforced Float 1.000000
+	Damage Lower Bound: Reinforced Float 6.000000
+	Damage Upper Bound: Reinforced Float 8.000000
+	# 
+	# Hull Iron DamagePotential
+	# 
+	Chance of Critical Damage: Iron Float 0.000000
+	Chance of Fire: Iron Float 0.000000
+	Initial Fire Strength: Iron Float 1.000000
+	Damage Lower Bound: Iron Float 4.000000
+	Damage Upper Bound: Iron Float 6.000000
+	# 
+	# Sail Cloth DamagePotential
+	# 
+	Chance of Critical Damage: Cloth Float 0.000000
+	Chance of Fire: Cloth Float 0.250000
+	Initial Fire Strength: Cloth Float 1.000000
+	Damage Lower Bound: Cloth Float 10.000000
+	Damage Upper Bound: Cloth Float 12.000000
+	# 
+	# Wall Stone DamagePotential
+	# 
+	Chance of Critical Damage: Stone Float 0.050000
+	Chance of Fire: Stone Float 0.000000
+	Initial Fire Strength: Stone Float 1.000000
+	Damage Lower Bound: Stone Float 4.000000
+	Damage Upper Bound: Stone Float 6.000000
+	# 
+	# Dragon Scale DamagePotential
+	# 
+	Chance of Critical Damage: Dragon Float 0.000000
+	Chance of Fire: Dragon Float 0.500000
+	Initial Fire Strength: Dragon Float 0.500000
+	Damage Lower Bound: Dragon Float 9.000000
+	Damage Upper Bound: Dragon Float 15.000000
+	Impact Sound Max Distance Float 300.000000
+	Impact Sound Volume Float 0.700000
+	Travel Sound Max Distance Float 50.000000
+	Travel Sound Volume Float 0.700000
+	RicochetSound: Hull Wood String 'Ricochet_Wood'
+	00000005 ImpactSoundsHull Wood
+	{
+		Sound_0 String 'Weapon_Lancer_Pirate_Impact_Med'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Hull ReInforced Wood String 'Ricochet_Wood_Reinforced'
+	00000005 ImpactSoundsHull ReInforced Wood
+	{
+		Sound_0 String 'Weapon_Lancer_Pirate_Impact_Med'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Hull Iron String 'Ricochet_Iron'
+	00000005 ImpactSoundsHull Iron
+	{
+		Sound_0 String 'Weapon_Lancer_Pirate_Impact_Med'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Sail Cloth String 'Ricochet_Wood'
+	00000005 ImpactSoundsSail Cloth
+	{
+		Sound_0 String 'Weapon_Lancer_Pirate_Impact_Med'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Wall Stone String 'Ricochet_Wood'
+	00000005 ImpactSoundsWall Stone
+	{
+		Sound_0 String 'Weapon_Lancer_Pirate_Impact_Med'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Dragon Scale String 'Ricochet_Wood'
+	00000005 ImpactSoundsDragon Scale
+	{
+		Sound_0 String 'Weapon_Lancer_Pirate_Impact_Med'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	Travel Sound String ''
+	Lifetime Float 3.000000
+}

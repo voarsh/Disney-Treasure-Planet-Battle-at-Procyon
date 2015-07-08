@@ -1,0 +1,99 @@
+Type String 'Gun_EnergyNet_Med'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String ''
+	HasRender String 'Gun_EnergyNet_Med'
+	HasAI String 'Gun_EnergyNet_Med'
+	HasCustomInfo String 'Gun_EnergyNet_Med'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Gun_EnergyNet_Med'
+FactoryType String 'GunAI'
+00000004 ConstData
+{
+	Is Lobbing Gun Bool False 
+	Is MineLaying Gun Bool False 
+	Is TorpedoLauncher Gun Bool False 
+	Is PointDefense Gun Bool False 
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Gun_EnergyNet_Med'
+FactoryType String 'RenderEntityFactory'
+00000031 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'EnergyNetMedium'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000023 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 2
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MuzzleNode0'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunMuzzlePlacement'
+				DescriptorName String 'Enet_Muzzle'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Enet_Layer2'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunVerticalPivotPlacement'
+				DescriptorName String 'Vertical_Pivot_Point'
+				AssociationName String ''
+			}
+		}
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String ''
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Gun_EnergyNet_Med'
+FactoryType String 'GunCustomInfoFactory'
+00000033 ConstData
+{
+	BulletTypeName_Primary String 'Bullet_EnergyNet'
+	BulletTypeName_Secondary String 'NoBulletType'
+	SoundName String 'Weapon_EnergyNet_Fire'
+	MuzzleFlashEffect String 'Universal_MuzzleFlash'
+	MuzzleSpeed Float 35.000000
+	DuringBurstReloadTime Float 0.000000
+	BulletsPerBurst Int 1
+	TimeBetweenBursts Float 15.000000
+	CalculateAccuracyDeviationDuringBurst Bool False 
+	WeaponBar Icon Texture String 'WeaponBar_GunIcon_EnergyNetLauncher'
+	VerticalRotationSpeed Float 1.326450
+	HorizontalRotationSpeed Float 1.308997
+	VerticalMinAngle Float -0.785398
+	VerticalMaxAngle Float 1.550027
+	LobAngle Float 0.000000
+	MaximumRange_Range Float 150.000000
+	LongRange_Range Float 90.000000
+	EffectiveRange_Range Float 50.000000
+	BulletAffectedByGravity Bool True
+	MaximumRange_AccuracyDeviation Float 0.087266
+	LongRange_AccuracyDeviation Float 0.052360
+	EffectiveRange_AccuracyDeviation Float 0.034907
+	MaximumRange_RicochetFactor Float -100.000000
+	LongRange_RicochetFactor Float -100.000000
+	EffectiveRange_RicochetFactor Float -100.000000
+	Victory Point Cost Int 7
+	Gun Name String ID String 'IDGS_TPGUNDISPLAYEDNAME_ENERGYNETMEDIUM'
+	Mount Type String 'Medium Mount'
+	Exclusion Race String 'None'
+	Can Be Fired While Cloaked Bool False 
+	Firing Crew Alert String 'GUNNER_FIRE'
+	SoundMaxDistance Float 700.000000
+	SoundVolume Float 0.700000
+}

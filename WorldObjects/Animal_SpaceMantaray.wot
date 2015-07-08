@@ -1,0 +1,82 @@
+Type String 'Animal_SpaceMantaray'
+00000005 ConstData
+{
+	HasPhysics String 'Animal_SpaceMantaray'
+	HasCollision String 'Animal_SpaceMantaray'
+	HasRender String 'Animal_SpaceMantaray'
+	HasAI String 'Animal_SpaceMantaray'
+	HasCustomInfo String 'Animal_SpaceMantaray'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Animal_SpaceMantaray'
+FactoryType String 'SpaceAnimalAI'
+00000000 ConstData
+{
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Animal_SpaceMantaray'
+FactoryType String 'RenderEntityFactory'
+00000009 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'AnimalSpaceMantaray'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000001 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 0
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String 'Animal_SpaceMantaray'
+FactoryType String 'Whale Physics'
+00000009 ConstData
+{
+	CenterOfMass Vector3( 0.000000, 0.000000, 0.000000 )
+	Mass Float 2000.000000
+	MaxThrust Float 30000.000000
+	MaxSpeed Float 10.111111
+	RotationalFriction Float 20.000000
+	MaxAngularAcceleration Float 30.463127
+	Max Dive Pitch Float 0.200000
+	Max Climb Pitch Float 0.700000
+	Dive Time Float 2.500000
+}
+Definition String 'COLLISIONDEFINITION'
+EntityType String 'Animal_SpaceMantaray'
+FactoryType String 'BoundingRenderEntity'
+00000006 ConstData
+{
+	DetectionType String 'Null'
+	ResponseType String 'Null'
+	User defined sphere size Bool False 
+	UserDefinedBoundingBoxExtents Bool True
+	MinExtents Vector3( -0.300000, -0.300000, -0.200000 )
+	MaxExtents Vector3( 0.300000, 0.300000, 0.200000 )
+}
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Animal_SpaceMantaray'
+FactoryType String 'SpaceAnimalCustomInfoFactory'
+00000018 ConstData
+{
+	00000002 GUIInfo Chunk
+	{
+		Selected Indicator Percentage Of Radius Float 1.000000
+		Distance to Start Sphere Picking Float 20.000000
+	}
+	ShortestTimeBetweenSounds Float 10.000000
+	LongestTimeBetweenSounds Float 25.000000
+	Sound_0 String 'Animal_Mantaray01'
+	Sound_1 String 'Animal_Mantaray02'
+	Sound_2 String ''
+	Sound_3 String ''
+	Sound_4 String ''
+	Sound_5 String ''
+	Sound_6 String ''
+	Sound_7 String ''
+	Sound_8 String ''
+	Sound_9 String ''
+	Report spotting Bool False 
+	Sound Distance Float 500.000	
+}

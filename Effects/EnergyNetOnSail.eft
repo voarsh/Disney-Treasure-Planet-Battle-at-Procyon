@@ -1,0 +1,526 @@
+00000523 EffectStream
+{
+	EffectName String 'EnergyNetOnSail'
+	EffectMaxRadius Float 1.000000
+	NumPrimitives Int 1
+	PrimitiveName String 'GenericParticleSystem'
+	00000516 Primitive
+	{
+		Duration Float 42.000000
+		StartDelay Float 0.000000
+		UseWorldCoordInternaly Bool False 
+		PrimitiveDescription String ''
+		CHUNKDATA_CONST_ACCEPTS_EFFECT_VARIABLES_STRING_VECTOR - Size Int 1
+		CHUNKDATA_CONST_ACCEPTS_EFFECT_VARIABLES_STRING_VECTOR - Element String 'ASSIGN_RANDOM_POSITIONS_FROM_MESH_VERTEXES'
+		RenderPassNumber Int 1
+		Everlasting Bool False 
+		UpdateWhenFaded Bool False 
+		DoneWhenFaded Bool False 
+		00000080 PositionEmitter
+		{
+			00000033 EmitterTargetPositionInterpolator3
+			{
+				00000008 Value1Interpolator
+				{
+					00000003 LoopInfo
+					{
+						StartLoopingT Float 0.000000
+						EndLoopingT Float 0.000000
+						NumberLoops Int 0
+					}
+					UseValuesAtKeysOnly Bool False 
+					NumKeys Int 0
+				}
+				00000008 Value2Interpolator
+				{
+					00000003 LoopInfo
+					{
+						StartLoopingT Float 0.000000
+						EndLoopingT Float 0.000000
+						NumberLoops Int 0
+					}
+					UseValuesAtKeysOnly Bool False 
+					NumKeys Int 0
+				}
+				00000008 Value3Interpolator
+				{
+					00000003 LoopInfo
+					{
+						StartLoopingT Float 0.000000
+						EndLoopingT Float 0.000000
+						NumberLoops Int 0
+					}
+					UseValuesAtKeysOnly Bool False 
+					NumKeys Int 0
+				}
+			}
+			00000008 RadiusInterpolator
+			{
+				00000003 LoopInfo
+				{
+					StartLoopingT Float 0.000000
+					EndLoopingT Float 0.000000
+					NumberLoops Int 0
+				}
+				UseValuesAtKeysOnly Bool False 
+				NumKeys Int 0
+			}
+			00000008 RadiusErrorInterpolator
+			{
+				00000003 LoopInfo
+				{
+					StartLoopingT Float 0.000000
+					EndLoopingT Float 0.000000
+					NumberLoops Int 0
+				}
+				UseValuesAtKeysOnly Bool False 
+				NumKeys Int 0
+			}
+			00000008 LengthInterpolator
+			{
+				00000003 LoopInfo
+				{
+					StartLoopingT Float 0.000000
+					EndLoopingT Float 0.000000
+					NumberLoops Int 0
+				}
+				UseValuesAtKeysOnly Bool False 
+				NumKeys Int 0
+			}
+			00000008 LengthErrorInterpolator
+			{
+				00000003 LoopInfo
+				{
+					StartLoopingT Float 0.000000
+					EndLoopingT Float 0.000000
+					NumberLoops Int 0
+				}
+				UseValuesAtKeysOnly Bool False 
+				NumKeys Int 0
+			}
+		}
+		00000084 VelocityEmitter
+		{
+			00000033 EmitterTargetPositionInterpolator3
+			{
+				00000008 Value1Interpolator
+				{
+					00000003 LoopInfo
+					{
+						StartLoopingT Float 0.000000
+						EndLoopingT Float 0.000000
+						NumberLoops Int 0
+					}
+					UseValuesAtKeysOnly Bool False 
+					NumKeys Int 0
+				}
+				00000008 Value2Interpolator
+				{
+					00000003 LoopInfo
+					{
+						StartLoopingT Float 0.000000
+						EndLoopingT Float 0.000000
+						NumberLoops Int 0
+					}
+					UseValuesAtKeysOnly Bool False 
+					NumKeys Int 0
+				}
+				00000008 Value3Interpolator
+				{
+					00000003 LoopInfo
+					{
+						StartLoopingT Float 0.000000
+						EndLoopingT Float 0.000000
+						NumberLoops Int 0
+					}
+					UseValuesAtKeysOnly Bool False 
+					NumKeys Int 0
+				}
+			}
+			00000010 RadiusInterpolator
+			{
+				00000003 LoopInfo
+				{
+					StartLoopingT Float 0.000000
+					EndLoopingT Float 0.000000
+					NumberLoops Int 0
+				}
+				UseValuesAtKeysOnly Bool False 
+				NumKeys Int 1
+				t Float 0.000000
+				value Float 1.000000
+			}
+			00000008 RadiusErrorInterpolator
+			{
+				00000003 LoopInfo
+				{
+					StartLoopingT Float 0.000000
+					EndLoopingT Float 0.000000
+					NumberLoops Int 0
+				}
+				UseValuesAtKeysOnly Bool False 
+				NumKeys Int 0
+			}
+			00000010 LengthInterpolator
+			{
+				00000003 LoopInfo
+				{
+					StartLoopingT Float 0.000000
+					EndLoopingT Float 0.000000
+					NumberLoops Int 0
+				}
+				UseValuesAtKeysOnly Bool False 
+				NumKeys Int 1
+				t Float 0.000000
+				value Float 0.000000
+			}
+			00000008 LengthErrorInterpolator
+			{
+				00000003 LoopInfo
+				{
+					StartLoopingT Float 0.000000
+					EndLoopingT Float 0.000000
+					NumberLoops Int 0
+				}
+				UseValuesAtKeysOnly Bool False 
+				NumKeys Int 0
+			}
+		}
+		00000080 CHUNKDATA_POSITION_ANGLE_EMITTER
+		{
+			00000033 CHUNK_ANGLEEMITTER_TARGET_POSITION_INTERPOLATOR3
+			{
+				00000008 Value1Interpolator
+				{
+					00000003 LoopInfo
+					{
+						StartLoopingT Float 0.000000
+						EndLoopingT Float 0.000000
+						NumberLoops Int 0
+					}
+					UseValuesAtKeysOnly Bool False 
+					NumKeys Int 0
+				}
+				00000008 Value2Interpolator
+				{
+					00000003 LoopInfo
+					{
+						StartLoopingT Float 0.000000
+						EndLoopingT Float 0.000000
+						NumberLoops Int 0
+					}
+					UseValuesAtKeysOnly Bool False 
+					NumKeys Int 0
+				}
+				00000008 Value3Interpolator
+				{
+					00000003 LoopInfo
+					{
+						StartLoopingT Float 0.000000
+						EndLoopingT Float 0.000000
+						NumberLoops Int 0
+					}
+					UseValuesAtKeysOnly Bool False 
+					NumKeys Int 0
+				}
+			}
+			00000008 CHUNK_ANGLEEMITTER_MAX_ANGLE
+			{
+				00000003 LoopInfo
+				{
+					StartLoopingT Float 0.000000
+					EndLoopingT Float 0.000000
+					NumberLoops Int 0
+				}
+				UseValuesAtKeysOnly Bool False 
+				NumKeys Int 0
+			}
+			00000008 CHUNK_ANGLEEMITTER_MIN_ANGLE
+			{
+				00000003 LoopInfo
+				{
+					StartLoopingT Float 0.000000
+					EndLoopingT Float 0.000000
+					NumberLoops Int 0
+				}
+				UseValuesAtKeysOnly Bool False 
+				NumKeys Int 0
+			}
+			00000008 CHUNK_ANGLEEMITTER_LENGTHINTERPOLATOR
+			{
+				00000003 LoopInfo
+				{
+					StartLoopingT Float 0.000000
+					EndLoopingT Float 0.000000
+					NumberLoops Int 0
+				}
+				UseValuesAtKeysOnly Bool False 
+				NumKeys Int 0
+			}
+			00000008 CHUNK_ANGLEEMITTER_LENGTHERRORINTERPOLATOR
+			{
+				00000003 LoopInfo
+				{
+					StartLoopingT Float 0.000000
+					EndLoopingT Float 0.000000
+					NumberLoops Int 0
+				}
+				UseValuesAtKeysOnly Bool False 
+				NumKeys Int 0
+			}
+		}
+		00000080 CHUNKDATA_VELOCITY_ANGLE_EMITTER
+		{
+			00000033 CHUNK_ANGLEEMITTER_TARGET_POSITION_INTERPOLATOR3
+			{
+				00000008 Value1Interpolator
+				{
+					00000003 LoopInfo
+					{
+						StartLoopingT Float 0.000000
+						EndLoopingT Float 0.000000
+						NumberLoops Int 0
+					}
+					UseValuesAtKeysOnly Bool False 
+					NumKeys Int 0
+				}
+				00000008 Value2Interpolator
+				{
+					00000003 LoopInfo
+					{
+						StartLoopingT Float 0.000000
+						EndLoopingT Float 0.000000
+						NumberLoops Int 0
+					}
+					UseValuesAtKeysOnly Bool False 
+					NumKeys Int 0
+				}
+				00000008 Value3Interpolator
+				{
+					00000003 LoopInfo
+					{
+						StartLoopingT Float 0.000000
+						EndLoopingT Float 0.000000
+						NumberLoops Int 0
+					}
+					UseValuesAtKeysOnly Bool False 
+					NumKeys Int 0
+				}
+			}
+			00000008 CHUNK_ANGLEEMITTER_MAX_ANGLE
+			{
+				00000003 LoopInfo
+				{
+					StartLoopingT Float 0.000000
+					EndLoopingT Float 0.000000
+					NumberLoops Int 0
+				}
+				UseValuesAtKeysOnly Bool False 
+				NumKeys Int 0
+			}
+			00000008 CHUNK_ANGLEEMITTER_MIN_ANGLE
+			{
+				00000003 LoopInfo
+				{
+					StartLoopingT Float 0.000000
+					EndLoopingT Float 0.000000
+					NumberLoops Int 0
+				}
+				UseValuesAtKeysOnly Bool False 
+				NumKeys Int 0
+			}
+			00000008 CHUNK_ANGLEEMITTER_LENGTHINTERPOLATOR
+			{
+				00000003 LoopInfo
+				{
+					StartLoopingT Float 0.000000
+					EndLoopingT Float 0.000000
+					NumberLoops Int 0
+				}
+				UseValuesAtKeysOnly Bool False 
+				NumKeys Int 0
+			}
+			00000008 CHUNK_ANGLEEMITTER_LENGTHERRORINTERPOLATOR
+			{
+				00000003 LoopInfo
+				{
+					StartLoopingT Float 0.000000
+					EndLoopingT Float 0.000000
+					NumberLoops Int 0
+				}
+				UseValuesAtKeysOnly Bool False 
+				NumKeys Int 0
+			}
+		}
+		00000002 CHUNKDATA_SOURCE_EMITTER
+		{
+			CHUNKDATA_PARTICLE_SYSTEM_SOURCE_EMITTER_INDEX Int 0
+			CHUNKDATA_PARTICLE_SYSTEM_SOURCE_EMITTER_ENABLED Bool False 
+		}
+		00000012 ParticleRateInterpolator
+		{
+			00000003 LoopInfo
+			{
+				StartLoopingT Float 0.000000
+				EndLoopingT Float 0.000000
+				NumberLoops Int 0
+			}
+			UseValuesAtKeysOnly Bool False 
+			NumKeys Int 2
+			t Float 0.000000
+			value Float 100.000000
+			t Float 0.100000
+			value Float 0.000000
+		}
+		NumberParticlesAtStart Int 0
+		CHUNKDATA_ENABLE_TARGET_EMITTER Bool True
+		CHUNKDATA_TARGET_EMITTER_USE_POSITION_FOR_VELOCITY Bool False 
+		CHUNKDATA_ENABLE_ANGLE_EMITTER Bool False 
+		CHUNKDATA_ANGLE_EMITTER_USE_POSITION_FOR_VELOCITY Bool False 
+		LowDetailParticleRateMultiply Float 0.100000
+		LowDetailSpawnInfosUpdate Int 20
+		HightDetailSpawnInfosUpdate Int 5
+		00000002 SpawnedEachTimePropertiesChunk
+		{
+			RenderNumInfos Int 0
+			MovementNumInfos Int 0
+		}
+		00000134 CommonPropertiesChunk
+		{
+			RenderNumInfos Int 5
+			RenderInfoType String 'BlendChunk'
+			00000002 RenderInfo
+			{
+				BlendSource String 'ONE'
+				BlendDestination String 'ONE'
+			}
+			RenderInfoType String 'SimpleTextureChunk'
+			00000001 RenderInfo
+			{
+				TextureName String 'TestparticleTextureBW.tga'
+			}
+			RenderInfoType String 'RenderToPrevParticleChunk'
+			00000001 RenderInfo
+			{
+				PointToPrev Bool True
+			}
+			RenderInfoType String 'ColorFaderChunk'
+			00000085 RenderInfo
+			{
+				00000069 ColorInterpolator3Chunk
+				{
+					00000020 Value1Interpolator
+					{
+						00000003 LoopInfo
+						{
+							StartLoopingT Float 0.000000
+							EndLoopingT Float 1.000000
+							NumberLoops Int 40
+						}
+						UseValuesAtKeysOnly Bool False 
+						NumKeys Int 6
+						t Float 0.000000
+						value Float 0.500000
+						t Float 0.300000
+						value Float 0.500000
+						t Float 0.400000
+						value Float 0.800000
+						t Float 0.900000
+						value Float 0.300000
+						t Float 1.000000
+						value Float 0.500000
+						t Float 1.500000
+						value Float 0.000000
+					}
+					00000020 Value2Interpolator
+					{
+						00000003 LoopInfo
+						{
+							StartLoopingT Float 0.000000
+							EndLoopingT Float 1.000000
+							NumberLoops Int 40
+						}
+						UseValuesAtKeysOnly Bool False 
+						NumKeys Int 6
+						t Float 0.000000
+						value Float 0.300000
+						t Float 0.300000
+						value Float 0.300000
+						t Float 0.400000
+						value Float 0.600000
+						t Float 0.900000
+						value Float 0.300000
+						t Float 1.000000
+						value Float 0.300000
+						t Float 1.500000
+						value Float 0.000000
+					}
+					00000020 Value3Interpolator
+					{
+						00000003 LoopInfo
+						{
+							StartLoopingT Float 0.000000
+							EndLoopingT Float 1.000000
+							NumberLoops Int 40
+						}
+						UseValuesAtKeysOnly Bool False 
+						NumKeys Int 6
+						t Float 0.000000
+						value Float 0.400000
+						t Float 0.300000
+						value Float 0.400000
+						t Float 0.400000
+						value Float 0.700000
+						t Float 0.900000
+						value Float 0.300000
+						t Float 1.000000
+						value Float 0.400000
+						t Float 1.500000
+						value Float 0.000000
+					}
+				}
+				00000010 AlphaComponentChunk
+				{
+					00000003 LoopInfo
+					{
+						StartLoopingT Float 0.000000
+						EndLoopingT Float 0.000000
+						NumberLoops Int 0
+					}
+					UseValuesAtKeysOnly Bool False 
+					NumKeys Int 1
+					t Float 0.000000
+					value Float 1.000000
+				}
+			}
+			RenderInfoType String 'SizeChunk'
+			00000023 RenderInfo
+			{
+				00000020 SizeInterpolatorChunk
+				{
+					00000003 LoopInfo
+					{
+						StartLoopingT Float 0.000000
+						EndLoopingT Float 1.000000
+						NumberLoops Int 40
+					}
+					UseValuesAtKeysOnly Bool False 
+					NumKeys Int 6
+					t Float 0.000000
+					value Float 0.100000
+					t Float 0.300000
+					value Float 0.100000
+					t Float 0.400000
+					value Float 0.500000
+					t Float 0.900000
+					value Float 0.050000
+					t Float 1.000000
+					value Float 0.100000
+					t Float 1.500000
+					value Float 0.000000
+				}
+			}
+			MovementNumInfos Int 0
+		}
+	}
+}

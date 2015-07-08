@@ -1,0 +1,171 @@
+Type String 'Bullet_Carronade_Light'
+00000005 ConstData
+{
+	HasPhysics String 'Bullet_Carronade_Light'
+	HasCollision String 'Bullet_Carronade_Light'
+	HasRender String 'Bullet_Carronade_Light'
+	HasAI String ''
+	HasCustomInfo String 'Bullet_Carronade_Light'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String ''
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Bullet_Carronade_Light'
+FactoryType String 'RenderEntityFactory'
+00000020 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'CarronadeLightBullet'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000012 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 1
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'EffectEmitter'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'EnginePortPlacement'
+				DescriptorName String 'Carronade'
+				AssociationName String ''
+			}
+		}
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String 'Bullet_Carronade_Light'
+FactoryType String 'ProjectilePhysics'
+00000002 ConstData
+{
+	CenterOfMass Vector3( 0.000000, 0.000000, 0.000000 )
+	Mass Float 1000.000000
+}
+Definition String 'COLLISIONDEFINITION'
+EntityType String 'Bullet_Carronade_Light'
+FactoryType String 'Point'
+00000002 ConstData
+{
+	DetectionType String 'Point'
+	ResponseType String 'Bullet'
+}
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Bullet_Carronade_Light'
+FactoryType String 'BulletCustomInfoFactory'
+00000112 ConstData
+{
+	HitEffect String 'Carronade_Light_Impact'
+	BulletEffect String 'Carronade_Light_Bullet'
+	Damage HitPoints Int 60
+	Decal Damage Size String 'Medium'
+	# 
+	# Hull Wood DamagePotential
+	# 
+	Chance of Critical Damage: Wood Float 0.350000
+	Chance of Fire: Wood Float 0.550000
+	Initial Fire Strength: Wood Float 2.000000
+	Damage Lower Bound: Wood Float 30.000000
+	Damage Upper Bound: Wood Float 40.000000
+	# 
+	# Hull ReInforced Wood DamagePotential
+	# 
+	Chance of Critical Damage: Reinforced Float 0.200000
+	Chance of Fire: Reinforced Float 0.300000
+	Initial Fire Strength: Reinforced Float 2.000000
+	Damage Lower Bound: Reinforced Float 22.000000
+	Damage Upper Bound: Reinforced Float 28.000000
+	# 
+	# Hull Iron DamagePotential
+	# 
+	Chance of Critical Damage: Iron Float 0.150000
+	Chance of Fire: Iron Float 0.200000
+	Initial Fire Strength: Iron Float 1.000000
+	Damage Lower Bound: Iron Float 18.000000
+	Damage Upper Bound: Iron Float 20.000000
+	# 
+	# Sail Cloth DamagePotential
+	# 
+	Chance of Critical Damage: Cloth Float 0.000000
+	Chance of Fire: Cloth Float 0.400000
+	Initial Fire Strength: Cloth Float 2.000000
+	Damage Lower Bound: Cloth Float 10.000000
+	Damage Upper Bound: Cloth Float 10.000000
+	# 
+	# Wall Stone DamagePotential
+	# 
+	Chance of Critical Damage: Stone Float 1.000000
+	Chance of Fire: Stone Float 1.000000
+	Initial Fire Strength: Stone Float 1.000000
+	Damage Lower Bound: Stone Float 20.000000
+	Damage Upper Bound: Stone Float 25.000000
+	# 
+	# Dragon Scale DamagePotential
+	# 
+	Chance of Critical Damage: Dragon Float 0.500000
+	Chance of Fire: Dragon Float 0.500000
+	Initial Fire Strength: Dragon Float 0.500000
+	Damage Lower Bound: Dragon Float 25.000000
+	Damage Upper Bound: Dragon Float 40.000000
+	Impact Sound Max Distance Float 600.000000
+	Impact Sound Volume Float 1.000000
+	Travel Sound Max Distance Float 75.000000
+	Travel Sound Volume Float 0.700000
+	RicochetSound: Hull Wood String 'Weapon_Caranade_RichocetWood'
+	00000005 ImpactSoundsHull Wood
+	{
+		Sound_0 String 'Weapon_Caranade_Impact_WoodSmall'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Hull ReInforced Wood String 'Weapon_Caranade_RichocetWood'
+	00000005 ImpactSoundsHull ReInforced Wood
+	{
+		Sound_0 String 'Weapon_Caranade_Impact_WoodSmall'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Hull Iron String 'Weapon_Caranade_RichocetMetal'
+	00000005 ImpactSoundsHull Iron
+	{
+		Sound_0 String 'Weapon_Caranade_Impact_MetalSmall'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Sail Cloth String 'Weapon_Caranade_RichocetWood'
+	00000005 ImpactSoundsSail Cloth
+	{
+		Sound_0 String 'Weapon_Caranade_Impact_SailSmall'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Wall Stone String 'Weapon_Caranade_RichocetWood'
+	00000005 ImpactSoundsWall Stone
+	{
+		Sound_0 String 'Weapon_Caranade_Impact_StoneSmall'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Dragon Scale String 'Weapon_Caranade_RichocetWood'
+	00000005 ImpactSoundsDragon Scale
+	{
+		Sound_0 String 'Explosion_Med01'
+		Sound_1 String 'Explosion_Med02'
+		Sound_2 String 'Explosion_Med03'
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	Travel Sound String ''
+	Lifetime Float 6.000000
+}

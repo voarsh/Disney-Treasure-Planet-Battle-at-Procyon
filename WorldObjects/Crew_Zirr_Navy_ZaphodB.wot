@@ -1,0 +1,42 @@
+Type String 'Crew_Zirr_Navy_ZaphodB'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String ''
+	HasRender String ''
+	HasAI String ''
+	HasCustomInfo String 'Crew_Zirr_Navy_ZaphodB'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String ''
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String ''
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String ''
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Crew_Zirr_Navy_ZaphodB'
+FactoryType String 'CrewCustomInfoFactory'
+00000019 ConstData
+{
+	Crew Race String 'Navy'
+	Point Value Int 8
+	Crew Name String ID String 'IDGS_TPCREWNAME03_ZIRR_NAVY_ZAPHODBOXTOPS'
+	Leadership Skill Active Bool False 
+	Leadership Skill Ability Value Int 0
+	Navigation Skill Active Bool True
+	Navigation Skill Ability Value Int 9
+	Spotting Skill Active Bool True
+	Spotting Skill Ability Value Int 5
+	Engineering Skill Active Bool True
+	Engineering Skill Ability Value Int 3
+	Rigging Skill Active Bool True
+	Rigging Skill Ability Value Int 8
+	Combat Skill Active Bool True
+	Combat Skill Ability Value Int 4
+	Gunnery Skill Active Bool True
+	Gunnery Skill Ability Value Int 2
+	Talking Head Texture String 'TalkingHead_Character_Zirrelian_3'
+	Species String 'Zirrelian'
+}

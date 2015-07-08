@@ -1,0 +1,110 @@
+Type String 'Gun_IC_LancerDualLight_DestroyerRearSides'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String ''
+	HasRender String 'Gun_IC_LancerDualLight_DestroyerRearSides'
+	HasAI String 'Gun_IC_LancerDualLight_DestroyerRearSides'
+	HasCustomInfo String 'Gun_IC_LancerDualLight_DestroyerRearSides'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Gun_IC_LancerDualLight_DestroyerRearSides'
+FactoryType String 'GunAI'
+00000004 ConstData
+{
+	Is Lobbing Gun Bool False 
+	Is MineLaying Gun Bool False 
+	Is TorpedoLauncher Gun Bool False 
+	Is PointDefense Gun Bool False 
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Gun_IC_LancerDualLight_DestroyerRearSides'
+FactoryType String 'RenderEntityFactory'
+00000042 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'LancerDualLightDestroyerRearsides'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000034 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 3
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MuzzleNode0'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunMuzzlePlacement'
+				DescriptorName String 'Muzzle_1'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MuzzleNode1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunMuzzlePlacement'
+				DescriptorName String 'Muzzle_2'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'LancerDualLt_Destroyer_rearsides_Layer2'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunVerticalPivotPlacement'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String ''
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Gun_IC_LancerDualLight_DestroyerRearSides'
+FactoryType String 'GunCustomInfoFactory'
+00000033 ConstData
+{
+	BulletTypeName_Primary String 'Bullet_Lancer_Light'
+	BulletTypeName_Secondary String 'NoBulletType'
+	SoundName String 'Weapon_Lancer_ICDualFireSmall'
+	MuzzleFlashEffect String 'Lancer_Muzzle_Flash'
+	MuzzleSpeed Float 95.000000
+	DuringBurstReloadTime Float 0.200000
+	BulletsPerBurst Int 5
+	TimeBetweenBursts Float 4.000000
+	CalculateAccuracyDeviationDuringBurst Bool False 
+	WeaponBar Icon Texture String 'WeaponBar_GunIcon_Lancer_Dual_Light'
+	VerticalRotationSpeed Float 1.308997
+	HorizontalRotationSpeed Float 1.308997
+	VerticalMinAngle Float -0.767945
+	VerticalMaxAngle Float 1.535890
+	LobAngle Float 0.000000
+	MaximumRange_Range Float 135.000000
+	LongRange_Range Float 90.000000
+	EffectiveRange_Range Float 60.000000
+	BulletAffectedByGravity Bool False 
+	MaximumRange_AccuracyDeviation Float 0.139626
+	LongRange_AccuracyDeviation Float 0.069813
+	EffectiveRange_AccuracyDeviation Float 0.034907
+	MaximumRange_RicochetFactor Float -80.000000
+	LongRange_RicochetFactor Float -100.000000
+	EffectiveRange_RicochetFactor Float -100.000000
+	Victory Point Cost Int 8
+	Gun Name String ID String 'IDGS_TPGUNDISPLAYEDNAME_ICLANCERDUALLIGHT'
+	Mount Type String 'Non-Selectable Dual Light  Mount'
+	Exclusion Race String 'None'
+	Can Be Fired While Cloaked Bool False 
+	Firing Crew Alert String 'GUNNER_FIRE'
+	SoundMaxDistance Float 350.000000
+	SoundVolume Float 0.700000
+}

@@ -1,0 +1,2022 @@
+00002019 Font
+{
+	Texture Names - Size Int 1
+	Texture Names - Element String 'Univers26'
+	Height In Pixels Int 43
+	00000006 Character: ' '
+	{
+		Initialised Bool True
+		Row Number Int 0
+		Start Pixel On Row Int 0
+		Width In Pixels Int 2
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 13
+	}
+	00000006 Character: '!'
+	{
+		Initialised Bool True
+		Row Number Int 0
+		Start Pixel On Row Int 2
+		Width In Pixels Int 9
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 13
+	}
+	00000006 Character: 'QUOTE'
+	{
+		Initialised Bool True
+		Row Number Int 0
+		Start Pixel On Row Int 11
+		Width In Pixels Int 14
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 16
+	}
+	00000006 Character: '#'
+	{
+		Initialised Bool True
+		Row Number Int 0
+		Start Pixel On Row Int 25
+		Width In Pixels Int 22
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 23
+	}
+	00000006 Character: '$'
+	{
+		Initialised Bool True
+		Row Number Int 0
+		Start Pixel On Row Int 47
+		Width In Pixels Int 21
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 22
+	}
+	00000006 Character: '%'
+	{
+		Initialised Bool True
+		Row Number Int 0
+		Start Pixel On Row Int 68
+		Width In Pixels Int 31
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 33
+	}
+	00000006 Character: '&'
+	{
+		Initialised Bool True
+		Row Number Int 0
+		Start Pixel On Row Int 99
+		Width In Pixels Int 30
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 30
+	}
+	00000006 Character: '''
+	{
+		Initialised Bool True
+		Row Number Int 0
+		Start Pixel On Row Int 129
+		Width In Pixels Int 7
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 10
+	}
+	00000006 Character: '('
+	{
+		Initialised Bool True
+		Row Number Int 0
+		Start Pixel On Row Int 136
+		Width In Pixels Int 10
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 12
+	}
+	00000006 Character: ')'
+	{
+		Initialised Bool True
+		Row Number Int 0
+		Start Pixel On Row Int 146
+		Width In Pixels Int 11
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 13
+	}
+	00000006 Character: '*'
+	{
+		Initialised Bool True
+		Row Number Int 0
+		Start Pixel On Row Int 157
+		Width In Pixels Int 15
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 17
+	}
+	00000006 Character: '+'
+	{
+		Initialised Bool True
+		Row Number Int 0
+		Start Pixel On Row Int 172
+		Width In Pixels Int 20
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 22
+	}
+	00000006 Character: ','
+	{
+		Initialised Bool True
+		Row Number Int 0
+		Start Pixel On Row Int 192
+		Width In Pixels Int 10
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 12
+	}
+	00000006 Character: '-'
+	{
+		Initialised Bool True
+		Row Number Int 0
+		Start Pixel On Row Int 202
+		Width In Pixels Int 11
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 12
+	}
+	00000006 Character: '.'
+	{
+		Initialised Bool True
+		Row Number Int 0
+		Start Pixel On Row Int 213
+		Width In Pixels Int 8
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 10
+	}
+	00000006 Character: '/'
+	{
+		Initialised Bool True
+		Row Number Int 0
+		Start Pixel On Row Int 221
+		Width In Pixels Int 13
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 12
+	}
+	00000006 Character: '0'
+	{
+		Initialised Bool True
+		Row Number Int 1
+		Start Pixel On Row Int 0
+		Width In Pixels Int 22
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 23
+	}
+	00000006 Character: '1'
+	{
+		Initialised Bool True
+		Row Number Int 1
+		Start Pixel On Row Int 22
+		Width In Pixels Int 14
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 20
+	}
+	00000006 Character: '2'
+	{
+		Initialised Bool True
+		Row Number Int 1
+		Start Pixel On Row Int 36
+		Width In Pixels Int 21
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 23
+	}
+	00000006 Character: '3'
+	{
+		Initialised Bool True
+		Row Number Int 1
+		Start Pixel On Row Int 57
+		Width In Pixels Int 23
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 24
+	}
+	00000006 Character: '4'
+	{
+		Initialised Bool True
+		Row Number Int 1
+		Start Pixel On Row Int 80
+		Width In Pixels Int 23
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 23
+	}
+	00000006 Character: '5'
+	{
+		Initialised Bool True
+		Row Number Int 1
+		Start Pixel On Row Int 103
+		Width In Pixels Int 22
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 23
+	}
+	00000006 Character: '6'
+	{
+		Initialised Bool True
+		Row Number Int 1
+		Start Pixel On Row Int 125
+		Width In Pixels Int 22
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 23
+	}
+	00000006 Character: '7'
+	{
+		Initialised Bool True
+		Row Number Int 1
+		Start Pixel On Row Int 147
+		Width In Pixels Int 21
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 22
+	}
+	00000006 Character: '8'
+	{
+		Initialised Bool True
+		Row Number Int 1
+		Start Pixel On Row Int 168
+		Width In Pixels Int 22
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 23
+	}
+	00000006 Character: '9'
+	{
+		Initialised Bool True
+		Row Number Int 1
+		Start Pixel On Row Int 190
+		Width In Pixels Int 22
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 23
+	}
+	00000006 Character: ':'
+	{
+		Initialised Bool True
+		Row Number Int 1
+		Start Pixel On Row Int 212
+		Width In Pixels Int 8
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 10
+	}
+	00000006 Character: ';'
+	{
+		Initialised Bool True
+		Row Number Int 1
+		Start Pixel On Row Int 220
+		Width In Pixels Int 10
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 12
+	}
+	00000006 Character: '<'
+	{
+		Initialised Bool True
+		Row Number Int 1
+		Start Pixel On Row Int 230
+		Width In Pixels Int 20
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 22
+	}
+	00000006 Character: '='
+	{
+		Initialised Bool True
+		Row Number Int 2
+		Start Pixel On Row Int 0
+		Width In Pixels Int 20
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 22
+	}
+	00000006 Character: '>'
+	{
+		Initialised Bool True
+		Row Number Int 2
+		Start Pixel On Row Int 20
+		Width In Pixels Int 20
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 22
+	}
+	00000006 Character: '?'
+	{
+		Initialised Bool True
+		Row Number Int 2
+		Start Pixel On Row Int 40
+		Width In Pixels Int 17
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 18
+	}
+	00000006 Character: '@'
+	{
+		Initialised Bool True
+		Row Number Int 2
+		Start Pixel On Row Int 57
+		Width In Pixels Int 27
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 27
+	}
+	00000006 Character: 'A'
+	{
+		Initialised Bool True
+		Row Number Int 2
+		Start Pixel On Row Int 84
+		Width In Pixels Int 30
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 29
+	}
+	00000006 Character: 'B'
+	{
+		Initialised Bool True
+		Row Number Int 2
+		Start Pixel On Row Int 114
+		Width In Pixels Int 23
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 24
+	}
+	00000006 Character: 'C'
+	{
+		Initialised Bool True
+		Row Number Int 2
+		Start Pixel On Row Int 137
+		Width In Pixels Int 26
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 26
+	}
+	00000006 Character: 'D'
+	{
+		Initialised Bool True
+		Row Number Int 2
+		Start Pixel On Row Int 163
+		Width In Pixels Int 25
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 27
+	}
+	00000006 Character: 'E'
+	{
+		Initialised Bool True
+		Row Number Int 2
+		Start Pixel On Row Int 188
+		Width In Pixels Int 21
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 22
+	}
+	00000006 Character: 'F'
+	{
+		Initialised Bool True
+		Row Number Int 2
+		Start Pixel On Row Int 209
+		Width In Pixels Int 19
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 20
+	}
+	00000006 Character: 'G'
+	{
+		Initialised Bool True
+		Row Number Int 2
+		Start Pixel On Row Int 228
+		Width In Pixels Int 26
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 28
+	}
+	00000006 Character: 'H'
+	{
+		Initialised Bool True
+		Row Number Int 3
+		Start Pixel On Row Int 0
+		Width In Pixels Int 24
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 26
+	}
+	00000006 Character: 'I'
+	{
+		Initialised Bool True
+		Row Number Int 3
+		Start Pixel On Row Int 24
+		Width In Pixels Int 9
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 11
+	}
+	00000006 Character: 'J'
+	{
+		Initialised Bool True
+		Row Number Int 3
+		Start Pixel On Row Int 33
+		Width In Pixels Int 20
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 22
+	}
+	00000006 Character: 'K'
+	{
+		Initialised Bool True
+		Row Number Int 3
+		Start Pixel On Row Int 53
+		Width In Pixels Int 25
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 25
+	}
+	00000006 Character: 'L'
+	{
+		Initialised Bool True
+		Row Number Int 3
+		Start Pixel On Row Int 78
+		Width In Pixels Int 20
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 20
+	}
+	00000006 Character: 'M'
+	{
+		Initialised Bool True
+		Row Number Int 3
+		Start Pixel On Row Int 98
+		Width In Pixels Int 31
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 34
+	}
+	00000006 Character: 'N'
+	{
+		Initialised Bool True
+		Row Number Int 3
+		Start Pixel On Row Int 129
+		Width In Pixels Int 26
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 28
+	}
+	00000006 Character: 'O'
+	{
+		Initialised Bool True
+		Row Number Int 3
+		Start Pixel On Row Int 155
+		Width In Pixels Int 26
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 28
+	}
+	00000006 Character: 'P'
+	{
+		Initialised Bool True
+		Row Number Int 3
+		Start Pixel On Row Int 181
+		Width In Pixels Int 22
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 23
+	}
+	00000006 Character: 'Q'
+	{
+		Initialised Bool True
+		Row Number Int 3
+		Start Pixel On Row Int 203
+		Width In Pixels Int 28
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 28
+	}
+	00000006 Character: 'R'
+	{
+		Initialised Bool True
+		Row Number Int 3
+		Start Pixel On Row Int 231
+		Width In Pixels Int 24
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 24
+	}
+	00000006 Character: 'S'
+	{
+		Initialised Bool True
+		Row Number Int 4
+		Start Pixel On Row Int 0
+		Width In Pixels Int 24
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 25
+	}
+	00000006 Character: 'T'
+	{
+		Initialised Bool True
+		Row Number Int 4
+		Start Pixel On Row Int 24
+		Width In Pixels Int 24
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 24
+	}
+	00000006 Character: 'U'
+	{
+		Initialised Bool True
+		Row Number Int 4
+		Start Pixel On Row Int 48
+		Width In Pixels Int 25
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 27
+	}
+	00000006 Character: 'V'
+	{
+		Initialised Bool True
+		Row Number Int 4
+		Start Pixel On Row Int 73
+		Width In Pixels Int 28
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 27
+	}
+	00000006 Character: 'W'
+	{
+		Initialised Bool True
+		Row Number Int 4
+		Start Pixel On Row Int 101
+		Width In Pixels Int 35
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 35
+	}
+	00000006 Character: 'X'
+	{
+		Initialised Bool True
+		Row Number Int 4
+		Start Pixel On Row Int 136
+		Width In Pixels Int 30
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 30
+	}
+	00000006 Character: 'Y'
+	{
+		Initialised Bool True
+		Row Number Int 4
+		Start Pixel On Row Int 166
+		Width In Pixels Int 28
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 28
+	}
+	00000006 Character: 'Z'
+	{
+		Initialised Bool True
+		Row Number Int 4
+		Start Pixel On Row Int 194
+		Width In Pixels Int 23
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 24
+	}
+	00000006 Character: '['
+	{
+		Initialised Bool True
+		Row Number Int 4
+		Start Pixel On Row Int 217
+		Width In Pixels Int 11
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 11
+	}
+	00000006 Character: '\'
+	{
+		Initialised Bool True
+		Row Number Int 4
+		Start Pixel On Row Int 228
+		Width In Pixels Int 13
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 12
+	}
+	00000006 Character: ']'
+	{
+		Initialised Bool True
+		Row Number Int 4
+		Start Pixel On Row Int 241
+		Width In Pixels Int 11
+		Texture Index Int 0
+		Next Character Start Pixel Offset Int 14
+	}
+	00000006 Character: '^'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 1991533522
+	}
+	00000006 Character: '_'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 0
+	}
+	00000006 Character: '`'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 2011285785
+	}
+	00000006 Character: 'a'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 1491760
+	}
+	00000006 Character: 'b'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 273
+	}
+	00000006 Character: 'c'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 16384
+	}
+	00000006 Character: 'd'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 1244556
+	}
+	00000006 Character: 'e'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 0
+	}
+	00000006 Character: 'f'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 768
+	}
+	00000006 Character: 'g'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 1241984
+	}
+	00000006 Character: 'h'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 5395144
+	}
+	00000006 Character: 'i'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 273
+	}
+	00000006 Character: 'j'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 273
+	}
+	00000006 Character: 'k'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 1242176
+	}
+	00000006 Character: 'l'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 1
+	}
+	00000006 Character: 'm'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 1
+	}
+	00000006 Character: 'n'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 50
+	}
+	00000006 Character: 'o'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 2011253374
+	}
+	00000006 Character: 'p'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 3648
+	}
+	00000006 Character: 'q'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 273
+	}
+	00000006 Character: 'r'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 983284
+	}
+	00000006 Character: 's'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 18941448
+	}
+	00000006 Character: 't'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 1242624
+	}
+	00000006 Character: 'u'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 1243280
+	}
+	00000006 Character: 'v'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 0
+	}
+	00000006 Character: 'w'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 1
+	}
+	00000006 Character: 'x'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 309
+	}
+	00000006 Character: 'y'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 0
+	}
+	00000006 Character: 'z'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 5
+	}
+	00000006 Character: '{'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 5
+	}
+	00000006 Character: '|'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 5400935
+	}
+	00000006 Character: '}'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 13160448
+	}
+	00000006 Character: '~'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 5658740
+	}
+	00000006 Character: ''
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 0
+	}
+	00000006 Character: 'Ä'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int 6491808
+	}
+	00000006 Character: 'Å'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'Ç'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'É'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'Ñ'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'Ö'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'Ü'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'á'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'à'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'â'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'ä'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'ã'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'å'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'ç'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'é'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'è'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'ê'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'ë'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'í'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'ì'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'î'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'ï'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'ñ'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'ó'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'ò'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'ô'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'ö'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'õ'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'ú'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'ù'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'û'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'ü'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '†'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '°'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '¢'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '£'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '§'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '•'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '¶'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'ß'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '®'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '©'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '™'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '´'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '¨'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '≠'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'Æ'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'Ø'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '∞'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '±'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '≤'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '≥'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '¥'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'µ'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '∂'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '∑'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '∏'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'π'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '∫'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'ª'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'º'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'Ω'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'æ'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'ø'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '¿'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '¡'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '¬'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '√'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'ƒ'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '≈'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '∆'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '«'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '»'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '…'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: ' '
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'À'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'Ã'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'Õ'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'Œ'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'œ'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '–'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '—'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '“'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '”'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '‘'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '’'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '÷'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '◊'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'ÿ'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'Ÿ'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '⁄'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '€'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '‹'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '›'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'ﬁ'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'ﬂ'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '‡'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '·'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '‚'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '„'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '‰'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'Â'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'Ê'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'Á'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'Ë'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'È'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'Í'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'Î'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'Ï'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'Ì'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'Ó'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'Ô'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: ''
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'Ò'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'Ú'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'Û'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'Ù'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'ı'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'ˆ'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '˜'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '¯'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '˘'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '˙'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '˚'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '¸'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '˝'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: '˛'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+	00000006 Character: 'ˇ'
+	{
+		Initialised Bool False 
+		Row Number Int -1
+		Start Pixel On Row Int -1
+		Width In Pixels Int -1
+		Texture Index Int -1
+		Next Character Start Pixel Offset Int -858993460
+	}
+}

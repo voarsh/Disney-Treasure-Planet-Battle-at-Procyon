@@ -1,0 +1,44 @@
+00000007 EffectStream
+{
+	EffectName String 'EtheriumRiver'
+	EffectMaxRadius Float 100000.000000
+	NumPrimitives Int 2
+	PrimitiveName String 'River'
+	00000012 Primitive
+	{
+		Duration Float 20.000000
+		StartDelay Float 0.000000
+		UseWorldCoordInternaly Bool False 
+		PrimitiveDescription String ''
+		CHUNKDATA_CONST_ACCEPTS_EFFECT_VARIABLES_STRING_VECTOR - Size Int 2
+		CHUNKDATA_CONST_ACCEPTS_EFFECT_VARIABLES_STRING_VECTOR - Element String 'SET_POINTS'
+		CHUNKDATA_CONST_ACCEPTS_EFFECT_VARIABLES_STRING_VECTOR - Element String 'SET_WIDTH'
+		RenderPassNumber Int 1
+		Everlasting Bool True
+		UpdateWhenFaded Bool False 
+		DoneWhenFaded Bool False 
+		00000001 TextureRenderInfo
+		{
+			TextureName String 'Current.tga'
+		}
+	}
+	PrimitiveName String 'River'
+	00000012 Primitive
+	{
+		Duration Float 20.000000
+		StartDelay Float 0.000000
+		UseWorldCoordInternaly Bool False 
+		PrimitiveDescription String ''
+		CHUNKDATA_CONST_ACCEPTS_EFFECT_VARIABLES_STRING_VECTOR - Size Int 2
+		CHUNKDATA_CONST_ACCEPTS_EFFECT_VARIABLES_STRING_VECTOR - Element String 'SET_POINTS'
+		CHUNKDATA_CONST_ACCEPTS_EFFECT_VARIABLES_STRING_VECTOR - Element String 'SET_WIDTH'
+		RenderPassNumber Int 1
+		Everlasting Bool True
+		UpdateWhenFaded Bool False 
+		DoneWhenFaded Bool False 
+		00000001 TextureRenderInfo
+		{
+			TextureName String 'Current.tga'
+		}
+	}
+}

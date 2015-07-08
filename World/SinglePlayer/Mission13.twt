@@ -1,0 +1,3648 @@
+# (c) BaRkiNg DOG studios 2002
+00000040 WorldInfo
+{
+	IsMultiplayerMap Bool True
+	MustAssembleFleet Bool False 
+	World Description String 'IDGS_TPWORLDDESCRIPTION_SAMPLE'
+	WorldNameID String 'IDGS_TPWORLDNAMES_CREDITS'
+	Object Count Int 37
+	Team List - Size Int 2
+	00000003 Team List - Element
+	{
+		Team Name ID String 'IDGS_TPTEAMNAMES_NAVY'
+		Race Int 0
+		Race Lock Bool True
+	}
+	00000003 Team List - Element
+	{
+		Team Name ID String 'IDGS_TPTEAMNAMES_PIRATES'
+		Race Int 2
+		Race Lock Bool True
+	}
+	Number of Players Int 8
+	PlayerInfo - Player Name String 'player 0'
+	PlayerInfo - TeamIndex Int -1
+	PlayerInfo - Player Name String 'Navy'
+	PlayerInfo - TeamIndex Int -1
+	PlayerInfo - Player Name String 'Procyon'
+	PlayerInfo - TeamIndex Int -1
+	PlayerInfo - Player Name String 'Pirate'
+	PlayerInfo - TeamIndex Int 1
+	PlayerInfo - Player Name String 'Navy 2'
+	PlayerInfo - TeamIndex Int -1
+	PlayerInfo - Player Name String 'navy 3'
+	PlayerInfo - TeamIndex Int -1
+	PlayerInfo - Player Name String 'Proc 2'
+	PlayerInfo - TeamIndex Int -1
+	PlayerInfo - Player Name String 'Pirate 2'
+	PlayerInfo - TeamIndex Int -1
+	IsCampaign Bool True
+	Use Custom World Name Bool False 
+	Custom World Name String 'Credits'
+	Use Custom World Description Bool False 
+	Custom World Description String ''
+}
+00000008 Game
+{
+	00000002 Time
+	{
+		Game Tick Int 0
+		Game Time Double 0
+	}
+	Frame Int -1
+	Paused Bool False 
+	ActivePlayerIndex Int -1
+}
+00003283 World
+{
+	WorldName String 'Mission13'
+	Random Seed Int 1774599097
+	World Size - Min Vector3( -2500.000000, -2500.000000, -2500.000000 )
+	World Size - Max Vector3( 2500.000000, 2500.000000, 2500.000000 )
+	# Player List
+	PlayerList Int 8
+	00000032 Player
+	{
+		Name String 'player 0'
+		Color Colour( 1.000000, 1.000000, 1.000000, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( -8.296875, 11.876099, 0.000000 )
+		StartPointForwardVector Vector3( 0.714075, -0.700069, 0.000000 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int -1
+		FormationType Int 0
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'Navy'
+		Color Colour( 1.000000, 1.000000, 1.000000, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( 1445.489136, -1381.562256, 0.000000 )
+		StartPointForwardVector Vector3( 0.605866, -0.795566, -0.000001 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int -1
+		FormationType Int 5
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'Procyon'
+		Color Colour( 1.000000, 1.000000, 1.000000, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( 1631.706177, 1191.505981, -0.000031 )
+		StartPointForwardVector Vector3( -0.845269, -0.534341, 0.000002 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int -1
+		FormationType Int 0
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'Pirate'
+		Color Colour( 1.000000, 1.000000, 1.000000, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( 1577.303467, -1659.691162, 0.000031 )
+		StartPointForwardVector Vector3( 0.000346, 1.000000, -0.000001 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int 1
+		FormationType Int 0
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'Navy 2'
+		Color Colour( 1.000000, 1.000000, 1.000000, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( -704.684631, 526.540283, 0.000000 )
+		StartPointForwardVector Vector3( -0.801290, 0.598276, 0.000000 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int -1
+		FormationType Int 0
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'navy 3'
+		Color Colour( 1.000000, 1.000000, 1.000000, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( -122.638512, -1752.417603, 0.000000 )
+		StartPointForwardVector Vector3( 0.672925, 0.739710, 0.000000 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int -1
+		FormationType Int 0
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'Proc 2'
+		Color Colour( 1.000000, 1.000000, 1.000000, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( -10.514938, -1564.114136, 0.000000 )
+		StartPointForwardVector Vector3( -0.015137, -0.999885, 0.000000 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int -1
+		FormationType Int 0
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	00000032 Player
+	{
+		Name String 'Pirate 2'
+		Color Colour( 1.000000, 1.000000, 1.000000, 1.000000 )
+		IsPlayable Bool True
+		Is Used In Game Bool False 
+		Multiplayer Name String ''
+		StartPoint Vector3( 110.014572, -1806.860107, 0.000000 )
+		StartPointForwardVector Vector3( -0.731205, 0.682158, 0.000000 )
+		Race Int 4
+		Points Float 0.000000
+		TeamIndex Int -1
+		FormationType Int 0
+		00000017 FleetAI
+		{
+			00000001 UPDATETIMER
+			{
+				StartTime Double 0
+			}
+			00000001 OFFSETTIMER
+			{
+				StartTime Double 0
+			}
+			OFFSETTIME Float 0.062500
+			UPDATETIME Float 0.500000
+			00000001 FORMATION
+			{
+				FORMATIONTYPE String 'None'
+			}
+			SHIPINFO - Size Int 0
+			HOLDFIREACTIVE Bool False 
+			AITYPE String 'AIFLEET'
+		}
+		FlagIndex Int 0
+	}
+	NextID Int 161
+	# World Object List
+	WorldObjects Int 37
+	ID Int 11
+	Type String 'Ship_Procyon_Barge'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 1326.523804, 1093.253052, 0.000122 )
+		Orientation Matrix33( 0.719340, -0.694660, 0.000000, 0.694660, 0.719340, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 17
+	Type String 'Island_Rocky_04'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 1323.030762, 1511.137329, 0.000000 )
+		Orientation Matrix33( -0.990101, -0.133491, -0.043389, 0.110421, -0.549898, -0.827902, 0.086658, -0.824498, 0.559193 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 19
+	Type String 'Terrain_Planet_Jupitron'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 2597.902100, 2294.499756, 73.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 41
+	Type String 'Island_Dragon_01'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 274.079315, -1741.092773, -2.999969 )
+		Orientation Matrix33( 0.410372, 0.860465, -0.301986, -0.867815, 0.470230, 0.160569, 0.280167, 0.196175, 0.939693 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 55
+	Type String 'Island_Lighthouse'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -1586.820801, -1735.949097, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 59
+	Type String 'Island12'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -1841.997192, -1595.764282, 0.000000 )
+		Orientation Matrix33( 0.990269, 0.139173, 0.000000, -0.139173, 0.990269, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 62
+	Type String 'Base_IroncladMines'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 1692.851440, 1451.413940, 0.000000 )
+		Orientation Matrix33( 0.996195, -0.087156, 0.000000, 0.087156, 0.996195, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 64
+	Type String 'Ship_Procyon_ManOWar'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 1473.724487, 1370.491089, 0.000000 )
+		Orientation Matrix33( -0.891008, -0.453991, 0.000000, 0.453991, -0.891008, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 68
+	Type String 'Ship_Procyon_Sloop'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 1436.088379, 856.272095, 0.000000 )
+		Orientation Matrix33( 0.515039, 0.857168, 0.000000, -0.857168, 0.515039, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 69
+	Type String 'Ship_Navy_StarHammer'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 1418.216431, -1350.532104, -0.000061 )
+		Orientation Matrix33( -0.798636, -0.601816, 0.000000, 0.601816, -0.798636, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 72
+	Type String 'Ship_Pirate_JollyRoger_Wrecked'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 1570.072876, -1439.819580, -11.000000 )
+		Orientation Matrix33( 0.797624, 0.040177, -0.601818, -0.259164, 0.923806, -0.281812, 0.544640, 0.380749, 0.747262 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 74
+	Type String 'Base_PirateMP'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 1460.295044, -1679.144531, -0.000061 )
+		Orientation Matrix33( -0.913547, 0.406737, 0.000000, -0.406737, -0.913547, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 3
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 83
+	Type String 'Animal_SpaceMantaray'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -1502.453125, -1226.926636, 54.000000 )
+		Orientation Matrix33( -0.743145, 0.669132, 0.000000, -0.669132, -0.743145, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 84
+	Type String 'Animal_SpaceMantaray'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -1494.131958, -1232.855469, 53.000000 )
+		Orientation Matrix33( -0.642789, 0.766045, 0.000000, -0.766045, -0.642789, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 85
+	Type String 'Ship_Civilian_Packet'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -1712.793213, -1673.997437, 0.000000 )
+		Orientation Matrix33( 0.829038, -0.559193, 0.000000, 0.559193, 0.829038, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 86
+	Type String 'Ship_Navy_Frigate'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -1736.621948, -1644.483643, 0.000000 )
+		Orientation Matrix33( 0.656059, 0.754710, 0.000000, -0.754710, 0.656059, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 87
+	Type String 'Ship_Navy_Tug'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -1655.550171, -1659.538452, 0.000000 )
+		Orientation Matrix33( 0.515038, -0.857167, 0.000000, 0.857167, 0.515038, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 89
+	Type String 'Ship_Navy_Legacy'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -1503.449951, -1482.297974, 0.000031 )
+		Orientation Matrix33( -0.743145, 0.669130, 0.000000, -0.669130, -0.743145, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 104
+	Type String 'Base_Procyon1'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -1052.149414, 580.666199, 0.000000 )
+		Orientation Matrix33( -0.998630, 0.052336, 0.000000, -0.052336, -0.998630, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 2
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 112
+	Type String 'Ship_Procyon_ManOWar'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -662.821533, 552.993774, 0.000000 )
+		Orientation Matrix33( 0.573577, 0.819153, 0.000000, -0.819153, 0.573577, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 2
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 117
+	Type String 'Ship_Procyon_RefuelingStation'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 1364.638672, 999.951111, 0.000000 )
+		Orientation Matrix33( -0.978148, 0.207912, 0.000000, -0.207912, -0.978148, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 118
+	Type String 'Ship_Procyon_Barge'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 1543.602417, 1194.980347, 0.000000 )
+		Orientation Matrix33( -0.754710, 0.656060, 0.000000, -0.656060, -0.754710, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 119
+	Type String 'Ship_Procyon_Dreadnought'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 1682.199463, 1350.807861, 0.000031 )
+		Orientation Matrix33( -0.990272, 0.139173, 0.000000, -0.139173, -0.990272, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 124
+	Type String 'Terrain_Planet_Shattered'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 359.128906, -403.009308, -45.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 127
+	Type String 'Ship_Navy_Weapon_Barge'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -1635.787354, -1667.944824, 0.000000 )
+		Orientation Matrix33( 0.544639, -0.838671, 0.000000, 0.838671, 0.544639, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 128
+	Type String 'Base_Montgomery'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -1769.442871, -1758.144775, 0.000000 )
+		Orientation Matrix33( 0.743145, -0.669131, 0.000000, 0.669131, 0.743145, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 143
+	Type String 'Ship_Navy_Tender_Wrecked'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 1600.408813, -1500.205444, -3.999969 )
+		Orientation Matrix33( 0.169311, -0.912761, -0.371760, 0.768594, 0.358401, -0.529919, 0.616929, -0.196012, 0.762221 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 144
+	Type String 'Base_Pirate'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 1716.741089, -1442.348022, 0.000000 )
+		Orientation Matrix33( -0.121869, 0.992547, 0.000000, -0.992547, -0.121869, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 3
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 145
+	Type String 'Ship_Procyon_Dreadnought'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -14.150112, -1553.977295, 0.000000 )
+		Orientation Matrix33( -0.994522, -0.104528, 0.000000, 0.104528, -0.994522, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 6
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 147
+	Type String 'Ship_Navy_CutterNIS'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -563.902161, 540.573669, 0.000000 )
+		Orientation Matrix33( 0.642788, 0.766045, 0.000000, -0.766045, 0.642788, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 4
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 148
+	Type String 'Ship_Pirate_FastAttack'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( 153.620728, -1856.336182, 0.000000 )
+		Orientation Matrix33( 0.681998, 0.731354, 0.000000, -0.731354, 0.681998, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 7
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 154
+	Type String 'Island_Rocky_05'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -311.435120, -1801.295654, 0.000000 )
+		Orientation Matrix33( -0.469472, 0.882948, 0.000000, -0.882948, -0.469472, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 157
+	Type String 'Island_Rocky_05'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -1427.081543, 1067.898438, 0.000000 )
+		Orientation Matrix33( -0.454323, -0.890472, -0.025737, -0.889592, 0.451966, 0.066046, -0.047181, 0.052901, -0.997490 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 158
+	Type String 'Ship_Navy_CutterNIS'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -162.793167, -1809.257568, -0.000004 )
+		Orientation Matrix33( 0.642788, -0.766045, 0.000000, 0.766045, 0.642788, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 5
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 159
+	Type String 'Ship_Navy_Frigate_NIS'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -670.954468, 500.716980, 0.000000 )
+		Orientation Matrix33( 0.573577, 0.819153, 0.000000, -0.819153, 0.573577, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int 4
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 160
+	Type String 'Island_DockBouy'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -1585.395020, -1509.293579, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	ID Int 161
+	Type String 'Island_DockBouy'
+	00000014 State
+	{
+		HasState Bool False 
+		Position Vector3( -1631.307007, -1488.598145, 0.000000 )
+		Orientation Matrix33( 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000 )
+		PlayerIndex Int -1
+		# AIEntity
+		Type String ''
+		# RenderEntity
+		Type String ''
+		# PhysicsEntity
+		Type String ''
+		# CollisionEntity
+		Type String ''
+		# CustomInfoEntity
+		Type String ''
+	}
+	00002288 GameSpecific
+	{
+		World Description Sting ID String 'IDGS_TPWORLDDESCRIPTION_SAMPLE'
+		World Name Sting ID String 'IDGS_TPWORLDNAMES_CREDITS'
+		00000001 Effect Event Keeper
+		{
+			NumEffectEventInfoChunks Int 0
+		}
+		Skybox mesh name String 'skybox_16_Layer1'
+		Ambient Light Colour( 0.125490, 0.125490, 0.125490, 1.000000 )
+		Vector for roof light orientation Vector3( 0.780579, -0.219259, -0.585339 )
+		Hemispherical floor light color Colour( 0.243137, 0.105882, 0.090196, 1.000000 )
+		Hemispherical roof light color Colour( 0.752941, 0.615686, 0.596078, 1.000000 )
+		World Initialized State Bool False 
+		World Buffer Size Float 500.000000
+		Waypoint Path Info Vector - Size Int 17
+		00000004 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'Proc Barge path'
+			Waypoint Path Points - Size Int 2
+			Waypoint Path Points - Element Vector3( 1364.832886, 1129.037109, 0.000000 )
+			Waypoint Path Points - Element Vector3( 1630.922852, 1369.899292, -1.000000 )
+		}
+		00000004 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'Proc War sloop path'
+			Waypoint Path Points - Size Int 2
+			Waypoint Path Points - Element Vector3( 1390.927246, 886.547974, 0.000000 )
+			Waypoint Path Points - Element Vector3( 1014.849426, 1157.151367, -0.000122 )
+		}
+		00000005 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'Navy invaders path'
+			Waypoint Path Points - Size Int 3
+			Waypoint Path Points - Element Vector3( 1442.166260, -1380.771118, 0.000000 )
+			Waypoint Path Points - Element Vector3( 1517.380127, -1472.965576, 0.000000 )
+			Waypoint Path Points - Element Vector3( 1881.112671, -1859.097290, 0.000000 )
+		}
+		00000004 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'tug /barge path'
+			Waypoint Path Points - Size Int 2
+			Waypoint Path Points - Element Vector3( -1621.580566, -1628.533447, 0.000000 )
+			Waypoint Path Points - Element Vector3( -1909.891968, -1434.219360, 0.000000 )
+		}
+		00000007 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'Packet path'
+			Waypoint Path Points - Size Int 5
+			Waypoint Path Points - Element Vector3( -1700.792603, -1656.213013, 0.000000 )
+			Waypoint Path Points - Element Vector3( -1665.989380, -1601.890503, 0.000000 )
+			Waypoint Path Points - Element Vector3( -1625.257813, -1539.082153, 0.000000 )
+			Waypoint Path Points - Element Vector3( -1596.342773, -1461.186523, 0.000000 )
+			Waypoint Path Points - Element Vector3( -1574.351074, -1368.439575, 0.000000 )
+		}
+		00000005 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'frigate path'
+			Waypoint Path Points - Size Int 3
+			Waypoint Path Points - Element Vector3( -694.381592, 574.571777, 3.000000 )
+			Waypoint Path Points - Element Vector3( -747.203674, 615.018311, 3.000000 )
+			Waypoint Path Points - Element Vector3( -1177.060425, 921.252075, 0.000000 )
+		}
+		00000004 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'Proc frigate path'
+			Waypoint Path Points - Size Int 2
+			Waypoint Path Points - Element Vector3( 1501.876465, 1325.097046, 1.000000 )
+			Waypoint Path Points - Element Vector3( 1692.727783, 1045.161865, 0.000000 )
+		}
+		00000012 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'Camera path 1'
+			Waypoint Path Points - Size Int 10
+			Waypoint Path Points - Element Vector3( 972.552856, 671.420593, 30.999939 )
+			Waypoint Path Points - Element Vector3( 1139.316650, 820.902466, 11.000000 )
+			Waypoint Path Points - Element Vector3( 1314.838623, 978.926331, 20.000000 )
+			Waypoint Path Points - Element Vector3( 1460.348999, 1116.994141, 25.000000 )
+			Waypoint Path Points - Element Vector3( 1576.826416, 1211.639526, 17.999939 )
+			Waypoint Path Points - Element Vector3( 1679.593262, 1265.619019, 20.999939 )
+			Waypoint Path Points - Element Vector3( 1722.894043, 1336.374390, 20.999939 )
+			Waypoint Path Points - Element Vector3( 1729.094727, 1410.065063, 44.999939 )
+			Waypoint Path Points - Element Vector3( 1732.305664, 1498.004395, 124.999939 )
+			Waypoint Path Points - Element Vector3( 1729.902832, 1586.802490, 178.000000 )
+		}
+		00000004 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'proc barge 2 path'
+			Waypoint Path Points - Size Int 2
+			Waypoint Path Points - Element Vector3( 1509.508667, 1154.241943, 0.000000 )
+			Waypoint Path Points - Element Vector3( 1345.722168, 983.884094, 0.000000 )
+		}
+		00000005 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'proc chaser'
+			Waypoint Path Points - Size Int 3
+			Waypoint Path Points - Element Vector3( -704.171021, 527.680969, 0.000000 )
+			Waypoint Path Points - Element Vector3( -770.806763, 572.566650, 0.000000 )
+			Waypoint Path Points - Element Vector3( -1167.649536, 853.135681, 0.000000 )
+		}
+		00000005 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'Navy Helper'
+			Waypoint Path Points - Size Int 3
+			Waypoint Path Points - Element Vector3( -591.175293, 562.609314, 0.000000 )
+			Waypoint Path Points - Element Vector3( -667.027893, 623.859985, 0.000000 )
+			Waypoint Path Points - Element Vector3( -1111.906616, 942.515320, 0.000000 )
+		}
+		00000009 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'Mantaray path '
+			Waypoint Path Points - Size Int 7
+			Waypoint Path Points - Element Vector3( -1505.999878, -1239.163940, 36.000000 )
+			Waypoint Path Points - Element Vector3( -1544.535767, -1301.012939, 26.000000 )
+			Waypoint Path Points - Element Vector3( -1602.749756, -1414.568726, 16.000000 )
+			Waypoint Path Points - Element Vector3( -1658.868652, -1491.434448, 7.000000 )
+			Waypoint Path Points - Element Vector3( -1715.705811, -1560.057861, 16.000000 )
+			Waypoint Path Points - Element Vector3( -1818.688232, -1654.299805, 41.000000 )
+			Waypoint Path Points - Element Vector3( -1887.282837, -1685.560913, 68.000000 )
+		}
+		00000004 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'Camera NIS 3'
+			Waypoint Path Points - Size Int 2
+			Waypoint Path Points - Element Vector3( -36.079617, -1517.074951, 41.000000 )
+			Waypoint Path Points - Element Vector3( 12.780903, -1538.884033, 26.000000 )
+		}
+		00000008 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'Camera NIS 2'
+			Waypoint Path Points - Size Int 6
+			Waypoint Path Points - Element Vector3( 1333.053711, -1260.242065, 34.000000 )
+			Waypoint Path Points - Element Vector3( 1357.084961, -1317.520142, 34.000000 )
+			Waypoint Path Points - Element Vector3( 1392.268066, -1419.913818, 34.000000 )
+			Waypoint Path Points - Element Vector3( 1439.390869, -1527.055664, 61.000000 )
+			Waypoint Path Points - Element Vector3( 1502.603149, -1623.889282, 86.000000 )
+			Waypoint Path Points - Element Vector3( 1697.704712, -1862.756226, 182.999939 )
+		}
+		00000007 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'Camera NIS 4'
+			Waypoint Path Points - Size Int 5
+			Waypoint Path Points - Element Vector3( -1371.279907, -1516.138550, 31.000000 )
+			Waypoint Path Points - Element Vector3( -1515.543823, -1420.209595, 8.000000 )
+			Waypoint Path Points - Element Vector3( -1635.773193, -1399.117920, 12.000000 )
+			Waypoint Path Points - Element Vector3( -1715.260864, -1498.130371, 13.000000 )
+			Waypoint Path Points - Element Vector3( -1648.529785, -1622.914185, 37.000000 )
+		}
+		00000006 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'Camera NIS 6'
+			Waypoint Path Points - Size Int 4
+			Waypoint Path Points - Element Vector3( -483.483643, 508.606659, 32.000000 )
+			Waypoint Path Points - Element Vector3( -524.583862, 544.189575, 32.000000 )
+			Waypoint Path Points - Element Vector3( -645.097900, 635.111450, 28.000000 )
+			Waypoint Path Points - Element Vector3( -950.140137, 847.215759, 28.000000 )
+		}
+		00000005 Waypoint Path Info Vector - Element
+		{
+			Waypoint Path Name String 'DR path sc 4'
+			Waypoint Path Points - Size Int 3
+			Waypoint Path Points - Element Vector3( -8.471127, -1586.989502, 0.000000 )
+			Waypoint Path Points - Element Vector3( -7.236127, -1622.339966, 0.000000 )
+			Waypoint Path Points - Element Vector3( 3.199333, -1715.530151, 0.000000 )
+		}
+		World Polygons Vectors - Size Int 0
+		World Point Sets Vector - Size Int 1
+		00000014 World Point Sets Vector - Element
+		{
+			Name String 'mining camp point'
+			World Points - Size Int 1
+			00000009 World Points - Element
+			{
+				World Point Magnitude Float 5.000000
+				00000005 World Point Basis
+				{
+					Position Vector3( 1743.839966, 1618.742676, 12.999939 )
+					LookAt Vector Length Float 0.000000
+					Orientation - Cross Vector3( 1.000000, 0.000000, 0.000000 )
+					Orientation - Forward Vector3( 0.000000, 1.000000, 0.000000 )
+					Orientation - Up Vector3( 0.000000, 0.000000, 1.000000 )
+				}
+			}
+		}
+		Flag List - Size Int 0
+		Timer List - Size Int 5
+		00000006 Timer List - Element
+		{
+			Timer Name String 'NIS 1'
+			Timer Status Bool False 
+			00000001 Timer Value Chunk
+			{
+				StartTime Double 44.121
+			}
+		}
+		00000006 Timer List - Element
+		{
+			Timer Name String 'NIS 2'
+			Timer Status Bool False 
+			00000001 Timer Value Chunk
+			{
+				StartTime Double 153.054
+			}
+		}
+		00000006 Timer List - Element
+		{
+			Timer Name String 'NIS 3'
+			Timer Status Bool False 
+			00000001 Timer Value Chunk
+			{
+				StartTime Double 153.417
+			}
+		}
+		00000006 Timer List - Element
+		{
+			Timer Name String 'NIS 4'
+			Timer Status Bool False 
+			00000001 Timer Value Chunk
+			{
+				StartTime Double 153.813
+			}
+		}
+		00000006 Timer List - Element
+		{
+			Timer Name String 'NIS 5'
+			Timer Status Bool False 
+			00000001 Timer Value Chunk
+			{
+				StartTime Double 47.421
+			}
+		}
+		Speech Event List - Size Int 0
+		PlayerAllianceInfoVector - Size Int 0
+		Team List - Size Int 2
+		00000003 Team List - Element
+		{
+			Team Name ID String 'IDGS_TPTEAMNAMES_NAVY'
+			Race Int 0
+			Race Lock Bool True
+		}
+		00000003 Team List - Element
+		{
+			Team Name ID String 'IDGS_TPTEAMNAMES_PIRATES'
+			Race Int 2
+			Race Lock Bool True
+		}
+		Winning Team Int -1
+		Num Groups Int 32
+		00000003 Group
+		{
+			Name String 'Sc 1 - barge 1'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 11
+		}
+		00000003 Group
+		{
+			Name String 'Sc 1 - mining camp islands'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 17
+		}
+		00000003 Group
+		{
+			Name String 'Sc 1 - mining planet'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 19
+		}
+		00000003 Group
+		{
+			Name String 'Sc 2 - Navy Starhammer'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 69
+		}
+		00000004 Group
+		{
+			Name String 'Sc 3 -  Dragon islands'
+			World Object IDs - Size Int 2
+			World Object IDs - Element Int 41
+			World Object IDs - Element Int 154
+		}
+		00000006 Group
+		{
+			Name String 'Sc 4  - Islands'
+			World Object IDs - Size Int 4
+			World Object IDs - Element Int 55
+			World Object IDs - Element Int 59
+			World Object IDs - Element Int 160
+			World Object IDs - Element Int 161
+		}
+		00000003 Group
+		{
+			Name String 'Sc 1 - Mining base'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 62
+		}
+		00000003 Group
+		{
+			Name String 'Sc 1 - Man0war'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 64
+		}
+		00000003 Group
+		{
+			Name String 'Sc 1 - Patrol'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 68
+		}
+		00000005 Group
+		{
+			Name String 'Sc 2 - dead ships'
+			World Object IDs - Size Int 3
+			World Object IDs - Element Int 72
+			World Object IDs - Element Int 124
+			World Object IDs - Element Int 143
+		}
+		00000004 Group
+		{
+			Name String 'Sc 2 - Pirate bases'
+			World Object IDs - Size Int 2
+			World Object IDs - Element Int 74
+			World Object IDs - Element Int 144
+		}
+		00000004 Group
+		{
+			Name String 'Sc 4 - Mantarays'
+			World Object IDs - Size Int 2
+			World Object IDs - Element Int 83
+			World Object IDs - Element Int 84
+		}
+		00000003 Group
+		{
+			Name String 'Sc 4 - Civilian ship'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 85
+		}
+		00000003 Group
+		{
+			Name String 'Sc 4 - Frigate'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 86
+		}
+		00000003 Group
+		{
+			Name String 'Sc 4 - Navy Tug'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 87
+		}
+		00000003 Group
+		{
+			Name String 'Sc 4 - Legacy'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 89
+		}
+		00000003 Group
+		{
+			Name String 'Sc 6  - proc base'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 104
+		}
+		00000003 Group
+		{
+			Name String 'Sc 6 - proc islands'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 157
+		}
+		00000003 Group
+		{
+			Name String 'Sc 6 - navy torpedo'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 147
+		}
+		00000003 Group
+		{
+			Name String 'Sc 6 - Proc manowar'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 112
+		}
+		00000003 Group
+		{
+			Name String 'Sc 3 - Pirate gunboats'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 148
+		}
+		00000002 Group
+		{
+			Name String 'Player'
+			World Object IDs - Size Int 0
+		}
+		00000003 Group
+		{
+			Name String 'Sc 1 - Refuling station'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 117
+		}
+		00000003 Group
+		{
+			Name String 'Sc 1- barge 2'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 118
+		}
+		00000003 Group
+		{
+			Name String 'Sc 1 - dreadnought'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 119
+		}
+		00000002 Group
+		{
+			Name String 'Sc 2 - Pirate Galleon'
+			World Object IDs - Size Int 0
+		}
+		00000002 Group
+		{
+			Name String 'player2'
+			World Object IDs - Size Int 0
+		}
+		00000003 Group
+		{
+			Name String 'Navy Barge'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 127
+		}
+		00000003 Group
+		{
+			Name String 'SC 4 - Montgomery'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 128
+		}
+		00000003 Group
+		{
+			Name String 'Sc 5 - Navy Frigate'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 159
+		}
+		00000003 Group
+		{
+			Name String 'Procs Sc 4'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 145
+		}
+		00000003 Group
+		{
+			Name String 'Navy Torpboat Sc 4'
+			World Object IDs - Size Int 1
+			World Object IDs - Element Int 158
+		}
+		00001787 World Rules
+		{
+			Rule List Int 65
+			Rule Name String 'Init World ( Hidden From Designers )'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000001 Condition List
+			{
+				Type String 'World Initialize'
+			}
+			NumActions Int 23
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 11
+				Ship Name String ''
+				Ship Path String 'Proc Barge path'
+				Follow Mode String 'loop'
+				AI Stance String 'Stance_Neutral'
+				Player/Owner String 'NO PLAYER'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'CREW SKILL LEVEL'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'LOCALIZED SHIP NAME'
+			}
+			00000006 Action List
+			{
+				Type String '*State Init* Setup Island'
+				World Object ID Int 55
+				Combat Strength Int 0
+				Player/Owner String 'NO PLAYER'
+				Gunnery Level String 'CREW SKILL LEVEL'
+				AI Stance String 'AI STANCE'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 64
+				Ship Name String ''
+				Ship Path String 'Proc frigate path'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Neutral'
+				Player/Owner String 'NO PLAYER'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'CREW SKILL LEVEL'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'LOCALIZED SHIP NAME'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 68
+				Ship Name String ''
+				Ship Path String 'Proc War sloop path'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Neutral'
+				Player/Owner String 'NO PLAYER'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'CREW SKILL LEVEL'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'LOCALIZED SHIP NAME'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 69
+				Ship Name String ''
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Navy'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'LOCALIZED SHIP NAME'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 85
+				Ship Name String ''
+				Ship Path String 'Packet path'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'NO PLAYER'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'CREW SKILL LEVEL'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'LOCALIZED SHIP NAME'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 86
+				Ship Name String ''
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Neutral'
+				Player/Owner String 'NO PLAYER'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'CREW SKILL LEVEL'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'LOCALIZED SHIP NAME'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 87
+				Ship Name String 'a'
+				Ship Path String 'tug /barge path'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'NO PLAYER'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'CREW SKILL LEVEL'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'LOCALIZED SHIP NAME'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 89
+				Ship Name String ''
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'NO PLAYER'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'CREW SKILL LEVEL'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'LOCALIZED SHIP NAME'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 112
+				Ship Name String ''
+				Ship Path String 'proc chaser'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Procyon'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'LOCALIZED SHIP NAME'
+			}
+			00000006 Action List
+			{
+				Type String '*State Init* Setup Island'
+				World Object ID Int 74
+				Combat Strength Int 0
+				Player/Owner String 'Pirate'
+				Gunnery Level String 'Green'
+				AI Stance String 'Stance_Dummy'
+			}
+			00000006 Action List
+			{
+				Type String '*State Init* Setup Island'
+				World Object ID Int 104
+				Combat Strength Int 0
+				Player/Owner String 'Procyon'
+				Gunnery Level String 'CREW SKILL LEVEL'
+				AI Stance String 'Stance_Dummy'
+			}
+			00000006 Action List
+			{
+				Type String '*State Init* Setup Island'
+				World Object ID Int 62
+				Combat Strength Int 0
+				Player/Owner String 'NO PLAYER'
+				Gunnery Level String 'CREW SKILL LEVEL'
+				AI Stance String 'Stance_Neutral'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 117
+				Ship Name String ''
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'NO PLAYER'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'CREW SKILL LEVEL'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'LOCALIZED SHIP NAME'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 118
+				Ship Name String ''
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Neutral'
+				Player/Owner String 'NO PLAYER'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'CREW SKILL LEVEL'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'LOCALIZED SHIP NAME'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 119
+				Ship Name String ''
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Neutral'
+				Player/Owner String 'NO PLAYER'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'CREW SKILL LEVEL'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'LOCALIZED SHIP NAME'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 127
+				Ship Name String 'aa'
+				Ship Path String 'tug /barge path'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'NO PLAYER'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'CREW SKILL LEVEL'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'LOCALIZED SHIP NAME'
+			}
+			00000006 Action List
+			{
+				Type String '*State Init* Setup Island'
+				World Object ID Int 144
+				Combat Strength Int 0
+				Player/Owner String 'Pirate'
+				Gunnery Level String 'Green'
+				AI Stance String 'Stance_Dummy'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 145
+				Ship Name String ''
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Proc 2'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'LOCALIZED SHIP NAME'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 147
+				Ship Name String ''
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Navy 2'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'LOCALIZED SHIP NAME'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 148
+				Ship Name String ''
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Pirate 2'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'LOCALIZED SHIP NAME'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 158
+				Ship Name String ''
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'navy 3'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Elite'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'LOCALIZED SHIP NAME'
+			}
+			00000011 Action List
+			{
+				Type String '*State Init* Setup Ship'
+				World Object ID Int 159
+				Ship Name String ''
+				Ship Path String 'NO PATH'
+				Follow Mode String 'to end'
+				AI Stance String 'Stance_Dummy'
+				Player/Owner String 'Navy 2'
+				Primary Ship String 'FALSE'
+				Crew Skill Level String 'Average'
+				Boardable String 'FALSE'
+				Localized Ship Name String 'LOCALIZED SHIP NAME'
+			}
+			Rule Name String 'NIS 1'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000001 Condition List
+			{
+				Type String 'World Initialize'
+			}
+			NumActions Int 11
+			00000003 Action List
+			{
+				Type String 'NIS Start'
+				All Objects Visible String 'TRUE'
+				Open NIS bars instantly String 'TRUE'
+			}
+			00000006 Action List
+			{
+				Type String 'Play Music Track'
+				File Name String 'BTL_Proc_Theme'
+				Crossfade transition String 'TRUE'
+				Fade Out Time ( secs ) Float 8.000000
+				Fade In Time ( secs ) Float 3.000000
+				New Volume ( 0 to 1 ) Float 1.000000
+			}
+			00000002 Action List
+			{
+				Type String 'Start Timer'
+				Timer Name String 'NIS 1'
+			}
+			00000002 Action List
+			{
+				Type String 'Crew Speech - Toggle On Off'
+				Crew Speech State State String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Path'
+				Path Name String 'Camera path 1'
+				Jump to start String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Speed'
+				Acceleration Float 3.000000
+				Max Velocity Float 22.000000
+			}
+			00000002 Action List
+			{
+				Type String 'NIS Focus camera on Point'
+				Point Set Name String 'mining camp point'
+			}
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'Sc 1 - Patrol'
+				Path Name String 'Proc War sloop path'
+				Follow Mode String 'loop'
+				Find Closest Point String 'FALSE'
+			}
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'Sc 1 - barge 1'
+				Path Name String 'Proc Barge path'
+				Follow Mode String 'to end'
+				Find Closest Point String 'FALSE'
+			}
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'Sc 1- barge 2'
+				Path Name String 'proc barge 2 path'
+				Follow Mode String 'to end'
+				Find Closest Point String 'FALSE'
+			}
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'Sc 1 - Man0war'
+				Path Name String 'Proc frigate path'
+				Follow Mode String 'to end'
+				Find Closest Point String 'FALSE'
+			}
+			Rule Name String 'Credit 1 open'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 1'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 5
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Open HUD Texture Overlay'
+				Texture Base Name String 'Credit01'
+			}
+			Rule Name String 'Credit 1 close'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 1'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 13
+			}
+			NumActions Int 1
+			00000001 Action List
+			{
+				Type String 'Close HUD Texture Overlay'
+			}
+			Rule Name String 'Credit 2 open'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 1'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 16
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Open HUD Texture Overlay'
+				Texture Base Name String 'Credit02'
+			}
+			Rule Name String 'Credit 2 close'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 1'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 24
+			}
+			NumActions Int 1
+			00000001 Action List
+			{
+				Type String 'Close HUD Texture Overlay'
+			}
+			Rule Name String 'Credit 3 open'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 1'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 27
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Open HUD Texture Overlay'
+				Texture Base Name String 'Credit03'
+			}
+			Rule Name String 'Credit 3 close'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 1'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 36
+			}
+			NumActions Int 1
+			00000001 Action List
+			{
+				Type String 'Close HUD Texture Overlay'
+			}
+			Rule Name String 'Credit 4 open'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 1'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 39
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Open HUD Texture Overlay'
+				Texture Base Name String 'Credit04'
+			}
+			Rule Name String 'Credit 4 close'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 1'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 48
+			}
+			NumActions Int 1
+			00000001 Action List
+			{
+				Type String 'Close HUD Texture Overlay'
+			}
+			Rule Name String 'Turn on SC 2'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 1'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 50
+			}
+			NumActions Int 7
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Navy Torpboat Sc 4'
+				AI Stance String 'Stance_Aggressive'
+			}
+			00000003 Action List
+			{
+				Type String 'GroupA to attack GroupB'
+				Attack Group String 'Navy Torpboat Sc 4'
+				Target Group String 'Procs Sc 4'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Procs Sc 4'
+				AI Stance String 'Stance Persistant'
+			}
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'Procs Sc 4'
+				Path Name String 'DR path sc 4'
+				Follow Mode String 'to end'
+				Find Closest Point String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Sc 3 - Pirate gunboats'
+				AI Stance String 'Stance_Aggressive'
+			}
+			00000003 Action List
+			{
+				Type String 'GroupA to attack GroupB'
+				Attack Group String 'Sc 3 - Pirate gunboats'
+				Target Group String 'Procs Sc 4'
+			}
+			00000006 Action List
+			{
+				Type String 'Play Music Track'
+				File Name String 'BTL_Dragon02_FullFast'
+				Crossfade transition String 'TRUE'
+				Fade Out Time ( secs ) Float 8.000000
+				Fade In Time ( secs ) Float 8.000000
+				New Volume ( 0 to 1 ) Float 1.000000
+			}
+			Rule Name String 'NIS 2'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 1'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 55
+			}
+			NumActions Int 5
+			00000002 Action List
+			{
+				Type String 'Start Timer'
+				Timer Name String 'NIS 2'
+			}
+			00000002 Action List
+			{
+				Type String 'Crew Speech - Toggle On Off'
+				Crew Speech State State String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Path'
+				Path Name String 'Camera NIS 3'
+				Jump to start String 'TRUE'
+			}
+			00000002 Action List
+			{
+				Type String 'NIS Focus camera on Group/Unit'
+				GroupUnit Name String 'Procs Sc 4'
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Speed'
+				Acceleration Float 2.000000
+				Max Velocity Float 10.000000
+			}
+			Rule Name String 'Turn off Sc 1'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 2'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 2
+			}
+			NumActions Int 4
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Sc 1 - Patrol'
+				AI Stance String 'Stance_Dummy'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Sc 1 - barge 1'
+				AI Stance String 'Stance_Dummy'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Sc 1- barge 2'
+				AI Stance String 'Stance_Dummy'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Sc 1 - Man0war'
+				AI Stance String 'Stance_Dummy'
+			}
+			Rule Name String 'Credit 5 open'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 2'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 4
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Open HUD Texture Overlay'
+				Texture Base Name String 'Credit05'
+			}
+			Rule Name String 'Credit 5 close'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 2'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 10
+			}
+			NumActions Int 1
+			00000001 Action List
+			{
+				Type String 'Close HUD Texture Overlay'
+			}
+			Rule Name String 'Credit 6 open'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 2'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 13
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Open HUD Texture Overlay'
+				Texture Base Name String 'Credit06'
+			}
+			Rule Name String 'Credit 6 close'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 2'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 19
+			}
+			NumActions Int 1
+			00000001 Action List
+			{
+				Type String 'Close HUD Texture Overlay'
+			}
+			Rule Name String 'Credit 7 open'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 2'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 22
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Open HUD Texture Overlay'
+				Texture Base Name String 'Credit07'
+			}
+			Rule Name String 'Credit 7 close'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 2'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 28
+			}
+			NumActions Int 1
+			00000001 Action List
+			{
+				Type String 'Close HUD Texture Overlay'
+			}
+			Rule Name String 'Credit 8 open'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 2'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 31
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Open HUD Texture Overlay'
+				Texture Base Name String 'Credit08'
+			}
+			Rule Name String 'Credit 8 close'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 2'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 39
+			}
+			NumActions Int 1
+			00000001 Action List
+			{
+				Type String 'Close HUD Texture Overlay'
+			}
+			Rule Name String 'Credit 9 open'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 2'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 42
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Open HUD Texture Overlay'
+				Texture Base Name String 'Credit09'
+			}
+			Rule Name String 'Credit 9 close'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 2'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 48
+			}
+			NumActions Int 1
+			00000001 Action List
+			{
+				Type String 'Close HUD Texture Overlay'
+			}
+			Rule Name String 'Turn on Sc 3'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 2'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 50
+			}
+			NumActions Int 5
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Sc 2 - Navy Starhammer'
+				AI Stance String 'Stance Persistant'
+			}
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'Sc 2 - Navy Starhammer'
+				Path Name String 'Navy invaders path'
+				Follow Mode String 'to end'
+				Find Closest Point String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Sc 2 - Pirate bases'
+				AI Stance String 'Stance_Aggressive'
+			}
+			00000003 Action List
+			{
+				Type String 'GroupA to attack GroupB'
+				Attack Group String 'Sc 2 - Pirate bases'
+				Target Group String 'Sc 2 - Navy Starhammer'
+			}
+			00000006 Action List
+			{
+				Type String 'Play Music Track'
+				File Name String 'BTL_NavyBig_Full'
+				Crossfade transition String 'TRUE'
+				Fade Out Time ( secs ) Float 8.000000
+				Fade In Time ( secs ) Float 8.000000
+				New Volume ( 0 to 1 ) Float 1.000000
+			}
+			Rule Name String 'NIS 3'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 2'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 55
+			}
+			NumActions Int 5
+			00000002 Action List
+			{
+				Type String 'Start Timer'
+				Timer Name String 'NIS 3'
+			}
+			00000002 Action List
+			{
+				Type String 'NIS Focus camera on Group/Unit'
+				GroupUnit Name String 'Sc 2 - Navy Starhammer'
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Path'
+				Path Name String 'Camera NIS 2'
+				Jump to start String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Speed'
+				Acceleration Float 3.000000
+				Max Velocity Float 8.000000
+			}
+			00000002 Action List
+			{
+				Type String 'Crew Speech - Toggle On Off'
+				Crew Speech State State String 'FALSE'
+			}
+			Rule Name String 'Turn off Sc 2'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 3'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 2
+			}
+			NumActions Int 3
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Navy Torpboat Sc 4'
+				AI Stance String 'Stance_Dummy'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Procs Sc 4'
+				AI Stance String 'Stance_Dummy'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Sc 3 - Pirate gunboats'
+				AI Stance String 'Stance_Dummy'
+			}
+			Rule Name String 'Credit 10 open'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 3'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 3
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Open HUD Texture Overlay'
+				Texture Base Name String 'Credit10'
+			}
+			Rule Name String 'Credit 10 close'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 3'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 9
+			}
+			NumActions Int 1
+			00000001 Action List
+			{
+				Type String 'Close HUD Texture Overlay'
+			}
+			Rule Name String 'Credit 11 open'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 3'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 14
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Open HUD Texture Overlay'
+				Texture Base Name String 'Credit11'
+			}
+			Rule Name String 'Credit 11 close'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 3'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 20
+			}
+			NumActions Int 1
+			00000001 Action List
+			{
+				Type String 'Close HUD Texture Overlay'
+			}
+			Rule Name String 'Credit 12 open'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 3'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 23
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Open HUD Texture Overlay'
+				Texture Base Name String 'Credit12'
+			}
+			Rule Name String 'Credit 12 close'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 3'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 31
+			}
+			NumActions Int 1
+			00000001 Action List
+			{
+				Type String 'Close HUD Texture Overlay'
+			}
+			Rule Name String 'Credit 13 open'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 3'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 34
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Open HUD Texture Overlay'
+				Texture Base Name String 'Credit13'
+			}
+			Rule Name String 'Credit13 close'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 3'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 40
+			}
+			NumActions Int 1
+			00000001 Action List
+			{
+				Type String 'Close HUD Texture Overlay'
+			}
+			Rule Name String 'Credit 14 open'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 3'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 43
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Open HUD Texture Overlay'
+				Texture Base Name String 'Credit14'
+			}
+			Rule Name String 'Credit 14 close'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 3'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 51
+			}
+			NumActions Int 1
+			00000001 Action List
+			{
+				Type String 'Close HUD Texture Overlay'
+			}
+			Rule Name String 'Credit 14b open'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 3'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 54
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Open HUD Texture Overlay'
+				Texture Base Name String 'Credit25'
+			}
+			Rule Name String 'Credit 14b close'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 3'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 62
+			}
+			NumActions Int 1
+			00000001 Action List
+			{
+				Type String 'Close HUD Texture Overlay'
+			}
+			Rule Name String 'Credit 15 open'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 3'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 65
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Open HUD Texture Overlay'
+				Texture Base Name String 'Credit15'
+			}
+			Rule Name String 'Credit 15 close'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 3'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 72
+			}
+			NumActions Int 1
+			00000001 Action List
+			{
+				Type String 'Close HUD Texture Overlay'
+			}
+			Rule Name String 'Credit 16 open'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 3'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 75
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Open HUD Texture Overlay'
+				Texture Base Name String 'Credit16'
+			}
+			Rule Name String 'Credit 16 close'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 3'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 82
+			}
+			NumActions Int 1
+			00000001 Action List
+			{
+				Type String 'Close HUD Texture Overlay'
+			}
+			Rule Name String 'Turn on SC 4'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 3'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 83
+			}
+			NumActions Int 11
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Sc 5 - Navy Frigate'
+				AI Stance String 'Stance Persistant'
+			}
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'Sc 5 - Navy Frigate'
+				Path Name String 'proc chaser'
+				Follow Mode String 'to end'
+				Find Closest Point String 'FALSE'
+			}
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'Sc 6 - Proc manowar'
+				Path Name String 'frigate path'
+				Follow Mode String 'to end'
+				Find Closest Point String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Sc 6 - Proc manowar'
+				AI Stance String 'Stance Persistant'
+			}
+			00000003 Action List
+			{
+				Type String 'GroupA to attack GroupB'
+				Attack Group String 'Sc 5 - Navy Frigate'
+				Target Group String 'Sc 6 - Proc manowar'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Sc 6 - navy torpedo'
+				AI Stance String 'Stance_Aggressive'
+			}
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'Sc 6 - navy torpedo'
+				Path Name String 'Navy Helper'
+				Follow Mode String 'to end'
+				Find Closest Point String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'GroupA to attack GroupB'
+				Attack Group String 'Sc 6 - navy torpedo'
+				Target Group String 'Sc 6 - Proc manowar'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Sc 6  - proc base'
+				AI Stance String 'Stance_Aggressive'
+			}
+			00000003 Action List
+			{
+				Type String 'GroupA to attack GroupB'
+				Attack Group String 'Sc 6  - proc base'
+				Target Group String 'Sc 5 - Navy Frigate'
+			}
+			00000006 Action List
+			{
+				Type String 'Play Music Track'
+				File Name String 'BTL_ProcWarDrums_Full'
+				Crossfade transition String 'TRUE'
+				Fade Out Time ( secs ) Float 8.000000
+				Fade In Time ( secs ) Float 8.000000
+				New Volume ( 0 to 1 ) Float 1.000000
+			}
+			Rule Name String 'NIS 4'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 3'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 85
+			}
+			NumActions Int 4
+			00000002 Action List
+			{
+				Type String 'Start Timer'
+				Timer Name String 'NIS 4'
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Path'
+				Path Name String 'Camera NIS 6'
+				Jump to start String 'TRUE'
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Speed'
+				Acceleration Float 2.000000
+				Max Velocity Float 6.000000
+			}
+			00000002 Action List
+			{
+				Type String 'NIS Focus camera on Group/Unit'
+				GroupUnit Name String 'Sc 6 - Proc manowar'
+			}
+			Rule Name String 'Turn off sc3'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 4'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 2
+			}
+			NumActions Int 2
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Sc 2 - Navy Starhammer'
+				AI Stance String 'Stance_Dummy'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Sc 2 - Pirate bases'
+				AI Stance String 'Stance_Dummy'
+			}
+			Rule Name String 'Credit 17 open'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 4'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 4
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Open HUD Texture Overlay'
+				Texture Base Name String 'Credit17'
+			}
+			Rule Name String 'credit 17 close'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 4'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 10
+			}
+			NumActions Int 1
+			00000001 Action List
+			{
+				Type String 'Close HUD Texture Overlay'
+			}
+			Rule Name String 'Credit 18 open'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 4'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 15
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Open HUD Texture Overlay'
+				Texture Base Name String 'Credit18'
+			}
+			Rule Name String 'Credit 18 close'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 4'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 23
+			}
+			NumActions Int 1
+			00000001 Action List
+			{
+				Type String 'Close HUD Texture Overlay'
+			}
+			Rule Name String 'Credit 19 open'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 4'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 26
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Open HUD Texture Overlay'
+				Texture Base Name String 'Credit19'
+			}
+			Rule Name String 'Credit 19 close'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 4'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 34
+			}
+			NumActions Int 1
+			00000001 Action List
+			{
+				Type String 'Close HUD Texture Overlay'
+			}
+			Rule Name String 'Credit 20 open'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 4'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 37
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Open HUD Texture Overlay'
+				Texture Base Name String 'Credit20'
+			}
+			Rule Name String 'Credit 20 close'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 4'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 45
+			}
+			NumActions Int 1
+			00000001 Action List
+			{
+				Type String 'Close HUD Texture Overlay'
+			}
+			Rule Name String 'Turn on SC 5'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 4'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 46
+			}
+			NumActions Int 10
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Sc 4 - Mantarays'
+				AI Stance String 'Stance Persistant'
+			}
+			00000006 Action List
+			{
+				Type String 'Setup Space Animal Flock'
+				Group Name String 'Sc 4 - Mantarays'
+				Path Name String 'Mantaray path '
+				Follow Mode String 'to end'
+				Find Closest Point String 'FALSE'
+				Velocity Int 8
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Sc 4 - Legacy'
+				AI Stance String 'Stance Persistant'
+			}
+			00000003 Action List
+			{
+				Type String 'Dock Ships'
+				Docking Group String 'Sc 4 - Legacy'
+				Target to Dock to String 'SC 4 - Montgomery'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Sc 4 - Civilian ship'
+				AI Stance String 'Stance Persistant'
+			}
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'Sc 4 - Civilian ship'
+				Path Name String 'Packet path'
+				Follow Mode String 'to end'
+				Find Closest Point String 'FALSE'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Sc 4 - Navy Tug'
+				AI Stance String 'Stance Persistant'
+			}
+			00000003 Action List
+			{
+				Type String 'Tow Ship'
+				Docking Group String 'Sc 4 - Navy Tug,a'
+				Target to Tow String 'Navy Barge,aa'
+			}
+			00000005 Action List
+			{
+				Type String 'Group to follow path'
+				Group Name String 'Sc 4 - Navy Tug'
+				Path Name String 'tug /barge path'
+				Follow Mode String 'to end'
+				Find Closest Point String 'FALSE'
+			}
+			00000006 Action List
+			{
+				Type String 'Play Music Track'
+				File Name String 'NEUTRL_Opening_FullMix02'
+				Crossfade transition String 'TRUE'
+				Fade Out Time ( secs ) Float 8.000000
+				Fade In Time ( secs ) Float 8.000000
+				New Volume ( 0 to 1 ) Float 1.000000
+			}
+			Rule Name String 'NIS 5'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 4'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 48
+			}
+			NumActions Int 5
+			00000002 Action List
+			{
+				Type String 'Start Timer'
+				Timer Name String 'NIS 5'
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Path'
+				Path Name String 'Camera NIS 4'
+				Jump to start String 'TRUE'
+			}
+			00000002 Action List
+			{
+				Type String 'NIS Focus camera on Group/Unit'
+				GroupUnit Name String 'SC 4 - Montgomery'
+			}
+			00000003 Action List
+			{
+				Type String 'NIS Set Camera Speed'
+				Acceleration Float 3.000000
+				Max Velocity Float 8.000000
+			}
+			00000002 Action List
+			{
+				Type String 'Crew Speech - Toggle On Off'
+				Crew Speech State State String 'FALSE'
+			}
+			Rule Name String 'Turn off sc 4'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 5'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 2
+			}
+			NumActions Int 4
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Sc 5 - Navy Frigate'
+				AI Stance String 'Stance_Dummy'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Sc 6 - Proc manowar'
+				AI Stance String 'Stance_Dummy'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Sc 6  - proc base'
+				AI Stance String 'Stance_Dummy'
+			}
+			00000003 Action List
+			{
+				Type String 'Set Group/Unit AI Stance'
+				Group/Unit Name String 'Sc 6 - navy torpedo'
+				AI Stance String 'Stance_Dummy'
+			}
+			Rule Name String 'credit 21 open'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 5'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 4
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Open HUD Texture Overlay'
+				Texture Base Name String 'Credit21'
+			}
+			Rule Name String 'credit 21 close'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 5'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 14
+			}
+			NumActions Int 1
+			00000001 Action List
+			{
+				Type String 'Close HUD Texture Overlay'
+			}
+			Rule Name String 'Credit 22 open'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 5'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 19
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Open HUD Texture Overlay'
+				Texture Base Name String 'Credit22'
+			}
+			Rule Name String 'Credit 22 close'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 5'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 24
+			}
+			NumActions Int 1
+			00000001 Action List
+			{
+				Type String 'Close HUD Texture Overlay'
+			}
+			Rule Name String 'Credit 23 open'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 5'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 29
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Open HUD Texture Overlay'
+				Texture Base Name String 'Credit23'
+			}
+			Rule Name String 'Credit 23 close'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 5'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 40
+			}
+			NumActions Int 1
+			00000001 Action List
+			{
+				Type String 'Close HUD Texture Overlay'
+			}
+			Rule Name String 'Credit 24 open'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 5'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 45
+			}
+			NumActions Int 1
+			00000002 Action List
+			{
+				Type String 'Open HUD Texture Overlay'
+				Texture Base Name String 'Credit24'
+			}
+			Rule Name String 'Credit 24 close'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 5'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 51
+			}
+			NumActions Int 1
+			00000001 Action List
+			{
+				Type String 'Close HUD Texture Overlay'
+			}
+			Rule Name String 'End NIS'
+			Run Once Bool True
+			Is Active Bool True
+			NumConditions Int 1
+			00000004 Condition List
+			{
+				Type String 'Timer Condition'
+				Timer Name String 'NIS 5'
+				Equivalence String 'Greater Than'
+				Time in seconds Int 60
+			}
+			NumActions Int 1
+			00000005 Action List
+			{
+				Type String 'End Game'
+				Use Custom Message String 'TRUE'
+				Winner - Custom Message String ID String 'IDGS_TPINGAMEMESSAGE_DEMO_COMPLETE'
+				Loser - Custom Message String ID String 'IDGS_TPINGAMEMESSAGE_DEMO_COMPLETE'
+				Show Stats Screen String 'FALSE'
+			}
+		}
+		00000004 Objective System
+		{
+			Current Objective Point Int -1
+			Current Point Visible On StarMap Bool True
+			Objective Point Info - Size Int 0
+			Objective Task Array - Size Int 0
+		}
+		00000001 Rope
+		{
+			RopeInfo - Size Int 0
+		}
+		00000001 Grappled Objects
+		{
+			Grappled Objects Info - Size Int 0
+		}
+		00000001 Boarding Actions
+		{
+			Boarding Actions Info - Size Int 0
+		}
+		00000002 Journal Entry
+		{
+			Page Info - Size Int 0
+			Title StringID String 'IDGS_TPJOURNALSCREEN_DUMMY_TITLE'
+		}
+		00000001 World Map
+		{
+			Backdrop Texture Name String 'MapMission01'
+		}
+		Can Assemble Fleets Bool False 
+		World Crew List - Size Int 0
+		World Arms List - Size Int 0
+		00000001 MapText System
+		{
+			MapText Point Info - Size Int 0
+		}
+		READAIENTITYCOUNTS Bool False 
+		Journal Music Name String 'JournalMusic'
+		PlayEndMovie Bool False 
+		IsCampaign Bool True
+		Is Alliance Change Allowed Bool False 
+		Use Custom World Name Bool False 
+		Custom World Name String 'Credits'
+		Use Custom World Description Bool False 
+		Custom World Description String ''
+		Islands Make Sounds Bool True
+		DATA_NEBULA_CAMERA_EFFECT Int 0
+		DATA_NEXT_NEBULA_CAMERA_EFFECT Int 0
+		00000001 DATA_NEBULA_CAMERA_EFFECT_FADE_IN_TIMER
+		{
+			StartTime Double 0
+		}
+		00000001 DATA_NEBULA_CAMERA_EFFECT_SPIN_TIMER
+		{
+			StartTime Double 0
+		}
+	}
+}
+00000304 GameImpl
+{
+	SelectedWorldObjectID Int -1
+	00000006 GameStats
+	{
+		PlayerKillInfo - Size Int 0
+		PlayerDockInfo - Size Int 0
+		PlayerLifeBoatSavedInfo - Size Int 0
+		FleetSizeInfo - Size Int 0
+		PlayerDamageInfo - Size Int 0
+		SinglePlayer Points Int 0
+	}
+	SinglePlayerVictoryPoints Int 0
+	SinglePlayerCrewList - Size Int 0
+	SinglePlayerArmsList - Size Int 0
+	00000014 HUD
+	{
+		Are NIS Bars Open Bool True
+		Skip Current Speech Event Bool False 
+		00000001 Active Speech Event Timer
+		{
+			StartTime Double 0
+		}
+		Speech Event Active Bool False 
+		Speech Event Queue - Size Int 0
+		Artificial Pause Between Speech Events Active Bool False 
+		00000001 Artificial Pause Between Speech Events Timer
+		{
+			StartTime Double 0
+		}
+		Request To Close NIS Bars Bool False 
+	}
+	Game Complete Bool False 
+	Custom Game Complete Bool False 
+	00000001 Game Complete Timer
+	{
+		StartTime Double 0
+	}
+	Custom Game Complete String String ''
+	Game Winner Players - Size Int 0
+	User Interface Disabled Bool False 
+	Is Campaign Game Bool False 
+	Show Stats Screen Bool True
+	Goto Next Level Enabled Bool False 
+	Next Level World Name String ''
+	00000001 Next Level Display Timer
+	{
+		StartTime Double 0
+	}
+	Already Created Game Bool False 
+	00000218 Game Camera
+	{
+		00000028 FlyCameraController
+		{
+			00000015 Camera
+			{
+				AspectRatio Float 1.000000
+				FieldOfView Float 0.785398
+				NearPlane Float 0.500000
+				FarPlane Float 3000.000000
+				UsingResolutionBasedAspectRatio Bool True
+				Orthographic Bool False 
+				OrthographicZoom Float 1.000000
+				00000005 LocalBasis
+				{
+					Position Vector3( 0.000000, 0.000000, 0.000000 )
+					LookAt Vector Length Float 1.000000
+					Orientation - Cross Vector3( 1.000000, 0.000000, 0.000000 )
+					Orientation - Forward Vector3( 0.000000, 1.000000, 0.000000 )
+					Orientation - Up Vector3( 0.000000, 0.000000, 1.000000 )
+				}
+			}
+			00000002 TargetInfo
+			{
+				TargetID Int -1
+				TargetPoint Vector3( 0.000000, 0.000000, 0.000000 )
+			}
+			00000001 GameTimeUpdateTimer
+			{
+				StartTime Double 0
+			}
+			NewFocusData Bool True
+		}
+		00000046 SplineCameraController
+		{
+			00000015 Camera
+			{
+				AspectRatio Float 1.000000
+				FieldOfView Float 0.785398
+				NearPlane Float 0.500000
+				FarPlane Float 3000.000000
+				UsingResolutionBasedAspectRatio Bool True
+				Orthographic Bool False 
+				OrthographicZoom Float 1.000000
+				00000005 LocalBasis
+				{
+					Position Vector3( 0.000000, 0.000000, 0.000000 )
+					LookAt Vector Length Float 10.000000
+					Orientation - Cross Vector3( -1.000000, 0.000000, 0.000000 )
+					Orientation - Forward Vector3( 0.000000, -1.000000, 0.000000 )
+					Orientation - Up Vector3( 0.000000, 0.000000, 1.000000 )
+				}
+			}
+			00000002 TargetInfo
+			{
+				TargetID Int -1
+				TargetPoint Vector3( 0.000000, 0.000000, 0.000000 )
+			}
+			00000001 GameTimeUpdateTimer
+			{
+				StartTime Double 0
+			}
+			NewFocusData Bool True
+			00000010 PositionInterpolater
+			{
+				Position Vector3( 0.000000, 0.000000, 0.000000 )
+				StartPointControlPoint Vector3( 0.000000, 0.000000, 0.000000 )
+				EndPointControlPoint Vector3( 0.000000, 0.000000, 0.000000 )
+				ControlIndex Int 0
+				Acceleration Float 10.000000
+				MaxSpeed Float 30.000000
+				Speed Float 0.000000
+				Distance Float 0.000000
+				Percentage Float -431602080.000000
+				ControlPointsInfo - Size Int 0
+			}
+			PrevTargetPoint Vector3( 0.000000, -10.000000, 0.000000 )
+			LockPosition Bool False 
+			LockOrientation Bool False 
+			ForceOrientation Bool False 
+			PercentIncrement Float -431602080.000000
+		}
+		00000042 SwoopCameraController
+		{
+			00000015 Camera
+			{
+				AspectRatio Float 1.000000
+				FieldOfView Float 0.785398
+				NearPlane Float 0.500000
+				FarPlane Float 3000.000000
+				UsingResolutionBasedAspectRatio Bool True
+				Orthographic Bool False 
+				OrthographicZoom Float 1.000000
+				00000005 LocalBasis
+				{
+					Position Vector3( 0.000000, 0.000000, 0.000000 )
+					LookAt Vector Length Float 10.000000
+					Orientation - Cross Vector3( -1.000000, 0.000000, 0.000000 )
+					Orientation - Forward Vector3( 0.000000, -1.000000, 0.000000 )
+					Orientation - Up Vector3( 0.000000, 0.000000, 1.000000 )
+				}
+			}
+			00000002 TargetInfo
+			{
+				TargetID Int -1
+				TargetPoint Vector3( 0.000000, 0.000000, 0.000000 )
+			}
+			00000001 GameTimeUpdateTimer
+			{
+				StartTime Double 0
+			}
+			NewFocusData Bool True
+			DistanceToTarget Float 20.000000
+			DesiredToTarget Float 20.000000
+			HorizontalRotation Float 0.000000
+			MaxHorizontalRotation Float 0.000000
+			MaxDistanceToTarget Float 300.000000
+			MinHorizontalRotation Float 0.000000
+			MinDistanceToTarget Float 2.000000
+			RestrictMinHorizontal Bool False 
+			RestrictMinDistance Bool True
+			RestrictMaxHorizontal Bool False 
+			RestrictMaxDistance Bool True
+			PercentIncrement Float -431602080.000000
+			TargetPoint Vector3( 0.000000, 0.000000, 0.000000 )
+			JumpToFocusPoint Bool False 
+		}
+		00000046 TransitionCameraController
+		{
+			00000015 Camera
+			{
+				AspectRatio Float 1.000000
+				FieldOfView Float 0.785398
+				NearPlane Float 0.500000
+				FarPlane Float 3000.000000
+				UsingResolutionBasedAspectRatio Bool True
+				Orthographic Bool False 
+				OrthographicZoom Float 1.000000
+				00000005 LocalBasis
+				{
+					Position Vector3( 0.000000, 0.000000, 0.000000 )
+					LookAt Vector Length Float 10.000000
+					Orientation - Cross Vector3( -1.000000, 0.000000, 0.000000 )
+					Orientation - Forward Vector3( 0.000000, -1.000000, 0.000000 )
+					Orientation - Up Vector3( 0.000000, 0.000000, 1.000000 )
+				}
+			}
+			00000002 TargetInfo
+			{
+				TargetID Int -1
+				TargetPoint Vector3( 0.000000, 0.000000, 0.000000 )
+			}
+			00000001 GameTimeUpdateTimer
+			{
+				StartTime Double 0
+			}
+			NewFocusData Bool True
+			00000010 PositionInterpolater
+			{
+				Position Vector3( 0.000000, 0.000000, 0.000000 )
+				StartPointControlPoint Vector3( 0.000000, 0.000000, 0.000000 )
+				EndPointControlPoint Vector3( 0.000000, 0.000000, 0.000000 )
+				ControlIndex Int 0
+				Acceleration Float 10.000000
+				MaxSpeed Float 30.000000
+				Speed Float 0.000000
+				Distance Float 0.000000
+				Percentage Float -431602080.000000
+				ControlPointsInfo - Size Int 0
+			}
+			PrevTargetPoint Vector3( 0.000000, -10.000000, 0.000000 )
+			LockPosition Bool False 
+			LockOrientation Bool False 
+			ForceOrientation Bool False 
+			PercentIncrement Float -431602080.000000
+		}
+		00000034 AttachCameraController
+		{
+			00000015 Camera
+			{
+				AspectRatio Float 1.000000
+				FieldOfView Float 0.785398
+				NearPlane Float 0.500000
+				FarPlane Float 3000.000000
+				UsingResolutionBasedAspectRatio Bool True
+				Orthographic Bool False 
+				OrthographicZoom Float 1.000000
+				00000005 LocalBasis
+				{
+					Position Vector3( 0.000000, 0.000000, 0.000000 )
+					LookAt Vector Length Float 10.000000
+					Orientation - Cross Vector3( -1.000000, 0.000000, 0.000000 )
+					Orientation - Forward Vector3( 0.000000, -1.000000, 0.000000 )
+					Orientation - Up Vector3( 0.000000, 0.000000, 1.000000 )
+				}
+			}
+			00000002 TargetInfo
+			{
+				TargetID Int -1
+				TargetPoint Vector3( 0.000000, 0.000000, 0.000000 )
+			}
+			00000001 GameTimeUpdateTimer
+			{
+				StartTime Double 0
+			}
+			NewFocusData Bool True
+			AttachedObjectID Int -1
+			Distance Float 1.000000
+			AngleYZ Float 0.000000
+			AngleXY Float 0.000000
+			LockOrientation Bool False 
+			PercentIncrement Float -431602080.000000
+		}
+		CameraMode Int 0
+		TargetModeForTransition Int -842150451
+		InTransitionMode Bool False 
+		TurnOffNISWhenDoneTransition Bool True
+		TransitionStartPoint Vector3( 0.000000, 0.000000, 0.000000 )
+		LastTargetPosition Vector3( 0.000000, 0.000000, 0.000000 )
+		LastCameraPosition Vector3( 0.000000, 0.000000, 0.000000 )
+	}
+	00000018 SoundPlayer
+	{
+		00000006 CurrentMix
+		{
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+		}
+		00000006 UserMix
+		{
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+			PercentageVolume Float 1.000000
+		}
+	}
+	00000001 MusicPlayer
+	{
+		Is Playing Bool False 
+	}
+	00000005 TPSound
+	{
+		MusicVolume Float 1.000000
+		SpeechOcurring Bool False 
+		CreatedSoundData - Size Int 0
+		Abyss Volume Float 0.000000
+		Inside Abyss Bool False 
+	}
+	Radar Active Bool True
+	Crew Speech Silent State Bool False 
+}

@@ -1,0 +1,99 @@
+Type String 'Gun_Lancer_Heavy'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String ''
+	HasRender String 'Gun_Lancer_Heavy'
+	HasAI String 'Gun_Lancer_Heavy'
+	HasCustomInfo String 'Gun_Lancer_Heavy'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Gun_Lancer_Heavy'
+FactoryType String 'GunAI'
+00000004 ConstData
+{
+	Is Lobbing Gun Bool False 
+	Is MineLaying Gun Bool False 
+	Is TorpedoLauncher Gun Bool False 
+	Is PointDefense Gun Bool False 
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Gun_Lancer_Heavy'
+FactoryType String 'RenderEntityFactory'
+00000031 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'LancersHeavy'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000023 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 2
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MuzzleNode0'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunMuzzlePlacement'
+				DescriptorName String 'Muzzle_1'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'HeavyLancer_Layer2'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunVerticalPivotPlacement'
+				DescriptorName String 'Vertical_Pivot_Point'
+				AssociationName String ''
+			}
+		}
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String ''
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Gun_Lancer_Heavy'
+FactoryType String 'GunCustomInfoFactory'
+00000033 ConstData
+{
+	BulletTypeName_Primary String 'Bullet_Lancer_Heavy'
+	BulletTypeName_Secondary String 'NoBulletType'
+	SoundName String 'Weapon_Lancer_Pirate_FireLarge'
+	MuzzleFlashEffect String 'Lancer_Muzzle_Flash'
+	MuzzleSpeed Float 95.000000
+	DuringBurstReloadTime Float 0.600000
+	BulletsPerBurst Int 4
+	TimeBetweenBursts Float 9.000000
+	CalculateAccuracyDeviationDuringBurst Bool False 
+	WeaponBar Icon Texture String 'WeaponBar_GunIcon_Lancer_Heavy'
+	VerticalRotationSpeed Float 1.134464
+	HorizontalRotationSpeed Float 1.134464
+	VerticalMinAngle Float -0.785049
+	VerticalMaxAngle Float 1.550027
+	LobAngle Float 0.000000
+	MaximumRange_Range Float 280.000000
+	LongRange_Range Float 220.000000
+	EffectiveRange_Range Float 150.000000
+	BulletAffectedByGravity Bool False 
+	MaximumRange_AccuracyDeviation Float 0.139626
+	LongRange_AccuracyDeviation Float 0.069813
+	EffectiveRange_AccuracyDeviation Float 0.034907
+	MaximumRange_RicochetFactor Float -100.000000
+	LongRange_RicochetFactor Float -100.000000
+	EffectiveRange_RicochetFactor Float -100.000000
+	Victory Point Cost Int 14
+	Gun Name String ID String 'IDGS_TPGUNDISPLAYEDNAME_LANCERHEAVY'
+	Mount Type String 'Heavy  Mount'
+	Exclusion Race String 'Navy'
+	Can Be Fired While Cloaked Bool False 
+	Firing Crew Alert String 'GUNNER_FIRE'
+	SoundMaxDistance Float 400.000000
+	SoundVolume Float 0.700000
+}

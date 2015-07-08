@@ -1,0 +1,64 @@
+Type String 'Island01'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String 'Island01'
+	HasRender String 'Island01'
+	HasAI String 'Island01'
+	HasCustomInfo String 'Island01'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Island01'
+FactoryType String 'IslandAI'
+00000001 ConstData
+{
+	Default SightRange Float 2000.000000
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Island01'
+FactoryType String 'RenderEntityFactory'
+00000009 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'Island01'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000001 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 0
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String 'Island01'
+FactoryType String 'BoundingRenderEntity'
+00000004 ConstData
+{
+	DetectionType String 'OBBTree'
+	ResponseType String 'Static Object'
+	User defined sphere size Bool False 
+	UserDefinedBoundingBoxExtents Bool False 
+}
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Island01'
+FactoryType String 'IslandCustomInfoFactory'
+00000015 ConstData
+{
+	Occlusion Polygon Point # 00 Vector3( -9.000000, -40.000000, 0.000000 )
+	Occlusion Polygon Point # 01 Vector3( -28.000000, 11.000000, 0.000000 )
+	Occlusion Polygon Point # 02 Vector3( -5.000000, 41.000000, 0.000000 )
+	Occlusion Polygon Point # 03 Vector3( 36.000000, 16.000000, 0.000000 )
+	Occlusion Polygon Point # 04 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 05 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 06 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 07 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 08 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 09 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point Count Int 0
+	Race String 'Civilian'
+	HasAmbientSound Bool False 
+	Core Damage Section Max HitPoints Int -842150451
+	AnnounceSighting Bool False 
+}

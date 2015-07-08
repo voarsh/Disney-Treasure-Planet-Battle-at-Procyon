@@ -1,0 +1,94 @@
+Type String 'Gun_CannonBall_Med_2Deck'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String ''
+	HasRender String 'Gun_CannonBall_Med_2Deck'
+	HasAI String 'Gun_CannonBall_Med_2Deck'
+	HasCustomInfo String 'Gun_CannonBall_Med_2Deck'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Gun_CannonBall_Med_2Deck'
+FactoryType String 'GunAI'
+00000004 ConstData
+{
+	Is Lobbing Gun Bool False 
+	Is MineLaying Gun Bool False 
+	Is TorpedoLauncher Gun Bool False 
+	Is PointDefense Gun Bool False 
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Gun_CannonBall_Med_2Deck'
+FactoryType String 'RenderEntityFactory'
+00000026 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'CannonMed2Deck'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000018 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 1
+		00000014 MeshAttributes - Element
+		{
+			MeshName String 'MuzzleNode0'
+			MeshAttribute - Size Int 2
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunMuzzlePlacement'
+				DescriptorName String 'CannonMed2Deck_Muzzle'
+				AssociationName String ''
+			}
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunVerticalPivotPlacement'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String ''
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Gun_CannonBall_Med_2Deck'
+FactoryType String 'GunCustomInfoFactory'
+00000033 ConstData
+{
+	BulletTypeName_Primary String 'Bullet_CannonBall_Med'
+	BulletTypeName_Secondary String 'NoBulletType'
+	SoundName String 'Weapon_Cannon_FireMed'
+	MuzzleFlashEffect String 'CannonBall_Medium_Muzzle'
+	MuzzleSpeed Float 40.000000
+	DuringBurstReloadTime Float 0.000000
+	BulletsPerBurst Int 1
+	TimeBetweenBursts Float 9.000000
+	CalculateAccuracyDeviationDuringBurst Bool False 
+	WeaponBar Icon Texture String 'WeaponBar_GunIcon_Cannon_Medium'
+	VerticalRotationSpeed Float 1.308997
+	HorizontalRotationSpeed Float 1.308997
+	VerticalMinAngle Float -0.785049
+	VerticalMaxAngle Float 1.550027
+	LobAngle Float 0.000000
+	MaximumRange_Range Float 270.000000
+	LongRange_Range Float 180.000000
+	EffectiveRange_Range Float 110.000000
+	BulletAffectedByGravity Bool True
+	MaximumRange_AccuracyDeviation Float 0.226893
+	LongRange_AccuracyDeviation Float 0.191986
+	EffectiveRange_AccuracyDeviation Float 0.157080
+	MaximumRange_RicochetFactor Float -40.000000
+	LongRange_RicochetFactor Float -50.000000
+	EffectiveRange_RicochetFactor Float -60.000000
+	Victory Point Cost Int 5
+	Gun Name String ID String 'IDGS_TPGUNDISPLAYEDNAME_CANNONBALLMEDIUM2NDDECK'
+	Mount Type String 'Non-Selectable Medium  Mount'
+	Exclusion Race String 'None'
+	Can Be Fired While Cloaked Bool False 
+	Firing Crew Alert String 'GUNNER_FIRE'
+	SoundMaxDistance Float 800.000000
+	SoundVolume Float 1.000000
+}

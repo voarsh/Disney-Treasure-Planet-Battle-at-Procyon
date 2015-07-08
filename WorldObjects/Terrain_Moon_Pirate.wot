@@ -1,0 +1,32 @@
+Type String 'Terrain_Moon_Pirate'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String ''
+	HasRender String 'Terrain_Moon_Pirate'
+	HasAI String ''
+	HasCustomInfo String ''
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String ''
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Terrain_Moon_Pirate'
+FactoryType String 'RenderEntityFactory'
+00000009 ConstData
+{
+	Distant Bool True
+	Mesh Scene Name String 'PlanetPirateMoon'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000001 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 0
+	}
+	ROTATIONSPEED Float -0.013963
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String ''
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String ''

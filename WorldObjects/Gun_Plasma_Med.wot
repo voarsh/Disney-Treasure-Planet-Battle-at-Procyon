@@ -1,0 +1,99 @@
+Type String 'Gun_Plasma_Med'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String ''
+	HasRender String 'Gun_Plasma_Med'
+	HasAI String 'Gun_Plasma_Med'
+	HasCustomInfo String 'Gun_Plasma_Med'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Gun_Plasma_Med'
+FactoryType String 'GunAI'
+00000004 ConstData
+{
+	Is Lobbing Gun Bool False 
+	Is MineLaying Gun Bool False 
+	Is TorpedoLauncher Gun Bool False 
+	Is PointDefense Gun Bool False 
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Gun_Plasma_Med'
+FactoryType String 'RenderEntityFactory'
+00000031 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'PlasmaCannonMedium'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000023 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 2
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MuzzleNode0'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunMuzzlePlacement'
+				DescriptorName String 'Muzzle_1'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Med_PlasmaGun_Layer2'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunVerticalPivotPlacement'
+				DescriptorName String 'Vertical_Pivot_Point'
+				AssociationName String ''
+			}
+		}
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String ''
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Gun_Plasma_Med'
+FactoryType String 'GunCustomInfoFactory'
+00000033 ConstData
+{
+	BulletTypeName_Primary String 'Bullet_Plasma_Med'
+	BulletTypeName_Secondary String 'NoBulletType'
+	SoundName String 'Weapon_PlasmaCannon_Firemed'
+	MuzzleFlashEffect String 'PlasmaCannon_Medium_Muzzle'
+	MuzzleSpeed Float 60.000000
+	DuringBurstReloadTime Float 0.000000
+	BulletsPerBurst Int 1
+	TimeBetweenBursts Float 10.000000
+	CalculateAccuracyDeviationDuringBurst Bool False 
+	WeaponBar Icon Texture String 'WeaponBar_GunIcon_PlasmaGun_Medium'
+	VerticalRotationSpeed Float 1.221730
+	HorizontalRotationSpeed Float 1.221730
+	VerticalMinAngle Float -0.785049
+	VerticalMaxAngle Float 1.550027
+	LobAngle Float 0.000000
+	MaximumRange_Range Float 300.000000
+	LongRange_Range Float 220.000000
+	EffectiveRange_Range Float 155.000000
+	BulletAffectedByGravity Bool True
+	MaximumRange_AccuracyDeviation Float 0.174533
+	LongRange_AccuracyDeviation Float 0.139626
+	EffectiveRange_AccuracyDeviation Float 0.191986
+	MaximumRange_RicochetFactor Float -70.000000
+	LongRange_RicochetFactor Float -80.000000
+	EffectiveRange_RicochetFactor Float -90.000000
+	Victory Point Cost Int 15
+	Gun Name String ID String 'IDGS_TPGUNDISPLAYEDNAME_PLASMAMEDIUM'
+	Mount Type String 'Medium Mount'
+	Exclusion Race String 'Pirate'
+	Can Be Fired While Cloaked Bool False 
+	Firing Crew Alert String 'GUNNER_FIRE'
+	SoundMaxDistance Float 800.000000
+	SoundVolume Float 0.700000
+}

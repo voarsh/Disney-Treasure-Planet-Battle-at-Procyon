@@ -1,0 +1,556 @@
+Type String 'Ship_Procyon_Frigate'
+00000005 ConstData
+{
+	HasPhysics String 'Ship_Procyon_Frigate'
+	HasCollision String 'Ship_Procyon_Frigate'
+	HasRender String 'Ship_Procyon_Frigate'
+	HasAI String 'Ship_Procyon_Frigate'
+	HasCustomInfo String 'Ship_Procyon_Frigate'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Ship_Procyon_Frigate'
+FactoryType String 'ShipAI'
+00000001 ConstData
+{
+	Default SightRange Float 500.000000
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Ship_Procyon_Frigate'
+FactoryType String 'RenderEntityFactory'
+00000460 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'ProcyonFrigateShip'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000452 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 41
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'torpedo_mount1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Starboard_torpedo_tube'
+				AssociationName String 'Gun_Torpedo,45,Bank15'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'torpedo_mount2'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Port_torpedo_tube'
+				AssociationName String 'Gun_Torpedo,45,Bank08'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'HeavymountNull1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Forward_Heavymount'
+				AssociationName String 'Gun_CannonBall_Heavy,60,Bank73'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'HeavymountNull2'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Port_Heavymount'
+				AssociationName String 'Gun_CannonBall_Heavy,60,Bank73'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'HeavymountNull3'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Starboard_Heavymount'
+				AssociationName String 'Gun_CannonBall_Heavy,60,Bank73'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MedMountNull1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Port_Medmount1'
+				AssociationName String 'Gun_CannonBall_Med,60,Bank24'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MedMountNull2'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Port_Medmount2'
+				AssociationName String 'Gun_CannonBall_Med,60,Bank24'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MedMountNull3'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Port_Medmount3'
+				AssociationName String 'Gun_CannonBall_Med,60,Bank24'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MedMountNull4'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Starboard_Medmount1'
+				AssociationName String 'Gun_CannonBall_Med,60,Bank31'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MedMountNull5'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Starboard_Medmount2'
+				AssociationName String 'Gun_CannonBall_Med,60,Bank31'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'MedMountNull6'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Starboard_Medmount3'
+				AssociationName String 'Gun_CannonBall_Med,60,Bank31'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'LightmountNull1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Port_Lightmount1'
+				AssociationName String 'Gun_CannonBall_Light,60,Bank42'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'LightmountNull2'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Port_Lightmount2'
+				AssociationName String 'Gun_CannonBall_Light,60,Bank42'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'LightmountNull3'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Port_Lightmount3'
+				AssociationName String 'Gun_CannonBall_Light,60,Bank42'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'LightmountNull4'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Starboard_Lightmount1'
+				AssociationName String 'Gun_CannonBall_Light,60,Bank45'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'LightmountNull5'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Port_Lightmount2'
+				AssociationName String 'Gun_CannonBall_Light,60,Bank45'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'LightmountNull6'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Port_Lightmount3'
+				AssociationName String 'Gun_CannonBall_Light,60,Bank45'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'HeavyLancerNull1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'Rear_Heavylancer'
+				AssociationName String 'Gun_Lancer_Heavy,90,Bank79'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'EngineNull1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'EnginePortPlacement'
+				DescriptorName String 'LG_ProcyonEngine1'
+				AssociationName String 'ProcEngine_Heavy'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'EngineNull2'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'EnginePortPlacement'
+				DescriptorName String 'LG_ProcyonEngine2'
+				AssociationName String 'ProcEngine_Heavy'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'EngineNull3'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'EnginePortPlacement'
+				DescriptorName String 'Med_ProcyonEngine1'
+				AssociationName String 'ProcEngine_Medium'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'EngineNull4'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'EnginePortPlacement'
+				DescriptorName String 'Med_ProcyonEngine2'
+				AssociationName String 'ProcEngine_Medium'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Port_DockPoint'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DockPoint'
+				DescriptorName String 'Port_DockPoint'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Star_DockPoint'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DockPoint'
+				DescriptorName String 'Star_DockPoint'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Flag_Top'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'FlagAttachmentPoint'
+				DescriptorName String 'Flag_Top'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Flag_Bottom'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'FlagAttachmentPoint'
+				DescriptorName String 'Flag_Bottom'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'Wake1_Null'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'WakePlacement'
+				DescriptorName String 'Large_Wake_1'
+				AssociationName String 'Wake_Heavy'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'front_tow'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'ToweePoint'
+				DescriptorName String 'front_tow'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'back_tow'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'TowerPoint'
+				DescriptorName String 'back_tow'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'BoardingNode0'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'BoardingEffectPoint'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'BoardingNode1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'BoardingEffectPoint'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'BoardingNode2'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'BoardingEffectPoint'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'TorpedoHomingPoint'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'TorpedoHomingPoint'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'ProcyonFrigateShip_Layer1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'Starboard_Pontoon_wood'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=1,vitalToManeuverability=1,vitalToMission=0,swappable=1,material=Hull Wood,hitpoints=400,criticals=Power Transformer Engines+Power Transformer Guns+MaxVelocity+Rudder Linkage+,adjacent=ProcyonFrigateShip_Layer2+,debrisMeshScene=ProcyonFrigateBrokenStbrdPontoon,debrisFx=Falling_Debris,destructFx={ Final_Ship_Chunk 9.800000 10.000000 ( 6.200000 -11.800000 -3.300000 ) },destructFx={ Final_Ship_Chunk 9.500000 9.700000 ( 2.200000 -15.100000 -9.200000 ) }'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'ProcyonFrigateShip_Layer2'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'Bow_wood'
+				AssociationName String 'vitalToShip=1,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=0,swappable=1,material=Hull Wood,hitpoints=250,vitalSectionCoreDamagePercent=10,criticals=Power Transformer Guns+,adjacent=ProcyonFrigateShip_Layer3+,debrisMeshScene=ProcyonFrigateBrokenBow,debrisFx=Falling_Debris,destructFx={ Final_Ship_Chunk 9.500000 9.700000 ( 1.800000 -8.800000 5.200000 ) }'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'ProcyonFrigateShip_Layer3'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'Port_Mid_Hull_wood'
+				AssociationName String 'vitalToShip=1,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=0,swappable=1,material=Hull Wood,hitpoints=700,vitalSectionCoreDamagePercent=50,criticals=Cargo Hold+Power Transformer Guns+Munnitions+,adjacent=ProcyonFrigateShip_Layer2+ProcyonFrigateShip_Layer4+ProcyonFrigateShip_Layer5+,destructFx={ Final_Ship_Chunk 9.200000 9.300000 ( -1.500000 -17.600000 0.200000 ) }'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'ProcyonFrigateShip_Layer4'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'Stern_wood'
+				AssociationName String 'vitalToShip=1,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=0,swappable=1,material=Hull Wood,hitpoints=500,vitalSectionCoreDamagePercent=40,criticals=Power Transformer Engines+Power Transformer Guns+Engines+MaxVelocity+Rudder Linkage+Munnitions+,adjacent=ProcyonFrigateShip_Layer1+ProcyonFrigateShip_Layer3+ProcyonFrigateShip_Layer6+ProcyonFrigateShip_Layer8+,destructFx={ Final_Ship_Chunk 9.600000 9.800000 ( -2.600000 -22.100000 -6.000000 ) }'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'ProcyonFrigateShip_Layer5'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'Port_Pontoon_wood'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=1,vitalToManeuverability=1,vitalToMission=0,swappable=1,material=Hull Wood,hitpoints=400,criticals=Power Transformer Engines+Power Transformer Guns+MaxVelocity+Rudder Linkage+,adjacent=ProcyonFrigateShip_Layer1+ProcyonFrigateShip_Layer3+,debrisMeshScene=ProcyonFrigateBrokenPtPontoon,debrisFx=Falling_Debris,destructFx={ Final_Ship_Chunk 9.700000 9.900000 ( -5.000000 -25.000000 -0.200000 ) },destructFx={ Final_Ship_Chunk 9.500000 9.700000 ( -5.000000 -20.799999 5.100000 ) }'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'ProcyonFrigateShip_Layer6'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'Mast1_cloth'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=1,vitalToMission=0,swappable=1,material=Sail Cloth,hitpoints=180,criticals=Spotter Equitment+,adjacent=ProcyonFrigateShip_Layer2+,destructFx={ Final_Ship_Chunk 9.800000 10.000000 ( 0.700000 -0.200000 7.300000 ) }'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'ProcyonFrigateShip_Layer7'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'mast_2_cloth'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=1,vitalToManeuverability=1,vitalToMission=0,swappable=1,material=Sail Cloth,hitpoints=140,criticals=Spotter Equitment+,adjacent=ProcyonFrigateShip_Layer3+,debrisMeshScene=ProcyonFrigateBrokenMast2,debrisFx=Falling_Debris,destructFx={ Final_Ship_Chunk 9.300000 9.500000 ( -5.200000 -7.400000 -6.900000 ) }'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'ProcyonFrigateShip_Layer8'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'Mast_3_cloth'
+				AssociationName String 'vitalToShip=0,vitalToMaxVelocity=0,vitalToManeuverability=1,vitalToMission=0,swappable=1,material=Sail Cloth,hitpoints=120,adjacent=ProcyonFrigateShip_Layer4+,destructFx={ Final_Ship_Chunk 9.600000 9.800000 ( -7.900000 -17.400000 -11.900000 ) }'
+			}
+		}
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String 'Ship_Procyon_Frigate'
+FactoryType String 'ShipDemo'
+00000006 ConstData
+{
+	CenterOfMass Vector3( 0.000000, 0.000000, 0.000000 )
+	Mass Float 18000.000000
+	MaxThrust Float 30000.000000
+	MaxSpeed Float 5.833333
+	RotationalFriction Float 20.000000
+	MaxAngularAcceleration Float 0.877298
+}
+Definition String 'COLLISIONDEFINITION'
+EntityType String 'Ship_Procyon_Frigate'
+FactoryType String 'BoundingRenderEntity'
+00000008 ConstData
+{
+	DetectionType String 'BoundingRenderEntity'
+	ResponseType String 'Ship'
+	User defined sphere size Bool True
+	LocalPosition Vector3( 0.000000, 1.000000, 4.000000 )
+	Radius Float 17.000000
+	UserDefinedBoundingBoxExtents Bool True
+	MinExtents Vector3( -7.000000, -11.000000, -1.250000 )
+	MaxExtents Vector3( 7.000000, 10.000000, 1.500000 )
+}
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Ship_Procyon_Frigate'
+FactoryType String 'ShipCustomInfoFactory'
+00000042 ConstData
+{
+	00000003 GUIInfo Chunk
+	{
+		ShipBar Icon Texture String 'ShipBar_ShipIcon_Procyon_Frigate'
+		Selected Indicator Percentage Of Radius Float 0.550000
+		Distance to Start Sphere Picking Float 100.000000
+	}
+	Displayable Shipname String ID String 'IDGS_TPDISPLAYABLESHIPTYPENAME_TPPROCYONFRIGATESTANDARD'
+	Ship Race String 'Procyon'
+	Is Tender Bool False 
+	Number of lifeboats Int 2
+	Is Lifeboat Bool False 
+	Is Cloakable Bool False 
+	Ship Size Int 2
+	Core Damage Section Max HitPoints Int 300
+	Explosion Effect Name String 'ShipDebris_Explosion_Medium'
+	EngineType String 'Solar Sail'
+	EngineSoundName Emergency String 'Engine_Proc_EmergFull'
+	EngineSoundName Full String 'Engine_Proc_Full'
+	EngineSoundName Half String 'Engine_Proc_Med'
+	Victory Point Cost Int 116
+	Available in Multiplayer? Bool True
+	Available Unique Ship Name ID 00 String 'IDGS_TPSHIPNAMEPROCYON00_SHATTERLYNX'
+	Available Unique Ship Name ID 01 String 'IDGS_TPSHIPNAMEPROCYON00_ICEWOLF'
+	Available Unique Ship Name ID 02 String 'IDGS_TPSHIPNAMEPROCYON00_WARBROOD'
+	Available Unique Ship Name ID 03 String 'IDGS_TPSHIPNAMEPROCYON00_CRESCENTBEAR'
+	Available Unique Ship Name ID 04 String 'IDGS_TPSHIPNAMEPROCYON00_SMOKEEAGLE'
+	Available Unique Ship Name ID 05 String 'IDGS_TPSHIPNAMEPROCYON00_STORMLION'
+	Available Unique Ship Name ID 06 String 'IDGS_TPSHIPNAMEPROCYON00_FLAREPANTHER'
+	Available Unique Ship Name ID 07 String 'IDGS_TPSHIPNAMEPROCYON00_FIREWYVERN'
+	Available Unique Ship Name ID 08 String 'IDGS_TPSHIPNAMEPROCYON00_BOREALFOX'
+	Available Unique Ship Name ID 09 String 'IDGS_TPSHIPNAMEPROCYON00_SNOWBOAR'
+	Available Unique Ship Name ID 10 String 'IDGS_TPSHIPNAMEPROCYON00_ARCTICFOX'
+	Available Unique Ship Name ID 11 String 'IDGS_TPSHIPNAMEPROCYON00_STARDRAGON'
+	Max number of Gunners Int 8
+	Max number of Captains Int 1
+	Max number of First Mates Int 1
+	Max number of Navigators Int 1
+	Max number of Engineers Int 2
+	Max number of Riggers Int 3
+	Max number of Fighters Int 3
+	Max number of Lookouts Int 1
+	Repair Effect Name String 'Repair_Medium'
+}

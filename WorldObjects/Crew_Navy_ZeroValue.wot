@@ -1,0 +1,42 @@
+Type String 'Crew_Navy_ZeroValue'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String ''
+	HasRender String ''
+	HasAI String ''
+	HasCustomInfo String 'Crew_Navy_ZeroValue'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String ''
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String ''
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String ''
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Crew_Navy_ZeroValue'
+FactoryType String 'CrewCustomInfoFactory'
+00000019 ConstData
+{
+	Crew Race String 'Navy'
+	Point Value Int 0
+	Crew Name String ID String 'IDGS_TPCREWNAME_ZEROVALUE'
+	Leadership Skill Active Bool True
+	Leadership Skill Ability Value Int 1
+	Navigation Skill Active Bool True
+	Navigation Skill Ability Value Int 1
+	Spotting Skill Active Bool True
+	Spotting Skill Ability Value Int 1
+	Engineering Skill Active Bool True
+	Engineering Skill Ability Value Int 1
+	Rigging Skill Active Bool True
+	Rigging Skill Ability Value Int 1
+	Combat Skill Active Bool True
+	Combat Skill Ability Value Int 1
+	Gunnery Skill Active Bool True
+	Gunnery Skill Ability Value Int 1
+	Talking Head Texture String 'CrewFace_Navy_0'
+	Species String 'Human_Male'
+}

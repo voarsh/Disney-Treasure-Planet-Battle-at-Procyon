@@ -1,0 +1,147 @@
+Type String 'Bullet_GrapplingHarpoon'
+00000005 ConstData
+{
+	HasPhysics String 'Bullet_GrapplingHarpoon'
+	HasCollision String 'Bullet_GrapplingHarpoon'
+	HasRender String ''
+	HasAI String ''
+	HasCustomInfo String 'Bullet_GrapplingHarpoon'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String ''
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String ''
+Definition String 'PHYSICSDEFINITION'
+EntityType String 'Bullet_GrapplingHarpoon'
+FactoryType String 'ProjectilePhysics'
+00000002 ConstData
+{
+	CenterOfMass Vector3( 0.000000, 0.000000, 0.000000 )
+	Mass Float 1.000000
+}
+Definition String 'COLLISIONDEFINITION'
+EntityType String 'Bullet_GrapplingHarpoon'
+FactoryType String 'Point'
+00000002 ConstData
+{
+	DetectionType String 'Point'
+	ResponseType String 'Bullet'
+}
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Bullet_GrapplingHarpoon'
+FactoryType String 'GrapplingHarpoonCustomInfoFactory'
+00000112 ConstData
+{
+	HitEffect String 'BurrowingHarpoon_Light_Impact'
+	BulletEffect String 'BurrowingHarpoon_Light_Trail'
+	Damage HitPoints Int 0
+	Decal Damage Size String 'Medium'
+	# 
+	# Hull Wood DamagePotential
+	# 
+	Chance of Critical Damage: Wood Float 0.000000
+	Chance of Fire: Wood Float 0.000000
+	Initial Fire Strength: Wood Float 1.000000
+	Damage Lower Bound: Wood Float 10.000000
+	Damage Upper Bound: Wood Float 15.000000
+	# 
+	# Hull ReInforced Wood DamagePotential
+	# 
+	Chance of Critical Damage: Reinforced Float 0.000000
+	Chance of Fire: Reinforced Float 0.000000
+	Initial Fire Strength: Reinforced Float 1.000000
+	Damage Lower Bound: Reinforced Float 8.000000
+	Damage Upper Bound: Reinforced Float 12.000000
+	# 
+	# Hull Iron DamagePotential
+	# 
+	Chance of Critical Damage: Iron Float 0.000000
+	Chance of Fire: Iron Float 0.000000
+	Initial Fire Strength: Iron Float 1.000000
+	Damage Lower Bound: Iron Float 5.000000
+	Damage Upper Bound: Iron Float 6.000000
+	# 
+	# Sail Cloth DamagePotential
+	# 
+	Chance of Critical Damage: Cloth Float 0.000000
+	Chance of Fire: Cloth Float 0.000000
+	Initial Fire Strength: Cloth Float 1.000000
+	Damage Lower Bound: Cloth Float 3.000000
+	Damage Upper Bound: Cloth Float 5.000000
+	# 
+	# Wall Stone DamagePotential
+	# 
+	Chance of Critical Damage: Stone Float 1.000000
+	Chance of Fire: Stone Float 1.000000
+	Initial Fire Strength: Stone Float 1.000000
+	Damage Lower Bound: Stone Float 10.000000
+	Damage Upper Bound: Stone Float 15.000000
+	# 
+	# Dragon Scale DamagePotential
+	# 
+	Chance of Critical Damage: Dragon Float 0.500000
+	Chance of Fire: Dragon Float 0.500000
+	Initial Fire Strength: Dragon Float 0.500000
+	Damage Lower Bound: Dragon Float 10.000000
+	Damage Upper Bound: Dragon Float 20.000000
+	Impact Sound Max Distance Float 300.000000
+	Impact Sound Volume Float 1.000000
+	Travel Sound Max Distance Float 50.000000
+	Travel Sound Volume Float 1.000000
+	RicochetSound: Hull Wood String 'Weapon_GrapHarpoon_RichocetWood'
+	00000005 ImpactSoundsHull Wood
+	{
+		Sound_0 String 'Weapon_GrapHarpoon_Impact_Wood'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Hull ReInforced Wood String 'Weapon_GrapHarpoon_RichocetWood'
+	00000005 ImpactSoundsHull ReInforced Wood
+	{
+		Sound_0 String 'Weapon_GrapHarpoon_Impact_Wood'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Hull Iron String 'Weapon_GrapHarpoon_RichoetMetal'
+	00000005 ImpactSoundsHull Iron
+	{
+		Sound_0 String 'Weapon_GrapHarpoon_Impact_Metal'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Sail Cloth String 'Weapon_GrapHarpoon_RichocetWood'
+	00000005 ImpactSoundsSail Cloth
+	{
+		Sound_0 String 'Weapon_GrapHarpoon_Impact_Sail'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Wall Stone String 'Weapon_GrapHarpoon_RichocetWood'
+	00000005 ImpactSoundsWall Stone
+	{
+		Sound_0 String 'Weapon_GrapHarpoon_Impact_Wood'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Dragon Scale String 'Weapon_GrapHarpoon_RichocetWood'
+	00000005 ImpactSoundsDragon Scale
+	{
+		Sound_0 String 'Weapon_Harpoon_Impact_Wood'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	Travel Sound String 'Weapon_GrapHarpoon_TravelLoop'
+	Lifetime Float 3.000000
+}

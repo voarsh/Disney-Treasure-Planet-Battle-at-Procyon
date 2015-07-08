@@ -1,0 +1,83 @@
+Type String 'Asteroid_Small'
+00000005 ConstData
+{
+	HasPhysics String 'Asteroid_Small'
+	HasCollision String 'Asteroid_Small'
+	HasRender String 'Asteroid_Small'
+	HasAI String 'Asteroid_Small'
+	HasCustomInfo String 'Asteroid_Small'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Asteroid_Small'
+FactoryType String 'SpaceObjectAI'
+00000000 ConstData
+{
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Asteroid_Small'
+FactoryType String 'RenderEntityFactory'
+00000020 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'AsteroidSmall'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000012 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 1
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'ASTEROIDS_Small_Layer1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'MeshHitPoints'
+				DescriptorName String 'Asteroid_small'
+				AssociationName String ''
+			}
+		}
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String 'Asteroid_Small'
+FactoryType String 'SpaceObjectPhysics'
+00000003 ConstData
+{
+	CenterOfMass Vector3( 0.000000, 0.000000, 0.000000 )
+	Mass Float 10000.000000
+	Acceleration Float 500.000000
+}
+Definition String 'COLLISIONDEFINITION'
+EntityType String 'Asteroid_Small'
+FactoryType String 'BoundingRenderEntity'
+00000008 ConstData
+{
+	DetectionType String 'BoundingRenderEntity'
+	ResponseType String 'Asteroid'
+	User defined sphere size Bool True
+	LocalPosition Vector3( -0.200000, -0.200000, 0.000000 )
+	Radius Float 3.000000
+	UserDefinedBoundingBoxExtents Bool True
+	MinExtents Vector3( -2.500000, -2.300000, -2.000000 )
+	MaxExtents Vector3( 2.200000, 2.000000, 1.300000 )
+}
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Asteroid_Small'
+FactoryType String 'AsteroidCustomInfoFactory'
+00000013 ConstData
+{
+	Max Hit Points Int 10
+	WorldObject To Create Upon Death 0 String ''
+	WorldObject To Create Upon Death 1 String ''
+	WorldObject To Create Upon Death 2 String ''
+	WorldObject To Create Upon Death 3 String ''
+	WorldObject To Create Upon Death 4 String ''
+	WorldObject To Create Upon Death 5 String ''
+	WorldObject To Create Upon Death 6 String ''
+	WorldObject To Create Upon Death 7 String ''
+	WorldObject To Create Upon Death 8 String ''
+	WorldObject To Create Upon Death 9 String ''
+	ExplosionEffect String 'ShipExplosion_Medium'
+	Report Spotting Bool True
+}

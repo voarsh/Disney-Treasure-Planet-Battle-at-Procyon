@@ -1,0 +1,2301 @@
+00002227 Input Mappings Profile
+{
+	Input Mappings Int 93
+	UserInputName String 'Cursor X'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool False 
+		00000006 Axis
+		{
+			00000002 Device
+			{
+				DeviceType Int 1
+				Device# Int 0
+			}
+			Axis# Int 0
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Cursor Y'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool False 
+		00000006 Axis
+		{
+			00000002 Device
+			{
+				DeviceType Int 1
+				Device# Int 0
+			}
+			Axis# Int 1
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Cursor Z'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool False 
+		00000006 Axis
+		{
+			00000002 Device
+			{
+				DeviceType Int 1
+				Device# Int 0
+			}
+			Axis# Int 2
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Cursor Press 0'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 1
+				Device# Int 0
+			}
+			Button# String '0x0'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Cursor Press 1'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 1
+				Device# Int 0
+			}
+			Button# String '0x1'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Toggle FullScreen'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0xf'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Show UserInput Mappings (ALL Channel)'
+	00000012 MappingChunk
+	{
+		IsMapped Bool False 
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x0'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Show UserInput Mappings (GAME Channel)'
+	00000012 MappingChunk
+	{
+		IsMapped Bool False 
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x0'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Take ScreenShot'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x46'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Toggle Render Stats'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x13'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Toggle Profile'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x18'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Toggle Profile Display'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x19'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Toggle Sound'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1f'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Quick Save'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x3d'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Quick Load'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x3e'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Open Console'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x3f'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Toggle Single Step'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x40'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Do Single Step'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x41'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Toggle Draw Bounding Boxes'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x30'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Toggle Draw Bounding Spheres'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2b'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Toggle Draw Affected Areas'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x20'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Change Game Update Rate'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x42'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Reload UserProfiles'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x43'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Start Stop Avi Capture'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x44'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'ReloadEffects'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x57'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'TestEffectName'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x58'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Output Statistics To File'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x3b'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Change UIChannel To Game_Debug'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x3c'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Increase Speed'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0xd'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Decrease Speed'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0xc'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Panic Fire'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2d'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Select Primary Ship'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x29'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Select Secondary Ship ( 1 )'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Select Secondary Ship ( 2 )'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x3'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Select Secondary Ship ( 3 )'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x4'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Select Secondary Ship ( 4 )'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x5'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Select Secondary Ship ( 5 )'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x6'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Select Secondary Ship ( 6 )'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x7'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Select Secondary Ship ( 7 )'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x8'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Select Secondary Ship ( 8 )'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x9'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Select Secondary Ship ( 9 )'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0xa'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Select Secondary Ship ( 10 )'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0xb'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Open Weapon Bar'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x11'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Open Ship Bar'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1f'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Open Star Map'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x32'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Focus On Selected Ship'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x21'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Select Next Ship'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1b'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Select Prev Ship'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1a'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Focus On Nearest Projectile'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x30'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Skip Current Speech Event'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x39'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Rotate Camera Left'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0xcb'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Rotate Camera Right'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0xcd'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Zoom Camera In'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0xc8'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Zoom Camera Out'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0xd0'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Change Primary Ship'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x19'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Attack Only Mode'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x38'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Toggle HUD'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x23'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Toggle Draw TriggerAreas'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1e'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Toggle Draw Groups'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x22'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Toggle Draw Formation Groups'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2f'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Toggle Draw GunLines'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x26'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Toggle Draw Scripted Paths'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x33'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Toggle Draw Rule Status'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x16'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Change Camera Mode'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2e'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Toggle God Mode'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2c'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Kill World Object'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2d'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Tag WorldObject'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x10'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Toggle Damage Info'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x25'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Toggle General WO Info'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x12'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Toggle Ship AI Info'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2e'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2c'
+		}
+	}
+	UserInputName String 'Toggle Crew Info'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x3d'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Debug Decal Render'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x3f'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Draw ShipMoveAI'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2d'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2c'
+		}
+	}
+	UserInputName String 'Toggle Perfect Aim'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x28'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Draw QuadTree'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1b'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Draw Camera Frustrum'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1a'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Toggle Draw Debug Info'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x17'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Toggle Ship Sight Range'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x15'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Show Stats Screen'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Show Journal Screen'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x3'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'Toggle Show Visibility Occlusion'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x40'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x14'
+		}
+	}
+	UserInputName String 'Rotate Camera Up'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x15'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Rotate Camera Down'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x23'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Roll Camera Left'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x33'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Roll Camera Right'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x34'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Strafe Camera Left'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x22'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Strafe Camera Right'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x24'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Strafe Camera Up'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x17'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Strafe Camera Down'
+	00000012 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x25'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'ReLoad HUD'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x3e'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x2a'
+		}
+	}
+	UserInputName String 'DEBUG - Goto Next Level'
+	00000030 MappingChunk
+	{
+		IsMapped Bool True
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x22'
+		}
+		Hold Buttons - Size Int 2
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x1d'
+		}
+		00000006 Hold Buttons - Element
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x20'
+		}
+	}
+	UserInputName String 'Change UIChannel To Game'
+	00000012 MappingChunk
+	{
+		IsMapped Bool False 
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x0'
+		}
+		Hold Buttons - Size Int 0
+	}
+	UserInputName String 'Show UserInput Mappings (GAME_DEBUG Channel)'
+	00000012 MappingChunk
+	{
+		IsMapped Bool False 
+		IsDigital Bool True
+		00000006 Button
+		{
+			00000002 Device
+			{
+				DeviceType Int 0
+				Device# Int 0
+			}
+			Button# String '0x0'
+		}
+		Hold Buttons - Size Int 0
+	}
+}
+00000006 Sound Options
+{
+	Overall Volume Float 1.000000
+	Music Volume Float 1.000000
+	Effect Volume Float 0.800000
+	Crew Dialogue Volume Float 1.000000
+	Music Channels Int 24
+	Sound Detail Level Float 1.000000
+}
+00000046 Render Options
+{
+	00000003 FrontEnd Fullscreen DisplayInfo
+	{
+		Desired FullScreen Width Int 800
+		Desired FullScreen Height Int 600
+		Desired FullScreen Bitdepth Int 32
+	}
+	00000003 InGame Fullscreen DisplayInfo
+	{
+		Desired FullScreen Width Int 800
+		Desired FullScreen Height Int 600
+		Desired FullScreen Bitdepth Int 32
+	}
+	00000003 Movie Fullscreen DisplayInfo
+	{
+		Desired FullScreen Width Int 640
+		Desired FullScreen Height Int 480
+		Desired FullScreen Bitdepth Int 32
+	}
+	00000003 InGame Min Fullscreen DisplayInfo
+	{
+		Desired FullScreen Width Int 800
+		Desired FullScreen Height Int 600
+		Desired FullScreen Bitdepth Int 16
+	}
+	00000003 InGame Max Fullscreen DisplayInfo
+	{
+		Desired FullScreen Width Int 1600
+		Desired FullScreen Height Int 1200
+		Desired FullScreen Bitdepth Int 32
+	}
+	Scale Movies Bool False 
+	Render In Window Bool False
+	Render Distant Objects Bool True
+	Render Background Bool True
+	Texture Quality Float 1.000000
+	Allow Texture Compression Bool True
+	Only Load Lowest Detail Mesh LOD Bool False 
+	Max Mesh Detail Percentage Float 1.000000
+	EffectsAlwaysUseFullDetail Bool False 
+	EffectsMaximumDetailPercentage Float 1.000000
+	EffectsLowestDetailDistance Float 350.000000
+	Update Flag Bool True
+	Render Wakes Bool True
+	Model Detail Percentage Float 1.000000
+	Terrain Visibility Percentage Float 1.000000
+	Death Animations Bool True
+}
+00000002 TP UserInterface
+{
+	Do Beginner Movement Bool True
+	Focus When Selecting Bool True
+}
+00000005 Player Profile
+{
+	Player Name String 'Player'
+	Player Code String 'XXXXXXXXXXXXXXX'
+	Buddy List - Size Int 0
+	Difficulty Level Int 1
+	Display Banners Int 1
+}

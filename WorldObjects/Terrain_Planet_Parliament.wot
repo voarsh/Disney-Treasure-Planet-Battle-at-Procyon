@@ -1,0 +1,32 @@
+Type String 'Terrain_Planet_Parliament'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String ''
+	HasRender String 'Terrain_Planet_Parliament'
+	HasAI String ''
+	HasCustomInfo String ''
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String ''
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Terrain_Planet_Parliament'
+FactoryType String 'RenderEntityFactory'
+00000009 ConstData
+{
+	Distant Bool True
+	Mesh Scene Name String 'ParliamentPlanet'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000001 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 0
+	}
+	ROTATIONSPEED Float 0.006981
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String ''
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String ''

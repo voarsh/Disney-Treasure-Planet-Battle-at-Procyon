@@ -1,0 +1,93 @@
+00000005 EffectStream
+{
+	EffectName String 'Rope'
+	EffectMaxRadius Float 100000.000000
+	NumPrimitives Int 1
+	PrimitiveName String 'Lightning'
+	00000019 Primitive
+	{
+		Duration Float 9999999.000000
+		StartDelay Float 0.000000
+		UseWorldCoordInternaly Bool False 
+		PrimitiveDescription String 'Rope'
+		CHUNKDATA_CONST_ACCEPTS_EFFECT_VARIABLES_STRING_VECTOR - Size Int 1
+		CHUNKDATA_CONST_ACCEPTS_EFFECT_VARIABLES_STRING_VECTOR - Element String 'PICK_POSITIONS_FROM_MESH_VERTEXES_IN_ORDER'
+		RenderPassNumber Int 1
+		Everlasting Bool False 
+		UpdateWhenFaded Bool True
+		DoneWhenFaded Bool False 
+		BeamLength Float 100.000000
+		SegmentLength Float 2.000000
+		SegmentWidth Float 0.100000
+		SegmentOverlap Float 0.000000
+		Noise Float 0.700000
+		PreviousPositionWeight Float 0.990000
+		00000002 ColorFader
+		{
+			00000003 ColorInterpolator3Chunk
+			{
+				00000005 Value1Interpolator
+				{
+					00000003 LoopInfo
+					{
+						StartLoopingT Float 0.000000
+						EndLoopingT Float 0.000000
+						NumberLoops Int 0
+					}
+					UseValuesAtKeysOnly Bool False 
+					NumKeys Int 1
+					t Float 0.000000
+					value Float 1.000000
+				}
+				00000005 Value2Interpolator
+				{
+					00000003 LoopInfo
+					{
+						StartLoopingT Float 0.000000
+						EndLoopingT Float 0.000000
+						NumberLoops Int 0
+					}
+					UseValuesAtKeysOnly Bool False 
+					NumKeys Int 1
+					t Float 0.000000
+					value Float 1.000000
+				}
+				00000005 Value3Interpolator
+				{
+					00000003 LoopInfo
+					{
+						StartLoopingT Float 0.000000
+						EndLoopingT Float 0.000000
+						NumberLoops Int 0
+					}
+					UseValuesAtKeysOnly Bool False 
+					NumKeys Int 1
+					t Float 0.000000
+					value Float 1.000000
+				}
+			}
+			00000005 AlphaComponentChunk
+			{
+				00000003 LoopInfo
+				{
+					StartLoopingT Float 0.000000
+					EndLoopingT Float 0.000000
+					NumberLoops Int 0
+				}
+				UseValuesAtKeysOnly Bool False 
+				NumKeys Int 1
+				t Float 0.000000
+				value Float 1.000000
+			}
+		}
+		00000002 BlendRenderInfo
+		{
+			BlendSource String 'SRCALPHA'
+			BlendDestination String 'INVSRCALPHA'
+		}
+		00000001 TextureRenderInfo
+		{
+			TextureName String 'rope.tga'
+		}
+	}
+}

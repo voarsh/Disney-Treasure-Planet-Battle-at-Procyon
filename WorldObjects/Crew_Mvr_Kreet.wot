@@ -1,0 +1,42 @@
+Type String 'Crew_Mvr_Kreet'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String ''
+	HasRender String ''
+	HasAI String ''
+	HasCustomInfo String 'Crew_Mvr_Kreet'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String ''
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String ''
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String ''
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Crew_Mvr_Kreet'
+FactoryType String 'CrewCustomInfoFactory'
+00000019 ConstData
+{
+	Crew Race String 'Procyon'
+	Point Value Int 7
+	Crew Name String ID String 'IDGS_TPCREWNAME03_MANT_KREET'
+	Leadership Skill Active Bool True
+	Leadership Skill Ability Value Int 8
+	Navigation Skill Active Bool True
+	Navigation Skill Ability Value Int 2
+	Spotting Skill Active Bool True
+	Spotting Skill Ability Value Int 4
+	Engineering Skill Active Bool False 
+	Engineering Skill Ability Value Int 0
+	Rigging Skill Active Bool True
+	Rigging Skill Ability Value Int 8
+	Combat Skill Active Bool True
+	Combat Skill Ability Value Int 7
+	Gunnery Skill Active Bool True
+	Gunnery Skill Ability Value Int 6
+	Talking Head Texture String 'TalkingHead_Character_Mantavor_2'
+	Species String 'Mantavor'
+}

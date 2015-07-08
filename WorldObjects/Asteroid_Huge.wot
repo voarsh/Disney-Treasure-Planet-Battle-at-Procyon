@@ -1,0 +1,72 @@
+Type String 'Asteroid_Huge'
+00000005 ConstData
+{
+	HasPhysics String 'Asteroid_Huge'
+	HasCollision String 'Asteroid_Huge'
+	HasRender String 'Asteroid_Huge'
+	HasAI String 'Asteroid_Huge'
+	HasCustomInfo String 'Asteroid_Huge'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Asteroid_Huge'
+FactoryType String 'SpaceObjectAI'
+00000000 ConstData
+{
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Asteroid_Huge'
+FactoryType String 'RenderEntityFactory'
+00000009 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'AsteroidXlarge'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000001 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 0
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String 'Asteroid_Huge'
+FactoryType String 'SpaceObjectPhysics'
+00000003 ConstData
+{
+	CenterOfMass Vector3( 0.000000, 0.000000, 0.000000 )
+	Mass Float 60000.000000
+	Acceleration Float 150.000000
+}
+Definition String 'COLLISIONDEFINITION'
+EntityType String 'Asteroid_Huge'
+FactoryType String 'BoundingRenderEntity'
+00000008 ConstData
+{
+	DetectionType String 'BoundingRenderEntity'
+	ResponseType String 'Asteroid'
+	User defined sphere size Bool True
+	LocalPosition Vector3( 0.000000, 6.000000, 0.000000 )
+	Radius Float 25.000000
+	UserDefinedBoundingBoxExtents Bool True
+	MinExtents Vector3( -17.000000, -11.000000, -15.000000 )
+	MaxExtents Vector3( 15.000000, 15.000000, 15.000000 )
+}
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Asteroid_Huge'
+FactoryType String 'AsteroidCustomInfoFactory'
+00000013 ConstData
+{
+	Max Hit Points Int 100
+	WorldObject To Create Upon Death 0 String 'Asteroid_Large'
+	WorldObject To Create Upon Death 1 String 'Asteroid_Large'
+	WorldObject To Create Upon Death 2 String 'Asteroid_Med'
+	WorldObject To Create Upon Death 3 String 'Asteroid_Med'
+	WorldObject To Create Upon Death 4 String ''
+	WorldObject To Create Upon Death 5 String ''
+	WorldObject To Create Upon Death 6 String ''
+	WorldObject To Create Upon Death 7 String ''
+	WorldObject To Create Upon Death 8 String ''
+	WorldObject To Create Upon Death 9 String ''
+	ExplosionEffect String 'Explosion_Huge'
+	Report Spotting Bool True
+}

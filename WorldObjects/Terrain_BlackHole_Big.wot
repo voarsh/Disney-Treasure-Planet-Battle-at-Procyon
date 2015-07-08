@@ -1,0 +1,61 @@
+Type String 'Terrain_BlackHole_Big'
+00000005 ConstData
+{
+	HasPhysics String 'Terrain_BlackHole_Big'
+	HasCollision String 'Terrain_BlackHole_Big'
+	HasRender String 'Terrain_BlackHole_Big'
+	HasAI String 'Terrain_BlackHole_Big'
+	HasCustomInfo String 'Terrain_BlackHole_Big'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Terrain_BlackHole_Big'
+FactoryType String 'SpaceObjectAI'
+00000000 ConstData
+{
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Terrain_BlackHole_Big'
+FactoryType String 'RenderEntityFactory'
+00000009 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'BlackholeLarge'
+	Render Effect String 'mesh'
+	Visible Bool False 
+	00000001 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 0
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String 'Terrain_BlackHole_Big'
+FactoryType String 'SpaceObjectPhysics'
+00000003 ConstData
+{
+	CenterOfMass Vector3( 0.000000, 0.000000, 0.000000 )
+	Mass Float 100.000000
+	Acceleration Float 3.000000
+}
+Definition String 'COLLISIONDEFINITION'
+EntityType String 'Terrain_BlackHole_Big'
+FactoryType String 'BoundingSphere'
+00000005 ConstData
+{
+	DetectionType String 'Null'
+	ResponseType String 'Null'
+	User defined sphere size Bool True
+	LocalPosition Vector3( 0.000000, 0.000000, 0.000000 )
+	Radius Float 625.000000
+}
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Terrain_BlackHole_Big'
+FactoryType String 'BlackHoleCustomInfoFactory'
+00000005 ConstData
+{
+	Magnitude Float 25000.000000
+	Radius Float 625.000000
+	VortexEffectName String 'BlackHoleRibbons_Large'
+	AmbientSoundMaxDistance Float 750.000000
+	AmbientSoundName String 'Ambience_Black_Hole'
+}

@@ -1,0 +1,166 @@
+Type String 'Bullet_StarMine_Med'
+00000005 ConstData
+{
+	HasPhysics String 'Bullet_StarMine_Med'
+	HasCollision String 'Bullet_StarMine_Med'
+	HasRender String 'Bullet_StarMine_Med'
+	HasAI String 'Bullet_StarMine_Med'
+	HasCustomInfo String 'Bullet_StarMine_Med'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Bullet_StarMine_Med'
+FactoryType String 'MineAI'
+00000001 ConstData
+{
+	Default SightRange Float 50.000000
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Bullet_StarMine_Med'
+FactoryType String 'RenderEntityFactory'
+00000009 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'StarMine'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000001 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 0
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String 'Bullet_StarMine_Med'
+FactoryType String 'MinePhysics'
+00000003 ConstData
+{
+	CenterOfMass Vector3( 0.000000, 0.000000, 0.000000 )
+	Mass Float 150.000000
+	Maximum speed Float 20.000000
+}
+Definition String 'COLLISIONDEFINITION'
+EntityType String 'Bullet_StarMine_Med'
+FactoryType String 'Point'
+00000002 ConstData
+{
+	DetectionType String 'Attackable WeaponFire'
+	ResponseType String 'Attackable WeaponFire'
+}
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Bullet_StarMine_Med'
+FactoryType String 'MineCustomInfoFactory'
+00000112 ConstData
+{
+	HitEffect String 'StarMine_Impact'
+	BulletEffect String 'DoNothing'
+	Damage HitPoints Int 20
+	Decal Damage Size String 'Large'
+	# 
+	# Hull Wood DamagePotential
+	# 
+	Chance of Critical Damage: Wood Float 0.800000
+	Chance of Fire: Wood Float 0.700000
+	Initial Fire Strength: Wood Float 1.000000
+	Damage Lower Bound: Wood Float 60.000000
+	Damage Upper Bound: Wood Float 120.000000
+	# 
+	# Hull ReInforced Wood DamagePotential
+	# 
+	Chance of Critical Damage: Reinforced Float 0.600000
+	Chance of Fire: Reinforced Float 0.500000
+	Initial Fire Strength: Reinforced Float 1.000000
+	Damage Lower Bound: Reinforced Float 50.000000
+	Damage Upper Bound: Reinforced Float 100.000000
+	# 
+	# Hull Iron DamagePotential
+	# 
+	Chance of Critical Damage: Iron Float 0.500000
+	Chance of Fire: Iron Float 0.200000
+	Initial Fire Strength: Iron Float 1.000000
+	Damage Lower Bound: Iron Float 30.000000
+	Damage Upper Bound: Iron Float 60.000000
+	# 
+	# Sail Cloth DamagePotential
+	# 
+	Chance of Critical Damage: Cloth Float 0.000000
+	Chance of Fire: Cloth Float 0.000000
+	Initial Fire Strength: Cloth Float 1.000000
+	Damage Lower Bound: Cloth Float 0.000000
+	Damage Upper Bound: Cloth Float 0.000000
+	# 
+	# Wall Stone DamagePotential
+	# 
+	Chance of Critical Damage: Stone Float 1.000000
+	Chance of Fire: Stone Float 1.000000
+	Initial Fire Strength: Stone Float 1.000000
+	Damage Lower Bound: Stone Float 1.000000
+	Damage Upper Bound: Stone Float 1.000000
+	# 
+	# Dragon Scale DamagePotential
+	# 
+	Chance of Critical Damage: Dragon Float 0.500000
+	Chance of Fire: Dragon Float 0.500000
+	Initial Fire Strength: Dragon Float 0.500000
+	Damage Lower Bound: Dragon Float 0.500000
+	Damage Upper Bound: Dragon Float 0.500000
+	Impact Sound Max Distance Float 2000.000000
+	Impact Sound Volume Float 1.000000
+	Travel Sound Max Distance Float 20.000000
+	Travel Sound Volume Float 0.500000
+	RicochetSound: Hull Wood String 'Ricochet_Wood'
+	00000005 ImpactSoundsHull Wood
+	{
+		Sound_0 String 'Weapon_Starmine_Detonate'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Hull ReInforced Wood String 'Ricochet_Wood_Reinforced'
+	00000005 ImpactSoundsHull ReInforced Wood
+	{
+		Sound_0 String 'Weapon_Starmortar_Detonate'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Hull Iron String 'Richocet_MetalBounce03'
+	00000005 ImpactSoundsHull Iron
+	{
+		Sound_0 String 'Weapon_Starmine_Detonate'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Sail Cloth String 'Ricochet_Wood'
+	00000005 ImpactSoundsSail Cloth
+	{
+		Sound_0 String 'Weapon_Starmine_Detonate'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Wall Stone String 'Ricochet_Wood'
+	00000005 ImpactSoundsWall Stone
+	{
+		Sound_0 String 'Weapon_Starmine_Detonate'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	RicochetSound: Dragon Scale String 'Ricochet_Wood'
+	00000005 ImpactSoundsDragon Scale
+	{
+		Sound_0 String 'Weapon_Starmine_Detonate'
+		Sound_1 String ''
+		Sound_2 String ''
+		Sound_3 String ''
+		Sound_4 String ''
+	}
+	Travel Sound String 'Weapon_StarMine_Work'
+	Lifetime Float 1000000.000000
+}

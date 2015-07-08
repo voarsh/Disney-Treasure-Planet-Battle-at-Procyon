@@ -1,0 +1,94 @@
+Type String 'Gun_Volcano'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String ''
+	HasRender String 'Gun_Volcano'
+	HasAI String 'Gun_Volcano'
+	HasCustomInfo String 'Gun_Volcano'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Gun_Volcano'
+FactoryType String 'GunAI'
+00000004 ConstData
+{
+	Is Lobbing Gun Bool True
+	Is MineLaying Gun Bool False 
+	Is TorpedoLauncher Gun Bool False 
+	Is PointDefense Gun Bool False 
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Gun_Volcano'
+FactoryType String 'RenderEntityFactory'
+00000026 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'TorpedoGunSpecial'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000018 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 1
+		00000014 MeshAttributes - Element
+		{
+			MeshName String 'MuzzleNode0'
+			MeshAttribute - Size Int 2
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunMuzzlePlacement'
+				DescriptorName String 'TorpedoMuzzle'
+				AssociationName String ''
+			}
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunVerticalPivotPlacement'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String ''
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Gun_Volcano'
+FactoryType String 'GunCustomInfoFactory'
+00000033 ConstData
+{
+	BulletTypeName_Primary String 'Bullet_Magma'
+	BulletTypeName_Secondary String 'NoBulletType'
+	SoundName String 'Volcano_Magma_FIRE01'
+	MuzzleFlashEffect String 'volcanoMuzzleFlash'
+	MuzzleSpeed Float 50.000000
+	DuringBurstReloadTime Float 0.000000
+	BulletsPerBurst Int 1
+	TimeBetweenBursts Float 28.000000
+	CalculateAccuracyDeviationDuringBurst Bool False 
+	WeaponBar Icon Texture String 'WeaponBar_GunIcon_Torpedo'
+	VerticalRotationSpeed Float 0.872665
+	HorizontalRotationSpeed Float 0.872665
+	VerticalMinAngle Float -0.785049
+	VerticalMaxAngle Float 1.550027
+	LobAngle Float 1.395914
+	MaximumRange_Range Float 200.000000
+	LongRange_Range Float 170.000000
+	EffectiveRange_Range Float 150.000000
+	BulletAffectedByGravity Bool True
+	MaximumRange_AccuracyDeviation Float 0.523599
+	LongRange_AccuracyDeviation Float 0.349066
+	EffectiveRange_AccuracyDeviation Float 0.174533
+	MaximumRange_RicochetFactor Float -50.000000
+	LongRange_RicochetFactor Float -80.000000
+	EffectiveRange_RicochetFactor Float -100.000000
+	Victory Point Cost Int 7
+	Gun Name String ID String 'IDGS_TPGUNDISPLAYEDNAME_STARMORTAR'
+	Mount Type String 'Non-Selectable Special Mount'
+	Exclusion Race String 'None'
+	Can Be Fired While Cloaked Bool False 
+	Firing Crew Alert String 'GUNNER_FIRE'
+	SoundMaxDistance Float 1000.000000
+	SoundVolume Float 0.700000
+}

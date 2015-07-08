@@ -1,0 +1,90 @@
+Type String 'Asteroid_Small_Armed'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String 'Asteroid_Small_Armed'
+	HasRender String 'Asteroid_Small_Armed'
+	HasAI String 'Asteroid_Small_Armed'
+	HasCustomInfo String 'Asteroid_Small_Armed'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Asteroid_Small_Armed'
+FactoryType String 'IslandAI'
+00000001 ConstData
+{
+	Default SightRange Float 500.000000
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Asteroid_Small_Armed'
+FactoryType String 'RenderEntityFactory'
+00000031 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'AsteroidPirateSmall'
+	Render Effect String 'mesh'
+	Visible Bool True
+	00000023 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 2
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'AsteroidGun_2Deck'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunPlacement'
+				DescriptorName String 'AsteroidGun_2Deck'
+				AssociationName String 'Gun_CannonBall_Heavy_2Deck,90,Bank00'
+			}
+		}
+		00000008 MeshAttributes - Element
+		{
+			MeshName String 'ASTEROIDSPirateSm_Layer1'
+			MeshAttribute - Size Int 1
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'DamageSection'
+				DescriptorName String 'Pirate_Asteroid_rock'
+				AssociationName String 'vitalToShip=1,vitalToMaxVelocity=0,vitalToManeuverability=0,vitalToMission=0,swappable=1,material=Hull ReInforced Wood,hitpoints=50,destructFx={ Merchant_Explosion 0.000000 0.000000 ( 0.000000 0.000000 0.000000 ) }'
+			}
+		}
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String 'Asteroid_Small_Armed'
+FactoryType String 'BoundingRenderEntity'
+00000008 ConstData
+{
+	DetectionType String 'OBBTree'
+	ResponseType String 'Static Object'
+	User defined sphere size Bool True
+	LocalPosition Vector3( 0.200000, -1.700000, 0.100000 )
+	Radius Float 4.050000
+	UserDefinedBoundingBoxExtents Bool True
+	MinExtents Vector3( -2.700000, -4.500000, -2.700000 )
+	MaxExtents Vector3( 3.000000, 1.000000, 3.000000 )
+}
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Asteroid_Small_Armed'
+FactoryType String 'IslandCustomInfoFactory'
+00000015 ConstData
+{
+	Occlusion Polygon Point # 00 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 01 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 02 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 03 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 04 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 05 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 06 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 07 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 08 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point # 09 Vector3( 0.000000, 0.000000, 0.000000 )
+	Occlusion Polygon Point Count Int 0
+	Race String 'Civilian'
+	HasAmbientSound Bool False 
+	Core Damage Section Max HitPoints Int 50
+	AnnounceSighting Bool False 
+}

@@ -1,0 +1,94 @@
+Type String 'Gun_DragonBreath'
+00000005 ConstData
+{
+	HasPhysics String ''
+	HasCollision String ''
+	HasRender String 'Gun_DragonBreath'
+	HasAI String 'Gun_DragonBreath'
+	HasCustomInfo String 'Gun_DragonBreath'
+}
+Definition String 'AIENTITYDEFINITION'
+EntityType String 'Gun_DragonBreath'
+FactoryType String 'GunAI'
+00000004 ConstData
+{
+	Is Lobbing Gun Bool False 
+	Is MineLaying Gun Bool False 
+	Is TorpedoLauncher Gun Bool False 
+	Is PointDefense Gun Bool False 
+}
+Definition String 'RENDERENTITYDEFINITION'
+EntityType String 'Gun_DragonBreath'
+FactoryType String 'RenderEntityFactory'
+00000026 ConstData
+{
+	Distant Bool False 
+	Mesh Scene Name String 'CannonHvy2Deck'
+	Render Effect String 'mesh'
+	Visible Bool False 
+	00000018 Mesh Attribute Manager
+	{
+		MeshAttributes - Size Int 1
+		00000014 MeshAttributes - Element
+		{
+			MeshName String 'MuzzleNode0'
+			MeshAttribute - Size Int 2
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunMuzzlePlacement'
+				DescriptorName String 'HVYCannon2Deck_Muzzle'
+				AssociationName String ''
+			}
+			00000003 MeshAttribute - Element
+			{
+				AttributeName String 'GunVerticalPivotPlacement'
+				DescriptorName String 'default'
+				AssociationName String ''
+			}
+		}
+	}
+	ROTATIONSPEED Float 0.000000
+}
+Definition String 'PHYSICSDEFINITION'
+EntityType String ''
+Definition String 'COLLISIONDEFINITION'
+EntityType String ''
+Definition String 'CUSTOMINFODEFINITION'
+EntityType String 'Gun_DragonBreath'
+FactoryType String 'GunCustomInfoFactory'
+00000033 ConstData
+{
+	BulletTypeName_Primary String 'Bullet_DragonBreath'
+	BulletTypeName_Secondary String 'NoBulletType'
+	SoundName String 'Animal_SpaceDragon_Fireball'
+	MuzzleFlashEffect String 'CannonBall_Heavy_Muzzle'
+	MuzzleSpeed Float 50.000000
+	DuringBurstReloadTime Float 0.000000
+	BulletsPerBurst Int 1
+	TimeBetweenBursts Float 6.000000
+	CalculateAccuracyDeviationDuringBurst Bool False 
+	WeaponBar Icon Texture String 'WeaponBar_GunIcon_Cannon_Heavy'
+	VerticalRotationSpeed Float 1.134464
+	HorizontalRotationSpeed Float 1.134464
+	VerticalMinAngle Float -1.047198
+	VerticalMaxAngle Float 1.047198
+	LobAngle Float 0.000000
+	MaximumRange_Range Float 350.000000
+	LongRange_Range Float 270.000000
+	EffectiveRange_Range Float 150.000000
+	BulletAffectedByGravity Bool True
+	MaximumRange_AccuracyDeviation Float 0.087266
+	LongRange_AccuracyDeviation Float 0.069813
+	EffectiveRange_AccuracyDeviation Float 0.052360
+	MaximumRange_RicochetFactor Float -200.000000
+	LongRange_RicochetFactor Float -200.000000
+	EffectiveRange_RicochetFactor Float -200.000000
+	Victory Point Cost Int 10
+	Gun Name String ID String 'IDGS_TPGUNDISPLAYEDNAME_CANNONBALLHEAVY2NDDECK'
+	Mount Type String 'Non-Selectable Heavy   Mount'
+	Exclusion Race String 'None'
+	Can Be Fired While Cloaked Bool False 
+	Firing Crew Alert String 'GUNNER_FIRE'
+	SoundMaxDistance Float 500.000000
+	SoundVolume Float 0.700000
+}

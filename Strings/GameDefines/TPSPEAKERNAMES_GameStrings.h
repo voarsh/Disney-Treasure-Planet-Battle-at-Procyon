@@ -1,0 +1,22 @@
+// Generated on: 9/5/2002 12:25:01 PM
+#define IDGS_TPSPEAKERNAMES_AMELIA                                       54600
+#define IDGS_TPSPEAKERNAMES_BARTLETT                                     54601
+#define IDGS_TPSPEAKERNAMES_CRICKETT                                     54602
+#define IDGS_TPSPEAKERNAMES_EMDALL                                       54603
+#define IDGS_TPSPEAKERNAMES_EVAR                                         54604
+#define IDGS_TPSPEAKERNAMES_GANT                                         54605
+#define IDGS_TPSPEAKERNAMES_GREECH                                       54606
+#define IDGS_TPSPEAKERNAMES_HOYT                                         54607
+#define IDGS_TPSPEAKERNAMES_JIM                                          54608
+#define IDGS_TPSPEAKERNAMES_KRELL                                        54609
+#define IDGS_TPSPEAKERNAMES_MANSFIELD                                    54610
+#define IDGS_TPSPEAKERNAMES_NELSON                                       54611
+#define IDGS_TPSPEAKERNAMES_ONYX                                         54612
+#define IDGS_TPSPEAKERNAMES_REID                                         54613
+#define IDGS_TPSPEAKERNAMES_ROBOTSILVER                                  54614
+#define IDGS_TPSPEAKERNAMES_SILVER                                       54615
+#define IDGS_TPSPEAKERNAMES_SPINEL                                       54616
+#define IDGS_TPSPEAKERNAMES_TANGENT                                      54617
+#define IDGS_TPSPEAKERNAMES_TURNIK                                       54618
+#define IDGS_TPSPEAKERNAMES_WUNSTON                                      54619
+#define IDGS_TPSPEAKERNAMES_ZIBBINS                                      54620
